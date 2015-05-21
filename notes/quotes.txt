@@ -1,0 +1,25 @@
+"The aim of science is to seek the simplest explanation of complex facts... Seek simplicity and distrust it." A. N. Whitehead
+
+"Models should be as simple as possible, but not more so." Attributed to Einstein
+
+"The sciences do not try to explain, they hardly even try to interpret, they mainly make models. By a model is meant a mathematical construct which, with the addition of certain verbal interpretations, describes observed phenomena. The justification of such a mathematical construct is solely and precisely that it is expected to work" John Von Neumann
+
+"The only relevant test of the validity of a hypothesis is comparison of its predictions with experience." Milton Friedman
+
+"Statistics are the heart of democracy." Simeon Strunsky
+"Statistics are no substitute for judgment." Henry Clay
+
+"The most important questions of life are, for the most part, really only problems of probability." Pierre Simon, Marquis de Laplace
+
+
+"We must be careful not to confuse data with the abstractions we use to analyze them." William James
+"Maturity is the capacity to endure uncertainty." John Finley
+
+
+
+“essentially, the theory of probability is nothing but good common sense reduced to mathematics. It provides an exact appreciation of what sound minds feel with a kind of instinct, frequently without being able to account for it.” from Theory that Would Not Die, citing Laplace "Essai Philosophique"
+
+“The propositions that are in doubt . . . constitute the most interesting part of science; every scientific advance involves a transition from complete ignorance, through a stage of partial knowledge based on evidence becoming gradually more conclusive, to the stage of practical certainty.” Theory that Would Not Die, citing Jeffreys (1939) \cite{Jeffreys39}
+
+“There has not been a single date in the history of the law of gravitation when a modern significance test would not have rejected all laws [about gravitation] and left us with no law.”  Theory that Would Not Die, citing Jeffreys (1939) \cite{Jeffreys39}
+

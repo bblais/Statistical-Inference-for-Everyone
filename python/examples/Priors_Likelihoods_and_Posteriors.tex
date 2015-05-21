@@ -1,0 +1,76 @@
+\begin{lstlisting}
+from sie import *
+\end{lstlisting}
+
+\subsection{Estimating Lengths}
+
+
+\subsubsection{Known deviation, $\sigma$}
+
+
+\begin{lstlisting}
+x=[5.1, 4.9, 4.7, 4.9, 5.0]
+sigma=0.5
+\end{lstlisting}
+
+\begin{lstlisting}
+mu=sample_mean(x)
+N=len(x)
+\end{lstlisting}
+
+\begin{lstlisting}
+dist=normal(mu,sigma/sqrt(N))
+distplot(dist)
+\end{lstlisting}
+
+\begin{verbatim}
+<matplotlib.figure.Figure at 0x10713c710>\end{verbatim}
+
+\begin{center}\includegraphics[width=4.5in]{Priors_Likelihoods_and_Posteriors/Priors_Likelihoods_and_Posteriors_fig0.png}\end{center}
+
+\begin{lstlisting}
+credible_interval(dist)
+\end{lstlisting}
+
+\begin{verbatim}
+(4.4817387297117088, 4.9199999999999999, 5.358261270288291)
+\end{verbatim}
+
+\subsubsection{Unknown $\sigma$}
+
+
+\begin{lstlisting}
+mu=sample_mean(x)
+s=sample_deviation(x)
+print mu,s
+\end{lstlisting}
+
+\begin{verbatim}
+4.92 0.148323969742
+\end{verbatim}
+
+\begin{lstlisting}
+dist=tdist(N-1,mu,s/sqrt(N))
+\end{lstlisting}
+
+\begin{lstlisting}
+distplot(dist,xlim=[4.6,5.4])
+\end{lstlisting}
+
+\begin{verbatim}
+<matplotlib.figure.Figure at 0x1085b5c50>\end{verbatim}
+
+\begin{center}\includegraphics[width=4.5in]{Priors_Likelihoods_and_Posteriors/Priors_Likelihoods_and_Posteriors_fig1.png}\end{center}
+
+\begin{lstlisting}
+credible_interval(dist)
+\end{lstlisting}
+
+\begin{verbatim}
+(4.7358314667008017, 4.9199999999999999, 5.1041685332991982)
+\end{verbatim}
+
+\begin{lstlisting}
+
+\end{lstlisting}
+

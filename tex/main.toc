@@ -1,0 +1,118 @@
+\contentsline {chapter}{Proposal}{23}{chapter*.6}
+\contentsline {chapter}{\numberline {1}Introduction to Probability}{27}{chapter.1}
+\contentsline {section}{\numberline {1.1}Models and Data}{28}{section.1.1}
+\contentsline {section}{\numberline {1.2}What is Probability?}{29}{section.1.2}
+\contentsline {subsection}{Card Game}{30}{subsection*.7}
+\contentsline {subsection}{Other Observations}{32}{subsection*.8}
+\contentsline {section}{\numberline {1.3}Conditional Probability}{33}{section.1.3}
+\contentsline {subsection}{Probability Notation}{33}{subsection*.9}
+\contentsline {section}{\numberline {1.4}Rules of Probability}{34}{section.1.4}
+\contentsline {subsection}{Negation Rule}{35}{subsection*.10}
+\contentsline {subsection}{Product Rule}{36}{subsection*.11}
+\contentsline {subsection}{Independence}{37}{subsection*.12}
+\contentsline {subsection}{Conjunction}{37}{subsection*.13}
+\contentsline {subsection}{Sum Rule}{39}{subsection*.14}
+\contentsline {subsection}{Marginalization}{40}{subsection*.15}
+\contentsline {subsection}{Bayes' Rule}{41}{subsection*.16}
+\contentsline {section}{\numberline {1.5}Venn Mnemonic for the Rules of Probability}{43}{section.1.5}
+\contentsline {section}{\numberline {1.6}Lessons from Bayes' Rule - A First Look}{44}{section.1.6}
+\contentsline {chapter}{\numberline {2}Introduction to Model Comparison}{47}{chapter.2}
+\contentsline {section}{\numberline {2.1}The High/Low Deck Game}{47}{section.2.1}
+\contentsline {subsection}{What does our intuition say?}{47}{subsection*.17}
+\contentsline {subsection}{Before the data - the prior}{49}{subsection*.18}
+\contentsline {subsection}{The ``easy'' question - the likelihood}{49}{subsection*.19}
+\contentsline {subsection}{Applying the Bayes' recipe}{50}{subsection*.20}
+\contentsline {subsection}{Drawing the next card}{51}{subsection*.21}
+\contentsline {subsection}{Prior information or not?}{52}{subsection*.22}
+\contentsline {section}{\numberline {2.2}Multiple Hypotheses}{54}{section.2.2}
+\contentsline {chapter}{\numberline {3}Applications of Model Comparison}{61}{chapter.3}
+\contentsline {section}{\numberline {3.1}Disease Testing}{61}{section.3.1}
+\contentsline {subsection}{Consequences}{63}{subsection*.23}
+\contentsline {section}{\numberline {3.2}Monty Hall Problem}{64}{section.3.2}
+\contentsline {section}{\numberline {3.3}Psychic Octopi}{66}{section.3.3}
+\contentsline {subsection}{Making a Well Posed Problem}{67}{subsection*.24}
+\contentsline {subsection}{The First Model Comparison}{67}{subsection*.25}
+\contentsline {subsection}{Furthering the Comparison}{68}{subsection*.26}
+\contentsline {chapter}{\numberline {4}Introduction to Parameter Estimation}{71}{chapter.4}
+\contentsline {section}{\numberline {4.1}Bent Coins}{71}{section.4.1}
+\contentsline {section}{\numberline {4.2}Priors versus Data}{74}{section.4.2}
+\contentsline {section}{\numberline {4.3}Moving Toward the Continuous}{75}{section.4.3}
+\contentsline {section}{\numberline {4.4}MAP and Areas}{77}{section.4.4}
+\contentsline {section}{\numberline {4.5}Quartiles}{79}{section.4.5}
+\contentsline {section}{\numberline {4.6}Best Estimates}{81}{section.4.6}
+\contentsline {section}{\numberline {4.7}Uncertainty in the Best Estimates}{83}{section.4.7}
+\contentsline {section}{\numberline {4.8}Marginalization}{84}{section.4.8}
+\contentsline {section}{\numberline {4.9}Exercises}{84}{section.4.9}
+\contentsline {section}{\numberline {4.10}Computer Examples}{85}{section.4.10}
+\contentsline {subsection}{Beta Distribution Example}{85}{subsection*.27}
+\contentsline {paragraph}{3 heads and 9 tails}{85}{paragraph*.28}
+\contentsline {paragraph}{1 heads and 3 tails}{86}{paragraph*.29}
+\contentsline {chapter}{\numberline {5}Priors, Likelihoods, and Posteriors}{89}{chapter.5}
+\contentsline {section}{\numberline {5.1}Binomial and Beta Distributions}{89}{section.5.1}
+\contentsline {section}{\numberline {5.2}The Normal Distribution - Properties}{90}{section.5.2}
+\contentsline {subsection}{The Shape}{90}{subsection*.30}
+\contentsline {subsection}{The location parameter, $\mu $}{91}{subsection*.31}
+\contentsline {subsection}{The deviation parameter, $\sigma $}{91}{subsection*.32}
+\contentsline {subsection}{Summarizing the Distribution}{92}{subsection*.33}
+\contentsline {subsection}{Moving from a General Normal to the Standard Normal and Back}{92}{subsection*.34}
+\contentsline {subsection}{Sum and Differences}{94}{subsection*.35}
+\contentsline {subsection}{Significance}{96}{subsection*.36}
+\contentsline {paragraph}{An unintuitive consequence}{96}{paragraph*.37}
+\contentsline {section}{\numberline {5.3}The Normal Distribution - Estimating From Data}{97}{section.5.3}
+\contentsline {subsection}{Estimating the mean, $\mu $, knowing the deviation, $\sigma $}{97}{subsection*.38}
+\contentsline {subsection}{Estimating the mean, $\mu $, \emph {not} knowing the deviation, $\sigma $}{99}{subsection*.39}
+\contentsline {section}{\numberline {5.4}Normal Approximation}{100}{section.5.4}
+\contentsline {subsection}{The Beta Distribution}{100}{subsection*.40}
+\contentsline {subsection}{The Binomial Distribution}{102}{subsection*.41}
+\contentsline {subsection}{The Student's $t$ Distribution}{103}{subsection*.42}
+\contentsline {section}{\numberline {5.5}Summary}{105}{section.5.5}
+\contentsline {section}{\numberline {5.6}Computer Examples}{106}{section.5.6}
+\contentsline {subsection}{Estimating Lengths}{106}{subsection*.43}
+\contentsline {paragraph}{Known deviation, $\sigma $}{106}{paragraph*.44}
+\contentsline {paragraph}{Unknown $\sigma $}{107}{paragraph*.45}
+\contentsline {chapter}{\numberline {6}Applications of Parameter Estimation and Inference}{109}{chapter.6}
+\contentsline {section}{\numberline {6.1}Normal Model - Inference about Means}{109}{section.6.1}
+\contentsline {section}{\numberline {6.2}Normal Model Again - Inference about Means and Deviations}{110}{section.6.2}
+\contentsline {section}{\numberline {6.3}Beta Model - Inference About Proportions}{114}{section.6.3}
+\contentsline {section}{\numberline {6.4}Model Construction}{117}{section.6.4}
+\contentsline {paragraph}{Overlapping Intervals}{123}{paragraph*.46}
+\contentsline {paragraph}{Is the Difference Zero?}{123}{paragraph*.47}
+\contentsline {section}{\numberline {6.5}Computer Examples}{124}{section.6.5}
+\contentsline {subsection}{Iris Example}{124}{subsection*.48}
+\contentsline {subsection}{Sunrise}{127}{subsection*.49}
+\contentsline {subsection}{Cancer Example}{128}{subsection*.50}
+\contentsline {subsection}{Pennies}{129}{subsection*.51}
+\contentsline {paragraph}{Do the 2 datasets}{131}{paragraph*.52}
+\contentsline {paragraph}{Distribution of the difference, normal approximation}{133}{paragraph*.53}
+\contentsline {subsection}{Ball Bearing Sizes}{134}{subsection*.54}
+\contentsline {chapter}{\numberline {7}Concluding Thoughts}{137}{chapter.7}
+\contentsline {section}{\numberline {7.1}Where have we come?}{137}{section.7.1}
+\contentsline {section}{\numberline {7.2}Where are we going?}{138}{section.7.2}
+\contentsline {chapter}{Bibliography}{139}{chapter*.55}
+\ttl@change@i {\@ne }{chapter}{0em}{\vspace {1.5\baselineskip }\begin {fullwidth}\LARGE \rmfamily \itshape }{\hspace *{0em}\appendixname ~\thecontentslabel : }{\hspace *{0em}}{\rmfamily \upshape \qquad \thecontentspage }\relax 
+\ttl@change@v {chapter}{}{}{\end {fullwidth}}\relax 
+\contentsline {chapter}{\numberline {A}Computational Analysis}{141}{appendix.A}
+\contentsline {chapter}{\numberline {B}Notation and Standards}{143}{appendix.B}
+\contentsline {section}{\numberline {B.1}Useful Greek Letters}{143}{section.B.1}
+\contentsline {section}{\numberline {B.2}Some Math Notation}{143}{section.B.2}
+\contentsline {subsection}{Variables}{143}{subsection*.56}
+\contentsline {subsection}{Sums}{144}{subsection*.57}
+\contentsline {subsection}{Products}{144}{subsection*.58}
+\contentsline {subsection}{Sample Mean}{144}{subsection*.59}
+\contentsline {subsection}{Sample Standard Deviation}{145}{subsection*.60}
+\contentsline {subsection}{Estimates}{145}{subsection*.61}
+\contentsline {subsection}{Factorials}{145}{subsection*.62}
+\contentsline {section}{\numberline {B.3}Qualitative labels to probability values}{145}{section.B.3}
+\contentsline {chapter}{\numberline {C}Common Distributions and Their Properties}{147}{appendix.C}
+\contentsline {section}{\numberline {C.1}Discrete and Continuous}{147}{section.C.1}
+\contentsline {section}{\numberline {C.2}Uniform}{147}{section.C.2}
+\contentsline {subsection}{Discrete}{147}{subsection*.63}
+\contentsline {subsection}{Continuous}{147}{subsection*.64}
+\contentsline {section}{\numberline {C.3}Binomial}{150}{section.C.3}
+\contentsline {section}{\numberline {C.4}Beta}{150}{section.C.4}
+\contentsline {section}{\numberline {C.5}Normal (Gaussian)}{151}{section.C.5}
+\contentsline {chapter}{\numberline {D}Tables}{153}{appendix.D}
+\contentsline {section}{\numberline {D.1}Credible Intervals for Standard Normal Distribution}{153}{section.D.1}
+\contentsline {section}{\numberline {D.2}Credible Intervals for Student's $t$ Distribution}{154}{section.D.2}
+\contentsline {section}{\numberline {D.3}Cumulative Standard Normal Distribution}{156}{section.D.3}
+\contentsfinish 

@@ -1,0 +1,81 @@
+\chapter*{Proposal}
+\addcontentsline{toc}{chapter}{Proposal}
+
+I would like to propose a new introductory statistical inference textbook, which I believe takes a fresh look at a course that fits into nearly every quantitative major at universities.
+
+\section*{Initial Motivation}
+
+My motivation for this project stems from my dissatisfaction with traditional approaches to the topic, and my belief that there is a better way.  A first semester statistics course is generally divided into the following four parts:
+
+\renewcommand{\labelenumi}{\Roman{enumi}}
+\be
+\i Basic Statistical Concepts
+\bi
+\i Basic statistical concepts including population, parameter, sample, and statistic
+\i Types of data (ordinal, time-series, etc...), and sampling methodology 
+\i Organizing the data visually or graphically - including histograms, pie graphs, box plots, and stem-and-leaf plots
+\i Statistical computations including mean, median, mode, standard deviation, and percentiles
+\ei
+
+\i Probability
+
+\bi
+\i Properties of unions, intersections, conditional probability, independence and mutual exclusivity
+\i Permutations and combinations
+\i Discrete distributions
+\i Continuous distributions 
+\i Normal distribution
+\ei
+
+\i One-sample Statistics
+
+\bi
+\i Confidence intervals
+\i Sampling distributions
+\i Computations involving the normal distribution, t-distribution, and binomial distribution (for proportions)
+\i Hypothesis testing
+\ei
+
+\i Two-sample Statistics
+
+\bi
+\i Two sample problems - expanding topics from Part III to two variables
+\ei
+\ee
+\renewcommand{\labelenumi}{\arabic{enumi}}
+
+Obviously, there is some variability to these topics, but as one can see from most introductory statistics textbooks, there is a consistent approach.  My main concerns about the traditional approach can be summarized as follows:
+\be
+\i Part II (probability) generally covers at least one quarter of the material in an introductory statistics course.  There is a shift from data collection and analysis (Part I) to probability theory.  Subsequently, Part III shifts back to a data centered approach and only a small portion of Part II generally applies in Part III.  This disconnect between Parts I, II, and III, impedes the learning process.  It seems to the students as if the parts are related somehow, but the connection is rarely made.  The students are then left with a feeling that the course concerns two completely unrelated topics: probability and statistics.
+\i The normal distribution is covered repetitively throughout many chapters of most introductory statistics books.  The coverage is included in sections such as: empirical bell-shaped curve (Part I), normal distribution as a type of continuous distribution (Part II), sampling distributions (Part III), interval estimation (Part III), hypothesis testing (Part III), and two population testing (Part IV).  There is redundant focus on the normal and t-distributions.  These topics are closely related, but not handled cohesively.  More importantly, there is little or no discussion of the assumptions of the normal model or how to tell what constitutes ``close enough'' to normal.  In addition, there is generally equal consideration given to the rare practical situation in which the standard deviation is known (and knowing this does not generally alter the result much at all). 
+\i After the concept of a ``statistic'' is covered, there are many chapters which repeat essentially the same problem multiple times, from only slightly different perspectives.  This gives the student a feeling that these are all very different problems, despite the appearances, and leads the student to approach solving problems like a ``cookbook'': just find the right recipe for the right problem.  The fundamental understanding of statistical inference is undermined by this approach. 
+\ee
+
+It is my view that the traditional approach detracts from student understanding, with its ``cookbook'' perspective, disjointed coverage of probability, and the almost exclusionary focus on the normal distribution. 
+
+\section*{A New Approach}
+
+In the field of statistical inference, there are two primary schools of thought.  Each has its proponents, but it is generally accepted that on all problems covered in an introductory course, that both approaches are valid and lead to the same numerical values when applied to actual problems.  Only one of these approaches is covered in a traditional course, which denies the students access to an entire field of statistical inference.  The traditional approach, also called the frequentist or orthodox perspective, leads almost directly to problem (1) above.  The other approach, also called Probability Theory as Logic\cite{Jaynes2003}, derives all statistical inference from probability theory directly.  It is this approach that I hope to expose students to in an introductory course.
+
+The probability theory approach to statistical inference has several benefits:
+\be
+\i All of the same problems as handled traditionally can be handled with this perspective, yielding {\em exactly the same answers}\footnote{One reason why ``Probability theory as Logic'' concepts are covered only in advanced courses is the misperception that they are applicable only to more advanced problems, and not applicable to problems normally found in an introductory class.  The fact that this misperception exists is a strong argument for a book like this one, to dispel this misperception and to communicate both to students and instructors alike the value of a this approach to basic problems.}.
+\i Statistical inference is theoretically grounded in probability theory, which, although admittedly beyond an introductory course, avoids the ``cookbook'' approach, where different problems need different methods, that students take away from the traditional textbooks.  Here all problems use the \emph{same} method, derived from probability theory.
+\i The reasoning process using the probability theory perspective is more intuitive than the orthodox perspective, especially when dealing with hypothesis testing. 
+
+For example, every statistics instructor faces the challenge of getting students to interpret $p$-values properly, and the logic behind setting up null-hypotheses.  They have to combat the students' initial intuition that the $p$-value represents the ``probability that the null is true,'' and many students never really obtain the proper understanding.  I have even heard instructors use it this way.
+
+In the Probability Theory as Logic perspective, this same calculated value is interpreted {\em exactly like the students' initial intuition}!  Thus, testing hypotheses, estimating parameters, and determining uncertainties are far more direct and intuitive using this approach than the traditional approach.
+\ee
+
+
+\section*{What I Am Proposing}
+
+This text can help solve the challenges described above, and more.  By focusing on models and data, as opposed to populations and samples, this text can more cohesively bridge the topics described in Parts I, II, and III above.  Probability will be introduced as a natural part of solving problems, as opposed to its standalone treatment traditionally done in today's texts. 
+
+In this text, I will use the Probability Theory as Logic approach applied to the same problems that are traditionally covered.  This viewpoint can greatly enhance our understanding of statistics and can handle topics such as confidence intervals and hypothesis testing in a very intuitive manner.  Statistical inference covered in this way also addresses real-life questions that are not addressed by traditional statistical methods.\footnote{One of the reasons why this approach is usually covered only in more advanced courses is the difficulty of the mathematics generally associated with it.  Orthodox statistics makes heavy use of sampling, which is deemed more intuitive than probability distributions.  It is my intention to start with low-dimensional cases, building to distributions, and to augment all concepts with numerical exercises. }
+
+Finally, this will be a problem oriented textbook.  It is imperative that the problems are cohesive with the pedagogy.  I will also plan to use technology, where appropriate, to further student learning and make the textbook more interactive.  
+
+At the level targeted for this book, there is only one textbook that I know of that covers inference from the perspective proposed here, and that is Donald Berry's book {\em Statistics: A Bayesian Perspective}, 1996.  It is my intention to modernize the approach, and include some topics that are not covered, specifically from the physical sciences and business.
+

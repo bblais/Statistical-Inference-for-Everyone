@@ -1,0 +1,339 @@
+\chapter{Problems Collection}
+
+\section{Introduction}
+
+This section is a collection, in no particular order, of worked-out problems.  I think by collecting these in one place, it will be easy to include them in the text as either homework questions (with the solutions published as a separate solutions book) or as examples within the text.  Again, they are not in any order, and some may be deemed completely inappropriate for the text as some point, or at least the method of solution deemed inappropriate.  Think of this appendix as a sandbox to play with various bits and pieces.
+
+\section{Weather}
+
+\begin{quote}
+If the probability that next saturday will rain is 0.25 and the probability that next sunday will rain is 0.25, what is the probability that during the weekend will rain?
+\end{quote}
+
+\subsection{First Solution - Independence}
+
+If we assume that Sunday and Saturday weather are {\em independent} then the sum-rule (Section~\ref{sec:sumrule}) applies:
+
+\beqn
+P(\mbox{rain Saturday {\bf or} rain Sunday}) &=& P(\mbox{rain Saturday}) + P(\mbox{rain Sunday}) - P(\mbox{rain Saturday {\bf and} rain Sunday}) \\
+&=& P(\mbox{rain Saturday}) + P(\mbox{rain Sunday}) - P(\mbox{rain Saturday})\times P(\mbox{rain Sunday}) \\
+&=& 0.25 + 0.25 - 0.25\times 0.25 = 0.4375
+\eeqn
+
+\subsection{Second Solution - Correlation}
+
+Is it really reasonable that rain on Saturday and Sunday are independent events?  Probably not!  It's probably the case that knowing that it rained on Saturday, that rain on Sunday is more likely.  So we'd have information like:
+\beqn
+\Pg{rain Sunday}{rain Saturday} = 0.6
+\eeqn
+Knowing this changes the equation as
+\beqn
+P(\mbox{rain Saturday {\bf or} rain Sunday}) &=& P(\mbox{rain Saturday}) + P(\mbox{rain Sunday}) - P(\mbox{rain Saturday {\bf and} rain Sunday}) \\
+&=& P(\mbox{rain Saturday}) + P(\mbox{rain Sunday}) - P(\mbox{rain Saturday})\times \P{rain Sunday}{rain Saturday} \\
+&=&0.25+0.25 - 0.25 \times 0.6 = 0.35
+\eeqn
+which makes it {\em less likely} to rain on the weekend if the Sunday rain is correlated with the Saturday rain.  Why is that?
+
+One way to think of it is \todo{fill this in}.  \todo{is this complete and correct?}
+
+\section{The Monte Hall Problem}
+\subsection{Description of the Problem}
+
+\subsection{The Worked-Out Version}
+\beqn
+p(g_{i})&=&\frac{1}{3} \\
+p(d_{i})&=&\frac{1}{3}
+\eeqn
+
+\beqn
+p(d_{i},g_{i})&=&p(d_{i}|g_{i})p(g_{i}) = \frac{1}{9} \\
+p(g|d)&=&p(g_{1}|d_{1})+p(g_{2}|d_{2})+p(g_{3}|d_{3}) = \frac{1}{3}
+\eeqn
+
+Say we always choose door 1
+\beqn
+p(g_{1}|d_{1}) = \underbrace{p(d_{1}|g_{1})}_{1}\underbrace{p(g_{1})}_{1/3}
+\eeqn
+
+\beqn
+p(g_{1}|d_{1},h_{2}) = 1/3 \\
+p(g_{2}|d_{1},h_{2}) = 0 \\
+p(g_{3}|d_{1},h_{2}) = \frac{p(h_{2}|d_{1},g_{3})p(g_{3})}{p(h_{2}|d_{1})}
+\eeqn
+
+\beq
+\label{eq:ph2_1} p(h_{2}|d_{1})&=&p(h_{2}|d_{1},g_{1})p(g_{1}) +  \\ 
+ \label{eq:ph2_2}	&&p(h_{2}|d_{1},g_{2})p(g_{2}) + \\
+\label{eq:ph2_3}	&&p(h_{2}|d_{1},g_{3})p(g_{3}) 
+\eeq
+
+Term~\ref{eq:ph2_1}: Given that the prize is behind door 1, I've chosen door 1, the host has a choice of door 2 or door 3 to open.  Thus, the probability that he chooses door 2 is $p(h_{2}|d_{1},g_{1})=0.5$.
+
+Term~\ref{eq:ph2_2}: Given that the prize is behind door 2, I've chosen door 1, the host has {\bf no choice}, and {\em cannot} open door 2 because the host cannot open a door with a prize.  Thus, the probability that he chooses door 2 is $p(h_{2}|d_{1},g_{2})=0$.
+
+Term~\ref{eq:ph2_3}: Given that the prize is behind door 3, I've chosen door 1, the host has {\bf no choice}, and {\em must} open door 2 because the host cannot open a door with a prize.  Thus, the probability that he chooses door 2 is $p(h_{2}|d_{1},g_{3})=1$.
+
+\beqn
+p(g_{3}|d_{1},h_{2}) &=& \frac{\overbrace{p(h_{2}|d_{1},g_{3})}^{1}\overbrace{p(g_{3})}^{1/3}}{0.5\cdot 1/3 + 0 + 1\cdot 1/3}\\
+&=&\frac{2}{3}
+\eeqn
+
+\section{The Two Daughter Problem}
+\newcommand{\atleastonegirl}{\{L1g\}}
+
+\subsection{Description of the Problem}
+
+\subsection{The Worked-Out Version}
+
+Preliminary information and definitions
+\beqn
+p(g)&=&0.5 \mbox{\hspace{1in}$g\equiv$ girl}\\
+p(b)&=&0.5 \mbox{\hspace{1in}$b\equiv$ boy} \\
+p(F|g)&=& f\mbox{\hspace{1in}$F\equiv$ named ``Florida'', $f$ is a constant} \\
+p(F|b)&=& 0\\
+\mbox{``At least one girl''}&\equiv&\atleastonegirl
+\eeqn
+
+\subsubsection{Easy Problem}
+
+\beqn
+p(2g|\atleastonegirl)&=&\frac{p(\atleastonegirl|2g)p(2g)}{p(\atleastonegirl)} \\
+&=&\frac{1\cdot (0.5\cdot 0.5)}{\underbrace{p(1g)}_{2\times 0.5\cdot 0.5}+\underbrace{p(2g)}_{0.5\cdot 0.5}} \\
+&=&1/3
+\eeqn
+
+\subsubsection{Hard Problem}
+
+\beqn
+p(2g|\atleastonegirl,F) &=&\frac{p(\atleastonegirl,F|2g)p(2g)}{p(\atleastonegirl,F)}
+\eeqn
+
+It is clear that $p(\atleastonegirl|2g)=1$ whereas $p(\atleastonegirl,F|2g)$ is not.  Given that we have 2 girls, we definitely have at least one girl, but we need not have at least one girl named Florida.
+
+\beqn
+p(\atleastonegirl,F|2g)&=&p(F|\underbrace{\atleastonegirl,2g}_{\mbox{redundant}})\underbrace{p(\atleastonegirl|2g)}_{1} \\
+&=&p(F|2g)
+\eeqn
+
+So now we have
+\beqn
+p(2g|\atleastonegirl,F) &=&\frac{p(F|2g)P(2g)}{p(1g,F)+p(2g,F)} \\
+&=&\frac{p(F|2g)p(2g)}{\underbrace{p(F|1g)}_{f}\underbrace{p(1g)}_{2\times 0.5\cdot 0.5}+\underbrace{p(F|2g)}_{f+f-f^{2}}\underbrace{p(2g)}_{0.5\cdot0.5}}\\
+&=&\frac{0.25 (f+f-f^{2})}{2\cdot 0.25 \cdot f+(f+f-f^{2})\cdot 0.25} \\
+&=&\frac{2-f}{4-f}
+\eeqn
+
+which has the right limits:
+
+\beqn
+f\rightarrow 1 &&p\rightarrow 1/3 \\
+f\rightarrow 0 &&p\rightarrow 0.5 
+\eeqn
+
+
+\section{Flipping a Tack}\label{sec:lindley_example}
+
+The idea, and data, for this problem comes from \cite{Lindley76}.  The
+problem is very simple, and as such is very educational.  The experimenter
+took a thumb-tack, flipped it onto a table, and noted whether the point was up
+or down against the table.  He obtained the following data from repeated flips:
+\cc{UUUDUDUUUUUD - (9 Ups, and 3 Downs)}
+
+The experimenter then wants to ``assess the chance that the tack will fall
+`Up' on a further, thirteenth, similar toss''.   Or, perhaps a more easily
+answered question, ``is there good evidence that this tack is (or is not)
+unbiased (50-50 chance of U or D)?'' 
+
+\subsection{Orthodox Statistics}
+
+You would think that this problem would have a unique and straightforward
+solution using orthodox statistics.  After all, it is about the simplest
+problem for which one can apply statistics, and one of the first problems
+toward which probability theory was brought to bear.  In reality, without
+further information of a dubious nature, there is no unique orthodox solution
+to this problem.  A standard approach would work something like the following:
+
+We set up a hypothesis that the coin is unbiased.  One obtains a p-value which
+gives ``the chance of the observed result or more extreme''.  Results that are
+more extreme would be 
+\bi
+\i 10 U + 2 D
+\i 11 U + 1 D
+\i 12 U + 0 D
+\ei
+
+Using the standard binomial distribution, with $N=12$, we get
+\beqn
+p&=&\nchoosek{12}{3}\left(\frac{1}{2}\right)^{12}+
+    \nchoosek{12}{2}\left(\frac{1}{2}\right)^{12}+
+    \nchoosek{12}{1}\left(\frac{1}{2}\right)^{12}+
+    \nchoosek{12}{0}\left(\frac{1}{2}\right)^{12} \\
+  &=&7.30\%
+\eeqn
+
+\cc{\bf BUT{\ldots}}
+
+
+What if the experimenter had decided to stop when he had reached 3 D?
+Suddenly the sampling distribution is no longer the binomial distribution, but
+what is called the negative binomial distribution, and the values more
+``extreme'' are different:
+\bi
+\i 13 U + 3 D
+\i 14 U + 3 D
+\i 15 U + 3 D
+\i 16 U + 3 D
+\i $\vdots$
+\ei
+
+Numerically summing these terms (you can do it analytically, by looking at the
+first 11 terms in the negative binomial, and subtracting it from 1):
+\begin{verbatim}
+p=0; for N=12:100; p=p+nchoosek(N-1,3-1)*.5^(N); end; p
+\end{verbatim}
+
+\beqn
+p&=&3.27\%
+\eeqn
+
+In summary, if the experimenter {\bf decided to flip 12 times}, then these
+results {\bf would not reject} the null hypothesis of 50-50 chance at the 5\%
+level, and this result or more extreme could ``reasonably be expected to occur
+by chance if the pin was equally likely to fall in either
+position''\cite{Lindley76}.
+
+If, however, the experimenter {\bf decided to flip until there were 3 D}, then
+these results {\bf would reject} the null hypothesis of 50-50 chance at the
+5\% level, and this result or more extreme could ``not be reasonably be
+expected to occur by chance if the pin was equally likely to fall in either
+position''\cite{Lindley76}.
+
+This isn't the result of some small threshold difference, because the results
+are different by a factor of 2!
+
+Now, what would happen if, as the Lindley states, that he was stopped when his
+wife finished making the coffee.  What sampling distribution do you use then?
+
+\subsection{Bayesian Statistics}
+
+In the Bayesian approach, there is no stopping condition, and the mood of the
+experimenter plays no part in the analysis, because we are not comparing to
+data that wasn't measured, only the data we have.  So we get, as in the
+proportion estimates above, that the median probability for a down tack is
+\begin{verbatim}
+>> h=3; N=12; 
+>> median=percentile_beta(h,N,.5)
+median = 0.27528
+\end{verbatim}
+(the mean is $h/N=0.25$)
+
+The confidence interval around the median is:
+
+\begin{verbatim}
+c = 0.95000
+>>   m1=percentile_beta(h,N,.5-c/2);  % lower bound
+>>   m2=percentile_beta(h,N,.5+c/2);  % upper bound
+m1 = 0.090920
+m2 = 0.53813
+\end{verbatim}
+
+The probability for the chance of D less than 50-50 is
+\begin{verbatim}
+>> beta_cdf(.5,a,b)
+ans = 0.95386
+\end{verbatim}
+
+which gives significance at the 5\% level.
+
+\section{Some examples to do}
+
+
+
+Other examples:
+\bi
+\i Power lines and cancer. 
+\i Mobile phones and cancer.
+\i Biased games in gambling: dice, and cards
+\i Medical diagnoses (how many correlational studies are there?)
+\i Teaching how to think critically
+\ei
+
+
+\section{Alan Olinsky's Problems}
+
+\be
+\newpage
+\i A random sample of 85 group leaders, supervisors, and similar personnel at General Motors revealed that, on the average, they spent 6.5 years on the job before being promoted. From previous studies, it can be assumed that the standard deviation of the population is 1.7 years. Construct a 95 percent confidence interval.
+
+\begin{lstlisting}
+var=gaussian(6.5,1.7/sqrt(85))
+c=0.95
+distplot(var,fill_between_quartiles=[(1-c)/2,1-(1-c)/2],
+    label='time before promotion (years)')
+    
+title('Problem #1 (normal)')
+\end{lstlisting}
+
+\cc{\psx{figs/fig011912_1}{7.6in}}
+
+\newpage
+\i A study of 25 graduates of four-year colleges by the American Banker's Association revealed the mean amount owed by a student in student loans was $14,381. The standard deviation of the sample was $1,892. Construct a 90 percent confidence interval for the population mean.
+
+\begin{lstlisting}
+var=tdist(24,14.381,1.892/sqrt(25))
+distplot(var,fill_between_quartiles=[(1-c)/2,1-(1-c)/2],
+    label='loan (thousand dollars)')
+    
+title('Problem #2 (t-dist)')
+\end{lstlisting}
+
+\cc{\psx{figs/fig011912_2}{7.6in}}
+
+\newpage
+\i A random sample of 500 York County, South Carolina voters revealed 350 plan to vote to return Louella Miller to the state senate. Construct a 99 percent confidence interval for the proportion of voters in the county who plan to vote for Ms. Miller. 
+\begin{lstlisting}
+var=coinflip(350,500)
+distplot(var,fill_between_quartiles=[(1-c)/2,1-(1-c)/2],
+    label='proportion of votors')
+    
+title('Problem #3 (beta)')
+\end{lstlisting}
+\cc{\psx{figs/fig011912_3}{7.6in}}
+
+\newpage
+\i According to the local union president, the mean gross income of all plumbers in the Salt Lake City area is $45,000 and the population standard deviation is $3,000. A recent investigative reporter for KYAK TV found, for a sample of 120 plumbers, the mean gross income was $45,500. At the .10 significance level, is it reasonable to conclude that the mean income is not equal to $45,000? Determine the p-value.
+\begin{lstlisting}
+var=gaussian(45.5,3/sqrt(120))
+c=0.95
+distplot(var,fill_between_quartiles=[(1-c)/2,1-(1-c)/2],
+    label='income (thousand dollars)',
+    values=[45.0])
+title('Problem #6 (normal)')
+\end{lstlisting}
+\cc{\psx{figs/fig011912_4}{7.6in}}
+
+\newpage
+\i The publisher of Celebrity Living claims that the mean sales for personality magazines that feature people such as Angelina Jolie or Paris Hilton are 1.5 million copies per week. A sample of 10 comparable titles shows a mean weekly sales last week of 1.3 million copies with a standard deviation of 0.9 million copies. Does this data contradict the publisher's claim? Use the 0.01 significance level. 
+\begin{lstlisting}
+c=0.995
+var=tdist(9,1.3,0.9/sqrt(25))
+distplot(var,fill_between_quartiles=[(1-c)/2,1-(1-c)/2],
+    label='copies (millions)',
+    values=[1.5])
+    
+title('Problem #7 (t-dist)')
+\end{lstlisting}
+\cc{\psx{figs/fig011912_5}{7.6in}}
+\newpage
+\i Tina Dennis is the comptroller for Meek Industries. She believes that the current cash-flow problem at Meek is due to the slow collection of accounts receivable. She believes that more than 60 percent of the accounts are in arrears more than three months. A random sample of 200 accounts showed that 140 were more than three months old. At the .01 significance level, can she conclude that more than 60 percent of the accounts are in arrears for more than three months? Find the p-value.
+\begin{lstlisting}
+c=0.98
+var=coinflip(140,200)
+distplot(var,fill_between_quartiles=[(1-c)/2,1-(1-c)/2],
+    label='proportion of arrears',
+    values=[0.6])
+\end{lstlisting}
+\cc{\psx{figs/fig011912_6}{7.6in}}
+
+
+\ee

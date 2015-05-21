@@ -1,0 +1,93 @@
+%!TEX root = main.tex
+
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{listings}
+\lstset{language=Python}
+\definecolor{MyGray}{rgb}{0.95,0.95,0.95}
+\definecolor{darkblue}{rgb}{0,0.08,0.45}
+\definecolor{darkgreen}{rgb}{0,.45,0.08}
+\lstset{backgroundcolor=\color{MyGray},showstringspaces=false,frame=trBL,
+keywordstyle=\color{darkblue},commentstyle=\color{darkgreen},stringstyle=\color{red}}
+
+\hypersetup{colorlinks}% uncomment this line if you prefer colored hyperlinks (e.g., for onscreen viewing)
+\usepackage{ifthen}
+%\usepackage[thmmarks,standard,thref]{ntheorem}
+\usepackage[hyperref]{ntheorem}
+
+\usepackage{color}
+\usepackage[usenames,dvipsnames]{xcolor}
+
+\title{Statistical Inference for Everyone\thanks{Thanks to everyone E.~T.~Jaynes for getting the ball rolling.}}
+\author{Brian Blais}
+\publisher{Save the Broccoli Publishing}
+
+%%
+% For nicely typeset tabular material
+\usepackage{booktabs}
+
+%%
+% Just some sample text
+\usepackage{lipsum}
+
+%%
+% For graphics / images
+\usepackage{graphicx}
+\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
+\graphicspath{{../}{../figs/}{../python/examples/}}
+
+% The fancyvrb package lets us customize the formatting of verbatim
+% environments.  We use a slightly smaller font.
+\usepackage{fancyvrb}
+\fvset{fontsize=\normalsize}
+
+%%
+% Prints a trailing space in a smart way.
+\usepackage{xspace}
+
+\titleformat{\chapter}%
+  [block]% shape
+  {\relax\ifthenelse{\NOT\boolean{@tufte@symmetric}}{\begin{fullwidth}}{}}% format applied to label+text
+  {\itshape\huge\thechapter}% label
+  {1em}% horizontal separation between label and title body
+  {\huge\rmfamily\itshape}% before the title body
+  [\ifthenelse{\NOT\boolean{@tufte@symmetric}}{\end{fullwidth}}{}]% after the title body
+
+
+\usepackage{units}
+
+\setcounter{secnumdepth}{1}
+\setcounter{tocdepth}{2}
+
+% Generates the index
+\usepackage{makeidx}
+\makeindex
+
+
+\let\origappendix\appendix% save a copy of the original meaning of \appendix
+\renewcommand{\appendix}{%
+  \origappendix% do all the original \appendix stuff
+  \titlecontents{chapter}%
+    [0em] % distance from left margin
+    {\vspace{1.5\baselineskip}\begin{fullwidth}\LARGE\rmfamily\itshape} % above (global formatting of entry)
+    {\hspace*{0em}\appendixname~\thecontentslabel: } % before w/label (label = ``2'')
+    {\hspace*{0em}} % before w/o label
+    {\rmfamily\upshape\qquad\thecontentspage} % filler + page (leaders and page num)
+    [\end{fullwidth}] % after
+  \titleformat{\chapter}%
+    [display]% shape
+    {\relax\ifthenelse{\NOT\boolean{@tufte@symmetric}}{\begin{fullwidth}}{}}% format applied to label+text
+    {\itshape\huge Appendix~\thechapter}% label
+    {0pt}% horizontal separation between label and title body
+    {\huge\rmfamily\itshape}% before the title body
+    [\ifthenelse{\NOT\boolean{@tufte@symmetric}}{\end{fullwidth}}{}]% after the title body
+  \setcounter{secnumdepth}{1}% ``number'' the appendices
+  %\renewcommand{\thefigure}{\@arabic\c@figure}% define \thefigure to use only the figure number (1), not A.1
+  %\renewcommand{\thetable}{\@arabic\c@table}%
+  %
+  % Add any other special appendix-related code here.
+  %
+}
+
+
+

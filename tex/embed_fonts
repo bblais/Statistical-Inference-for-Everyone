@@ -1,0 +1,2 @@
+#!/bin/csh -fx
+gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dEmbedAllFonts=true -sOutputFile=main2_embed.pdf -f main2.pdf

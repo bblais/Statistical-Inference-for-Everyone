@@ -1,0 +1,29 @@
+axes.titlesize : 24
+axes.labelsize : 20
+lines.linewidth : 3
+#lines.markersize : 5
+xtick.labelsize : 20
+ytick.labelsize : 20
+figure.figsize : 10,8
+axes.grid: True
+grid.linestyle: -
+grid.color: 0.75
+font.size: 20
+font.family: sans-serif
+legend.fontsize: 20
+legend.frameon: False
+legend.numpoints: 1
+legend.scatterpoints: 1
+lines.solid_capstyle: round
+
+text.color: .15
+xtick.color: .15
+ytick.color: .15
+xtick.direction: out
+ytick.direction: out
+
+axes.axisbelow: True
+
+# these are tableau20 colors
+#axes.color_cycle: 1f77b4, aec7e8,ff7f0e,ffbb78,2ca02c,98df8a,d62728,ff9896,9467bd,c5b0d5,8c564b,c49c94,e377c2,f7b6d2,7f7f7f,c7c7c7,bcbd22,dbdb8d,17becf,9edae5
+

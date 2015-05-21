@@ -1,0 +1,109 @@
+\begin{thebibliography}{18}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[wik(2012)]{wiki:psychic_octopus}
+Paul the octopus, July 2012.
+\newblock URL \url{http://en.wikipedia.org/wiki/Psychic_octopus}.
+
+\bibitem[Agresti and Caffo(2000)]{agresti2000simple}
+Alan Agresti and Brian Caffo.
+\newblock Simple and effective confidence intervals for proportions and
+  differences of proportions result from adding two successes and two failures.
+\newblock \emph{The American Statistician}, 54\penalty0 (4):\penalty0 280--288,
+  2000.
+
+\bibitem[Bache and Lichman(2013)]{Bache:2013fk}
+K.~Bache and M.~Lichman.
+\newblock {UCI} machine learning repository, 2013.
+\newblock URL \url{http://archive.ics.uci.edu/ml}.
+
+\bibitem[Berry(1996)]{berry1996statistics}
+D.~Berry.
+\newblock \emph{Statistics: A Bayesian Perspective.}
+\newblock Duxbury, 1996.
+
+\bibitem[Gelman et~al.(2007)Gelman, Hill, and Corporation]{gelman2007data}
+A.~Gelman, J.~Hill, and Ebooks Corporation.
+\newblock \emph{Data analysis using regression and multilevel/hierarchical
+  models}, volume 625.
+\newblock Cambridge University Press Cambridge, UK:, 2007.
+
+\bibitem[Hand et~al.(2011)Hand, Daly, McConway, Lunn, and
+  Ostrowski]{hand2011handbook}
+David~J Hand, Fergus Daly, K~McConway, D~Lunn, and E~Ostrowski.
+\newblock \emph{A handbook of small data sets}, volume~1.
+\newblock CRC Press, 2011.
+
+\bibitem[Heaps(1978)]{Heaps:1978qy}
+L~Heaps.
+\newblock \emph{Operation morning light}.
+\newblock Paddington, S.l, 1978.
+\newblock ISBN 0709203233.
+
+\bibitem[Jaynes(2003)]{Jaynes2003}
+E.~T. Jaynes.
+\newblock \emph{Probability Theory: The Logic of Science}.
+\newblock Cambridge University Press, Cambridge, 2003.
+\newblock Edited by G.~Larry Bretthorst.
+
+\bibitem[Kay(2003)]{KAY:2003uq}
+Lord~Justice Kay.
+\newblock {R} vs {Sally Clark}, April 2003.
+\newblock URL \url{http://www.bailii.org/ew/cases/EWCA/Crim/2003/1020.html}.
+
+\bibitem[Lindley and Phillips(1976)]{Lindley76}
+D.~V. Lindley and L.~D. Phillips.
+\newblock Inference for a bernoulli process (a bayesian view).
+\newblock \emph{The American Statistician}, 30\penalty0 (3):\penalty0 112--119,
+  1976.
+
+\bibitem[McGrayne(2011)]{McGrayne:2011fk}
+Sharon McGrayne.
+\newblock \emph{The Theory That Would Not Die: How Bayes' Rule Cracked the
+  Enigma Code, Hunted Down Russian Submarines, and Emerged Triumphant from Two
+  Centuries of Controversy}.
+\newblock Yale University Press, 2011.
+\newblock ISBN 0300169698.
+
+\bibitem[Oberg(2008)]{Oberg:2008fj}
+James Oberg.
+\newblock {U.S.} satellite shootdown: The inside story.
+\newblock \emph{{IEEE} {Spectrum}}, 2008.
+
+\bibitem[Randi(1982)]{randi1982flim}
+J.~Randi.
+\newblock \emph{Flim-flam!: psychics, ESP, unicorns, and other delusions},
+  volume 342.
+\newblock Prometheus Books Amherst, NY, 1982.
+
+\bibitem[Sagan(1996)]{sagandemon}
+Carl Sagan.
+\newblock \emph{Demon-Haunted World: Science as a Candle in the Dark}.
+\newblock Random House LLC, 1996.
+
+\bibitem[Sullivan(1968)]{SULLIVAN:fk}
+J.~Sullivan.
+\newblock People v. {C}ollins , 68 cal.2d 319, 1968.
+\newblock URL \url{http://scocal.stanford.edu/opinion/people-v-collins-22583}.
+
+\bibitem[Tversky and Gilovich(2005)]{tversky2005cold}
+A.~Tversky and T.~Gilovich.
+\newblock The cold facts about the" hot hand" in basketball.
+\newblock \emph{Anthology of statistics in sports}, 16:\penalty0 169, 2005.
+
+\bibitem[Tversky and Kahneman(1974)]{tversky1974judgment}
+A.~Tversky and D.~Kahneman.
+\newblock Judgment under uncertainty: Heuristics and biases.
+\newblock \emph{Science}, 185\penalty0 (4157):\penalty0 1124, 1974.
+
+\bibitem[Tversky and Kahneman(1983)]{tversky1983extensional}
+A.~Tversky and D.~Kahneman.
+\newblock Extensional versus intuitive reasoning: The conjunction fallacy in
+  probability judgment.
+\newblock \emph{Psychological review}, 90\penalty0 (4):\penalty0 293, 1983.
+
+\end{thebibliography}

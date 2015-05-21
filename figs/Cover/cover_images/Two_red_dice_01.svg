@@ -1,0 +1,209 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="430" version="1.0" width="671" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <metadata>
+    <rdf:RDF xmlns:cc="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <cc:Work rdf:about="">
+        <dc:title>Two Red Dice</dc:title>
+        <dc:description>two red dice</dc:description>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li></rdf:li>
+            <rdf:li>game</rdf:li>
+            <rdf:li>dice</rdf:li>
+            <rdf:li>recreation</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://www.openclipart.org">
+            <dc:title>Stephen Silver</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Stephen Silver</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Stephen Silver</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date></dc:date>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://web.resource.org/cc/PublicDomain"/>
+        <dc:language>en</dc:language>
+      </cc:Work>
+      <cc:License rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+        <cc:permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+        <cc:permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs>
+    <linearGradient id="BWgrad">
+      <stop offset="0" stop-color="#000"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <!-- for left die -->
+    <linearGradient id="grad1" x1="-.47" x2="1.28" xlink:href="#BWgrad" y1="1.17" y2=".05"/>
+    <linearGradient id="grad2" x1="1" x2="-.5" xlink:href="#BWgrad" y1="2" y2="-2.5"/>
+    <linearGradient id="grad4" x1="3" x2="-.25" xlink:href="#BWgrad" y1=".5" y2=".5"/>
+    <linearGradient id="grad21" x1=".445" x2=".554" y1=".442" y2=".555">
+      <stop offset="0" stop-color="#470808"/>
+      <stop offset=".65" stop-color="#700d0d"/>
+      <stop offset="1" stop-color="#8c1111"/>
+    </linearGradient>
+    <linearGradient id="grad24" x1=".67" x2=".45" y1=".29" y2=".75">
+      <stop offset="0" stop-color="#470808"/>
+      <stop offset=".5" stop-color="#a91414"/>
+      <stop offset="1" stop-color="#cd1919"/>
+    </linearGradient>
+    <linearGradient id="grad41" x1=".405" x2=".59" y1=".57" y2=".43">
+      <stop offset="0" stop-color="#cd1919"/>
+      <stop offset=".5" stop-color="#ca1919"/>
+      <stop offset="1" stop-color="#8c1111"/>
+    </linearGradient>
+    <linearGradient id="cgrad44" x1=".3" x2=".44" y1="0" y2=".93">
+      <stop offset="0" stop-color="#a91414"/>
+      <stop offset="1" stop-color="#cd1919"/>
+    </linearGradient>
+    <linearGradient id="cgrad11" x1=".51" x2="-.06" y1="0" y2=".96">
+      <stop offset="0" stop-color="#700d0d"/>
+      <stop offset="1" stop-color="#ca1919"/>
+    </linearGradient>
+    <linearGradient id="cgrad22" x1=".25" x2="-.29" y1="0" y2=".8">
+      <stop offset="0" stop-color="#470808"/>
+      <stop offset="1" stop-color="#a91414"/>
+    </linearGradient>
+    <linearGradient id="cgrad4c" x1="0" x2=".36" y1="0" y2="1.19">
+      <stop offset="0" stop-color="#a91414"/>
+      <stop offset="1" stop-color="#ca1919"/>
+    </linearGradient>
+    <linearGradient id="cgrad1c" x1="1" x2=".015" y1="0" y2=".73">
+      <stop offset="0" stop-color="#700d0d"/>
+      <stop offset="1" stop-color="#ca1919"/>
+    </linearGradient>
+    <linearGradient id="cgrad2c" x1="1" x2=".17" y1="0" y2=".58">
+      <stop offset="0" stop-color="#700d0d"/>
+      <stop offset="1" stop-color="#b51616"/>
+    </linearGradient>
+    <linearGradient id="cgradxx" x1="1" x2=".33" y1="0" y2=".79">
+      <stop offset="0" stop-color="#700d0d"/>
+      <stop offset="1" stop-color="#ca1919"/>
+    </linearGradient>
+    <!-- for right die -->
+    <linearGradient id="grad3" x1="-.6" x2="2" xlink:href="#BWgrad" y1="1.2" y2="-1"/>
+    <linearGradient id="grad5" x1=".7" x2=".1" xlink:href="#BWgrad" y1="1.4" y2=".1"/>
+    <linearGradient id="grad6" x1="-1.9" x2="1" xlink:href="#BWgrad" y1="-1.9" y2="1"/>
+    <linearGradient id="grad56" x1=".44" x2=".559" y1=".44" y2=".562">
+      <stop offset="0" stop-color="#9a1212"/>
+      <stop offset=".7" stop-color="#da1a1a"/>
+      <stop offset="1" stop-color="#ce1919"/>
+    </linearGradient>
+    <linearGradient id="grad36" x1=".595" x2=".43" y1=".405" y2=".63">
+      <stop offset="0" stop-color="#570a0a"/>
+      <stop offset=".5" stop-color="#ba1616"/>
+      <stop offset="1" stop-color="#ce1919"/>
+    </linearGradient>
+    <linearGradient id="grad35" x1=".63" x2=".34" y1=".41" y2=".591">
+      <stop offset="0" stop-color="#570a0a"/>
+      <stop offset="1" stop-color="#9a1212"/>
+    </linearGradient>
+    <linearGradient id="cgrad53" x1="1" x2=".88" y1="0" y2="1.04">
+      <stop offset="0" stop-color="#570a0a"/>
+      <stop offset="1" stop-color="#bd1717"/>
+    </linearGradient>
+    <linearGradient id="cgrad56" x1="0" x2=".47" y1="0" y2="1.15">
+      <stop offset="0" stop-color="#9a1212"/>
+      <stop offset="1" stop-color="#da1a1a"/>
+    </linearGradient>
+    <linearGradient id="cgrad6c" x1="1" x2=".52" y1=".25" y2="1.25">
+      <stop offset="0" stop-color="#ba1616"/>
+      <stop offset="1" stop-color="#da1a1a"/>
+    </linearGradient>
+    <linearGradient id="cgrad63" x1="1" x2=".645" y1="0" y2="1.04">
+      <stop offset="0" stop-color="#570a0a"/>
+      <stop offset="1" stop-color="#bd1717"/>
+    </linearGradient>
+    <linearGradient id="cgrad66" x1="1" x2="-.07" y1="0" y2=".28">
+      <stop offset="0" stop-color="#ba1616"/>
+      <stop offset="1" stop-color="#da1a1a"/>
+    </linearGradient>
+    <radialGradient id="rcgrad">
+      <stop offset="0" stop-color="#bd1717" stop-opacity="1"/>
+      <stop offset="1" stop-color="#bd1717" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g transform="translate(0,430) scale(0.053,-0.053)">
+    <!-- left die -->
+<!-- faces -->
+    <path d="M3547 7823 c-3 -5 -42 -127 -87 -273 -123 -400 -169 -546 -200 -645 -15 -49 -44 -144 -65 -210 -20 -66 -70 -226 -110 -355 -40 -129 -142 -455 -225 -725 -84 -269 -183 -589 -221 -711 -38 -122 -69 -226 -69 -231 0 -10 159 -118 1622 -1097 l848 -566 28 39 c16 22 34 53 40 68 6 15 203 665 438 1443 474 1569 453 1485 400 1594 -16 33 -44 69 -69 89 -95 76 -2200 1549 -2239 1567 -45 20 -84 26 -91 13z" fill="#8c1111"/>
+    <path d="M3490 7833 c-67 -13 -2070 -435 -2101 -443 -48 -13 -113 -62 -143 -107 -37 -56 -987 -2834 -993 -2905 -5 -54 -4 -58 15 -58 11 0 157 20 324 45 167 25 676 99 1132 164 455 66 830 122 833 125 6 5 80 242 303 961 83 270 185 596 225 725 40 129 90 289 110 355 21 66 50 161 65 210 120 384 282 910 284 919 1 12 -20 15 -54 9z" fill="#cd1919"/>
+    <path d="M2558 4655 c-3 -4 -332 -53 -729 -111 -1065 -153 -1563 -226 -1568 -230 -2 -2 1 -22 8 -44 27 -90 36 -96 1243 -829 720 -437 1155 -696 1184 -703 42 -12 164 -1 1127 96 609 61 1098 115 1121 123 53 18 94 49 81 61 -5 5 -426 287 -935 627 -509 340 -1055 706 -1213 812 -299 201 -309 208 -319 198z" fill="#470808"/>
+    <!-- edges -->
+    <path d="M 2474 4434 L 4860 2945 C 5009 2962 5058 2986 5122 3162 L 2740 4717z" fill="url(#grad21)"/>
+    <path d="M 2382 4780 L 2759 4704 L 3732 7747 C 3573 7850 3561 7849 3385 7811z" fill="url(#grad41)"/>
+    <path d="M 285 4488 C 217 4267 264 4226 387 4139 L 2498 4418 L 2386 4791z" fill="url(#grad24)"/>
+    <!-- corner -->
+    <path d="M2669 4602l-229 1l132 146z" fill="url(#cgradxx)"/>
+    <path d="M2385 4791l56 -187l131 144z" fill="url(#cgrad44)"/>
+    <path d="M2759 4704l-91 -101l-96 145z" fill="url(#cgrad11)"/>
+    <path d="M2497 4418l171 185l-227 1z" fill="url(#cgrad22)"/>
+    <path d="M2441 4604l131 144l-25 -111z" fill="url(#cgrad4c)"/>
+    <path d="M2668 4603l-96 145l-26 -111z" fill="url(#cgrad1c)"/>
+    <path d="M2668 4603l-227 1l106 34z" fill="url(#cgrad2c)"/>
+    <!-- spots -->
+    <path d="M4296 5768 c-58 -16 -138 -98 -167 -173 -33 -86 -33 -243 1 -330 57 -148 147 -232 261 -243 143 -14 258 119 267 308 2 48 -1 111 -8 143 -28 135 -127 261 -230 291 -60 18 -69 18 -124 4z" fill="url(#grad1)"/>
+    <g fill="url(#grad4)">
+      <path d="M2864 7432 c-212 -74 -403 -412 -330 -587 30 -71 112 -87 212 -41 68 31 182 143 232 227 103 175 107 363 8 404 -45 19 -59 18 -122 -3z"/>
+      <path d="M1500 7144 c-142 -81 -265 -256 -292 -416 -14 -80 -5 -130 32 -171 25 -29 34 -32 82 -32 93 1 206 85 293 216 106 159 133 326 65 399 -24 26 -35 30 -82 30 -38 0 -65 -7 -98 -26z"/>
+      <path d="M2260 5591 c-122 -37 -276 -209 -329 -366 -42 -127 -37 -216 17 -276 99 -110 337 37 447 276 60 129 70 245 29 315 -30 50 -97 71 -164 51z"/>
+      <path d="M925 5368 c-161 -58 -321 -289 -333 -479 -3 -59 0 -84 13 -113 88 -186 420 57 491 360 40 173 -39 279 -171 232z"/>
+    </g>
+    <g fill="url(#grad2)">
+      <path d="M2246 4259 c-89 -21 -98 -66 -30 -139 99 -106 353 -200 541 -200 182 0 202 89 44 194 -156 104 -431 176 -555 145z"/>
+      <path d="M2370 3180 c-41 -10 -70 -42 -63 -70 9 -33 96 -104 176 -143 114 -56 236 -88 353 -94 123 -7 164 8 164 59 0 85 -250 216 -474 247 -87 12 -106 12 -156 1z"/>
+    </g>
+    <!-- right die -->
+<!-- faces -->
+    <path d="M 11500 3970 C 11019 3811 10391 3605 10104 3511 L 9584 3340 L 9567 3268 C 9558 3228 9451 2756 9330 2220 C 9209 1684 9060 1025 8999 756 C 8908 357 8890 266 8901 259 C 8909 254 8945 250 8982 250 C 9047 250 9102 270 10296 716 C 11092 1014 11559 1194 11588 1214 C 11614 1231 11647 1265 11662 1290 C 11683 1325 11769 1640 12050 2720 C 12248 3482 12404 4059 12405 4145 C 12405 4190 12393 4260 12382 4259 C 12378 4259 11981 4128 11500 3970z" fill="#570a0a"/>
+    <path d="M7176 5203 c-14 -21 -30 -51 -35 -68 -6 -16 -128 -655 -271 -1419 -198 -1052 -260 -1399 -255 -1430 4 -23 18 -64 31 -93 23 -47 119 -132 1094 -972 587 -506 1086 -929 1107 -941 21 -11 39 -17 40 -13 3 11 193 846 443 1953 116 514 220 972 231 1018 10 46 19 88 19 92 0 5 -528 431 -1172 946 -645 516 -1181 944 -1190 952 -15 12 -19 10 -42 -25z" fill="#9a1212"/>
+    <path d="M8571 5685 c-1019 -298 -1282 -379 -1315 -402 -22 -16 -41 -34 -41 -41 0 -6 532 -437 1182 -957 l1183 -946 1082 355 c596 195 1224 401 1397 458 173 57 316 108 318 114 12 37 -88 115 -1178 915 -618 453 -1148 836 -1178 852 -101 51 -42 65 -1450 -348z" fill="#ce1919"/>
+    <!-- edges -->
+    <path d="M 7372 5326 C 7347 5319 7305 5307 7282 5297 C 7198 5259 7153 5195 7135 5108 L 7126 5060 L 8266 4138 C 8895 3630 9430 3205 9455 3192 L 9511 3163 9601 3147 9652 3155 C 9751 3172 9810 3300 9766 3404 C 9752 3438 9682 3513 9609 3572z" fill="url(#grad56)"/>
+    <path d="M 9387 3243 L 9061 1840 L 8725 380 L 8799 318 C 8864 260 8895 250 8967 249 C 9016 248 9081 267 9141 290 L 9805 3248z" fill="url(#grad35)"/>
+    <path d="M 10923 3967 C 10202 3724 9656 3539 9652 3536 L 9689 3331 L 9780 3151 L 11084 3588 L 12383 4027 L 12396 4079 C 12415 4166 12407 4210 12382 4271 C 12359 4316 12303 4357 12241 4407z" fill="url(#grad36)"/>
+    <!-- corner -->
+    <path d="M9387 3243l396 -91l-176 159z" fill="url(#cgrad53)"/>
+    <path d="M9387 3243l185 206l36 -139z" fill="url(#cgrad56)"/>
+    <path d="M9718 3344l-146 104l35 -138z" fill="url(#cgrad6c)"/>
+    <path d="M9718 3345l65 -193l-176 158z" fill="url(#cgrad63)"/>
+    <path d="M9652 3536l-80 -88l146 -104z" fill="url(#cgrad66)"/>
+    <circle cx="9607" cy="3310" fill="url(#rcgrad)" r="201"/>
+    <!-- spots -->
+    <g fill="url(#grad6)">
+      <path d="M9671 5805 c-106 -30 -158 -86 -145 -154 17 -81 158 -183 310 -221 97 -25 248 -27 324 -4 67 20 130 78 130 119 0 96 -134 202 -315 250 -88 24 -238 28 -304 10z"/>
+      <path d="M8075 5333 c-85 -19 -147 -64 -165 -119 -32 -97 110 -224 309 -275 98 -26 245 -28 324 -5 61 18 123 64 138 104 37 97 -109 232 -307 282 -73 19 -241 26 -299 13z"/>
+      <path d="M10405 5293 c-143 -32 -202 -102 -165 -197 24 -63 160 -155 280 -190 245 -71 480 -11 480 122 0 71 -109 174 -234 221 -110 41 -281 62 -361 44z"/>
+      <path d="M8797 4800 c-27 -5 -74 -21 -104 -35 -156 -77 -108 -229 102 -330 95 -46 191 -67 305 -68 120 -1 197 22 252 73 33 32 38 43 38 81 0 94 -91 182 -249 239 -118 43 -239 57 -344 40z"/>
+      <path d="M11130 4760 c-117 -21 -180 -71 -180 -141 0 -50 17 -84 67 -130 110 -105 299 -167 472 -156 109 7 156 23 203 68 31 29 38 43 38 73 0 107 -125 211 -319 265 -84 23 -217 33 -281 21z"/>
+      <path d="M9463 4236 c-96 -30 -143 -80 -143 -151 0 -50 20 -84 81 -139 107 -96 244 -141 429 -141 109 0 132 3 176 23 138 62 151 170 32 277 -103 92 -262 145 -432 144 -56 0 -120 -6 -143 -13z"/>
+    </g>
+    <g fill="url(#grad3)">
+      <path d="M11842 3682 c-253 -90 -468 -476 -346 -622 102 -121 369 24 499 272 123 234 42 419 -153 350z"/>
+      <path d="M10785 2491 c-150 -71 -287 -238 -330 -402 -20 -72 -18 -116 4 -166 25 -55 67 -77 135 -71 147 12 317 159 407 353 59 126 49 264 -22 300 -47 25 -126 19 -194 -14z"/>
+      <path d="M9760 1314 c-199 -99 -368 -367 -330 -525 22 -92 97 -125 206 -91 233 73 453 404 380 575 -22 53 -50 71 -119 75 -56 3 -70 0 -137 -34z"/>
+    </g>
+    <g fill="url(#grad5)">
+      <path d="M7830 3088 c-34 -18 -52 -36 -75 -78 -59 -109 -43 -312 36 -460 90 -169 243 -253 340 -187 76 51 103 126 97 272 -7 155 -61 286 -161 385 -81 82 -164 106 -237 68z"/>
+      <path d="M7006 2780 c-77 -23 -126 -121 -126 -248 0 -98 19 -175 70 -277 85 -175 231 -259 331 -192 112 73 119 327 16 522 -47 87 -133 170 -198 189 -59 18 -53 17 -93 6z"/>
+      <path d="M8335 1630 c-30 -12 -72 -60 -90 -104 -78 -187 48 -531 227 -620 135 -67 240 -1 268 169 33 201 -103 483 -265 551 -37 15 -108 18 -140 4z"/>
+      <path d="M8725 3428 c-76 -41 -115 -116 -122 -234 -11 -155 48 -320 153 -434 67 -72 121 -100 195 -100 73 0 118 31 155 106 118 241 -84 675 -313 674 -26 0 -57 -6 -68 -12z"/>
+      <path d="M7305 4528 c-47 -41 -72 -91 -85 -171 -25 -159 42 -361 159 -478 115 -115 239 -111 304 9 84 155 35 421 -107 579 -58 64 -115 93 -184 93 -43 0 -57 -5 -87 -32z"/>
+    </g>
+  </g>
+</svg>

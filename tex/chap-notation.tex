@@ -1,0 +1,158 @@
+\chapter{Notation and Standards}\label{app:notation}
+%!TEX root = main.tex
+
+
+\section{Useful Greek Letters}\label{sec:greek}
+\begin{fullwidth}
+\begin{tabular}{||l||l||} \hline\hline
+\begin{tabular}{ccp{2in}}
+$\alpha$& Alpha & slope of a line\\
+$\beta$ & Beta & slope of a line, intercept\\
+$\gamma$ &  Gamma & \\
+$\Gamma$ & Gamma & \\
+$\delta$ &  Delta & A small change in a variable\\
+$\Delta$ & Delta & A change in a variable\\
+$\epsilon$ &  Epsilon &\\
+$\zeta$ &  Zeta & \\
+$\eta$ &  Eta & \\
+$\theta$ &  Theta & The parameters in a  binomial/beta distribution\\
+$\Theta$ & Theta & \\
+$\kappa$ & Kappa & \\
+$\lambda$ &  Lambda & the mean in a poisson distribution \\
+$\Lambda$ & Lambda & \\
+$\mu$ &  Mu & the mean in a normal distribution (pronounced ``mew'')\\
+$\nu$ &  Nu & (pronounced ``new'')\\
+$\xi$ &  Xi & \\
+$\Xi$ & Xi & 
+\end{tabular}
+&
+\begin{tabular}{ccp{2in}}
+$\pi$ & Pi & Represents the constant 3.1415$\cdots$, the ratio of the circumference to the diameter of a circle\\
+$\Pi$ & Pi & A product of a series of numbers\\
+$\rho$ &  Rho & \\
+$\sigma$ &  Sigma & The standard width parameter of the normal distribution\\
+$\Sigma$ & Sigma & A sum of a series of numbers \\
+$\tau$ &  Tau & \\
+$\phi$ &  Phi & \\
+$\Phi$ & Phi & \\
+$\chi$ &  Chi & A distribution related to the sum of normally distributed variables\\
+$\psi$ &  Psi & \\
+$\Psi$ & Psi & \\
+$\omega$ &  Omega & \\
+$\Omega$ & Omega & 
+\end{tabular}\\ \hline\hline
+\end{tabular}
+\end{fullwidth}
+
+
+\section{Some Math Notation}
+
+\subsection{Variables}
+A set of values, labeled with subscripts...
+\beqn
+x_{1}&=&1 \\
+x_{2}&=&5 \\
+x_{3}&=&-3 \\
+x_{4}&=&2 \\
+x_{5}&=&8
+\eeqn
+referred collectively as $x_{i}$.
+
+\subsection{Sums}
+
+\beqn
+x_{1}+x_{2}+x_{3}+x_{4}+x_{5} = 1+5+(-3)+2+8 = 13
+\eeqn
+
+is equivalent to 
+
+\beqn
+\sum_{i=1}^{5} x_{i} = 1+5+(-3)+2+8 = 13
+\eeqn
+\subsection{Products}
+
+\beqn
+x_{1}\cdot x_{2}\cdot x_{3}\cdot x_{4}\cdot x_{5} = 1\cdot 5\cdot (-3)\cdot 2\cdot 8 = -240
+\eeqn
+
+is equivalent to 
+
+\beqn
+\prod_{i=1}^{5} x_{i} = 1\cdot 5\cdot (-3)\cdot 2\cdot 8 = -240
+\eeqn
+
+
+\subsection{Sample Mean}
+The sample mean of a set of numbers is defined as...
+\beqn
+\bar{x} \equiv \frac{x_{1}+x_{2}+\cdots x_{N}}{N} 
+\eeqn
+
+In the example above
+
+\beqn
+\bar{x} \equiv \frac{x_{1}+x_{2}+x_{3}+x_{4}+x_{5}}{5} = 2\frac{3}{5}
+\eeqn
+
+It can also be written
+\beqn
+\bar{x} \equiv  \frac{\sum_{i=1}^{N} x_{i}}{N}
+\eeqn
+or
+\beqn
+\bar{x} \equiv  \frac{\sum_{i} x_{i}}{N}
+\eeqn
+
+\subsection{Sample Standard Deviation}
+
+\beqn
+s^{2}\equiv \frac{1}{N-1} \sum_{i=1}^{N} (x-\bar{x})^{2}
+\eeqn
+\marginnote{Although the justification for the $N-1$ part is beyond this book, one easy way to remember it is that the sample distribution of a set of numbers is an estimate for the $\sigma$ parameter of the normal distribution, representing the {\em spread} of the data.  You can think of the $N-1$ part as a check to keep you from doing the crazy thing of estimating a spread with only 1 data point!}
+\beqn
+s\equiv \sqrt{\frac{1}{N-1} \sum_{i=1}^{N} (x-\bar{x})^{2}}
+\eeqn
+
+\subsection{Estimates}
+
+Any specific estimate of a parameter, such as $\theta$, is denoted with a hat, such as $\hat{\theta}$.
+
+
+\subsection{Factorials}
+
+Factorials are defined as
+\beqn
+N! = 1 \cdot 2 \cdot 3 \cdots (N-1) \cdot N
+\eeqn
+for example
+\beqn
+5! = 1 \cdot 2 \cdot 3\cdot 4 \cdot 5 = 120
+\eeqn
+
+The {\em N-choose-k} notation is a shorthand for the factorials that arise in binomial and Beta distributions.
+
+\beqn
+\nchoosek{N}{k} \equiv \frac{N!}{k!(N-k)!}
+\eeqn
+
+
+\section{Qualitative labels to probability values}
+
+Rough guide for the conversion of qualitative labels to probability values used throughout the book.
+
+\begin{center}
+\begin{tabular}{||cc||} \hline\hline
+term & probability \\\hline
+virtually impossible & 1/1,000,000\\
+extremely unlikely & 0.01 (i.e. 1/100) \\
+very unlikely & 0.05 (i.e. 1/20) \\
+unlikely & 0.2 (i.e. 1/5) \\
+slightly unlikely & 0.4 (i.e. 2/5) \\
+even odds & 0.5 (i.e. 50-50) \\
+slightly likely & 0.6 (i.e. 3/5) \\
+likely & 0.8 (i.e. 4/5) \\
+very likely & 0.95 (i.e. 19/20) \\
+extremely likely & 0.99 (i.e. 99/100) \\
+virtually certain & 999,999/1,000,000\\ \hline\hline
+\end{tabular}
+\end{center}

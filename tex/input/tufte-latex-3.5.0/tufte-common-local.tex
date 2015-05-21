@@ -1,0 +1,45 @@
+\newcommand{\subtitle}[1]{
+  \gdef\@subtitle{#1}
+}
+
+\newcommand{\maketitlepagewithimage}[1]{%
+  \cleardoublepage%
+  {%
+  \sffamily%
+  \begin{fullwidth}%
+  \fontsize{18}{20}\selectfont\par\noindent\textcolor{darkgray}{\allcaps{\thanklessauthor}}%
+  \vspace{11.5pc}%
+  \fontsize{24}{40}\selectfont\par\noindent\textcolor{darkgray}{\allcaps{\thanklesstitle}}%
+  \ifdefined\@subtitle
+    {\fontsize{18}{40}\selectfont\par\noindent\textcolor{darkgray}{\allcaps{\@subtitle}}}%
+  \fi
+
+  \vfill%
+  \includegraphics{#1}
+  \end{fullwidth}%
+  }
+  \thispagestyle{empty}%
+  \clearpage%
+}
+
+
+\renewcommand{\maketitlepage}[0]{%
+
+  \cleardoublepage%
+  {%
+  \sffamily%
+  \begin{fullwidth}%
+  \fontsize{18}{20}\selectfont\par\noindent\textcolor{darkgray}{\allcaps{\thanklessauthor}}%
+  \vspace{11.5pc}%
+  \fontsize{24}{40}\selectfont\par\noindent\textcolor{darkgray}{\allcaps{\thanklesstitle}}%
+  \ifdefined\@subtitle
+    {\fontsize{18}{40}\selectfont\par\noindent\textcolor{darkgray}{\allcaps{\@subtitle}}}%
+  \fi
+
+  \vfill%
+  \fontsize{14}{16}\selectfont\par\noindent\allcaps{\thanklesspublisher}%
+  \end{fullwidth}%
+  }
+  \thispagestyle{empty}%
+  \clearpage%
+}

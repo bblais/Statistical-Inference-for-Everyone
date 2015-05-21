@@ -1,0 +1,110 @@
+\PassOptionsToPackage{table}{xcolor}
+\pdfminorversion=4
+\documentclass{tufte-book}
+
+%\geometry{
+%  left=.75in, % left margin
+%  top=.5in,
+%  bottom=.5in,
+%  textwidth=5.5in, % main text block
+%  marginparsep=.1in, % gutter between main text block and margin notes
+%  marginparwidth=1.7in % width of margin notes
+%}
+
+% I changed the tufte-common.def to move the chapter numbers a bit closer
+% the chapter line in the table of contents:
+%  \titlecontents{chapter}%
+%    [0em] % distance from left margin
+%    {\vspace{1.5\baselineskip}\begin{fullwidth}\LARGE\rmfamily\itshape} % %above (global formatting of entry)
+
+%%% this line I changed from 2em to 1em
+%    {\hspace*{0em}\contentslabel{1em}} % before w/label (label = ``2'')
+%%%
+
+%    {\hspace*{0em}} % before w/o label
+%    {\rmfamily\upshape\qquad\thecontentspage} % filler + page (leaders and %page num)
+%    [\end{fullwidth}] % after
+
+
+% then I run embed_fonts to put the fonts in
+
+\geometry{
+marginparwidth=1.8in 
+}
+%\usepackage{showframe}
+
+\input header.tex
+
+\input defs.tex
+
+\renewcommand{\subsubsection}[1]{\paragraph{#1}}
+\renewcommand{\maketitlepagewithimage}[1]{%
+  \cleardoublepage%
+  {%
+  \sffamily%
+  \begin{fullwidth}%
+  \fontsize{18}{20}\selectfont\par\noindent\textcolor{darkgray}{\allcaps{\thanklessauthor}}%
+  \vspace{11.5pc}%
+  \fontsize{36}{40}\selectfont\par\noindent\textcolor{darkgray}{\allcaps{\thanklesstitle}}%
+  \vfill%
+  \includegraphics{#1}
+  \end{fullwidth}%
+  }
+  \thispagestyle{empty}%
+  \clearpage%
+}
+
+%\includeonly{chap-probability-applications}
+
+
+
+\begin{document}
+
+% Front matter
+\frontmatter
+
+\include{frontmatter}
+
+\include{proposal}
+
+\mainmatter
+
+
+
+\include{chap-introduction}
+
+\include{chap-probability-applications}
+
+\include{chap-random-sequences}
+
+\include{chap-model-comparison2}
+
+\include{chap-model-comparison-applications}
+
+\include{chap-parameter-estimation}
+
+\include{chap-priors-posteriors}
+\include{chap-parameter-estimation-applications}
+
+\include{chap-conclusions}
+
+\backmatter
+
+\bibliography{main}
+\bibliographystyle{plainnat}
+
+\appendix
+\setboolean{@mainmatter}{true}
+
+\include{chap-computational}
+\include{chap-notation}
+\include{chap-distributions}
+\include{chap-tables}
+
+
+\setboolean{@mainmatter}{false}
+
+\printindex
+
+\end{document}
+

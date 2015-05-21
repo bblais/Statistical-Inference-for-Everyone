@@ -1,0 +1,3777 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  20 MAY 2015 18:33
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tufte-latex/tufte-book.cls
+Document Class: tufte-book 2009/12/11 v3.5.0 Tufte-book class
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tufte-latex/tufte-common.def
+File: tufte-common.def 2009/12/11 v3.5.0 Common code for the Tufte-LaTeX styles
+
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/05/09 v2.6d package option processing (HA)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+\XKV@depth=\count79
+File: xkeyval.tex 2014/05/09 v2.6d key=value parser (HA)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/xkeyval/keyval.tex)))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2009/04/17 v1.3 Extended ifthen features
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count80
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count81
+\calc@Bcount=\count82
+\calc@Adimen=\dimen102
+\calc@Bdimen=\dimen103
+\calc@Askip=\skip41
+\calc@Bskip=\skip42
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
+\calc@Ccount=\count83
+\calc@Cskip=\skip43
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
+))
+Class tufte-book Info: Loading the base class `book'.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count84
+\c@chapter=\count85
+\c@section=\count86
+\c@subsection=\count87
+\c@subsubsection=\count88
+\c@paragraph=\count89
+\c@subparagraph=\count90
+\c@figure=\count91
+\c@table=\count92
+\abovecaptionskip=\skip44
+\belowcaptionskip=\skip45
+\bibindent=\dimen104
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box26
+\beforetitleunit=\skip46
+\aftertitleunit=\skip47
+\ttl@plus=\dimen105
+\ttl@minus=\dimen106
+\ttl@toksa=\toks16
+\titlewidth=\dimen107
+\titlewidthlast=\dimen108
+\titlewidthfirst=\dimen109
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/titlesec/titletoc.sty
+Package: titletoc 2011/12/15 v1.6 TOC entries
+\ttl@leftsep=\dimen110
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen111
+\Hy@linkcounter=\count93
+\Hy@pagecounter=\count94
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count95
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4319.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count96
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen112
+\Fld@menulength=\count97
+\Field@Width=\dimen113
+\Fld@charsize=\dimen114
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count98
+\c@Item=\count99
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count100
+\c@bookmark@seq@number=\count101
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip48
+)
+
+Package hyperref Warning: Option `pagecolor' is not available anymore.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip49
+\RaggedLeftLeftskip=\skip50
+\RaggedRightLeftskip=\skip51
+\CenteringRightskip=\skip52
+\RaggedLeftRightskip=\skip53
+\RaggedRightRightskip=\skip54
+\CenteringParfillskip=\skip55
+\RaggedLeftParfillskip=\skip56
+\RaggedRightParfillskip=\skip57
+\JustifyingParfillskip=\skip58
+\CenteringParindent=\skip59
+\RaggedLeftParindent=\skip60
+\RaggedRightParindent=\skip61
+\JustifyingParindent=\skip62
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+\Gm@cnth=\count102
+\Gm@cntv=\count103
+\c@Gm@tempcnt=\count104
+\Gm@bindingoffset=\dimen115
+\Gm@wd@mp=\dimen116
+\Gm@odd@mp=\dimen117
+\Gm@even@mp=\dimen118
+\Gm@layoutwidth=\dimen119
+\Gm@layoutheight=\dimen120
+\Gm@layouthoffset=\dimen121
+\Gm@layoutvoffset=\dimen122
+\Gm@dimlist=\toks17
+
+(/Users/bblais/Library/texmf/tex/inputs/geometry.cfg))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count105
+\cp@tempcnt=\count106
+)
+\@tufte@overhang=\skip63
+\@tufte@fullwidth=\skip64
+\@tufte@caption@fill=\skip65
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/paralist/paralist.sty
+Package: paralist 2013/06/09 v2.4 Extended list environments
+\pltopsep=\skip66
+\plpartopsep=\skip67
+\plitemsep=\skip68
+\plparsep=\skip69
+\pl@lab=\toks18
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/letterspace.sty
+Package: letterspace 2013/05/23 v2.5a Robust letterspacing (RS)
+LaTeX Info: Redefining \lsstyle on input line 307.
+LaTeX Info: Redefining \lslig on input line 308.
+LaTeX Info: Redefining \textls on input line 333.
+\MT@outer@kern=\dimen123
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip70
+\bibsep=\skip71
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count107
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/natbib/bibentry.sty
+Package: bibentry 2007/10/30 1.5 (PWD)
+) (./main.bbl)
+\c@@tufte@num@bibkeys=\count108
+(/usr/local/texlive/2014/texmf-dist/tex/latex/sauerj/optparams.sty
+Package: optparams 2004/08/14 v0.9 multiple optional parameters in macros
+)
+\@tufte@sidenote@vertical@offset=\skip72
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+\@tufte@margin@floatbox=\box27
+\@tufte@figure@box=\box28
+\@tufte@caption@box=\box29
+\@tufte@caption@vertical@offset=\skip73
+\@tufte@float@contents@width=\skip74
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup4
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/bera/beramono.sty
+Package: beramono 2004/01/31 (WaS)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip75
+\f@ncyO@elh=\skip76
+\f@ncyO@erh=\skip77
+\f@ncyO@olh=\skip78
+\f@ncyO@orh=\skip79
+\f@ncyO@elf=\skip80
+\f@ncyO@erf=\skip81
+\f@ncyO@olf=\skip82
+\f@ncyO@orf=\skip83
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Package option `usenames' ignored on input line 216.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count109
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen124
+\extrarowheight=\dimen125
+\NC@list=\toks19
+\extratabsurround=\skip84
+\backup@length=\skip85
+)
+\everycr=\toks20
+\minrowclearance=\skip86
+)
+\rownum=\count110
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2014/04/23 v3.0j Driver-dependant file (DPC,SPQR)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/xcolor/svgnam.def
+File: svgnam.def 2007/01/21 v2.11 Predefined colors according to SVG 1.1 (UK)
+))
+\langwohyphens=\language79
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2014/04/23 v1.8e multicolumn formatting (FMi)
+\c@tracingmulticols=\count111
+\mult@box=\box30
+\multicol@leftmargin=\dimen126
+\c@unbalance=\count112
+\c@collectmore=\count113
+\doublecol@number=\count114
+\multicoltolerance=\count115
+\multicolpretolerance=\count116
+\full@width=\dimen127
+\page@free=\dimen128
+\premulticols=\dimen129
+\postmulticols=\dimen130
+\multicolsep=\skip87
+\multicolbaselineskip=\skip88
+\partial@page=\box31
+\last@line=\box32
+\maxbalancingoverflow=\dimen131
+\mult@rightbox=\box33
+\mult@grightbox=\box34
+\mult@gfirstbox=\box35
+\mult@firstbox=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\c@columnbadness=\count117
+\c@finalcolumnbadness=\count118
+\last@try=\dimen132
+\multicolovershoot=\dimen133
+\multicolundershoot=\dimen134
+\mult@nat@firstbox=\box54
+\colbreak@box=\box55
+\mc@col@check@num=\count119
+)
+(/Users/bblais/Library/texmf/tex/inputs/tufte-latex-3.5.0/tufte-common-local.te
+x)
+Class tufte-book Info: Loading tufte-common-local.tex.
+)) (./header.tex
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count120
+\lst@gtempboxa=\box56
+\lst@token=\toks21
+\lst@length=\count121
+\lst@currlwidth=\dimen135
+\lst@column=\count122
+\lst@pos=\count123
+\lst@lostspace=\dimen136
+\lst@width=\dimen137
+\lst@newlines=\count124
+\lst@lineno=\count125
+\lst@maxwidth=\dimen138
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
+\c@lstnumber=\count126
+\lst@skipnumbers=\count127
+\lst@framebox=\box57
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2014/03/04 1.5c listings configuration
+))
+Package: listings 2014/03/04 1.5c (Carsten Heinz)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/03/04 1.5c listings language file
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 13.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ntheorem/ntheorem.sty
+Style `ntheorem', Version 1.33 <2011/08/15>
+Package: ntheorem 2011/08/15 1.33
+\theorem@style=\toks22
+\theorem@@style=\toks23
+\theorembodyfont=\toks24
+\theoremnumbering=\toks25
+\theorempreskipamount=\skip89
+\theorempostskipamount=\skip90
+\theoremframepreskipamount=\skip91
+\theoremframepostskipamount=\skip92
+\theoreminframepreskipamount=\skip93
+\theoreminframepostskipamount=\skip94
+\theorem@preskip=\toks26
+\theorem@postskip=\toks27
+\theorem@framepreskip=\toks28
+\theorem@framepostskip=\toks29
+\theorem@inframepreskip=\toks30
+\theorem@inframepostskip=\toks31
+\theoremindent=\dimen139
+\theorem@indent=\dimen140
+\theoremrightindent=\dimen141
+\theorem@rightindent=\dimen142
+\theoremheaderfont=\toks32
+\theoremseparator=\toks33
+\theoremprework=\toks34
+\theorempostwork=\toks35
+\theoremsymbol=\toks36
+\qedsymbol=\toks37
+\theoremkeyword=\toks38
+\qedsymbol=\toks39
+\thm@topsep=\skip95
+\thm@topsepadd=\skip96
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen143
+\lightrulewidth=\dimen144
+\cmidrulewidth=\dimen145
+\belowrulesep=\dimen146
+\belowbottomsep=\dimen147
+\aboverulesep=\dimen148
+\abovetopsep=\dimen149
+\cmidrulesep=\dimen150
+\cmidrulekern=\dimen151
+\defaultaddspace=\dimen152
+\@cmidla=\count128
+\@cmidlb=\count129
+\@aboverulesep=\dimen153
+\@belowrulesep=\dimen154
+\@thisruleclass=\count130
+\@lastruleclass=\count131
+\@thisrulewidth=\dimen155
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count132
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen156
+\Gin@req@width=\dimen157
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count133
+\FV@InFile=\read1
+\FV@TabBox=\box58
+\c@FancyVerbLine=\count134
+\FV@StepNumber=\count135
+\FV@OutFile=\write3
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/titlesec/block.tss
+File: block.tss 2011/12/15
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/units/units.sty
+Package: units 1998/08/04 v0.9b Typesetting units
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip97
+\L@UnitsRaiseTextstyle=\skip98
+\L@UnitsRaiseScriptstyle=\skip99
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+\@indexfile=\write4
+\openout4 = `main.idx'.
+
+
+Writing index file main.idx
+) (./defs.tex
+\symextraup=\mathgroup5
+\c@definition=\count136
+\c@myexample=\count137
+\c@myexercise=\count138
+\m=\count139
+\n=\count140
+) (./main.aux (./frontmatter.aux) (./proposal.aux)
+(./chap-introduction.aux) (./chap-probability-applications.aux)
+(./chap-random-sequences.aux) (./chap-model-comparison2.aux)
+(./chap-model-comparison-applications.aux) (./chap-parameter-estimation.aux)
+(./chap-priors-posteriors.aux
+
+LaTeX Warning: Label `ex:length_tdist' multiply defined.
+
+) (./chap-parameter-estimation-applications.aux
+
+LaTeX Warning: Label `ex:hothand' multiply defined.
+
+) (./chap-conclusions.aux) (./chap-computational.aux) (./chap-notation.aux)
+(./chap-distributions.aux
+
+LaTeX Warning: Label `ex:plumber' multiply defined.
+
+) (./chap-tables.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 61.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Try loading font information for T1+pplj on input line 61.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1pplj.fd
+File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
+)
+\AtBeginShipoutBox=\box59
+Package hyperref Info: Link coloring ON on input line 61.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count141
+)
+LaTeX Info: Redefining \ref on input line 61.
+LaTeX Info: Redefining \pageref on input line 61.
+LaTeX Info: Redefining \nameref on input line 61.
+
+(./main.out) (./main.out
+pdfTeX warning (Object streams): \pdfobjcompresslevel > 0 requires \pdfminorver
+sion > 4. Object streams disabled now.
+)
+\@outlinefile=\write5
+\openout5 = `main.out'.
+
+ ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 61.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside asymmetric 
+* h-part:(L,W,R)=(72.26999pt, 312.0pt, 230.02501pt)
+* v-part:(T,H,B)=(72.26999pt, 616.0pt, 106.7pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=312.0pt
+* \textheight=616.0pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-42.0pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=130.08621pt
+* \marginparsep=24.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\big@size=\dimen158
+(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count142
+\scratchdimen=\dimen159
+\scratchbox=\box60
+\nofMPsegments=\count143
+\nofMParguments=\count144
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count145
+\MPscratchDim=\dimen160
+\MPnumerator=\count146
+\makeMPintoPDFobject=\count147
+\everyMPtoPDFconversion=\toks41
+)
+\c@lstlisting=\count148
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\openout2 = `frontmatter.aux'.
+
+
+(./frontmatter.tex
+LaTeX Font Info:    Try loading font information for T1+phv on input line 4.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 4.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 16.19989pt on input line 4.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 32.39978pt on input line 4.
+
+Overfull \hbox (52.52039pt too wide) in paragraph at lines 4--4
+[]\T1/phv/m/n/36/200ls STATISTICAL IN-FER-ENCE 
+ []
+
+<../figs/Saturn_with_Dice.png, id=235, 1151.9838pt x 590.205pt>
+File: ../figs/Saturn_with_Dice.png Graphic file (type png)
+
+<use ../figs/Saturn_with_Dice.png>
+Package pdftex.def Info: ../figs/Saturn_with_Dice.png used on input line 4.
+(pdftex.def)             Requested size: 466.07628pt x 238.78856pt.
+
+Overfull \hbox (11.99007pt too wide) in paragraph at lines 4--4
+[][]  
+ []
+
+[1
+
+
+
+
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../figs
+/Saturn_with_Dice.png>]
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 9.85492pt on input line 14.
+ [2
+
+]
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 21.59985pt on input line 30.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 12.59991pt on input line 30.
+ [3
+
+]
+LaTeX Font Info:    Try loading font information for TS1+pplj on input line 40.
+
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ts1pplj.fd
+File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
+)
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 48.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/bera/t1fvm.fd
+File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
+)
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 8.50006pt on input line 48.
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 48.
+
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1pplx.fd
+File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
+)
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 48.
+
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 48.
+
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 48.
+
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 48.
+
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+LaTeX Font Info:    Try loading font information for U+zavm on input line 48.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/arev/uzavm.fd
+File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
+) [4
+
+]
+Overfull \hbox (35.72395pt too wide) in paragraph at lines 66--69
+\T1/pplj/m/it/18 Learning who have been exceedingly supportive 
+ []
+
+
+Overfull \hbox (2.89195pt too wide) in paragraph at lines 66--69
+\T1/pplj/m/it/18 of me through the entire process of writing.  
+ []
+
+[5
+
+] [6
+
+] (./acknowledgements.tex
+Overfull \hbox (169.61998pt too wide) in paragraph at lines 10--19
+[][]  
+ []
+
+) [7
+
+] [8
+
+] (./main.toc [9] [10] [11])
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+ [12] [13] [14
+
+] (./main.lof
+Overfull \hbox (9.86987pt too wide) in paragraph at lines 2--2
+ [][] [][][]\T1/pplj/m/n/10 Standard 52-card deck. 13 cards of each suit, la-be
+led Spades, Clubs,
+ []
+
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 3.
+
+Overfull \hbox (2.81989pt too wide) in paragraph at lines 3--3
+ [][] [][][]\T1/pplj/m/n/10 Venn di-a-gram of a state-ment, $\OML/zplm/m/it/10 
+A$\T1/pplj/m/n/10 , in a \T1/pplj/m/it/10 Uni-verse \T1/pplj/m/n/10 of all pos-
+si-ble state-
+ []
+
+
+Overfull \hbox (15.7298pt too wide) in paragraph at lines 3--3
+ \T1/pplj/m/n/10 ments. It is cus-tom-ary to think of the area of the \T1/pplj/
+m/it/10 Uni-verse \T1/pplj/m/n/10 to be equal
+ []
+
+
+Overfull \hbox (17.2898pt too wide) in paragraph at lines 3--3
+ \T1/pplj/m/n/10 to 1 so that we can treat the ac-tual ar-eas as frac-tional ar
+-eas rep-re-sent-
+ []
+
+
+Overfull \hbox (1.69981pt too wide) in paragraph at lines 3--3
+ \T1/pplj/m/n/10 ing the prob-a-bil-ity of state-ments like $\OML/zplm/m/it/10 
+P\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 A\OT1/zplm/m/n/10 )$\T1/pplj/m/n/10 . In t
+his im-age, $\OML/zplm/m/it/10 A$ \T1/pplj/m/n/10 takes
+ []
+
+
+Overfull \hbox (11.7451pt too wide) in paragraph at lines 3--3
+ \T1/pplj/m/n/10 up 1/4 of the \T1/pplj/m/it/10 Uni-verse\T1/pplj/m/n/10 , so t
+hat $\OML/zplm/m/it/10 P\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 A\OT1/zplm/m/n/10 )
+ = \OT1/pplx/m/n/10 1\OT1/zplm/m/n/10 /\OT1/pplx/m/n/10 4$\T1/pplj/m/n/10 . Als
+o shown is the nega-
+ []
+
+
+Overfull \hbox (14.59978pt too wide) in paragraph at lines 4--4
+ [][] [][][]\T1/pplj/m/n/10 Venn di-a-gram of the sum and prod-uct. The rect-an
+-gle $\OML/zplm/m/it/10 B$ \T1/pplj/m/n/10 takes up 1/8
+ []
+
+
+Overfull \hbox (23.99983pt too wide) in paragraph at lines 4--4
+ \T1/pplj/m/n/10 of the \T1/pplj/m/it/10 Uni-verse\T1/pplj/m/n/10 , and the rec
+t-an-gle $\OML/zplm/m/it/10 A$ \T1/pplj/m/n/10 takes up 1/4 of the \T1/pplj/m/i
+t/10 Uni-verse\T1/pplj/m/n/10 . Their
+ []
+
+
+Overfull \hbox (21.41977pt too wide) in paragraph at lines 4--4
+ \T1/pplj/m/n/10 over-lap here is 1/16 of the \T1/pplj/m/it/10 Uni-verse\T1/ppl
+j/m/n/10 , and rep-re-sents $\OML/zplm/m/it/10 P\OT1/zplm/m/n/10 (\OML/zplm/m/i
+t/10 A[]B\OT1/zplm/m/n/10 )$\T1/pplj/m/n/10 . Their
+ []
+
+
+Overfull \hbox (24.52979pt too wide) in paragraph at lines 5--5
+ [][] [][][]\T1/pplj/m/n/10 Venn di-a-gram of con-di-tional prob-a-bil-i-ties, 
+$\OML/zplm/m/it/10 P\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 A\OMS/zplm/m/n/10 j\OML
+/zplm/m/it/10 B\OT1/zplm/m/n/10 )$ \T1/pplj/m/n/10 and $\OML/zplm/m/it/10 P\OT1
+/zplm/m/n/10 (\OML/zplm/m/it/10 B\OMS/zplm/m/n/10 j\OML/zplm/m/it/10 A\OT1/zplm
+/m/n/10 )$\T1/pplj/m/n/10 . (Right)
+ []
+
+
+Overfull \hbox (9.81976pt too wide) in paragraph at lines 5--5
+ \OML/zplm/m/it/10 P\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 A\OMS/zplm/m/n/10 j\OML
+/zplm/m/it/10 B\OT1/zplm/m/n/10 )$ \T1/pplj/m/n/10 is rep-re-sented by the frac
+-tion of the darker area (which was
+ []
+
+
+Overfull \hbox (10.36984pt too wide) in paragraph at lines 5--5
+ \T1/pplj/m/n/10 orig-i-nally part of $\OML/zplm/m/it/10 A$\T1/pplj/m/n/10 ) co
+m-pared not to the \T1/pplj/m/it/10 Uni-verse \T1/pplj/m/n/10 but to the area o
+f
+ []
+
+
+Overfull \hbox (23.89987pt too wide) in paragraph at lines 5--5
+ \T1/pplj/m/n/10 di-tional sym-bol, ``$\OMS/zplm/m/n/10 j$\T1/pplj/m/n/10 ,'' d
+e-fines the \T1/pplj/m/it/10 Uni-verse \T1/pplj/m/n/10 with which to make the c
+om-
+ []
+
+
+Overfull \hbox (3.56984pt too wide) in paragraph at lines 5--5
+ \T1/pplj/m/n/10 par-isons. (Left) Like-wise, the same darker area that was ori
+g-i-nally
+ []
+
+
+Overfull \hbox (2.40974pt too wide) in paragraph at lines 5--5
+ \T1/pplj/m/n/10 part of $\OML/zplm/m/it/10 B$ \T1/pplj/m/n/10 rep-re-sents $\O
+ML/zplm/m/it/10 P\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 B\OMS/zplm/m/n/10 j\OML/zp
+lm/m/it/10 A\OT1/zplm/m/n/10 )$ \T1/pplj/m/n/10 which makes up 1/4 of the area 
+of $\OML/zplm/m/it/10 A$\T1/pplj/m/n/10 .
+ []
+
+
+Overfull \hbox (66.23735pt too wide) in paragraph at lines 6--6
+ [][] [][][]\T1/pplj/m/n/10 Venn di-a-gram of mu-tu-ally ex-clu-sive state-ment
+s. One can see that $\OML/zplm/m/it/10 P\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 A[]
+B\OT1/zplm/m/n/10 ) =
+ []
+
+
+Overfull \hbox (6.55266pt too wide) in paragraph at lines 6--6
+ \OT1/pplx/m/n/10 0$ \T1/pplj/m/n/10 (the over-lap is zero) and $\OML/zplm/m/it
+/10 P\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 A[]B\OT1/zplm/m/n/10 ) = \OML/zplm/m/i
+t/10 P\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 A\OT1/zplm/m/n/10 ) + \OML/zplm/m/it/
+10 P\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 B\OT1/zplm/m/n/10 )$ \T1/pplj/m/n/10 (t
+he to-tal area
+ []
+
+
+Overfull \hbox (11.48985pt too wide) in paragraph at lines 8--8
+ [][] [][][]\T1/pplj/m/n/10 High Deck - 55 Cards with ten 10's, nine 9's, etc..
+. down to one Ace.
+ []
+
+
+Overfull \hbox (14.49983pt too wide) in paragraph at lines 9--9
+ [][] [][][]\T1/pplj/m/n/10 Low Deck - 55 Cards with ten Aces, two 2's, etc... 
+up to one 10. Aces
+ []
+
+
+Overfull \hbox (4.84981pt too wide) in paragraph at lines 10--10
+ [][] [][][]\T1/pplj/m/n/10 Drawing a num-ber of 9's in a row, pos-si-bly from 
+a High, Low, and
+ []
+
+
+Overfull \hbox (6.9398pt too wide) in paragraph at lines 12--12
+ [][] [][][]\T1/pplj/m/n/10 Rare dis-ease and test-ing. Shown is a pop-u-la-tio
+n of 3000 where 1 in
+ []
+
+
+Overfull \hbox (14.4098pt too wide) in paragraph at lines 12--12
+ \T1/pplj/m/n/10 ev-ery 200 peo-ple have the dis-ease (large cir-cles). A test 
+which is 99%
+ []
+
+
+Overfull \hbox (3.06978pt too wide) in paragraph at lines 12--12
+ \T1/pplj/m/n/10 ef-fec-tive is ap-plied to ev-ery-one in the pop-u-la-tion, an
+d the pos-i-tive
+ []
+
+
+Overfull \hbox (17.2697pt too wide) in paragraph at lines 12--12
+ \T1/pplj/m/n/10 test re-sults (i.e. the test says that you have the dis-ease) 
+are shown ask
+ []
+
+
+Overfull \hbox (5.00983pt too wide) in paragraph at lines 12--12
+ \T1/pplj/m/n/10 small black dots. No-tice that al-though nearly all of those t
+hat have
+ []
+
+
+Overfull \hbox (15.31985pt too wide) in paragraph at lines 12--12
+ \T1/pplj/m/n/10 the dis-ease test pos-i-tive (a small black dot in-side a larg
+e cir-cle), there
+ []
+
+
+Overfull \hbox (19.70984pt too wide) in paragraph at lines 12--12
+ \T1/pplj/m/n/10 are many false pos-i-tives (black dot in an empty square) - he
+althy peo-
+ []
+
+
+Overfull \hbox (27.27972pt too wide) in paragraph at lines 12--12
+ \T1/pplj/m/n/10 ple that test pos-i-tive for the dis-ease. Even though the tes
+t is quite good,
+ []
+
+
+Overfull \hbox (2.42986pt too wide) in paragraph at lines 12--12
+ \T1/pplj/m/n/10 there are many more healthy peo-ple and 1 out of 100 of them w
+ill
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+Overfull \hbox (4.83974pt too wide) in paragraph at lines 13--13
+ [][] [][][]\T1/pplj/m/n/10 The full re-sults of the pre-dic-tions of Paul the 
+Oc-to-pus, re-pro-duced
+ []
+
+
+Overfull \hbox (4.58986pt too wide) in paragraph at lines 16--16
+ [][] [][][]\T1/pplj/m/n/10 Probability for dif-fer-ent bent-coin mod-els, give
+n the data=9 tails, 3
+ []
+
+
+Overfull \hbox (2.43985pt too wide) in paragraph at lines 17--17
+ [][] [][][]\T1/pplj/m/n/10 Probability for dif-fer-ent bent-coin mod-els, give
+n no data (left), the
+ []
+
+
+Overfull \hbox (15.64984pt too wide) in paragraph at lines 17--17
+ \T1/pplj/m/n/10 first tails (mid-dle), and the sec-ond tails (right). The curv
+e for no data
+ []
+
+
+Overfull \hbox (2.63986pt too wide) in paragraph at lines 17--17
+ \T1/pplj/m/n/10 is the same as the prior prob-a-bil-ity, and in this case all 
+mod-els are
+ []
+
+
+Overfull \hbox (19.6798pt too wide) in paragraph at lines 17--17
+ \T1/pplj/m/n/10 equally likely. When the first tails is ob-served, the model w
+hich states
+ []
+
+
+Overfull \hbox (15.38983pt too wide) in paragraph at lines 17--17
+ \T1/pplj/m/n/10 that heads are \T1/pplj/m/it/10 cer-tain \T1/pplj/m/n/10 (coin
+ 10) goes to zero prob-a-bil-ity. As more tails
+ []
+
+
+Overfull \hbox (18.82982pt too wide) in paragraph at lines 17--17
+ \T1/pplj/m/n/10 are ob-served, the prob-a-bil-ity for the lower mod-els is in-
+creased.[][] 73 
+ []
+
+
+Overfull \hbox (12.66983pt too wide) in paragraph at lines 18--18
+ [][] [][][]\T1/pplj/m/n/10 Probability for dif-fer-ent bent-coin mod-els, give
+n three tails (left), the
+ []
+
+
+Overfull \hbox (5.84982pt too wide) in paragraph at lines 18--18
+ \T1/pplj/m/n/10 first heads (mid-dle), and an-other tails (right). When the fi
+rst heads
+ []
+
+
+Overfull \hbox (1.92982pt too wide) in paragraph at lines 18--18
+ \T1/pplj/m/n/10 is ob-served, the model which states that heads are \T1/pplj/m
+/it/10 im-pos-si-ble \T1/pplj/m/n/10 (coin
+ []
+
+
+Overfull \hbox (2.43985pt too wide) in paragraph at lines 19--19
+ [][] [][][]\T1/pplj/m/n/10 Probability for dif-fer-ent bent-coin mod-els, give
+n no data (left), the
+ []
+
+
+Overfull \hbox (18.31987pt too wide) in paragraph at lines 19--19
+ \T1/pplj/m/n/10 first half of the data set (mid-dle), and the en-tire data set
+ of 9 tails and
+ []
+
+
+Overfull \hbox (5.31976pt too wide) in paragraph at lines 20--20
+ [][] [][][]\T1/pplj/m/n/10 Posterior prob-a-bil-ity dis-tri-bu-tion for the $\
+OML/zplm/m/it/10 ^^R$ \T1/pplj/m/n/10 val-ues of the bent coin -
+ []
+
+
+Overfull \hbox (24.4198pt too wide) in paragraph at lines 20--20
+ \T1/pplj/m/n/10 the prob-a-bil-ity that the coin will land heads. The dis-tri-
+bu-tion is shown
+ []
+
+
+Overfull \hbox (5.31976pt too wide) in paragraph at lines 21--21
+ [][] [][][]\T1/pplj/m/n/10 Posterior prob-a-bil-ity dis-tri-bu-tion for the $\
+OML/zplm/m/it/10 ^^R$ \T1/pplj/m/n/10 val-ues of the bent coin -
+ []
+
+
+Overfull \hbox (24.4198pt too wide) in paragraph at lines 21--21
+ \T1/pplj/m/n/10 the prob-a-bil-ity that the coin will land heads. The dis-tri-
+bu-tion is shown
+ []
+
+
+Overfull \hbox (5.31976pt too wide) in paragraph at lines 22--22
+ [][] [][][]\T1/pplj/m/n/10 Posterior prob-a-bil-ity dis-tri-bu-tion for the $\
+OML/zplm/m/it/10 ^^R$ \T1/pplj/m/n/10 val-ues of the bent coin -
+ []
+
+
+Overfull \hbox (24.4198pt too wide) in paragraph at lines 22--22
+ \T1/pplj/m/n/10 the prob-a-bil-ity that the coin will land heads. The dis-tri-
+bu-tion is shown
+ []
+
+
+Overfull \hbox (5.31976pt too wide) in paragraph at lines 23--23
+ [][] [][][]\T1/pplj/m/n/10 Posterior prob-a-bil-ity dis-tri-bu-tion for the $\
+OML/zplm/m/it/10 ^^R$ \T1/pplj/m/n/10 val-ues of the bent coin -
+ []
+
+
+Overfull \hbox (24.4198pt too wide) in paragraph at lines 23--23
+ \T1/pplj/m/n/10 the prob-a-bil-ity that the coin will land heads. The dis-tri-
+bu-tion is shown
+ []
+
+
+Overfull \hbox (6.3998pt too wide) in paragraph at lines 23--23
+ \T1/pplj/m/n/10 for data 3 heads and 9 tails. The var-i-ous quar-tiles are sho
+wn in the
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+Overfull \hbox (5.31976pt too wide) in paragraph at lines 24--24
+ [][] [][][]\T1/pplj/m/n/10 Posterior prob-a-bil-ity dis-tri-bu-tion for the $\
+OML/zplm/m/it/10 ^^R$ \T1/pplj/m/n/10 val-ues of the bent coin -
+ []
+
+
+Overfull \hbox (24.4198pt too wide) in paragraph at lines 24--24
+ \T1/pplj/m/n/10 the prob-a-bil-ity that the coin will land heads. The dis-tri-
+bu-tion is shown
+ []
+
+
+Overfull \hbox (16.3998pt too wide) in paragraph at lines 24--24
+ \T1/pplj/m/n/10 for data 10 heads and 20 tails. The var-i-ous quar-tiles are s
+hown in the
+ []
+
+
+Overfull \hbox (16.67973pt too wide) in paragraph at lines 27--27
+ [][] [][][]\T1/pplj/m/n/10 The Nor-mal dis-tri-bu-tion with dif-fer-ent lo-ca-
+tion pa-ram-e-ters, $\OML/zplm/m/it/10 ^^V$\T1/pplj/m/n/10 .[][] 89 
+ []
+
+
+Overfull \hbox (23.0598pt too wide) in paragraph at lines 28--28
+ [][] [][][]\T1/pplj/m/n/10 The Nor-mal dis-tri-bu-tion with dif-fer-ent de-vi-
+a-tion pa-ram-e-ters, $\OML/zplm/m/it/10 ^^[$\T1/pplj/m/n/10 .[][] 90 
+ []
+
+
+Overfull \hbox (3.84981pt too wide) in paragraph at lines 29--29
+ [][] [][][]\T1/pplj/m/n/10 The Stan-dard Nor-mal Dis-tri-bu-tion (the Nor-mal 
+dis-tri-bu-tion in the
+ []
+
+
+Overfull \hbox (8.54973pt too wide) in paragraph at lines 29--29
+ \T1/pplj/m/n/10 for po-si-tions 1-$\OML/zplm/m/it/10 ^^[$ \T1/pplj/m/n/10 away
+ from the cen-ter, 2-$\OML/zplm/m/it/10 ^^[$ \T1/pplj/m/n/10 away, and 3-$\OML/
+zplm/m/it/10 ^^[$ \T1/pplj/m/n/10 away. The
+ []
+
+
+Overfull \hbox (4.87987pt too wide) in paragraph at lines 29--29
+ \T1/pplj/m/n/10 area within 1-$\OML/zplm/m/it/10 ^^[$ \T1/pplj/m/n/10 is 0.68,
+ within 2-$\OML/zplm/m/it/10 ^^[$ \T1/pplj/m/n/10 is 0.95, and 3-$\OML/zplm/m/i
+t/10 ^^[$ \T1/pplj/m/n/10 is 0.99. These lo-
+ []
+
+
+Overfull \hbox (6.4298pt too wide) in paragraph at lines 29--29
+ \T1/pplj/m/n/10 ca-tions are the most preva-lently used in any kind of sta-tis
+-ti-cal test-
+ []
+
+
+Overfull \hbox (15.7298pt too wide) in paragraph at lines 31--31
+ [][] [][][]\T1/pplj/m/n/10 Probability dis-tri-bu-tions for the sub-set of iri
+s petal lengths. Each dis-
+ []
+
+
+Overfull \hbox (12.79979pt too wide) in paragraph at lines 32--32
+ [][] [][][]\T1/pplj/m/n/10 Probability dis-tri-bu-tions for the dif-fer-ence b
+e-tween iris petal lengths
+ []
+
+
+Overfull \hbox (3.1898pt too wide) in paragraph at lines 32--32
+ \T1/pplj/m/n/10 for the clos-est two iris types, \T1/pplj/m/it/10 Vir-ginica \
+T1/pplj/m/n/10 and \T1/pplj/m/it/10 Ver-si-color\T1/pplj/m/n/10 . The dis-tri-b
+u-
+ []
+
+
+Overfull \hbox (3.8898pt too wide) in paragraph at lines 32--32
+ \T1/pplj/m/n/10 tion fol-lows a Student-t form, and clearly shows sig-nif-i-ca
+nt prob-a-
+ []
+
+
+Overfull \hbox (7.01984pt too wide) in paragraph at lines 34--34
+ [][] [][][]\T1/pplj/m/n/10 Mass of Pen-nies from 1960 to 1974, with best es-ti
+-mates and 99% CI
+ []
+
+
+Overfull \hbox (7.01984pt too wide) in paragraph at lines 35--35
+ [][] [][][]\T1/pplj/m/n/10 Mass of Pen-nies from 1960 to 2003, with best es-ti
+-mates and 99% CI
+ []
+
+
+Overfull \hbox (4.4998pt too wide) in paragraph at lines 36--36
+ [][] [][][]\T1/pplj/m/n/10 Mass of Pen-nies from 1960 to 2003, with best es-ti
+-mates for the two
+ []
+
+
+Overfull \hbox (2.26978pt too wide) in paragraph at lines 36--36
+ \T1/pplj/m/n/10 true val-ues and their 99% CI (i.e. $\OT1/pplx/m/n/10 3\OML/zp
+lm/m/it/10 ^^[$\T1/pplj/m/n/10 ) un-cer-tainty plot-ted. There is
+ []
+
+
+Overfull \hbox (6.1298pt too wide) in paragraph at lines 36--36
+ \T1/pplj/m/n/10 clearly no over-lap in their cred-i-ble in-ter-vals, thus ther
+e is a sta-tis-ti-
+ []
+
+
+Overfull \hbox (13.22978pt too wide) in paragraph at lines 37--37
+ [][] [][][]\T1/pplj/m/n/10 Difference in the es-ti-mated val-ues of the pre- a
+nd post 1975 pen-nies,
+ []
+
+
+Overfull \hbox (5.2972pt too wide) in paragraph at lines 37--37
+ \OML/zplm/m/it/10 ^^V[] \OMS/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 ^^V[]$\T1/pplj/
+m/n/10 . The value zero is clearly out-side of the 99% in-ter-val of the
+ []
+
+
+Overfull \hbox (8.7098pt too wide) in paragraph at lines 37--37
+ \T1/pplj/m/n/10 dif-fer-ence, thus there is a sta-tis-ti-cally sig-nif-i-cant 
+dif-fer-ence be-tween
+ []
+
+
+Overfull \hbox (1.51978pt too wide) in paragraph at lines 43--43
+ [][] [][][]\T1/pplj/m/n/10 Discrete uni-form dis-tri-bu-tion for val-ues 1 to 
+6. The value for each
+ []
+
+
+Overfull \hbox (3.28978pt too wide) in paragraph at lines 45--45
+ [][] [][][]\T1/pplj/m/n/10 Continuous uni-form dis-tri-bu-tion for the plumber
+ ex-am-ple (Ex-am-
+ []
+
+
+Overfull \hbox (14.63983pt too wide) in paragraph at lines 46--46
+ [][] [][][]\T1/pplj/m/n/10 Probability of get-ting $\OML/zplm/m/it/10 h$ \T1/p
+plj/m/n/10 heads in 30 flips given a pos-si-ble un-fair coin.
+ []
+
+
+Overfull \hbox (1.53508pt too wide) in paragraph at lines 46--46
+ \T1/pplj/m/n/10 One coin has $\OML/zplm/m/it/10 p \OT1/zplm/m/n/10 = \OT1/pplx
+/m/n/10 0.1$\T1/pplj/m/n/10 , where the max-i-mum is for 3 heads (or 1/10
+ []
+
+
+Overfull \hbox (7.13506pt too wide) in paragraph at lines 46--46
+ \T1/pplj/m/n/10 of the 30 flips), but 2 heads is nearly as likely. An-other ha
+s $\OML/zplm/m/it/10 p \OT1/zplm/m/n/10 = \OT1/pplx/m/n/10 0.5$\T1/pplj/m/n/10 
+,
+ []
+
+
+Overfull \hbox (6.69989pt too wide) in paragraph at lines 46--46
+ \T1/pplj/m/n/10 and is the fair coin con-sid-ered ear-lier with a max-i-mum at
+ 15 heads
+ []
+
+
+Overfull \hbox (13.43504pt too wide) in paragraph at lines 46--46
+ \T1/pplj/m/n/10 (or 1/2 of the 30 flips). Fi-nally, an-other coin shown as $\O
+ML/zplm/m/it/10 p \OT1/zplm/m/n/10 = \OT1/pplx/m/n/10 0.8$ \T1/pplj/m/n/10 wher
+e
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+Overfull \hbox (5.31976pt too wide) in paragraph at lines 47--47
+ [][] [][][]\T1/pplj/m/n/10 Posterior prob-a-bil-ity dis-tri-bu-tion for the $\
+OML/zplm/m/it/10 ^^R$ \T1/pplj/m/n/10 val-ues of the bent coin -
+ []
+
+
+Overfull \hbox (24.4198pt too wide) in paragraph at lines 47--47
+ \T1/pplj/m/n/10 the prob-a-bil-ity that the coin will land heads. The dis-tri-
+bu-tion is shown
+ []
+
+
+Overfull \hbox (6.3998pt too wide) in paragraph at lines 47--47
+ \T1/pplj/m/n/10 for data 3 heads and 9 tails. The var-i-ous quar-tiles are sho
+wn in the
+ []
+
+)
+\tf@lof=\write7
+\openout7 = `main.lof'.
+
+ [18]
+** Generating table of myexample
+(./main.thm
+Overfull \hbox (26.87991pt too wide) in paragraph at lines 1--1
+ [][] [][][]\T1/pplj/m/n/10 What is the frac-tion of the first card as a jack g
+iven that we know 
+ []
+
+
+Overfull \hbox (16.6599pt too wide) in paragraph at lines 6--6
+ [][] [][][]\T1/pplj/m/n/10 What is the prob-a-bil-ity of draw-ing a jack, know
+-ing that you've 
+ []
+
+
+Overfull \hbox (0.43993pt too wide) in paragraph at lines 7--7
+ [][] [][][]\T1/pplj/m/n/10 What is the prob-a-bil-ity of draw-ing a 9, given t
+hat we know 
+ []
+
+
+Overfull \hbox (9.13988pt too wide) in paragraph at lines 8--8
+ [][] [][][]\T1/pplj/m/n/10 What is the prob-a-bil-ity that you are hold-ing on
+e of ei-ther the 
+ []
+
+
+Overfull \hbox (19.67986pt too wide) in paragraph at lines 8--8
+ \T1/pplj/m/n/10 High or the Low Deck hav-ing drawn five 9's in a row from that
+ 
+ []
+
+
+Overfull \hbox (9.13988pt too wide) in paragraph at lines 9--9
+ [][] [][][]\T1/pplj/m/n/10 What is the prob-a-bil-ity that you are hold-ing on
+e of ei-ther the 
+ []
+
+
+Overfull \hbox (11.63988pt too wide) in paragraph at lines 9--9
+ \T1/pplj/m/n/10 High or the Low Deck hav-ing drawn $\OML/zplm/m/it/10 m$ \T1/p
+plj/m/n/10 9's in a row from that 
+ []
+
+
+Overfull \hbox (9.13988pt too wide) in paragraph at lines 10--10
+ [][] [][][]\T1/pplj/m/n/10 What is the prob-a-bil-ity that you are hold-ing on
+e of ei-ther the 
+ []
+
+
+Overfull \hbox (7.66988pt too wide) in paragraph at lines 10--10
+ \T1/pplj/m/n/10 High, Low, or Nines Deck hav-ing drawn $\OML/zplm/m/it/10 m$ \
+T1/pplj/m/n/10 9's in a row from 
+ []
+
+
+Overfull \hbox (13.1699pt too wide) in paragraph at lines 15--15
+ [][] [][][]\T1/pplj/m/n/10 What is the best es-ti-mate of the prob-a-bil-ity o
+f a bent coin flip- 
+ []
+
+
+Overfull \hbox (11.53275pt too wide) in paragraph at lines 18--18
+ [][] [][][]\T1/pplj/m/n/10 Given a Nor-mal dis-tri-bu-tion with a mean of $\OM
+L/zplm/m/it/10 ^^V \OT1/zplm/m/n/10 = \OT1/pplx/m/n/10 150$ \T1/pplj/m/n/10 and
+ $\OML/zplm/m/it/10 ^^[ \OT1/zplm/m/n/10 = 
+ []
+
+
+Overfull \hbox (13.01448pt too wide) in paragraph at lines 22--22
+ [][] [][][]\T1/pplj/m/n/10 We have two Nor-mal dis-tri-bu-tions $\OML/zplm/m/i
+t/10 P\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 ) = [](\OML/zplm/m/
+it/10 ^^V \OT1/zplm/m/n/10 = \OT1/pplx/m/n/10 8, \OML/zplm/m/it/10 ^^[ \OT1/zpl
+m/m/n/10 = 
+ []
+
+[19
+
+]
+Overfull \hbox (15.04988pt too wide) in paragraph at lines 30--30
+ [][] [][][]\T1/pplj/m/n/10 What is the best es-ti-mate (and un-cer-tainty) for
+ each of the two 
+ []
+
+
+Overfull \hbox (7.80988pt too wide) in paragraph at lines 31--31
+ [][] [][][]\T1/pplj/m/n/10 Is it rea-son-able to be-lieve that there is a dif-
+fer-ence in the size 
+ []
+
+
+Overfull \hbox (1.93987pt too wide) in paragraph at lines 38--38
+ [][] [][][]\T1/pplj/m/n/10 Mass of the Penny, Model 1 - One True Value with Mo
+re Data[][] [][]  
+ []
+
+
+Overfull \hbox (10.9199pt too wide) in paragraph at lines 40--40
+ [][] [][][] \T1/pplj/m/n/10 You call a plumber, and they say that they can com
+e any-time 
+ []
+
+
+Overfull \hbox (1.39989pt too wide) in paragraph at lines 40--40
+ \T1/pplj/m/n/10 in the next 4 hours. The prob-a-bil-ity of them ar-riv-ing at 
+any 
+ []
+
+
+Overfull \hbox (1.10991pt too wide) in paragraph at lines 40--40
+ \T1/pplj/m/n/10 par-tic-u-lar time can be rep-re-sented with a uni-form dis-tr
+i-bu- 
+ []
+
+
+Overfull \hbox (19.5499pt too wide) in paragraph at lines 40--40
+ \T1/pplj/m/n/10 tion. What is the prob-a-bil-ity that they ar-rive in the firs
+t 20 min- 
+ []
+
+
+Overfull \hbox (9.93988pt too wide) in paragraph at lines 41--41
+ [][] [][][]\T1/pplj/m/n/10 Usage of the Cred-i-ble In-ter-val Ta-ble for the N
+or-mal Dis-tri-bu- 
+ []
+
+
+Overfull \hbox (1.65974pt too wide) in paragraph at lines 42--42
+ [][] [][][]\T1/pplj/m/n/10 Usage of the Cred-i-ble In-ter-val Ta-ble for the S
+tu-dent's $\OML/zplm/m/it/10 t$ \T1/pplj/m/n/10 Dis- 
+ []
+
+) [20] (./main.lot
+Overfull \hbox (2.5998pt too wide) in paragraph at lines 2--2
+ [][] [][][]\T1/pplj/m/n/10 Rough guide for the con-ver-sion of qual-i-ta-tive 
+la-bels to prob-a-bil-ity
+ []
+
+
+Overfull \hbox (18.75983pt too wide) in paragraph at lines 4--4
+ [][] [][][]\T1/pplj/m/n/10 Drawing $\OML/zplm/m/it/10 m$ \T1/pplj/m/n/10 9's i
+n a row, from ei-ther a High Deck or Low Deck.[][] 54 
+ []
+
+
+Overfull \hbox (16.30984pt too wide) in paragraph at lines 7--7
+ [][] [][][]\T1/pplj/m/n/10 Probabilities for flip-ping heads given a col-lec-t
+ion of bent coins[][] 69 
+ []
+
+
+Overfull \hbox (4.58986pt too wide) in paragraph at lines 8--8
+ [][] [][][]\T1/pplj/m/n/10 Probability for dif-fer-ent bent-coin mod-els, give
+n the data=9 tails, 3
+ []
+
+
+Overfull \hbox (10.91982pt too wide) in paragraph at lines 8--8
+ \T1/pplj/m/n/10 heads. The mid-dle col-umn is the non-normalized value from Ba
+yes'
+ []
+
+
+Overfull \hbox (0.56975pt too wide) in paragraph at lines 8--8
+ \T1/pplj/m/n/10 Rule, need-ing to be di-vided by $\OML/zplm/m/it/10 K$ \T1/ppl
+j/m/n/10 (the sum of the mid-dle col-umn)
+ []
+
+
+Overfull \hbox (1.94975pt too wide) in paragraph at lines 10--10
+ [][] [][][]\T1/pplj/m/n/10 Rough guide for the con-ver-sion of de-vi-a-tions a
+way from zero and
+ []
+
+
+Overfull \hbox (12.49985pt too wide) in paragraph at lines 10--10
+ \T1/pplj/m/n/10 the qual-i-ta-tive la-bels for prob-a-bil-ity val-ues for be-i
+ng a \T1/pplj/m/it/10 sig-nif-i-cant \T1/pplj/m/n/10 de-
+ []
+
+
+Overfull \hbox (14.5798pt too wide) in paragraph at lines 13--13
+ [][] [][][]\T1/pplj/m/n/10 Subset of iris petal lengths, in cen-time-ters, for
+ iris types \T1/pplj/m/it/10 Vir-ginica\T1/pplj/m/n/10 , \T1/pplj/m/it/10 Se-
+ []
+
+
+Overfull \hbox (3.46985pt too wide) in paragraph at lines 14--14
+ [][] [][][]\T1/pplj/m/n/10 Production lines are pro-duce a ball bear-ing with 
+a di-am-e-ter of ap-
+ []
+
+
+Overfull \hbox (13.76984pt too wide) in paragraph at lines 14--14
+ \T1/pplj/m/n/10 prox-i-mately 1 mi-cron. Ten ball bear-ings were ran-domly pic
+ked from
+ []
+
+
+Overfull \hbox (14.01984pt too wide) in paragraph at lines 14--14
+ \T1/pplj/m/n/10 the pro-duc-tion line (i.e. the \T1/pplj/m/it/10 First line\T1
+/pplj/m/n/10 ) at one time, and then again for
+ []
+
+
+Overfull \hbox (3.16986pt too wide) in paragraph at lines 14--14
+ \T1/pplj/m/n/10 a dif-fer-ent pro-duc-tion line (i.e. the \T1/pplj/m/it/10 Sec
+-ond line\T1/pplj/m/n/10 ). Ro-mano, A. (1977)
+ []
+
+)
+\tf@lot=\write8
+\openout8 = `main.lot'.
+
+ [21
+
+] [22
+
+])
+\openout2 = `proposal.aux'.
+
+ (./proposal.tex [23
+
+
+
+] [24]
+
+LaTeX Warning: Marginpar on page 25 moved.
+
+
+LaTeX Warning: Marginpar on page 25 moved.
+
+[25]
+
+LaTeX Warning: Marginpar on page 26 moved.
+
+) [26]
+\openout2 = `chap-introduction.aux'.
+
+ (./chap-introduction.tex
+Chapter 1.
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 6.80005pt on input line 7.
+
+LaTeX Warning: Marginpar on page 27 moved.
+
+
+LaTeX Warning: Marginpar on page 27 moved.
+
+[27
+
+
+
+
+]
+
+LaTeX Warning: Marginpar on page 28 moved.
+
+
+LaTeX Warning: Marginpar on page 28 moved.
+
+
+LaTeX Warning: Marginpar on page 28 moved.
+
+[28] [29]
+
+LaTeX Warning: Marginpar on page 30 moved.
+
+<../figs/StandardDeck.pdf, id=908, 1276.77pt x 1106.1325pt>
+File: ../figs/StandardDeck.pdf Graphic file (type pdf)
+
+<use ../figs/StandardDeck.pdf>
+Package pdftex.def Info: ../figs/StandardDeck.pdf used on input line 54.
+(pdftex.def)             Requested size: 312.00288pt x 270.30438pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+
+ []
+
+
+LaTeX Warning: Marginpar on page 30 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
+[]\T1/pplj/m/n/10 From a stan-dard ini-tially shuf-fled
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
+\T1/pplj/m/n/10 deck, we draw one card, note what
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
+\T1/pplj/m/n/10 card it is and set it aside. We then
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
+\T1/pplj/m/n/10 draw an-other card, note what card
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
+\T1/pplj/m/n/10 it is and set it aside. Con-tinue un-til
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
+\T1/pplj/m/n/10 there are no more cards, not-ing each
+ []
+
+[30 <../figs/StandardDeck.pdf>]
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <8> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 67.
+
+
+LaTeX Warning: Marginpar on page 31 moved.
+
+
+LaTeX Warning: Marginpar on page 31 moved.
+
+[31]
+
+LaTeX Warning: Marginpar on page 32 moved.
+
+[32]
+Overfull \hbox (63.07808pt too wide) in alignment at lines 136--136
+ [][][] []
+ []
+
+
+LaTeX Warning: Marginpar on page 33 moved.
+
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <9> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 170.
+[33]
+
+LaTeX Warning: Marginpar on page 34 moved.
+
+
+LaTeX Warning: Marginpar on page 34 moved.
+
+
+LaTeX Warning: Marginpar on page 34 moved.
+
+
+LaTeX Warning: Marginpar on page 34 moved.
+
+
+LaTeX Warning: Marginpar on page 34 moved.
+
+[34]
+Overfull \hbox (55.24774pt too wide) in alignment at lines 242--242
+ [][][] []
+ []
+
+
+Overfull \hbox (42.83174pt too wide) in alignment at lines 242--242
+ [][][] []
+ []
+
+
+LaTeX Warning: Marginpar on page 35 moved.
+
+Package hyperref Info: bookmark level for unknown myexample defaults to 0 on in
+put line 259.
+
+LaTeX Warning: Marginpar on page 35 moved.
+
+[35]
+
+LaTeX Warning: Marginpar on page 36 moved.
+
+[36]
+
+LaTeX Warning: Marginpar on page 37 moved.
+
+
+LaTeX Warning: Marginpar on page 37 moved.
+
+
+Overfull \hbox (1.29741pt too wide) in paragraph at lines 374--375
+[]\T1/pplj/m/n/10 The prob-a-bil-ity of get-ting ``heads'' on any given coin fl
+ip is $\OML/zplm/m/it/10 P\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 H\OT1/zplm/m/n/10
+ ) = 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--380
+[]\T1/pplj/m/n/10 less
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--380
+\T1/pplj/m/n/10 than or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--380
+\T1/pplj/m/n/10 equal to
+ []
+
+[37]
+
+LaTeX Warning: Marginpar on page 38 moved.
+
+
+LaTeX Warning: Marginpar on page 38 moved.
+
+
+LaTeX Warning: Reference `sec:lottery' on page 38 undefined on input line 420.
+
+[38]
+Overfull \hbox (29.33693pt too wide) in alignment at lines 431--433
+ [][][] []
+ []
+
+
+Overfull \hbox (34.58801pt too wide) in alignment at lines 444--444
+ [][][] []
+ []
+
+
+LaTeX Warning: Marginpar on page 39 moved.
+
+
+LaTeX Warning: Marginpar on page 39 moved.
+
+
+Overfull \hbox (33.2626pt too wide) in alignment at lines 487--487
+ [][][] []
+ []
+
+
+LaTeX Warning: Marginpar on page 39 moved.
+
+[39] [40]
+Overfull \hbox (31.64157pt too wide) in alignment at lines 538--538
+ [][][] []
+ []
+
+
+Overfull \hbox (49.72661pt too wide) in alignment at lines 538--538
+ [][][] []
+ []
+
+
+LaTeX Warning: Marginpar on page 41 moved.
+
+
+LaTeX Warning: Marginpar on page 41 moved.
+
+
+LaTeX Warning: Marginpar on page 41 moved.
+
+[41]
+
+LaTeX Warning: Marginpar on page 42 moved.
+
+[42] <../figs/venn1.pdf, id=1218, 669.0077pt x 890.92265pt>
+File: ../figs/venn1.pdf Graphic file (type pdf)
+
+<use ../figs/venn1.pdf>
+Package pdftex.def Info: ../figs/venn1.pdf used on input line 591.
+(pdftex.def)             Requested size: 101.17369pt x 134.73376pt.
+
+
+LaTeX Warning: Marginpar on page 43 moved.
+
+<../figs/venn2.pdf, id=1220, 672.2713pt x 894.18588pt>
+File: ../figs/venn2.pdf Graphic file (type pdf)
+ <use ../figs/venn2.pdf>
+Package pdftex.def Info: ../figs/venn2.pdf used on input line 599.
+(pdftex.def)             Requested size: 101.17485pt x 134.57234pt.
+
+
+LaTeX Warning: Marginpar on page 43 moved.
+
+[43 <../figs/venn1.pdf> <../figs/venn2.pdf>]
+<../figs/venn4.pdf, id=1418, 748.96223pt x 538.46973pt>
+File: ../figs/venn4.pdf Graphic file (type pdf)
+
+<use ../figs/venn4.pdf>
+Package pdftex.def Info: ../figs/venn4.pdf used on input line 623.
+(pdftex.def)             Requested size: 101.1741pt x 72.73956pt.
+
+
+LaTeX Warning: Marginpar on page 44 moved.
+
+<../figs/venn3.pdf, id=1419, 669.0074pt x 890.92265pt>
+File: ../figs/venn3.pdf Graphic file (type pdf)
+ <use ../figs/venn3.pdf>
+Package pdftex.def Info: ../figs/venn3.pdf used on input line 630.
+(pdftex.def)             Requested size: 101.17365pt x 134.73376pt.
+
+
+LaTeX Warning: Marginpar on page 44 moved.
+
+
+LaTeX Warning: Marginpar on page 44 moved.
+
+[44 <../figs/venn4.pdf> <../figs/venn3.pdf>]) [45]
+\openout2 = `chap-probability-applications.aux'.
+
+
+No file chap-probability-applications.tex.
+\openout2 = `chap-random-sequences.aux'.
+
+No file chap-random-sequences.tex.
+\openout2 = `chap-model-comparison2.aux'.
+
+(./chap-model-comparison2.tex [46
+
+
+
+
+
+
+
+]
+Chapter 2.
+
+LaTeX Warning: Marginpar on page 47 moved.
+
+
+LaTeX Warning: Marginpar on page 47 moved.
+
+<../figs/HighDeck.pdf, id=1572, 2047.65pt x 865.2325pt>
+File: ../figs/HighDeck.pdf Graphic file (type pdf)
+
+<use ../figs/HighDeck.pdf>
+Package pdftex.def Info: ../figs/HighDeck.pdf used on input line 21.
+(pdftex.def)             Requested size: 466.07544pt x 196.93971pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
+
+ []
+
+<../figs/LowDeck.pdf, id=1573, 2047.65pt x 865.2325pt>
+File: ../figs/LowDeck.pdf Graphic file (type pdf)
+
+<use ../figs/LowDeck.pdf>
+Package pdftex.def Info: ../figs/LowDeck.pdf used on input line 26.
+(pdftex.def)             Requested size: 466.07544pt x 196.93971pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
+
+ []
+
+[47] [48 <../figs/HighDeck.pdf> <../figs/LowDeck.pdf>]
+
+LaTeX Warning: Marginpar on page 49 moved.
+
+[49]
+
+LaTeX Warning: Marginpar on page 50 moved.
+
+[50]
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+[]\T1/pplj/m/n/10 ``We've drawn one card, and it is a 9, re-placed
+ []
+
+[51]
+
+LaTeX Warning: Reference `sec:birthday' on page 52 undefined on input line 171.
+
+
+
+LaTeX Warning: Marginpar on page 52 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
+[]\T1/pplj/m/n/10 ``We've drawn one card, and it is a 9, re-placed
+ []
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
+[]\T1/pplj/m/n/10 ``We know there are only two decks, and then
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
+\T1/pplj/m/n/10 we draw one card and it is a 9, re-place it and
+ []
+
+[53]
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
+[]\T1/pplj/m/n/10 ``We've drawn one card, and it is a 9, re-placed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
+\T1/pplj/m/n/10 and reshuf-fled, re-drawn and ob-served an-other
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
+\T1/pplj/m/n/10 9, re-peated this pro-ce-dure and ob-served three
+ []
+
+[54] [55]
+
+LaTeX Warning: Marginpar on page 56 moved.
+
+[56] <../figs/nines_HLN.pdf, id=1752, 879.88722pt x 663.07722pt>
+File: ../figs/nines_HLN.pdf Graphic file (type pdf)
+
+<use ../figs/nines_HLN.pdf>
+Package pdftex.def Info: ../figs/nines_HLN.pdf used on input line 358.
+(pdftex.def)             Requested size: 311.99294pt x 235.11581pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 358--361
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 358--361
+
+ []
+
+[57 <../figs/nines_HLN.pdf>]
+
+LaTeX Warning: Marginpar on page 58 moved.
+
+Package hyperref Info: bookmark level for unknown myexercise defaults to 0 on i
+nput line 367.
+[58]) [59]
+\openout2 = `chap-model-comparison-applications.aux'.
+
+ (./chap-model-comparison-applications.tex [60
+
+
+
+]
+Chapter 3.
+[61]
+
+LaTeX Warning: Marginpar on page 62 moved.
+
+
+Overfull \hbox (44.30478pt too wide) in alignment at lines 41--46
+ [][][] []
+ []
+
+<../figs/disease_plot.pdf, id=1837, 1190.64821pt x 630.55576pt>
+File: ../figs/disease_plot.pdf Graphic file (type pdf)
+
+<use ../figs/disease_plot.pdf>
+Package pdftex.def Info: ../figs/disease_plot.pdf used on input line 67.
+(pdftex.def)             Requested size: 466.07687pt x 246.82979pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
+
+ []
+
+[62] [63 <../figs/disease_plot.pdf>]
+
+LaTeX Warning: Marginpar on page 64 moved.
+
+
+LaTeX Warning: Reference `sec:monty' on page 64 undefined on input line 84.
+
+[64]
+Overfull \hbox (13.43402pt too wide) in paragraph at lines 120--121
+\T1/pplj/m/n/10 free-dom to choose ei-ther door 2 or door 3, so $\OML/zplm/m/it
+/10 P [] \OT1/zplm/m/n/10 = 
+ []
+
+
+Overfull \hbox (32.56984pt too wide) in paragraph at lines 143--156
+ [] 
+ []
+
+[65]
+
+LaTeX Warning: Marginpar on page 66 moved.
+
+
+LaTeX Warning: Marginpar on page 66 moved.
+
+<../figs/paul1.pdf, id=1886, 1020.81375pt x 378.41376pt>
+File: ../figs/paul1.pdf Graphic file (type pdf)
+
+<use ../figs/paul1.pdf>
+Package pdftex.def Info: ../figs/paul1.pdf used on input line 171.
+(pdftex.def)             Requested size: 311.99416pt x 115.65564pt.
+
+<../figs/paul2.pdf, id=1887, 1009.7725pt x 456.70625pt>
+File: ../figs/paul2.pdf Graphic file (type pdf)
+
+<use ../figs/paul2.pdf>
+Package pdftex.def Info: ../figs/paul2.pdf used on input line 172.
+(pdftex.def)             Requested size: 311.99391pt x 141.11057pt.
+
+Overfull \hbox (12.79414pt too wide) in paragraph at lines 170--176
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--176
+
+ []
+
+
+Overfull \hbox (15.84174pt too wide) in paragraph at lines 176--176
+[][]\T1/pplj/m/n/8 en.wikipedia.org/wiki/Psychic_octopus[][].  
+ []
+
+[66 <../figs/paul1.pdf> <../figs/paul2.pdf>]
+
+LaTeX Warning: Marginpar on page 67 moved.
+
+
+LaTeX Warning: Marginpar on page 67 moved.
+
+[67] [68]) [69]
+\openout2 = `chap-parameter-estimation.aux'.
+
+ (./chap-parameter-estimation.tex [70
+
+
+
+]
+Chapter 4.
+<../figs/bentcoin.jpg, id=1943, 172.645pt x 118.4425pt>
+File: ../figs/bentcoin.jpg Graphic file (type jpg)
+
+<use ../figs/bentcoin.jpg>
+Package pdftex.def Info: ../figs/bentcoin.jpg used on input line 8.
+(pdftex.def)             Requested size: 72.27066pt x 49.58104pt.
+
+
+LaTeX Warning: Marginpar on page 71 moved.
+
+
+LaTeX Warning: Marginpar on page 71 moved.
+
+[71 <../figs/bentcoin.jpg>]
+<../figs/bentcoinprobs1.pdf, id=1956, 879.88722pt x 663.07722pt>
+File: ../figs/bentcoinprobs1.pdf Graphic file (type pdf)
+
+<use ../figs/bentcoinprobs1.pdf>
+Package pdftex.def Info: ../figs/bentcoinprobs1.pdf used on input line 102.
+(pdftex.def)             Requested size: 311.99294pt x 235.11581pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--105
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--105
+
+ []
+
+[72] [73 <../figs/bentcoinprobs1.pdf>]
+
+LaTeX Warning: Marginpar on page 74 moved.
+
+<../figs/bentcoinprobs2.pdf, id=2014, 1313.50723pt x 446.26726pt>
+File: ../figs/bentcoinprobs2.pdf Graphic file (type pdf)
+
+<use ../figs/bentcoinprobs2.pdf>
+Package pdftex.def Info: ../figs/bentcoinprobs2.pdf used on input line 131.
+(pdftex.def)             Requested size: 466.06784pt x 158.34767pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--134
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--134
+
+ []
+
+[74] <../figs/bentcoinprobs3.pdf, id=2023, 1313.50723pt x 446.26726pt>
+File: ../figs/bentcoinprobs3.pdf Graphic file (type pdf)
+
+<use ../figs/bentcoinprobs3.pdf>
+Package pdftex.def Info: ../figs/bentcoinprobs3.pdf used on input line 140.
+(pdftex.def)             Requested size: 466.06784pt x 158.34767pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--143
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--143
+
+ []
+
+<../figs/bentcoinprobs5.pdf, id=2024, 1313.50723pt x 446.26726pt>
+File: ../figs/bentcoinprobs5.pdf Graphic file (type pdf)
+
+<use ../figs/bentcoinprobs5.pdf>
+Package pdftex.def Info: ../figs/bentcoinprobs5.pdf used on input line 150.
+(pdftex.def)             Requested size: 466.06784pt x 158.34767pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--153
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--153
+
+ []
+
+[75 <../figs/bentcoinprobs2.pdf> <../figs/bentcoinprobs3.pdf>]
+Overfull \hbox (7.55403pt too wide) in paragraph at lines 162--163
+[]\T1/pplj/m/n/10 We can't prac-ti-cally dis-tin-guish be-tween mod-els such as
+ $\OML/zplm/m/it/10 P [] \OT1/zplm/m/n/10 = 
+ []
+
+[76 <../figs/bentcoinprobs5.pdf>]
+<../figs/bentcoindist1.pdf, id=2153, 722.7pt x 540.21826pt>
+File: ../figs/bentcoindist1.pdf Graphic file (type pdf)
+
+<use ../figs/bentcoindist1.pdf>
+Package pdftex.def Info: ../figs/bentcoindist1.pdf used on input line 179.
+(pdftex.def)             Requested size: 130.08038pt x 97.23508pt.
+
+<../figs/bentcoindist2.pdf, id=2154, 867.24pt x 612.48827pt>
+File: ../figs/bentcoindist2.pdf Graphic file (type pdf)
+
+<use ../figs/bentcoindist2.pdf>
+Package pdftex.def Info: ../figs/bentcoindist2.pdf used on input line 198.
+(pdftex.def)             Requested size: 130.08038pt x 91.86926pt.
+
+<../figs/bentcoindist3.pdf, id=2155, 867.24pt x 612.48827pt>
+File: ../figs/bentcoindist3.pdf Graphic file (type pdf)
+
+<use ../figs/bentcoindist3.pdf>
+Package pdftex.def Info: ../figs/bentcoindist3.pdf used on input line 204.
+(pdftex.def)             Requested size: 130.08038pt x 91.86926pt.
+
+
+LaTeX Warning: Marginpar on page 77 moved.
+
+[77 <../figs/bentcoindist1.pdf> <../figs/bentcoindist2.pdf> <../figs/bentcoindi
+st3.pdf>] <../figs/beta_dist.pdf, id=2322, 722.7pt x 578.16pt>
+File: ../figs/beta_dist.pdf Graphic file (type pdf)
+
+<use ../figs/beta_dist.pdf>
+Package pdftex.def Info: ../figs/beta_dist.pdf used on input line 226.
+(pdftex.def)             Requested size: 312.00104pt x 249.60083pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--229
+
+ []
+
+
+LaTeX Warning: Marginpar on page 78 moved.
+
+
+LaTeX Warning: Marginpar on page 78 moved.
+
+<../figs/beta_dist2.pdf, id=2328, 722.7pt x 578.16pt>
+File: ../figs/beta_dist2.pdf Graphic file (type pdf)
+
+<use ../figs/beta_dist2.pdf>
+Package pdftex.def Info: ../figs/beta_dist2.pdf used on input line 241.
+(pdftex.def)             Requested size: 312.00104pt x 249.60083pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--244
+
+ []
+
+[78 <../figs/beta_dist.pdf>]
+<../figs/beta_dist3.pdf, id=2379, 722.7pt x 578.16pt>
+File: ../figs/beta_dist3.pdf Graphic file (type pdf)
+
+<use ../figs/beta_dist3.pdf>
+Package pdftex.def Info: ../figs/beta_dist3.pdf used on input line 251.
+(pdftex.def)             Requested size: 312.00104pt x 249.60083pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--254
+
+ []
+
+
+LaTeX Warning: Marginpar on page 79 moved.
+
+
+Underfull \vbox (badness 5847) has occurred while \output is active []
+
+ [79 <../figs/beta_dist2.pdf>]
+
+LaTeX Warning: Marginpar on page 80 moved.
+
+<../figs/beta_dist4.pdf, id=2424, 722.7pt x 578.16pt>
+File: ../figs/beta_dist4.pdf Graphic file (type pdf)
+
+<use ../figs/beta_dist4.pdf>
+Package pdftex.def Info: ../figs/beta_dist4.pdf used on input line 261.
+(pdftex.def)             Requested size: 330.6265pt x 264.50119pt.
+LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <10> not available
+(Font)              Font shape `T1/pplj/b/it' tried instead on input line 262.
+
+Overfull \hbox (35.84998pt too wide) in paragraph at lines 261--274
+[]|[]| 
+ []
+
+[80 <../figs/beta_dist3.pdf>]
+
+LaTeX Warning: Marginpar on page 81 moved.
+
+
+LaTeX Warning: Marginpar on page 81 moved.
+
+[81 <../figs/beta_dist4.pdf>]
+
+LaTeX Warning: Marginpar on page 82 moved.
+
+
+LaTeX Warning: Marginpar on page 82 moved.
+
+
+LaTeX Warning: Marginpar on page 82 moved.
+
+
+LaTeX Warning: Marginpar on page 82 moved.
+
+
+LaTeX Warning: Marginpar on page 82 moved.
+
+[82]
+
+LaTeX Warning: Marginpar on page 83 moved.
+
+
+LaTeX Warning: Marginpar on page 83 moved.
+
+
+LaTeX Warning: Marginpar on page 83 moved.
+
+[83]
+
+LaTeX Warning: Marginpar on page 84 moved.
+
+
+LaTeX Warning: Reference `sec:cancer_prob' on page 84 undefined on input line 3
+87.
+
+[84] <../figs/beta_dist5.pdf, id=2548, 722.7pt x 578.16pt>
+File: ../figs/beta_dist5.pdf Graphic file (type pdf)
+
+<use ../figs/beta_dist5.pdf>
+Package pdftex.def Info: ../figs/beta_dist5.pdf used on input line 423.
+(pdftex.def)             Requested size: 330.6265pt x 264.50119pt.
+
+Overfull \hbox (45.84998pt too wide) in paragraph at lines 424--437
+[]|[]| 
+ []
+
+(../python/examples/Introduction_to_Parameter_Estimation.tex
+<../python/examples/Introduction_to_Parameter_Estimation/Introduction_to_Parame
+ter_Estimation_fig0.png, id=2549, 733.74126pt x 484.81125pt>
+File: ../python/examples/Introduction_to_Parameter_Estimation/Introduction_to_P
+arameter_Estimation_fig0.png Graphic file (type png)
+
+<use ../python/examples/Introduction_to_Parameter_Estimation/Introduction_to_Pa
+rameter_Estimation_fig0.png>
+Package pdftex.def Info: ../python/examples/Introduction_to_Parameter_Estimatio
+n/Introduction_to_Parameter_Estimation_fig0.png used on input line 18.
+(pdftex.def)             Requested size: 325.2207pt x 214.8859pt.
+ [85 <../figs/beta_dist5.pdf>]
+Overfull \hbox (15.49023pt too wide) in paragraph at lines 38--38
+[]\T1/fvm/m/n/10 (0.067585986488542985, 0.38572756813238962, 0.8058795503167566
+2)[] 
+ []
+
+
+<../python/examples/Introduction_to_Parameter_Estimation/Introduction_to_Parame
+ter_Estimation_fig1.png, id=2601, 733.74126pt x 484.81125pt>
+File: ../python/examples/Introduction_to_Parameter_Estimation/Introduction_to_P
+arameter_Estimation_fig1.png Graphic file (type png)
+
+<use ../python/examples/Introduction_to_Parameter_Estimation/Introduction_to_Pa
+rameter_Estimation_fig1.png>
+Package pdftex.def Info: ../python/examples/Introduction_to_Parameter_Estimatio
+n/Introduction_to_Parameter_Estimation_fig1.png used on input line 53.
+(pdftex.def)             Requested size: 325.2207pt x 214.8859pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [86 <../python/examples/Introduction_to_Parameter_Estimation/Introduction_to_P
+arameter_Estimation_fig0.png>]
+Overfull \hbox (15.49023pt too wide) in paragraph at lines 61--61
+[]\T1/fvm/m/n/10 (0.052744950526316919, 0.31381017045569742, 0.7164179361180894
+6)[] 
+ []
+
+)) [87 <../python/examples/Introduction_to_Parameter_Estimation/Introduction_to
+_Parameter_Estimation_fig1.png>]
+\openout2 = `chap-priors-posteriors.aux'.
+
+ (./chap-priors-posteriors.tex [88
+
+
+
+]
+Chapter 5.
+
+Overfull \hbox (4.99979pt too wide) in paragraph at lines 8--9
+[]\T1/pplj/m/n/10 Notice what the pro-ce-dure of Bayes' Recipe is and how the B
+ayesian 
+ []
+
+[89]
+
+LaTeX Warning: Marginpar on page 90 moved.
+
+<../figs/gaussian1.pdf, id=2642, 867.24pt x 578.16pt>
+File: ../figs/gaussian1.pdf Graphic file (type pdf)
+
+<use ../figs/gaussian1.pdf>
+Package pdftex.def Info: ../figs/gaussian1.pdf used on input line 45.
+(pdftex.def)             Requested size: 311.99443pt x 207.99628pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
+
+ []
+
+[90 <../figs/gaussian1.pdf>]
+<../figs/gaussian_mu.pdf, id=2683, 867.24pt x 578.16pt>
+File: ../figs/gaussian_mu.pdf Graphic file (type pdf)
+
+<use ../figs/gaussian_mu.pdf>
+Package pdftex.def Info: ../figs/gaussian_mu.pdf used on input line 55.
+(pdftex.def)             Requested size: 311.99443pt x 207.99628pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
+
+ []
+
+[91 <../figs/gaussian_mu.pdf>]
+<../figs/gaussian_sigma.pdf, id=2737, 867.24pt x 578.16pt>
+File: ../figs/gaussian_sigma.pdf Graphic file (type pdf)
+
+<use ../figs/gaussian_sigma.pdf>
+Package pdftex.def Info: ../figs/gaussian_sigma.pdf used on input line 75.
+(pdftex.def)             Requested size: 311.99443pt x 207.99628pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--78
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--78
+
+ []
+
+
+LaTeX Warning: Marginpar on page 92 moved.
+
+<../figs/gaussian_standard.pdf, id=2738, 867.24pt x 578.16pt>
+File: ../figs/gaussian_standard.pdf Graphic file (type pdf)
+
+<use ../figs/gaussian_standard.pdf>
+Package pdftex.def Info: ../figs/gaussian_standard.pdf used on input line 88.
+(pdftex.def)             Requested size: 311.99443pt x 207.99628pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--91
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--91
+
+ []
+
+[92 <../figs/gaussian_sigma.pdf>] [93 <../figs/gaussian_standard.pdf>] [94]
+
+LaTeX Warning: Marginpar on page 95 moved.
+
+
+LaTeX Warning: Marginpar on page 95 moved.
+
+<../figs/gaussian_sigma_y_minus_x.pdf, id=2861, 867.24pt x 578.16pt>
+File: ../figs/gaussian_sigma_y_minus_x.pdf Graphic file (type pdf)
+
+<use ../figs/gaussian_sigma_y_minus_x.pdf>
+Package pdftex.def Info: ../figs/gaussian_sigma_y_minus_x.pdf used on input lin
+e 201.
+(pdftex.def)             Requested size: 311.99443pt x 207.99628pt.
+
+Overfull \hbox (11.99443pt too wide) in paragraph at lines 201--202
+[][]  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [95]
+
+LaTeX Warning: Marginpar on page 96 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
+[]\T1/pplj/m/n/10 number of de-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
+\T1/pplj/m/n/10 vi-a-tions away
+ []
+
+
+LaTeX Warning: Marginpar on page 96 moved.
+
+[96 <../figs/gaussian_sigma_y_minus_x.pdf>]
+
+LaTeX Warning: Marginpar on page 97 moved.
+
+[97]
+
+LaTeX Warning: Marginpar on page 98 moved.
+
+
+Overfull \hbox (7.27834pt too wide) in alignment at lines 283--283
+ [][][] []
+ []
+
+
+LaTeX Warning: Marginpar on page 98 moved.
+
+
+LaTeX Warning: Marginpar on page 98 moved.
+
+
+LaTeX Warning: Marginpar on page 98 moved.
+
+[98]
+Overfull \hbox (42.03871pt too wide) in alignment at lines 324--324
+ [][][] []
+ []
+
+
+LaTeX Warning: Marginpar on page 99 moved.
+
+
+LaTeX Warning: Marginpar on page 99 moved.
+
+
+LaTeX Warning: Marginpar on page 99 moved.
+
+LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <8> not available
+(Font)              Font shape `T1/pplj/b/it' tried instead on input line 352.
+
+Overfull \hbox (29.717pt too wide) in alignment at lines 352--352
+ [][][] []
+ []
+
+
+LaTeX Warning: Marginpar on page 99 moved.
+
+[99]
+Overfull \hbox (87.24493pt too wide) in alignment at lines 366--373
+ [][][] []
+ []
+
+
+Overfull \hbox (61.50328pt too wide) in alignment at lines 377--380
+ [][][] []
+ []
+
+[100]
+Overfull \hbox (6.4102pt too wide) in alignment at lines 406--406
+ [][][] []
+ []
+
+
+LaTeX Warning: Marginpar on page 101 moved.
+
+<../figs/beta_normal_3_12.pdf, id=2952, 722.7pt x 578.16pt>
+File: ../figs/beta_normal_3_12.pdf Graphic file (type pdf)
+
+<use ../figs/beta_normal_3_12.pdf>
+Package pdftex.def Info: ../figs/beta_normal_3_12.pdf used on input line 409.
+(pdftex.def)             Requested size: 312.00104pt x 249.60083pt.
+
+Overfull \hbox (12.00104pt too wide) in paragraph at lines 409--410
+[][]  
+ []
+
+<../figs/beta_normal_30_120.pdf, id=2953, 722.7pt x 578.16pt>
+File: ../figs/beta_normal_30_120.pdf Graphic file (type pdf)
+
+<use ../figs/beta_normal_30_120.pdf>
+Package pdftex.def Info: ../figs/beta_normal_30_120.pdf used on input line 413.
+
+(pdftex.def)             Requested size: 312.00104pt x 249.60083pt.
+
+Overfull \hbox (12.00104pt too wide) in paragraph at lines 413--414
+[][]  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [101 <../figs/beta_normal_3_12.pdf>]
+
+LaTeX Warning: Marginpar on page 102 moved.
+
+
+LaTeX Warning: Reference `eq:binomial' on page 102 undefined on input line 420.
+
+
+
+Overfull \hbox (20.35315pt too wide) in alignment at lines 431--431
+ [][][] []
+ []
+
+
+LaTeX Warning: Marginpar on page 102 moved.
+
+<../figs/binomial_normal1.pdf, id=3010, 722.7pt x 578.16pt>
+File: ../figs/binomial_normal1.pdf Graphic file (type pdf)
+
+<use ../figs/binomial_normal1.pdf>
+Package pdftex.def Info: ../figs/binomial_normal1.pdf used on input line 435.
+(pdftex.def)             Requested size: 312.00104pt x 249.60083pt.
+
+Overfull \hbox (12.00104pt too wide) in paragraph at lines 435--436
+[][]  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [102 <../figs/beta_normal_30_120.pdf>]
+<../figs/binomial_normal2.pdf, id=3067, 722.7pt x 578.16pt>
+File: ../figs/binomial_normal2.pdf Graphic file (type pdf)
+
+<use ../figs/binomial_normal2.pdf>
+Package pdftex.def Info: ../figs/binomial_normal2.pdf used on input line 439.
+(pdftex.def)             Requested size: 312.00104pt x 249.60083pt.
+
+Overfull \hbox (12.00104pt too wide) in paragraph at lines 439--440
+[][]  
+ []
+
+[103 <../figs/binomial_normal1.pdf> <../figs/binomial_normal2.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ../figs/binomial_normal2.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Marginpar on page 104 moved.
+
+
+LaTeX Warning: Marginpar on page 104 moved.
+
+
+Overfull \hbox (99.01372pt too wide) in alignment at lines 471--480
+ [][][] []
+ []
+
+[104]
+Overfull \hbox (0.50371pt too wide) in alignment at lines 507--512
+ [][][] []
+ []
+
+
+Overfull \hbox (20.77893pt too wide) in alignment at lines 522--524
+ [][][] []
+ []
+
+[105]
+Overfull \hbox (38.3073pt too wide) in alignment at lines 537--537
+ [][][] []
+ []
+
+(../python/examples/Priors_Likelihoods_and_Posteriors.tex
+<../python/examples/Priors_Likelihoods_and_Posteriors/Priors_Likelihoods_and_Po
+steriors_fig0.png, id=3197, 733.74126pt x 484.81125pt>
+File: ../python/examples/Priors_Likelihoods_and_Posteriors/Priors_Likelihoods_a
+nd_Posteriors_fig0.png Graphic file (type png)
+
+<use ../python/examples/Priors_Likelihoods_and_Posteriors/Priors_Likelihoods_an
+d_Posteriors_fig0.png>
+Package pdftex.def Info: ../python/examples/Priors_Likelihoods_and_Posteriors/P
+riors_Likelihoods_and_Posteriors_fig0.png used on input line 29.
+(pdftex.def)             Requested size: 325.2207pt x 214.8859pt.
+ [106]
+<../python/examples/Priors_Likelihoods_and_Posteriors/Priors_Likelihoods_and_Po
+steriors_fig1.png, id=3215, 715.67375pt x 490.83376pt>
+File: ../python/examples/Priors_Likelihoods_and_Posteriors/Priors_Likelihoods_a
+nd_Posteriors_fig1.png Graphic file (type png)
+
+<use ../python/examples/Priors_Likelihoods_and_Posteriors/Priors_Likelihoods_an
+d_Posteriors_fig1.png>
+Package pdftex.def Info: ../python/examples/Priors_Likelihoods_and_Posteriors/P
+riors_Likelihoods_and_Posteriors_fig1.png used on input line 63.
+(pdftex.def)             Requested size: 325.21709pt x 223.0451pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [107 <../python/examples/Priors_Likelihoods_and_Posteriors/Priors_Likelihoods_
+and_Posteriors_fig0.png>])) [108 <../python/examples/Priors_Likelihoods_and_Pos
+teriors/Priors_Likelihoods_and_Posteriors_fig1.png>]
+\openout2 = `chap-parameter-estimation-applications.aux'.
+
+
+(./chap-parameter-estimation-applications.tex
+Chapter 6.
+
+LaTeX Warning: Marginpar on page 109 moved.
+
+<../figs/normal_mu_known_sigma.pdf, id=3242, 505.89pt x 505.89pt>
+File: ../figs/normal_mu_known_sigma.pdf Graphic file (type pdf)
+
+<use ../figs/normal_mu_known_sigma.pdf>
+Package pdftex.def Info: ../figs/normal_mu_known_sigma.pdf used on input line 3
+1.
+(pdftex.def)             Requested size: 130.0848pt x 130.0848pt.
+
+
+LaTeX Warning: Marginpar on page 109 moved.
+
+[109
+
+
+
+ <../figs/normal_mu_known_sigma.pdf>]
+Overfull \hbox (17.90398pt too wide) in paragraph at lines 73--73
+ |[]\T1/pplj/m/it/12 Normal Model Again - In-fer-ence about Means and De-vi-a-t
+ions| 
+ []
+
+[110]
+Overfull \hbox (130.5437pt too wide) in alignment at lines 112--119
+ [][][] []
+ []
+
+<../figs/iris_tdist.pdf, id=3293, 867.24pt x 578.16pt>
+File: ../figs/iris_tdist.pdf Graphic file (type pdf)
+
+<use ../figs/iris_tdist.pdf>
+Package pdftex.def Info: ../figs/iris_tdist.pdf used on input line 130.
+(pdftex.def)             Requested size: 311.99443pt x 207.99628pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--133
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--133
+
+ []
+
+
+LaTeX Warning: Marginpar on page 111 moved.
+
+[111] <../figs/iris_tdist_diff.pdf, id=3300, 867.24pt x 578.16pt>
+File: ../figs/iris_tdist_diff.pdf Graphic file (type pdf)
+
+<use ../figs/iris_tdist_diff.pdf>
+Package pdftex.def Info: ../figs/iris_tdist_diff.pdf used on input line 145.
+(pdftex.def)             Requested size: 311.99443pt x 207.99628pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--148
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--148
+
+ []
+
+
+LaTeX Warning: Marginpar on page 112 moved.
+
+[112 <../figs/iris_tdist.pdf>]
+Overfull \hbox (104.03995pt too wide) in alignment at lines 189--194
+ [][][] []
+ []
+
+[113 <../figs/iris_tdist_diff.pdf>]
+
+LaTeX Warning: Marginpar on page 114 moved.
+
+[114]pdfTeX warning (ext4): destination with the same identifier (name{cite.ber
+ry1996statistics}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.245 ...istics textbook\cite{berry1996statistics}
+                                                  :
+
+LaTeX Warning: Marginpar on page 115 moved.
+
+<../figs/average_weather_jul4_prov.png, id=3422, 653.44125pt x 321.2pt>
+File: ../figs/average_weather_jul4_prov.png Graphic file (type png)
+
+<use ../figs/average_weather_jul4_prov.png>
+Package pdftex.def Info: ../figs/average_weather_jul4_prov.png used on input li
+ne 281.
+(pdftex.def)             Requested size: 311.9931pt x 153.36066pt.
+
+Overfull \hbox (11.9931pt too wide) in paragraph at lines 281--282
+[][]  
+ []
+
+[115]
+
+LaTeX Warning: Marginpar on page 116 moved.
+
+[116 <../figs/average_weather_jul4_prov.png>]
+
+LaTeX Warning: Marginpar on page 117 moved.
+
+<../figs/mass1960_1974.pdf, id=3435, 1156.32pt x 650.43pt>
+File: ../figs/mass1960_1974.pdf Graphic file (type pdf)
+
+<use ../figs/mass1960_1974.pdf>
+Package pdftex.def Info: ../figs/mass1960_1974.pdf used on input line 359.
+(pdftex.def)             Requested size: 433.61894pt x 243.91064pt.
+
+Overfull \hbox (121.61894pt too wide) in paragraph at lines 359--361
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--361
+
+ []
+
+[117] [118 <../figs/mass1960_1974.pdf>]
+Overfull \hbox (28.87512pt too wide) in alignment at lines 389--393
+ [][][] []
+ []
+
+<../figs/mass1965_1974_1_value.pdf, id=3477, 1156.32pt x 650.43pt>
+File: ../figs/mass1965_1974_1_value.pdf Graphic file (type pdf)
+
+<use ../figs/mass1965_1974_1_value.pdf>
+Package pdftex.def Info: ../figs/mass1965_1974_1_value.pdf used on input line 4
+16.
+(pdftex.def)             Requested size: 433.61894pt x 243.91064pt.
+
+Overfull \hbox (121.61894pt too wide) in paragraph at lines 416--416
+ [] 
+ []
+
+<../figs/mass1965_1974_1_value_dist.pdf, id=3478, 1156.32pt x 650.43pt>
+File: ../figs/mass1965_1974_1_value_dist.pdf Graphic file (type pdf)
+
+<use ../figs/mass1965_1974_1_value_dist.pdf>
+Package pdftex.def Info: ../figs/mass1965_1974_1_value_dist.pdf used on input l
+ine 417.
+(pdftex.def)             Requested size: 433.61894pt x 243.91064pt.
+
+Overfull \hbox (121.61894pt too wide) in paragraph at lines 417--417
+ [] 
+ []
+
+[119] [120 <../figs/mass1965_1974_1_value.pdf> <../figs/mass1965_1974_1_value_d
+ist.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ../figs/mass1965_1974_1_value_dist.p
+df): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Overfull \hbox (28.87512pt too wide) in alignment at lines 467--470
+ [][][] []
+ []
+
+[121] <../figs/mass1965_2003_1_value.pdf, id=3634, 1156.32pt x 650.43pt>
+File: ../figs/mass1965_2003_1_value.pdf Graphic file (type pdf)
+
+<use ../figs/mass1965_2003_1_value.pdf>
+Package pdftex.def Info: ../figs/mass1965_2003_1_value.pdf used on input line 4
+98.
+(pdftex.def)             Requested size: 433.61894pt x 243.91064pt.
+
+Overfull \hbox (121.61894pt too wide) in paragraph at lines 498--498
+ [] 
+ []
+
+[122] <../figs/mass1965_2003_2_value.pdf, id=3643, 1156.32pt x 650.43pt>
+File: ../figs/mass1965_2003_2_value.pdf Graphic file (type pdf)
+
+<use ../figs/mass1965_2003_2_value.pdf>
+Package pdftex.def Info: ../figs/mass1965_2003_2_value.pdf used on input line 5
+37.
+(pdftex.def)             Requested size: 361.3491pt x 203.25887pt.
+
+Overfull \hbox (49.3491pt too wide) in paragraph at lines 537--537
+ [] 
+ []
+
+[123 <../figs/mass1965_2003_1_value.pdf>]
+<../figs/mass1965_2003_2_value_diff.pdf, id=3726, 1156.32pt x 650.43pt>
+File: ../figs/mass1965_2003_2_value_diff.pdf Graphic file (type pdf)
+
+<use ../figs/mass1965_2003_2_value_diff.pdf>
+Package pdftex.def Info: ../figs/mass1965_2003_2_value_diff.pdf used on input l
+ine 558.
+(pdftex.def)             Requested size: 361.3491pt x 203.25887pt.
+
+Overfull \hbox (49.3491pt too wide) in paragraph at lines 558--558
+ [] 
+ []
+
+(../python/examples/Applications_of_Parameter_Estimation.tex [124 <../figs/mass
+1965_2003_2_value.pdf>] [125 <../figs/mass1965_2003_2_value_diff.pdf>]
+<../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
+ter_Estimation_fig0.png, id=3886, 717.68124pt x 489.83pt>
+File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
+arameter_Estimation_fig0.png Graphic file (type png)
+
+<use ../python/examples/Applications_of_Parameter_Estimation/Applications_of_Pa
+rameter_Estimation_fig0.png>
+Package pdftex.def Info: ../python/examples/Applications_of_Parameter_Estimatio
+n/Applications_of_Parameter_Estimation_fig0.png used on input line 97.
+(pdftex.def)             Requested size: 325.22041pt x 221.96861pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [126]
+<../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
+ter_Estimation_fig1.png, id=3914, 714.67pt x 484.81125pt>
+File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
+arameter_Estimation_fig1.png Graphic file (type png)
+
+<use ../python/examples/Applications_of_Parameter_Estimation/Applications_of_Pa
+rameter_Estimation_fig1.png>
+Package pdftex.def Info: ../python/examples/Applications_of_Parameter_Estimatio
+n/Applications_of_Parameter_Estimation_fig1.png used on input line 103.
+(pdftex.def)             Requested size: 325.21898pt x 220.61905pt.
+ [127 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
+Parameter_Estimation_fig0.png> <../python/examples/Applications_of_Parameter_Es
+timation/Applications_of_Parameter_Estimation_fig1.png>]
+<../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
+ter_Estimation_fig2.png, id=3928, 752.8125pt x 484.81125pt>
+File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
+arameter_Estimation_fig2.png Graphic file (type png)
+
+<use ../python/examples/Applications_of_Parameter_Estimation/Applications_of_Pa
+rameter_Estimation_fig2.png>
+Package pdftex.def Info: ../python/examples/Applications_of_Parameter_Estimatio
+n/Applications_of_Parameter_Estimation_fig2.png used on input line 132.
+(pdftex.def)             Requested size: 325.21935pt x 209.44125pt.
+
+Overfull \hbox (10.3732pt too wide) in paragraph at lines 140--140
+[]\T1/fvm/m/n/10 (0.98997171634278669, 0.99810794743679487, 0.99993082805373457
+)[] 
+ []
+
+
+<../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
+ter_Estimation_fig3.png, id=3929, 509.905pt x 317.185pt>
+File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
+arameter_Estimation_fig3.png Graphic file (type png)
+
+<use ../python/examples/Applications_of_Parameter_Estimation/Applications_of_Pa
+rameter_Estimation_fig3.png>
+Package pdftex.def Info: ../python/examples/Applications_of_Parameter_Estimatio
+n/Applications_of_Parameter_Estimation_fig3.png used on input line 153.
+(pdftex.def)             Requested size: 325.23325pt x 202.31042pt.
+ [128 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
+Parameter_Estimation_fig2.png> <../python/examples/Applications_of_Parameter_Es
+timation/Applications_of_Parameter_Estimation_fig3.png>]
+Overfull \hbox (10.3732pt too wide) in paragraph at lines 161--161
+[]\T1/fvm/m/n/10 (0.39025744042757882, 0.67619553741481253, 0.89073655618090186
+)[] 
+ []
+
+
+<../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
+ter_Estimation_fig4.png, id=3946, 779.91376pt x 518.93875pt>
+File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
+arameter_Estimation_fig4.png Graphic file (type png)
+
+<use ../python/examples/Applications_of_Parameter_Estimation/Applications_of_Pa
+rameter_Estimation_fig4.png>
+Package pdftex.def Info: ../python/examples/Applications_of_Parameter_Estimatio
+n/Applications_of_Parameter_Estimation_fig4.png used on input line 203.
+(pdftex.def)             Requested size: 325.21715pt x 216.39287pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [129]
+<../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
+ter_Estimation_fig5.png, id=3961, 758.835pt x 508.90125pt>
+File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
+arameter_Estimation_fig5.png Graphic file (type png)
+
+<use ../python/examples/Applications_of_Parameter_Estimation/Applications_of_Pa
+rameter_Estimation_fig5.png>
+Package pdftex.def Info: ../python/examples/Applications_of_Parameter_Estimatio
+n/Applications_of_Parameter_Estimation_fig5.png used on input line 215.
+(pdftex.def)             Requested size: 325.21585pt x 218.1011pt.
+ [130 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
+Parameter_Estimation_fig4.png> <../python/examples/Applications_of_Parameter_Es
+timation/Applications_of_Parameter_Estimation_fig5.png>]
+<../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
+ter_Estimation_fig6.png, id=3979, 779.91376pt x 518.93875pt>
+File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
+arameter_Estimation_fig6.png Graphic file (type png)
+
+<use ../python/examples/Applications_of_Parameter_Estimation/Applications_of_Pa
+rameter_Estimation_fig6.png>
+Package pdftex.def Info: ../python/examples/Applications_of_Parameter_Estimatio
+n/Applications_of_Parameter_Estimation_fig6.png used on input line 237.
+(pdftex.def)             Requested size: 325.21715pt x 216.39287pt.
+ [131 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
+Parameter_Estimation_fig6.png>]
+<../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
+ter_Estimation_fig7.png, id=3996, 762.85pt x 508.90125pt>
+File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
+arameter_Estimation_fig7.png Graphic file (type png)
+
+<use ../python/examples/Applications_of_Parameter_Estimation/Applications_of_Pa
+rameter_Estimation_fig7.png>
+Package pdftex.def Info: ../python/examples/Applications_of_Parameter_Estimatio
+n/Applications_of_Parameter_Estimation_fig7.png used on input line 293.
+(pdftex.def)             Requested size: 325.21384pt x 216.95186pt.
+
+<../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
+ter_Estimation_fig8.png, id=3997, 766.865pt x 518.93875pt>
+File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
+arameter_Estimation_fig8.png Graphic file (type png)
+
+<use ../python/examples/Applications_of_Parameter_Estimation/Applications_of_Pa
+rameter_Estimation_fig8.png>
+Package pdftex.def Info: ../python/examples/Applications_of_Parameter_Estimatio
+n/Applications_of_Parameter_Estimation_fig8.png used on input line 308.
+(pdftex.def)             Requested size: 325.21709pt x 220.0749pt.
+ [132 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
+Parameter_Estimation_fig7.png>]
+<../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
+ter_Estimation_fig9.png, id=4025, 734.745pt x 484.81125pt>
+File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
+arameter_Estimation_fig9.png Graphic file (type png)
+
+<use ../python/examples/Applications_of_Parameter_Estimation/Applications_of_Pa
+rameter_Estimation_fig9.png>
+Package pdftex.def Info: ../python/examples/Applications_of_Parameter_Estimatio
+n/Applications_of_Parameter_Estimation_fig9.png used on input line 332.
+(pdftex.def)             Requested size: 325.21713pt x 214.59pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [133 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
+Parameter_Estimation_fig8.png>] [134 <../python/examples/Applications_of_Parame
+ter_Estimation/Applications_of_Parameter_Estimation_fig9.png>]
+<../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
+ter_Estimation_fig10.png, id=4077, 739.76375pt x 508.90125pt>
+File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
+arameter_Estimation_fig10.png Graphic file (type png)
+
+<use ../python/examples/Applications_of_Parameter_Estimation/Applications_of_Pa
+rameter_Estimation_fig10.png>
+Package pdftex.def Info: ../python/examples/Applications_of_Parameter_Estimatio
+n/Applications_of_Parameter_Estimation_fig10.png used on input line 390.
+(pdftex.def)             Requested size: 325.21486pt x 223.72311pt.
+)) [135 <../python/examples/Applications_of_Parameter_Estimation/Applications_o
+f_Parameter_Estimation_fig10.png>]
+\openout2 = `chap-conclusions.aux'.
+
+
+(./chap-conclusions.tex [136
+
+
+
+]
+Chapter 7.
+
+Underfull \vbox (badness 1163) has occurred while \output is active []
+
+ [137])
+[138] (./main.bblpdfTeX warning (ext4): destination with the same identifier (n
+ame{cite.wiki:psychic_octopus}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.8 \bibitem[wik(2012)]{wiki:psychic_octopus}
+                                             pdfTeX warning (ext4): destination
+ with the same identifier (name{cite.agresti2000simple}) has been already used,
+ duplicate ignored
+<to be read again> 
+                   \relax 
+l.12 ...gresti and Caffo(2000)]{agresti2000simple}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{cite.Bache:2013fk}) has been already used,
+ duplicate ignored
+<to be read again> 
+                   \relax 
+l.19 ...tem[Bache and Lichman(2013)]{Bache:2013fk}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{cite.berry1996statistics}) has been alread
+y used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.24 \bibitem[Berry(1996)]{berry1996statistics}
+                                               pdfTeX warning (ext4): destinati
+on with the same identifier (name{cite.gelman2007data}) has been already used, 
+duplicate ignored
+<to be read again> 
+                   \relax 
+l.29 ...an, Hill, and Corporation]{gelman2007data}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{cite.hand2011handbook}) has been already u
+sed, duplicate ignored
+<to be read again> 
+                   \relax 
+l.36   Ostrowski]{hand2011handbook}
+                                   pdfTeX warning (ext4): destination with the 
+same identifier (name{cite.Heaps:1978qy}) has been already used, duplicate igno
+red
+<to be read again> 
+                   \relax 
+l.41 \bibitem[Heaps(1978)]{Heaps:1978qy}
+                                        pdfTeX warning (ext4): destination with
+ the same identifier (name{cite.Jaynes2003}) has been already used, duplicate i
+gnored
+<to be read again> 
+                   \relax 
+l.47 \bibitem[Jaynes(2003)]{Jaynes2003}
+                                       pdfTeX warning (ext4): destination with 
+the same identifier (name{cite.KAY:2003uq}) has been already used, duplicate ig
+nored
+<to be read again> 
+                   \relax 
+l.53 \bibitem[Kay(2003)]{KAY:2003uq}
+                                    pdfTeX warning (ext4): destination with the
+ same identifier (name{cite.Lindley76}) has been already used, duplicate ignore
+d
+<to be read again> 
+                   \relax 
+l.58 ...tem[Lindley and Phillips(1976)]{Lindley76}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{cite.McGrayne:2011fk}) has been already us
+ed, duplicate ignored
+<to be read again> 
+                   \relax 
+l.64 \bibitem[McGrayne(2011)]{McGrayne:2011fk}
+                                              pdfTeX warning (ext4): destinatio
+n with the same identifier (name{cite.Oberg:2008fj}) has been already used, dup
+licate ignored
+<to be read again> 
+                   \relax 
+l.72 \bibitem[Oberg(2008)]{Oberg:2008fj}
+                                        pdfTeX warning (ext4): destination with
+ the same identifier (name{cite.randi1982flim}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.77 \bibitem[Randi(1982)]{randi1982flim}
+                                          [139
+
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{cite.sagande
+mon}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.83 \bibitem[Sagan(1996)]{sagandemon}
+                                      pdfTeX warning (ext4): destination with t
+he same identifier (name{cite.SULLIVAN:fk}) has been already used, duplicate ig
+nored
+<to be read again> 
+                   \relax 
+l.88 \bibitem[Sullivan(1968)]{SULLIVAN:fk}
+                                          pdfTeX warning (ext4): destination wi
+th the same identifier (name{cite.tversky2005cold}) has been already used, dupl
+icate ignored
+<to be read again> 
+                   \relax 
+l.93 ...ersky and Gilovich(2005)]{tversky2005cold}
+                                                  ) [140]
+\openout2 = `chap-computational.aux'.
+
+
+(./chap-computational.tex
+Appendix A.
+) [141
+
+
+]
+\openout2 = `chap-notation.aux'.
+
+ (./chap-notation.tex [142
+
+
+
+]
+Appendix B.
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+[]|\T1/pplj/m/n/10 The pa-ram-e-ters in a bi-no-mi-al/-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+[]|\T1/pplj/m/n/10 the mean in a pois-son dis-tri-bu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+[]|\T1/pplj/m/n/10 the mean in a nor-mal dis-tri-bu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+[]|\T1/pplj/m/n/10 Represents the con-stant
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+\T1/pplj/m/n/10 3.1415$[]$, the ra-tio of the cir-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+\T1/pplj/m/n/10 cum-fer-ence to the di-am-e-ter of a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+[]|\T1/pplj/m/n/10 A prod-uct of a se-ries of num-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+[]|\T1/pplj/m/n/10 The stan-dard width pa-ram-e-ter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+[]|\T1/pplj/m/n/10 A dis-tri-bu-tion re-lated to the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+\T1/pplj/m/n/10 sum of nor-mally dis-tributed
+ []
+
+
+Overfull \hbox (12.69362pt too wide) in paragraph at lines 7--45
+[][]  
+ []
+
+[143]
+
+LaTeX Warning: Marginpar on page 144 moved.
+
+[144]) [145]
+\openout2 = `chap-distributions.aux'.
+
+ (./chap-distributions.tex [146
+
+
+
+]
+Appendix C.
+
+LaTeX Warning: Marginpar on page 147 moved.
+
+<../figs/distributions_1.pdf, id=4146, 722.7pt x 578.16pt>
+File: ../figs/distributions_1.pdf Graphic file (type pdf)
+
+<use ../figs/distributions_1.pdf>
+Package pdftex.def Info: ../figs/distributions_1.pdf used on input line 17.
+(pdftex.def)             Requested size: 346.89206pt x 277.51364pt.
+
+Overfull \hbox (34.89206pt too wide) in paragraph at lines 17--20
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--20
+
+ []
+
+
+Overfull \hbox (9.14153pt too wide) detected at line 27
+\OML/zplm/m/it/8 p\OT1/zplm/m/n/8 (\OML/zplm/m/it/8 x\OT1/zplm/m/n/8 ) = [][][]
+ \OML/zplm/m/it/8 < x < []
+ []
+
+
+LaTeX Warning: Marginpar on page 147 moved.
+
+[147]
+File: ../figs/distributions_1.pdf Graphic file (type pdf)
+ <use ../figs/distributions_1.pdf>
+Package pdftex.def Info: ../figs/distributions_1.pdf used on input line 29.
+(pdftex.def)             Requested size: 346.89206pt x 277.51364pt.
+
+Overfull \hbox (34.89206pt too wide) in paragraph at lines 29--32
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--32
+
+ []
+
+<../figs/distributions_plumber.pdf, id=4152, 722.7pt x 578.16pt>
+File: ../figs/distributions_plumber.pdf Graphic file (type pdf)
+
+<use ../figs/distributions_plumber.pdf>
+Package pdftex.def Info: ../figs/distributions_plumber.pdf used on input line 4
+2.
+(pdftex.def)             Requested size: 346.89206pt x 277.51364pt.
+
+Overfull \hbox (34.89206pt too wide) in paragraph at lines 42--45
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--45
+
+ []
+
+
+LaTeX Warning: Marginpar on page 148 moved.
+
+[148 <../figs/distributions_1.pdf>] [149 <../figs/distributions_plumber.pdf>]
+Overfull \hbox (10.86345pt too wide) in alignment at lines 71--71
+ [][][] []
+ []
+
+
+LaTeX Warning: Marginpar on page 150 moved.
+
+<../figs/coinflips5.pdf, id=4224, 879.88722pt x 663.07722pt>
+File: ../figs/coinflips5.pdf Graphic file (type pdf)
+
+<use ../figs/coinflips5.pdf>
+Package pdftex.def Info: ../figs/coinflips5.pdf used on input line 74.
+(pdftex.def)             Requested size: 311.99294pt x 235.11581pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--77
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--77
+
+ []
+
+
+Overfull \hbox (44.0935pt too wide) in alignment at lines 94--94
+ [][][] []
+ []
+
+
+LaTeX Warning: Marginpar on page 150 moved.
+
+[150 <../figs/coinflips5.pdf>]
+File: ../figs/beta_dist4.pdf Graphic file (type pdf)
+ <use ../figs/beta_dist4.pdf>
+Package pdftex.def Info: ../figs/beta_dist4.pdf used on input line 100.
+(pdftex.def)             Requested size: 312.00104pt x 249.60083pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--103
+
+ []
+
+File: ../figs/gaussian1.pdf Graphic file (type pdf)
+<use ../figs/gaussian1.pdf>
+Package pdftex.def Info: ../figs/gaussian1.pdf used on input line 109.
+(pdftex.def)             Requested size: 311.99443pt x 207.99628pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--112
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--112
+
+ []
+
+
+Overfull \hbox (18.44286pt too wide) in alignment at lines 125--125
+ [][][] []
+ []
+
+
+LaTeX Warning: Marginpar on page 151 moved.
+
+[151]) [152]
+\openout2 = `chap-tables.aux'.
+
+ (./chap-tables.tex
+Appendix D.
+<../figs/z_table_CI.pdf, id=4289, 804.08217pt x 549.28963pt>
+File: ../figs/z_table_CI.pdf Graphic file (type pdf)
+
+<use ../figs/z_table_CI.pdf>
+Package pdftex.def Info: ../figs/z_table_CI.pdf used on input line 5.
+(pdftex.def)             Requested size: 311.99577pt x 213.13249pt.
+ (./z_table_CI.tex) [153
+
+
+
+ <../figs/z_table_CI.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 25.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 25.
+
+(./t_table_CI.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+[]|\T1/pplj/b/n/10 Credible
+ []
+
+
+Overfull \hbox (127.64232pt too wide) in paragraph at lines 3--14
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+[]|\T1/pplj/b/n/10 Credible
+ []
+
+
+Overfull \hbox (77.64232pt too wide) in paragraph at lines 17--28
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[]|\T1/pplj/b/n/10 Credible
+ []
+
+
+Overfull \hbox (77.64232pt too wide) in paragraph at lines 31--42
+ [] 
+ []
+
+
+Underfull \vbox (badness 1189) has occurred while \output is active []
+
+ [154]
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+[]|\T1/pplj/b/n/10 Credible
+ []
+
+
+Overfull \hbox (77.64232pt too wide) in paragraph at lines 45--56
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+[]|\T1/pplj/b/n/10 Credible
+ []
+
+
+Overfull \hbox (77.64232pt too wide) in paragraph at lines 59--70
+ [] 
+ []
+
+) [155] (./z_table.tex
+<../figs/z_table_crit.pdf, id=4343, 867.24pt x 578.16pt>
+File: ../figs/z_table_crit.pdf Graphic file (type pdf)
+
+<use ../figs/z_table_crit.pdf>
+Package pdftex.def Info: ../figs/z_table_crit.pdf used on input line 2.
+(pdftex.def)             Requested size: 180.67015pt x 120.44676pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+[]|\T1/pplj/b/n/10 Area
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+[]|\T1/pplj/b/n/10 Area
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+[]|\T1/pplj/b/n/10 Area
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+[]|\T1/pplj/b/n/10 Area
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+[]|\T1/pplj/b/n/10 Area
+ []
+
+
+Overfull \hbox (164.82498pt too wide) in paragraph at lines 4--186
+[][]  
+ []
+
+[156 <../figs/z_table_crit.pdf>]
+File: ../figs/z_table_crit.pdf Graphic file (type pdf)
+ <use ../figs/z_table_crit.pdf>
+Package pdftex.def Info: ../figs/z_table_crit.pdf used on input line 190.
+(pdftex.def)             Requested size: 180.67015pt x 120.44676pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+[]|\T1/pplj/b/n/10 Area
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+[]|\T1/pplj/b/n/10 Area
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+[]|\T1/pplj/b/n/10 Area
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
+[]|\T1/pplj/b/n/10 Area
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
+[]|\T1/pplj/b/n/10 Area
+ []
+
+
+Overfull \hbox (164.82498pt too wide) in paragraph at lines 192--374
+[][]  
+ []
+
+[157]
+File: ../figs/z_table_crit.pdf Graphic file (type pdf)
+ <use ../figs/z_table_crit.pdf>
+Package pdftex.def Info: ../figs/z_table_crit.pdf used on input line 378.
+(pdftex.def)             Requested size: 180.67015pt x 120.44676pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 383--384
+[]|\T1/pplj/b/n/10 Area
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--420
+[]|\T1/pplj/b/n/10 Area
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 455--456
+[]|\T1/pplj/b/n/10 Area
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 491--492
+[]|\T1/pplj/b/n/10 Area
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 527--528
+[]|\T1/pplj/b/n/10 Area
+ []
+
+
+Overfull \hbox (158.16498pt too wide) in paragraph at lines 380--562
+[][]  
+ []
+
+[158]
+File: ../figs/z_table_crit.pdf Graphic file (type pdf)
+ <use ../figs/z_table_crit.pdf>
+Package pdftex.def Info: ../figs/z_table_crit.pdf used on input line 566.
+(pdftex.def)             Requested size: 180.67015pt x 120.44676pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 571--572
+[]|\T1/pplj/b/n/10 Area
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--608
+[]|\T1/pplj/b/n/10 Area
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 643--644
+[]|\T1/pplj/b/n/10 Area
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 679--680
+[]|\T1/pplj/b/n/10 Area
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 715--716
+[]|\T1/pplj/b/n/10 Area
+ []
+
+
+Overfull \hbox (148.17497pt too wide) in paragraph at lines 568--750
+[][]  
+ []
+
+[159]
+File: ../figs/z_table_crit.pdf Graphic file (type pdf)
+ <use ../figs/z_table_crit.pdf>
+Package pdftex.def Info: ../figs/z_table_crit.pdf used on input line 754.
+(pdftex.def)             Requested size: 180.67015pt x 120.44676pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 759--760
+[]|\T1/pplj/b/n/10 Area
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 795--796
+[]|\T1/pplj/b/n/10 Area
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 831--832
+[]|\T1/pplj/b/n/10 Area
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 867--868
+[]|\T1/pplj/b/n/10 Area
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 903--904
+[]|\T1/pplj/b/n/10 Area
+ []
+
+
+Overfull \hbox (148.17497pt too wide) in paragraph at lines 756--938
+[][]  
+ []
+
+[160]))
+No file main.ind.
+\tf@thm=\write9
+\openout9 = `main.thm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 109.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 109.
+(./main.aux (./frontmatter.aux) (./proposal.aux) (./chap-introduction.aux)
+(./chap-probability-applications.aux) (./chap-random-sequences.aux)
+(./chap-model-comparison2.aux) (./chap-model-comparison-applications.aux)
+(./chap-parameter-estimation.aux) (./chap-priors-posteriors.aux)
+(./chap-parameter-estimation-applications.aux) (./chap-conclusions.aux)
+(./chap-computational.aux) (./chap-notation.aux) (./chap-distributions.aux)
+(./chap-tables.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 109.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 109.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 4D52D0C9E224FCC89E713CF611B3FA5D;10425.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
+ ) 
+Here is how much of TeX's memory you used:
+ 16530 strings out of 493117
+ 243025 string characters out of 6135433
+ 474978 words of memory out of 5000000
+ 18719 multiletter control sequences out of 15000+600000
+ 144900 words of font info for 226 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 50i,20n,72p,1546b,1783s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
+exlive/2014/texmf-dist/fonts/enc/dvips/arev/arevoms.enc}</usr/local/texlive/201
+4/texmf-dist/fonts/type1/public/arev/ArevSans-Roman.pfb></usr/local/texlive/201
+4/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2014
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2014/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texm
+f-dist/fonts/type1/public/fpl/fplbij8a.pfb></usr/local/texlive/2014/texmf-dist/
+fonts/type1/public/fpl/fplbj8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
+pe1/public/mathpazo/fplmr.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/p
+ublic/mathpazo/fplmri.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publi
+c/fpl/fplrc8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/fpl/fp
+lrij8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/bera/fvmr8a.p
+fb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local
+/texlive/2014/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2014
+/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (160 pages, 4500232 bytes).
+PDF statistics:
+ 4586 PDF objects out of 5155 (max. 8388607)
+ 692 named destinations out of 1000 (max. 500000)
+ 4369 words of extra memory for PDF output out of 10000 (max. 10000000)
+
