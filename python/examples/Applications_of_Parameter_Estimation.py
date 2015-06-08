@@ -1,29 +1,31 @@
-# -*- coding: utf-8 -*-
-# <nbformat>3.0</nbformat>
 
-# <codecell>
+# coding: utf-8
+
+# In[32]:
 
 from sie import *
 
-# <markdowncell>
 
 # ## Iris Example
 
-# <codecell>
+# In[33]:
 
 data=load_data('data/iris.csv')
 
-# <codecell>
+
+# In[34]:
 
 x_sertosa=data[data['class']=='Iris-setosa']['petal length [cm]']
 x_virginica=data[data['class']=='Iris-virginica']['petal length [cm]']
 x_versicolor=data[data['class']=='Iris-versicolor']['petal length [cm]']
 
-# <codecell>
+
+# In[40]:
 
 print x_sertosa[:10]  # print the first 10
 
-# <codecell>
+
+# In[41]:
 
 x=x_sertosa
 mu=sample_mean(x)
@@ -35,7 +37,8 @@ print "total number of data points:",N
 print "best estimate:",mu
 print "uncertainty:",sigma
 
-# <codecell>
+
+# In[42]:
 
 x=x_versicolor
 mu=sample_mean(x)
@@ -47,7 +50,8 @@ print "total number of data points:",N
 print "best estimate:",mu
 print "uncertainty:",sigma
 
-# <codecell>
+
+# In[43]:
 
 x=x_virginica
 mu=sample_mean(x)
@@ -59,75 +63,80 @@ print "total number of data points:",N
 print "best estimate:",mu
 print "uncertainty:",sigma
 
-# <codecell>
+
+# In[8]:
 
 distplot2([t_sertosa,t_versicolor,t_virginica],show_quartiles=False)
 
-# <codecell>
+
+# In[9]:
 
 distplot(t_virginica)
 
-# <codecell>
+
+# In[10]:
 
 credible_interval(t_versicolor)
 
-# <codecell>
+
+# In[11]:
 
 credible_interval(t_virginica)
 
-# <markdowncell>
 
 # ## Sunrise
 
-# <codecell>
+# In[12]:
 
 dist=beta(h=365,N=365)
 
-# <codecell>
+
+# In[13]:
 
 distplot(dist)
 
-# <codecell>
+
+# In[14]:
 
 credible_interval(dist)
 
-# <markdowncell>
 
 # ## Cancer Example
 
-# <codecell>
+# In[15]:
 
 dist=beta(h=7,N=10)
 
-# <codecell>
+
+# In[16]:
 
 distplot(dist,figsize=(8,5))
 
-# <codecell>
+
+# In[17]:
 
 credible_interval(dist)
 
-# <markdowncell>
 
 # Essentially no evidence of any effect over 50 percent.
 
-# <markdowncell>
-
 # ## Pennies
 
-# <codecell>
+# In[5]:
 
 data1=load_data('data/pennies1.csv')
 print data1
 year,mass=data1['Year'],data1['Mass [g]']
 
-# <codecell>
+
+# In[6]:
 
 plot(year,mass,'o')
 xlabel('year')
 ylabel('Mass per Penny [g]')
 
-# <codecell>
+
+# In[7]:
 
 x=mass
 mu=sample_mean(x)
@@ -137,30 +146,32 @@ t_penny1=tdist(N,mu,sigma)
 
 distplot(t_penny1,label='mass [g]')
 
-# <codecell>
+
+# In[8]:
 
 CI=credible_interval(t_penny1,percentage=99)
 print CI
 
-# <codecell>
+
+# In[9]:
 
 plot(year,mass,'o')
 credible_interval_plot(t_penny1,percentage=99)
 xlabel('year')
 ylabel('Mass per Penny [g]')
 
-# <markdowncell>
 
 # ### Do the 2 datasets
 
-# <codecell>
+# In[10]:
 
 data2=load_data('data/pennies2.csv')
 print data2
 year1,mass1=year,mass
 year2,mass2=data2['Year'],data2['Mass [g]']
 
-# <codecell>
+
+# In[11]:
 
 x=mass1
 mu=sample_mean(x)
@@ -177,7 +188,8 @@ t_penny2=tdist(N,mu,sigma)
 distplot2([t_penny1,t_penny2],show_quartiles=False,label='mass [g]')
 legend([r'$\mu_1$',r'$\mu_2$'])
 
-# <codecell>
+
+# In[12]:
 
 plot(year1,mass1,'o')
 credible_interval_plot(t_penny1,percentage=99)
@@ -186,11 +198,10 @@ credible_interval_plot(t_penny2,percentage=99,xlim=[1989,2005])
 xlabel('year')
 ylabel('Mass per Penny [g]')
 
-# <markdowncell>
 
 # ### Distribution of the difference, normal approximation
 
-# <codecell>
+# In[13]:
 
 N1=len(mass1)
 N2=len(mass2)
@@ -209,46 +220,49 @@ sigma_delta12=sqrt(sigma1**2+sigma2**2)
 dist_delta=normal(delta_12,sigma_delta12)
 distplot(dist_delta)
 
-# <markdowncell>
 
 # clearly larger than zero at well over the 99% level.
 
-# <markdowncell>
-
 # ## Ball Bearing Sizes
 
-# <codecell>
+# In[23]:
 
 data1=[1.18,1.42,0.69,0.88,1.62,1.09,1.53,1.02,1.19,1.32]
 data2=[1.72,1.62,1.69,0.79,1.79,0.77,1.44,1.29,1.96,0.99]
 N1=len(data1)
 N2=len(data2)
 
-# <codecell>
+
+# In[2]:
 
 mu1=sample_mean(data1)
 mu2=sample_mean(data2)
 print mu1,mu2
 
-# <codecell>
+
+# In[24]:
 
 S1=sample_deviation(data1)
 S2=sample_deviation(data2)
 print S1,S2
 
-# <codecell>
+
+# In[25]:
 
 sigma1=S1/sqrt(N1)
 sigma2=S2/sqrt(N2)
 print sigma1,sigma2
 
-# <codecell>
+
+# In[30]:
 
 dist1=normal(mu1,sigma1)
 dist2=normal(mu2,sigma2)
 distplot2([dist1,dist2],show_quartiles=False,label='size [microns]')
 legend([r'$\mu_1$',r'$\mu_2$'])
 
-# <codecell>
+
+# In[ ]:
+
 
 

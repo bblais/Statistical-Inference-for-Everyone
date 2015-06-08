@@ -28,23 +28,33 @@
 \contentsline {figure}{\numberline {5.3}{\ignorespaces The Normal distribution with different deviation parameters, $\sigma $.}}{92}{Item.107}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces The Standard Normal Distribution (the Normal distribution in the special case where $\mu =0$ and $\sigma =1$). The percentiles shown are for positions 1-$\sigma $ away from the center, 2-$\sigma $ away, and 3-$\sigma $ away. The area within 1-$\sigma $ is 0.68, within 2-$\sigma $ is 0.95, and 3-$\sigma $ is 0.99. These locations are the most prevalently used in any kind of statistical testing, and thus we will see them many times.}}{93}{subsection*.33}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Probability distributions for the subset of iris petal lengths. Each distribution follows a Student-t form.}}{112}{myexample.6.3}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Probability distributions for the difference between iris petal lengths for the closest two iris types, \emph {Virginica} and \emph {Versicolor}. The distribution follows a Student-t form, and clearly shows significant probability (greater than 99\%) for being greater than zero.}}{113}{myexample.6.3}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Mass of Pennies from 1960 to 1974.}}{118}{section.6.4}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Mass of Pennies from 1960 to 1974, with best estimates and 99\% CI (i.e. $3\sigma $) uncertainty.}}{120}{Item.130}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Mass of Pennies from 1960 to 2003, with best estimates and 99\% CI (i.e. $3\sigma $) uncertainty.}}{123}{Item.136}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Mass of Pennies from 1960 to 2003, with best estimates for the two true values and their 99\% CI (i.e. $3\sigma $) uncertainty plotted. There is clearly no overlap in their credible intervals, thus there is a statistically significant difference between them.}}{124}{paragraph*.46}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Difference in the estimated values of the pre- and post 1975 pennies, $\mu _{1}-\mu _{2}$. The value zero is clearly outside of the 99\% interval of the difference, thus there is a statistically significant difference between the two values $\mu _{1}$ and $\mu _{2}$.}}{125}{paragraph*.47}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Probability distributions for the subset of iris petal lengths. Each distribution follows a Student-t form.}}{118}{myexample.7.3}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Probability distributions for the difference between iris petal lengths for the closest two iris types, \emph {Virginica} and \emph {Versicolor}. The distribution follows a Student-t form, and clearly shows significant probability (greater than 99\%) for being greater than zero.}}{119}{myexample.7.3}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Mass of Pennies from 1960 to 1974.}}{124}{section.7.4}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Mass of Pennies from 1960 to 1974, with best estimates and 99\% CI (i.e. $3\sigma $) uncertainty.}}{127}{Item.152}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Mass of Pennies from 1960 to 2003, with best estimates and 99\% CI (i.e. $3\sigma $) uncertainty.}}{129}{Item.158}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Mass of Pennies from 1960 to 2003, with best estimates for the two true values and their 99\% CI (i.e. $3\sigma $) uncertainty plotted. There is clearly no overlap in their credible intervals, thus there is a statistically significant difference between them.}}{130}{paragraph*.46}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Difference in the estimated values of the pre- and post 1975 pennies, $\mu _{1}-\mu _{2}$. The value zero is clearly outside of the 99\% interval of the difference, thus there is a statistically significant difference between the two values $\mu _{1}$ and $\mu _{2}$.}}{131}{paragraph*.47}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Heights (in inches) and shoe sizes from a subset of McLaren (2012) data.}}{144}{section.8.1}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Posterior distribution for the slope for the linear model on the shoe size data subset.}}{145}{Item.163}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Posterior distributions for the intercept for the linear model on the shoe size data subset.}}{146}{Item.163}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Best linear fit for the shoe size data subset.}}{146}{Item.163}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Minimizing the Mean Squared Error (MSE) results in the best linear fit for the shoe size data subset.}}{147}{subsection*.55}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Total SAT score vs expenditure (top) and the distributions for the slope (bottom left) and intercept (bottom right).}}{148}{subsection*.56}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Percent of Students Taking the SAT vs per pupil expenditure (top) and the distributions for the slope (bottom left) and intercept (bottom right).}}{150}{Item.166}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces The posterior distributions for coefficients on the expenditure term, the percent taking term, and the intercept.}}{151}{section.8.2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Discrete uniform distribution for values 1 to 6. The value for each is $p(x_{i})=1/6$.}}{148}{subsection*.63}
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Continuous uniform distribution between values 0 and 1}}{149}{subsection*.64}
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Continuous uniform distribution for the plumber example (Example\nobreakspace {}\ref {ex:plumber}).}}{149}{myexample.C.1}
-\contentsline {figure}{\numberline {C.4}{\ignorespaces Probability of getting $h$ heads in 30 flips given a possible unfair coin. One coin has $p=0.1$, where the maximum is for 3 heads (or 1/10 of the 30 flips), but 2 heads is nearly as likely. Another has $p=0.5$, and is the fair coin considered earlier with a maximum at 15 heads (or 1/2 of the 30 flips). Finally, another coin shown as $p=0.8$ where 24 heads (or 8/10 of the 30 flips) is maximum. }}{150}{section.C.3}
-\contentsline {figure}{\numberline {C.5}{\ignorespaces Posterior probability distribution for the $\theta $ values of the bent coin - the probability that the coin will land heads. The distribution is shown for data 3 heads and 9 tails. The various quartiles are shown in the plot.}}{151}{section.C.4}
-\contentsline {figure}{\numberline {C.6}{\ignorespaces The normal distribution.}}{152}{section.C.5}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Discrete uniform distribution for values 1 to 6. The value for each is $p(x_{i})=1/6$.}}{172}{subsection*.65}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Continuous uniform distribution between values 0 and 1}}{173}{subsection*.66}
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Continuous uniform distribution for the plumber example (Example\nobreakspace {}\ref {ex:plumber}).}}{173}{myexample.C.1}
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Probability of getting $h$ heads in 30 flips given a possible unfair coin. One coin has $p=0.1$, where the maximum is for 3 heads (or 1/10 of the 30 flips), but 2 heads is nearly as likely. Another has $p=0.5$, and is the fair coin considered earlier with a maximum at 15 heads (or 1/2 of the 30 flips). Finally, another coin shown as $p=0.8$ where 24 heads (or 8/10 of the 30 flips) is maximum. }}{174}{section.C.3}
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Posterior probability distribution for the $\theta $ values of the bent coin - the probability that the coin will land heads. The distribution is shown for data 3 heads and 9 tails. The various quartiles are shown in the plot.}}{175}{section.C.4}
+\contentsline {figure}{\numberline {C.6}{\ignorespaces The normal distribution.}}{176}{section.C.5}
 \addvspace {10\p@ }
 \contentsfinish 

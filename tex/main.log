@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  20 MAY 2015 18:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  8 JUN 2015 18:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -665,12 +665,12 @@ Writing index file main.idx
 
 LaTeX Warning: Label `ex:length_tdist' multiply defined.
 
-) (./chap-parameter-estimation-applications.aux
+) (./chap-z-test-t-test.aux) (./chap-parameter-estimation-applications.aux
 
 LaTeX Warning: Label `ex:hothand' multiply defined.
 
-) (./chap-conclusions.aux) (./chap-computational.aux) (./chap-notation.aux)
-(./chap-distributions.aux
+) (./chap-multi-parameter.aux) (./chap-conclusions.aux)
+(./chap-computational.aux) (./chap-notation.aux) (./chap-distributions.aux
 
 LaTeX Warning: Label `ex:plumber' multiply defined.
 
@@ -815,7 +815,7 @@ Overfull \hbox (52.52039pt too wide) in paragraph at lines 4--4
 []\T1/phv/m/n/36/200ls STATISTICAL IN-FER-ENCE 
  []
 
-<../figs/Saturn_with_Dice.png, id=235, 1151.9838pt x 590.205pt>
+<../figs/Saturn_with_Dice.png, id=271, 1151.9838pt x 590.205pt>
 File: ../figs/Saturn_with_Dice.png Graphic file (type png)
 
 <use ../figs/Saturn_with_Dice.png>
@@ -917,11 +917,11 @@ Overfull \hbox (169.61998pt too wide) in paragraph at lines 10--19
 
 ] [8
 
-] (./main.toc [9] [10] [11])
+] (./main.toc [9] [10] [11] [12])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [12] [13] [14
+ [13] [14
 
 ] (./main.lof
 Overfull \hbox (9.86987pt too wide) in paragraph at lines 2--2
@@ -1165,7 +1165,7 @@ Overfull \hbox (15.38983pt too wide) in paragraph at lines 17--17
 
 Overfull \hbox (18.82982pt too wide) in paragraph at lines 17--17
  \T1/pplj/m/n/10 are ob-served, the prob-a-bil-ity for the lower mod-els is in-
-creased.[][] 73 
+creased.[][] 75 
  []
 
 
@@ -1276,13 +1276,13 @@ hown in the
 
 Overfull \hbox (16.67973pt too wide) in paragraph at lines 27--27
  [][] [][][]\T1/pplj/m/n/10 The Nor-mal dis-tri-bu-tion with dif-fer-ent lo-ca-
-tion pa-ram-e-ters, $\OML/zplm/m/it/10 ^^V$\T1/pplj/m/n/10 .[][] 89 
+tion pa-ram-e-ters, $\OML/zplm/m/it/10 ^^V$\T1/pplj/m/n/10 .[][] 91 
  []
 
 
 Overfull \hbox (23.0598pt too wide) in paragraph at lines 28--28
  [][] [][][]\T1/pplj/m/n/10 The Nor-mal dis-tri-bu-tion with dif-fer-ent de-vi-
-a-tion pa-ram-e-ters, $\OML/zplm/m/it/10 ^^[$\T1/pplj/m/n/10 .[][] 90 
+a-tion pa-ram-e-ters, $\OML/zplm/m/it/10 ^^[$\T1/pplj/m/n/10 .[][] 92 
  []
 
 
@@ -1312,139 +1312,187 @@ Overfull \hbox (6.4298pt too wide) in paragraph at lines 29--29
  []
 
 
-Overfull \hbox (15.7298pt too wide) in paragraph at lines 31--31
+Overfull \hbox (15.7298pt too wide) in paragraph at lines 32--32
  [][] [][][]\T1/pplj/m/n/10 Probability dis-tri-bu-tions for the sub-set of iri
 s petal lengths. Each dis-
  []
 
 
-Overfull \hbox (12.79979pt too wide) in paragraph at lines 32--32
+Overfull \hbox (12.79979pt too wide) in paragraph at lines 33--33
  [][] [][][]\T1/pplj/m/n/10 Probability dis-tri-bu-tions for the dif-fer-ence b
 e-tween iris petal lengths
  []
 
 
-Overfull \hbox (3.1898pt too wide) in paragraph at lines 32--32
+Overfull \hbox (3.1898pt too wide) in paragraph at lines 33--33
  \T1/pplj/m/n/10 for the clos-est two iris types, \T1/pplj/m/it/10 Vir-ginica \
 T1/pplj/m/n/10 and \T1/pplj/m/it/10 Ver-si-color\T1/pplj/m/n/10 . The dis-tri-b
 u-
  []
 
 
-Overfull \hbox (3.8898pt too wide) in paragraph at lines 32--32
+Overfull \hbox (3.8898pt too wide) in paragraph at lines 33--33
  \T1/pplj/m/n/10 tion fol-lows a Student-t form, and clearly shows sig-nif-i-ca
 nt prob-a-
  []
 
 
-Overfull \hbox (7.01984pt too wide) in paragraph at lines 34--34
+Overfull \hbox (7.01984pt too wide) in paragraph at lines 35--35
  [][] [][][]\T1/pplj/m/n/10 Mass of Pen-nies from 1960 to 1974, with best es-ti
 -mates and 99% CI
  []
 
 
-Overfull \hbox (7.01984pt too wide) in paragraph at lines 35--35
+Overfull \hbox (7.01984pt too wide) in paragraph at lines 36--36
  [][] [][][]\T1/pplj/m/n/10 Mass of Pen-nies from 1960 to 2003, with best es-ti
 -mates and 99% CI
  []
 
 
-Overfull \hbox (4.4998pt too wide) in paragraph at lines 36--36
+Overfull \hbox (4.4998pt too wide) in paragraph at lines 37--37
  [][] [][][]\T1/pplj/m/n/10 Mass of Pen-nies from 1960 to 2003, with best es-ti
 -mates for the two
  []
 
 
-Overfull \hbox (2.26978pt too wide) in paragraph at lines 36--36
+Overfull \hbox (2.26978pt too wide) in paragraph at lines 37--37
  \T1/pplj/m/n/10 true val-ues and their 99% CI (i.e. $\OT1/pplx/m/n/10 3\OML/zp
 lm/m/it/10 ^^[$\T1/pplj/m/n/10 ) un-cer-tainty plot-ted. There is
  []
 
 
-Overfull \hbox (6.1298pt too wide) in paragraph at lines 36--36
+Overfull \hbox (6.1298pt too wide) in paragraph at lines 37--37
  \T1/pplj/m/n/10 clearly no over-lap in their cred-i-ble in-ter-vals, thus ther
 e is a sta-tis-ti-
  []
 
 
-Overfull \hbox (13.22978pt too wide) in paragraph at lines 37--37
+Overfull \hbox (13.22978pt too wide) in paragraph at lines 38--38
  [][] [][][]\T1/pplj/m/n/10 Difference in the es-ti-mated val-ues of the pre- a
 nd post 1975 pen-nies,
  []
 
 
-Overfull \hbox (5.2972pt too wide) in paragraph at lines 37--37
+Overfull \hbox (5.2972pt too wide) in paragraph at lines 38--38
  \OML/zplm/m/it/10 ^^V[] \OMS/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 ^^V[]$\T1/pplj/
 m/n/10 . The value zero is clearly out-side of the 99% in-ter-val of the
  []
 
 
-Overfull \hbox (8.7098pt too wide) in paragraph at lines 37--37
+Overfull \hbox (8.7098pt too wide) in paragraph at lines 38--38
  \T1/pplj/m/n/10 dif-fer-ence, thus there is a sta-tis-ti-cally sig-nif-i-cant 
 dif-fer-ence be-tween
  []
 
 
-Overfull \hbox (1.51978pt too wide) in paragraph at lines 43--43
- [][] [][][]\T1/pplj/m/n/10 Discrete uni-form dis-tri-bu-tion for val-ues 1 to 
-6. The value for each
+Overfull \hbox (6.27982pt too wide) in paragraph at lines 40--40
+ [][] [][][]\T1/pplj/m/n/10 Heights (in inches) and shoe sizes from a sub-set o
+f McLaren (2012)
  []
 
 
-Overfull \hbox (3.28978pt too wide) in paragraph at lines 45--45
- [][] [][][]\T1/pplj/m/n/10 Continuous uni-form dis-tri-bu-tion for the plumber
- ex-am-ple (Ex-am-
+Overfull \hbox (8.02977pt too wide) in paragraph at lines 41--41
+ [][] [][][]\T1/pplj/m/n/10 Posterior dis-tri-bu-tion for the slope for the lin
+-ear model on the shoe
  []
 
 
-Overfull \hbox (14.63983pt too wide) in paragraph at lines 46--46
- [][] [][][]\T1/pplj/m/n/10 Probability of get-ting $\OML/zplm/m/it/10 h$ \T1/p
-plj/m/n/10 heads in 30 flips given a pos-si-ble un-fair coin.
- []
-
-
-Overfull \hbox (1.53508pt too wide) in paragraph at lines 46--46
- \T1/pplj/m/n/10 One coin has $\OML/zplm/m/it/10 p \OT1/zplm/m/n/10 = \OT1/pplx
-/m/n/10 0.1$\T1/pplj/m/n/10 , where the max-i-mum is for 3 heads (or 1/10
- []
-
-
-Overfull \hbox (7.13506pt too wide) in paragraph at lines 46--46
- \T1/pplj/m/n/10 of the 30 flips), but 2 heads is nearly as likely. An-other ha
-s $\OML/zplm/m/it/10 p \OT1/zplm/m/n/10 = \OT1/pplx/m/n/10 0.5$\T1/pplj/m/n/10 
-,
- []
-
-
-Overfull \hbox (6.69989pt too wide) in paragraph at lines 46--46
- \T1/pplj/m/n/10 and is the fair coin con-sid-ered ear-lier with a max-i-mum at
- 15 heads
- []
-
-
-Overfull \hbox (13.43504pt too wide) in paragraph at lines 46--46
- \T1/pplj/m/n/10 (or 1/2 of the 30 flips). Fi-nally, an-other coin shown as $\O
-ML/zplm/m/it/10 p \OT1/zplm/m/n/10 = \OT1/pplx/m/n/10 0.8$ \T1/pplj/m/n/10 wher
-e
+Overfull \hbox (4.76978pt too wide) in paragraph at lines 42--42
+ [][] [][][]\T1/pplj/m/n/10 Posterior dis-tri-bu-tions for the in-ter-cept for 
+the lin-ear model on the
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17]
-Overfull \hbox (5.31976pt too wide) in paragraph at lines 47--47
+Overfull \hbox (0.61978pt too wide) in paragraph at lines 44--44
+ [][] [][][]\T1/pplj/m/n/10 Minimizing the Mean Squared Er-ror (MSE) re-sults i
+n the best lin-
+ []
+
+
+Overfull \hbox (25.3997pt too wide) in paragraph at lines 45--45
+ [][] [][][]\T1/pplj/m/n/10 Total SAT score vs ex-pen-di-ture (top) and the dis
+-tri-bu-tions for the slope
+ []
+
+
+Overfull \hbox (3.4597pt too wide) in paragraph at lines 46--46
+ [][] [][][]\T1/pplj/m/n/10 Percent of Stu-dents Tak-ing the SAT vs per pupil e
+x-pen-di-ture (top)
+ []
+
+
+Overfull \hbox (4.2698pt too wide) in paragraph at lines 46--46
+ \T1/pplj/m/n/10 and the dis-tri-bu-tions for the slope (bot-tom left) and in-t
+er-cept (bot-
+ []
+
+
+Overfull \hbox (8.98973pt too wide) in paragraph at lines 47--47
+ [][] [][][]\T1/pplj/m/n/10 The pos-te-rior dis-tri-bu-tions for co-ef-fi-cient
+s on the ex-pen-di-ture term,
+ []
+
+
+Overfull \hbox (1.51978pt too wide) in paragraph at lines 53--53
+ [][] [][][]\T1/pplj/m/n/10 Discrete uni-form dis-tri-bu-tion for val-ues 1 to 
+6. The value for each
+ []
+
+
+Overfull \hbox (3.28978pt too wide) in paragraph at lines 55--55
+ [][] [][][]\T1/pplj/m/n/10 Continuous uni-form dis-tri-bu-tion for the plumber
+ ex-am-ple (Ex-am-
+ []
+
+
+Overfull \hbox (14.63983pt too wide) in paragraph at lines 56--56
+ [][] [][][]\T1/pplj/m/n/10 Probability of get-ting $\OML/zplm/m/it/10 h$ \T1/p
+plj/m/n/10 heads in 30 flips given a pos-si-ble un-fair coin.
+ []
+
+
+Overfull \hbox (1.53508pt too wide) in paragraph at lines 56--56
+ \T1/pplj/m/n/10 One coin has $\OML/zplm/m/it/10 p \OT1/zplm/m/n/10 = \OT1/pplx
+/m/n/10 0.1$\T1/pplj/m/n/10 , where the max-i-mum is for 3 heads (or 1/10
+ []
+
+
+Overfull \hbox (7.13506pt too wide) in paragraph at lines 56--56
+ \T1/pplj/m/n/10 of the 30 flips), but 2 heads is nearly as likely. An-other ha
+s $\OML/zplm/m/it/10 p \OT1/zplm/m/n/10 = \OT1/pplx/m/n/10 0.5$\T1/pplj/m/n/10 
+,
+ []
+
+
+Overfull \hbox (6.69989pt too wide) in paragraph at lines 56--56
+ \T1/pplj/m/n/10 and is the fair coin con-sid-ered ear-lier with a max-i-mum at
+ 15 heads
+ []
+
+
+Overfull \hbox (13.43504pt too wide) in paragraph at lines 56--56
+ \T1/pplj/m/n/10 (or 1/2 of the 30 flips). Fi-nally, an-other coin shown as $\O
+ML/zplm/m/it/10 p \OT1/zplm/m/n/10 = \OT1/pplx/m/n/10 0.8$ \T1/pplj/m/n/10 wher
+e
+ []
+
+
+Overfull \hbox (5.31976pt too wide) in paragraph at lines 57--57
  [][] [][][]\T1/pplj/m/n/10 Posterior prob-a-bil-ity dis-tri-bu-tion for the $\
 OML/zplm/m/it/10 ^^R$ \T1/pplj/m/n/10 val-ues of the bent coin -
  []
 
 
-Overfull \hbox (24.4198pt too wide) in paragraph at lines 47--47
+Overfull \hbox (24.4198pt too wide) in paragraph at lines 57--57
  \T1/pplj/m/n/10 the prob-a-bil-ity that the coin will land heads. The dis-tri-
 bu-tion is shown
  []
 
 
-Overfull \hbox (6.3998pt too wide) in paragraph at lines 47--47
+Overfull \hbox (6.3998pt too wide) in paragraph at lines 57--57
  \T1/pplj/m/n/10 for data 3 heads and 9 tails. The var-i-ous quar-tiles are sho
 wn in the
  []
@@ -1595,13 +1643,13 @@ la-bels to prob-a-bil-ity
 
 Overfull \hbox (18.75983pt too wide) in paragraph at lines 4--4
  [][] [][][]\T1/pplj/m/n/10 Drawing $\OML/zplm/m/it/10 m$ \T1/pplj/m/n/10 9's i
-n a row, from ei-ther a High Deck or Low Deck.[][] 54 
+n a row, from ei-ther a High Deck or Low Deck.[][] 56 
  []
 
 
 Overfull \hbox (16.30984pt too wide) in paragraph at lines 7--7
  [][] [][][]\T1/pplj/m/n/10 Probabilities for flip-ping heads given a col-lec-t
-ion of bent coins[][] 69 
+ion of bent coins[][] 71 
  []
 
 
@@ -1623,45 +1671,51 @@ j/m/n/10 (the sum of the mid-dle col-umn)
  []
 
 
-Overfull \hbox (1.94975pt too wide) in paragraph at lines 10--10
+Overfull \hbox (1.94975pt too wide) in paragraph at lines 11--11
  [][] [][][]\T1/pplj/m/n/10 Rough guide for the con-ver-sion of de-vi-a-tions a
 way from zero and
  []
 
 
-Overfull \hbox (12.49985pt too wide) in paragraph at lines 10--10
+Overfull \hbox (12.49985pt too wide) in paragraph at lines 11--11
  \T1/pplj/m/n/10 the qual-i-ta-tive la-bels for prob-a-bil-ity val-ues for be-i
 ng a \T1/pplj/m/it/10 sig-nif-i-cant \T1/pplj/m/n/10 de-
  []
 
 
-Overfull \hbox (14.5798pt too wide) in paragraph at lines 13--13
+Overfull \hbox (14.5798pt too wide) in paragraph at lines 14--14
  [][] [][][]\T1/pplj/m/n/10 Subset of iris petal lengths, in cen-time-ters, for
  iris types \T1/pplj/m/it/10 Vir-ginica\T1/pplj/m/n/10 , \T1/pplj/m/it/10 Se-
  []
 
 
-Overfull \hbox (3.46985pt too wide) in paragraph at lines 14--14
+Overfull \hbox (3.46985pt too wide) in paragraph at lines 15--15
  [][] [][][]\T1/pplj/m/n/10 Production lines are pro-duce a ball bear-ing with 
 a di-am-e-ter of ap-
  []
 
 
-Overfull \hbox (13.76984pt too wide) in paragraph at lines 14--14
+Overfull \hbox (13.76984pt too wide) in paragraph at lines 15--15
  \T1/pplj/m/n/10 prox-i-mately 1 mi-cron. Ten ball bear-ings were ran-domly pic
 ked from
  []
 
 
-Overfull \hbox (14.01984pt too wide) in paragraph at lines 14--14
+Overfull \hbox (14.01984pt too wide) in paragraph at lines 15--15
  \T1/pplj/m/n/10 the pro-duc-tion line (i.e. the \T1/pplj/m/it/10 First line\T1
 /pplj/m/n/10 ) at one time, and then again for
  []
 
 
-Overfull \hbox (3.16986pt too wide) in paragraph at lines 14--14
+Overfull \hbox (3.16986pt too wide) in paragraph at lines 15--15
  \T1/pplj/m/n/10 a dif-fer-ent pro-duc-tion line (i.e. the \T1/pplj/m/it/10 Sec
 -ond line\T1/pplj/m/n/10 ). Ro-mano, A. (1977)
+ []
+
+
+Overfull \hbox (6.27982pt too wide) in paragraph at lines 19--19
+ [][] [][][]\T1/pplj/m/n/10 Heights (in inches) and shoe sizes from a sub-set o
+f McLaren (2012)
  []
 
 )
@@ -1722,7 +1776,7 @@ LaTeX Warning: Marginpar on page 28 moved.
 
 LaTeX Warning: Marginpar on page 30 moved.
 
-<../figs/StandardDeck.pdf, id=908, 1276.77pt x 1106.1325pt>
+<../figs/StandardDeck.pdf, id=988, 1276.77pt x 1106.1325pt>
 File: ../figs/StandardDeck.pdf Graphic file (type pdf)
 
 <use ../figs/StandardDeck.pdf>
@@ -1914,7 +1968,7 @@ LaTeX Warning: Marginpar on page 41 moved.
 
 LaTeX Warning: Marginpar on page 42 moved.
 
-[42] <../figs/venn1.pdf, id=1218, 669.0077pt x 890.92265pt>
+[42] <../figs/venn1.pdf, id=1298, 669.0077pt x 890.92265pt>
 File: ../figs/venn1.pdf Graphic file (type pdf)
 
 <use ../figs/venn1.pdf>
@@ -1924,7 +1978,7 @@ Package pdftex.def Info: ../figs/venn1.pdf used on input line 591.
 
 LaTeX Warning: Marginpar on page 43 moved.
 
-<../figs/venn2.pdf, id=1220, 672.2713pt x 894.18588pt>
+<../figs/venn2.pdf, id=1300, 672.2713pt x 894.18588pt>
 File: ../figs/venn2.pdf Graphic file (type pdf)
  <use ../figs/venn2.pdf>
 Package pdftex.def Info: ../figs/venn2.pdf used on input line 599.
@@ -1934,7 +1988,7 @@ Package pdftex.def Info: ../figs/venn2.pdf used on input line 599.
 LaTeX Warning: Marginpar on page 43 moved.
 
 [43 <../figs/venn1.pdf> <../figs/venn2.pdf>]
-<../figs/venn4.pdf, id=1418, 748.96223pt x 538.46973pt>
+<../figs/venn4.pdf, id=1498, 748.96223pt x 538.46973pt>
 File: ../figs/venn4.pdf Graphic file (type pdf)
 
 <use ../figs/venn4.pdf>
@@ -1944,7 +1998,7 @@ Package pdftex.def Info: ../figs/venn4.pdf used on input line 623.
 
 LaTeX Warning: Marginpar on page 44 moved.
 
-<../figs/venn3.pdf, id=1419, 669.0074pt x 890.92265pt>
+<../figs/venn3.pdf, id=1499, 669.0074pt x 890.92265pt>
 File: ../figs/venn3.pdf Graphic file (type pdf)
  <use ../figs/venn3.pdf>
 Package pdftex.def Info: ../figs/venn3.pdf used on input line 630.
@@ -1982,7 +2036,7 @@ LaTeX Warning: Marginpar on page 47 moved.
 
 LaTeX Warning: Marginpar on page 47 moved.
 
-<../figs/HighDeck.pdf, id=1572, 2047.65pt x 865.2325pt>
+<../figs/HighDeck.pdf, id=1652, 2047.65pt x 865.2325pt>
 File: ../figs/HighDeck.pdf Graphic file (type pdf)
 
 <use ../figs/HighDeck.pdf>
@@ -1998,7 +2052,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--23
 
  []
 
-<../figs/LowDeck.pdf, id=1573, 2047.65pt x 865.2325pt>
+<../figs/LowDeck.pdf, id=1653, 2047.65pt x 865.2325pt>
 File: ../figs/LowDeck.pdf Graphic file (type pdf)
 
 <use ../figs/LowDeck.pdf>
@@ -2069,7 +2123,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 228--228
 
 LaTeX Warning: Marginpar on page 56 moved.
 
-[56] <../figs/nines_HLN.pdf, id=1752, 879.88722pt x 663.07722pt>
+[56] <../figs/nines_HLN.pdf, id=1832, 879.88722pt x 663.07722pt>
 File: ../figs/nines_HLN.pdf Graphic file (type pdf)
 
 <use ../figs/nines_HLN.pdf>
@@ -2109,7 +2163,7 @@ Overfull \hbox (44.30478pt too wide) in alignment at lines 41--46
  [][][] []
  []
 
-<../figs/disease_plot.pdf, id=1837, 1190.64821pt x 630.55576pt>
+<../figs/disease_plot.pdf, id=1917, 1190.64821pt x 630.55576pt>
 File: ../figs/disease_plot.pdf Graphic file (type pdf)
 
 <use ../figs/disease_plot.pdf>
@@ -2150,14 +2204,14 @@ LaTeX Warning: Marginpar on page 66 moved.
 
 LaTeX Warning: Marginpar on page 66 moved.
 
-<../figs/paul1.pdf, id=1886, 1020.81375pt x 378.41376pt>
+<../figs/paul1.pdf, id=1966, 1020.81375pt x 378.41376pt>
 File: ../figs/paul1.pdf Graphic file (type pdf)
 
 <use ../figs/paul1.pdf>
 Package pdftex.def Info: ../figs/paul1.pdf used on input line 171.
 (pdftex.def)             Requested size: 311.99416pt x 115.65564pt.
 
-<../figs/paul2.pdf, id=1887, 1009.7725pt x 456.70625pt>
+<../figs/paul2.pdf, id=1967, 1009.7725pt x 456.70625pt>
 File: ../figs/paul2.pdf Graphic file (type pdf)
 
 <use ../figs/paul2.pdf>
@@ -2194,7 +2248,7 @@ LaTeX Warning: Marginpar on page 67 moved.
 
 ]
 Chapter 4.
-<../figs/bentcoin.jpg, id=1943, 172.645pt x 118.4425pt>
+<../figs/bentcoin.jpg, id=2023, 172.645pt x 118.4425pt>
 File: ../figs/bentcoin.jpg Graphic file (type jpg)
 
 <use ../figs/bentcoin.jpg>
@@ -2208,7 +2262,7 @@ LaTeX Warning: Marginpar on page 71 moved.
 LaTeX Warning: Marginpar on page 71 moved.
 
 [71 <../figs/bentcoin.jpg>]
-<../figs/bentcoinprobs1.pdf, id=1956, 879.88722pt x 663.07722pt>
+<../figs/bentcoinprobs1.pdf, id=2036, 879.88722pt x 663.07722pt>
 File: ../figs/bentcoinprobs1.pdf Graphic file (type pdf)
 
 <use ../figs/bentcoinprobs1.pdf>
@@ -2228,7 +2282,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--105
 
 LaTeX Warning: Marginpar on page 74 moved.
 
-<../figs/bentcoinprobs2.pdf, id=2014, 1313.50723pt x 446.26726pt>
+<../figs/bentcoinprobs2.pdf, id=2094, 1313.50723pt x 446.26726pt>
 File: ../figs/bentcoinprobs2.pdf Graphic file (type pdf)
 
 <use ../figs/bentcoinprobs2.pdf>
@@ -2244,7 +2298,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--134
 
  []
 
-[74] <../figs/bentcoinprobs3.pdf, id=2023, 1313.50723pt x 446.26726pt>
+[74] <../figs/bentcoinprobs3.pdf, id=2103, 1313.50723pt x 446.26726pt>
 File: ../figs/bentcoinprobs3.pdf Graphic file (type pdf)
 
 <use ../figs/bentcoinprobs3.pdf>
@@ -2260,7 +2314,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--143
 
  []
 
-<../figs/bentcoinprobs5.pdf, id=2024, 1313.50723pt x 446.26726pt>
+<../figs/bentcoinprobs5.pdf, id=2104, 1313.50723pt x 446.26726pt>
 File: ../figs/bentcoinprobs5.pdf Graphic file (type pdf)
 
 <use ../figs/bentcoinprobs5.pdf>
@@ -2283,21 +2337,21 @@ Overfull \hbox (7.55403pt too wide) in paragraph at lines 162--163
  []
 
 [76 <../figs/bentcoinprobs5.pdf>]
-<../figs/bentcoindist1.pdf, id=2153, 722.7pt x 540.21826pt>
+<../figs/bentcoindist1.pdf, id=2233, 722.7pt x 540.21826pt>
 File: ../figs/bentcoindist1.pdf Graphic file (type pdf)
 
 <use ../figs/bentcoindist1.pdf>
 Package pdftex.def Info: ../figs/bentcoindist1.pdf used on input line 179.
 (pdftex.def)             Requested size: 130.08038pt x 97.23508pt.
 
-<../figs/bentcoindist2.pdf, id=2154, 867.24pt x 612.48827pt>
+<../figs/bentcoindist2.pdf, id=2234, 867.24pt x 612.48827pt>
 File: ../figs/bentcoindist2.pdf Graphic file (type pdf)
 
 <use ../figs/bentcoindist2.pdf>
 Package pdftex.def Info: ../figs/bentcoindist2.pdf used on input line 198.
 (pdftex.def)             Requested size: 130.08038pt x 91.86926pt.
 
-<../figs/bentcoindist3.pdf, id=2155, 867.24pt x 612.48827pt>
+<../figs/bentcoindist3.pdf, id=2235, 867.24pt x 612.48827pt>
 File: ../figs/bentcoindist3.pdf Graphic file (type pdf)
 
 <use ../figs/bentcoindist3.pdf>
@@ -2308,7 +2362,7 @@ Package pdftex.def Info: ../figs/bentcoindist3.pdf used on input line 204.
 LaTeX Warning: Marginpar on page 77 moved.
 
 [77 <../figs/bentcoindist1.pdf> <../figs/bentcoindist2.pdf> <../figs/bentcoindi
-st3.pdf>] <../figs/beta_dist.pdf, id=2322, 722.7pt x 578.16pt>
+st3.pdf>] <../figs/beta_dist.pdf, id=2402, 722.7pt x 578.16pt>
 File: ../figs/beta_dist.pdf Graphic file (type pdf)
 
 <use ../figs/beta_dist.pdf>
@@ -2325,7 +2379,7 @@ LaTeX Warning: Marginpar on page 78 moved.
 
 LaTeX Warning: Marginpar on page 78 moved.
 
-<../figs/beta_dist2.pdf, id=2328, 722.7pt x 578.16pt>
+<../figs/beta_dist2.pdf, id=2408, 722.7pt x 578.16pt>
 File: ../figs/beta_dist2.pdf Graphic file (type pdf)
 
 <use ../figs/beta_dist2.pdf>
@@ -2337,7 +2391,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 241--244
  []
 
 [78 <../figs/beta_dist.pdf>]
-<../figs/beta_dist3.pdf, id=2379, 722.7pt x 578.16pt>
+<../figs/beta_dist3.pdf, id=2459, 722.7pt x 578.16pt>
 File: ../figs/beta_dist3.pdf Graphic file (type pdf)
 
 <use ../figs/beta_dist3.pdf>
@@ -2358,7 +2412,7 @@ Underfull \vbox (badness 5847) has occurred while \output is active []
 
 LaTeX Warning: Marginpar on page 80 moved.
 
-<../figs/beta_dist4.pdf, id=2424, 722.7pt x 578.16pt>
+<../figs/beta_dist4.pdf, id=2504, 722.7pt x 578.16pt>
 File: ../figs/beta_dist4.pdf Graphic file (type pdf)
 
 <use ../figs/beta_dist4.pdf>
@@ -2412,7 +2466,7 @@ LaTeX Warning: Marginpar on page 84 moved.
 LaTeX Warning: Reference `sec:cancer_prob' on page 84 undefined on input line 3
 87.
 
-[84] <../figs/beta_dist5.pdf, id=2548, 722.7pt x 578.16pt>
+[84] <../figs/beta_dist5.pdf, id=2628, 722.7pt x 578.16pt>
 File: ../figs/beta_dist5.pdf Graphic file (type pdf)
 
 <use ../figs/beta_dist5.pdf>
@@ -2425,7 +2479,7 @@ Overfull \hbox (45.84998pt too wide) in paragraph at lines 424--437
 
 (../python/examples/Introduction_to_Parameter_Estimation.tex
 <../python/examples/Introduction_to_Parameter_Estimation/Introduction_to_Parame
-ter_Estimation_fig0.png, id=2549, 733.74126pt x 484.81125pt>
+ter_Estimation_fig0.png, id=2629, 733.74126pt x 484.81125pt>
 File: ../python/examples/Introduction_to_Parameter_Estimation/Introduction_to_P
 arameter_Estimation_fig0.png Graphic file (type png)
 
@@ -2442,7 +2496,7 @@ Overfull \hbox (15.49023pt too wide) in paragraph at lines 38--38
 
 
 <../python/examples/Introduction_to_Parameter_Estimation/Introduction_to_Parame
-ter_Estimation_fig1.png, id=2601, 733.74126pt x 484.81125pt>
+ter_Estimation_fig1.png, id=2681, 733.74126pt x 484.81125pt>
 File: ../python/examples/Introduction_to_Parameter_Estimation/Introduction_to_P
 arameter_Estimation_fig1.png Graphic file (type png)
 
@@ -2481,7 +2535,7 @@ ayesian
 
 LaTeX Warning: Marginpar on page 90 moved.
 
-<../figs/gaussian1.pdf, id=2642, 867.24pt x 578.16pt>
+<../figs/gaussian1.pdf, id=2722, 867.24pt x 578.16pt>
 File: ../figs/gaussian1.pdf Graphic file (type pdf)
 
 <use ../figs/gaussian1.pdf>
@@ -2498,7 +2552,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--48
  []
 
 [90 <../figs/gaussian1.pdf>]
-<../figs/gaussian_mu.pdf, id=2683, 867.24pt x 578.16pt>
+<../figs/gaussian_mu.pdf, id=2763, 867.24pt x 578.16pt>
 File: ../figs/gaussian_mu.pdf Graphic file (type pdf)
 
 <use ../figs/gaussian_mu.pdf>
@@ -2515,7 +2569,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--58
  []
 
 [91 <../figs/gaussian_mu.pdf>]
-<../figs/gaussian_sigma.pdf, id=2737, 867.24pt x 578.16pt>
+<../figs/gaussian_sigma.pdf, id=2817, 867.24pt x 578.16pt>
 File: ../figs/gaussian_sigma.pdf Graphic file (type pdf)
 
 <use ../figs/gaussian_sigma.pdf>
@@ -2534,7 +2588,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--78
 
 LaTeX Warning: Marginpar on page 92 moved.
 
-<../figs/gaussian_standard.pdf, id=2738, 867.24pt x 578.16pt>
+<../figs/gaussian_standard.pdf, id=2818, 867.24pt x 578.16pt>
 File: ../figs/gaussian_standard.pdf Graphic file (type pdf)
 
 <use ../figs/gaussian_standard.pdf>
@@ -2557,7 +2611,7 @@ LaTeX Warning: Marginpar on page 95 moved.
 
 LaTeX Warning: Marginpar on page 95 moved.
 
-<../figs/gaussian_sigma_y_minus_x.pdf, id=2861, 867.24pt x 578.16pt>
+<../figs/gaussian_sigma_y_minus_x.pdf, id=2941, 867.24pt x 578.16pt>
 File: ../figs/gaussian_sigma_y_minus_x.pdf Graphic file (type pdf)
 
 <use ../figs/gaussian_sigma_y_minus_x.pdf>
@@ -2577,28 +2631,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: Marginpar on page 96 moved.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--222
-[]\T1/pplj/m/n/10 number of de-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 222--222
-\T1/pplj/m/n/10 vi-a-tions away
- []
-
-
 LaTeX Warning: Marginpar on page 96 moved.
 
 [96 <../figs/gaussian_sigma_y_minus_x.pdf>]
+Overfull \hbox (7.27834pt too wide) in alignment at lines 239--239
+ [][][] []
+ []
+
+
+LaTeX Warning: Marginpar on page 97 moved.
+
+
+LaTeX Warning: Marginpar on page 97 moved.
+
 
 LaTeX Warning: Marginpar on page 97 moved.
 
 [97]
-
-LaTeX Warning: Marginpar on page 98 moved.
-
-
-Overfull \hbox (7.27834pt too wide) in alignment at lines 283--283
+Overfull \hbox (42.03871pt too wide) in alignment at lines 280--280
  [][][] []
  []
 
@@ -2607,154 +2657,140 @@ LaTeX Warning: Marginpar on page 98 moved.
 
 
 LaTeX Warning: Marginpar on page 98 moved.
+
+
+LaTeX Warning: Marginpar on page 98 moved.
+
+LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <8> not available
+(Font)              Font shape `T1/pplj/b/it' tried instead on input line 308.
+
+Overfull \hbox (29.717pt too wide) in alignment at lines 308--308
+ [][][] []
+ []
 
 
 LaTeX Warning: Marginpar on page 98 moved.
 
 [98]
-Overfull \hbox (42.03871pt too wide) in alignment at lines 324--324
+Overfull \hbox (87.24493pt too wide) in alignment at lines 322--329
  [][][] []
  []
 
 
-LaTeX Warning: Marginpar on page 99 moved.
-
-
-LaTeX Warning: Marginpar on page 99 moved.
-
-
-LaTeX Warning: Marginpar on page 99 moved.
-
-LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <8> not available
-(Font)              Font shape `T1/pplj/b/it' tried instead on input line 352.
-
-Overfull \hbox (29.717pt too wide) in alignment at lines 352--352
+Overfull \hbox (61.50328pt too wide) in alignment at lines 333--336
  [][][] []
  []
-
-
-LaTeX Warning: Marginpar on page 99 moved.
 
 [99]
-Overfull \hbox (87.24493pt too wide) in alignment at lines 366--373
+Overfull \hbox (6.4102pt too wide) in alignment at lines 362--362
  [][][] []
  []
 
 
-Overfull \hbox (61.50328pt too wide) in alignment at lines 377--380
- [][][] []
+LaTeX Warning: Marginpar on page 100 moved.
+
+<../figs/beta_normal_3_12.pdf, id=3024, 722.7pt x 578.16pt>
+File: ../figs/beta_normal_3_12.pdf Graphic file (type pdf)
+
+<use ../figs/beta_normal_3_12.pdf>
+Package pdftex.def Info: ../figs/beta_normal_3_12.pdf used on input line 365.
+(pdftex.def)             Requested size: 312.00104pt x 249.60083pt.
+
+Overfull \hbox (12.00104pt too wide) in paragraph at lines 365--366
+[][]  
  []
 
-[100]
-Overfull \hbox (6.4102pt too wide) in alignment at lines 406--406
+<../figs/beta_normal_30_120.pdf, id=3025, 722.7pt x 578.16pt>
+File: ../figs/beta_normal_30_120.pdf Graphic file (type pdf)
+
+<use ../figs/beta_normal_30_120.pdf>
+Package pdftex.def Info: ../figs/beta_normal_30_120.pdf used on input line 369.
+
+(pdftex.def)             Requested size: 312.00104pt x 249.60083pt.
+
+Overfull \hbox (12.00104pt too wide) in paragraph at lines 369--370
+[][]  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [100 <../figs/beta_normal_3_12.pdf>]
+
+LaTeX Warning: Marginpar on page 101 moved.
+
+
+LaTeX Warning: Reference `eq:binomial' on page 101 undefined on input line 376.
+
+
+
+Overfull \hbox (20.35315pt too wide) in alignment at lines 387--387
  [][][] []
  []
 
 
 LaTeX Warning: Marginpar on page 101 moved.
 
-<../figs/beta_normal_3_12.pdf, id=2952, 722.7pt x 578.16pt>
-File: ../figs/beta_normal_3_12.pdf Graphic file (type pdf)
-
-<use ../figs/beta_normal_3_12.pdf>
-Package pdftex.def Info: ../figs/beta_normal_3_12.pdf used on input line 409.
-(pdftex.def)             Requested size: 312.00104pt x 249.60083pt.
-
-Overfull \hbox (12.00104pt too wide) in paragraph at lines 409--410
-[][]  
- []
-
-<../figs/beta_normal_30_120.pdf, id=2953, 722.7pt x 578.16pt>
-File: ../figs/beta_normal_30_120.pdf Graphic file (type pdf)
-
-<use ../figs/beta_normal_30_120.pdf>
-Package pdftex.def Info: ../figs/beta_normal_30_120.pdf used on input line 413.
-
-(pdftex.def)             Requested size: 312.00104pt x 249.60083pt.
-
-Overfull \hbox (12.00104pt too wide) in paragraph at lines 413--414
-[][]  
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [101 <../figs/beta_normal_3_12.pdf>]
-
-LaTeX Warning: Marginpar on page 102 moved.
-
-
-LaTeX Warning: Reference `eq:binomial' on page 102 undefined on input line 420.
-
-
-
-Overfull \hbox (20.35315pt too wide) in alignment at lines 431--431
- [][][] []
- []
-
-
-LaTeX Warning: Marginpar on page 102 moved.
-
-<../figs/binomial_normal1.pdf, id=3010, 722.7pt x 578.16pt>
+<../figs/binomial_normal1.pdf, id=3082, 722.7pt x 578.16pt>
 File: ../figs/binomial_normal1.pdf Graphic file (type pdf)
 
 <use ../figs/binomial_normal1.pdf>
-Package pdftex.def Info: ../figs/binomial_normal1.pdf used on input line 435.
+Package pdftex.def Info: ../figs/binomial_normal1.pdf used on input line 391.
 (pdftex.def)             Requested size: 312.00104pt x 249.60083pt.
 
-Overfull \hbox (12.00104pt too wide) in paragraph at lines 435--436
+Overfull \hbox (12.00104pt too wide) in paragraph at lines 391--392
 [][]  
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [102 <../figs/beta_normal_30_120.pdf>]
-<../figs/binomial_normal2.pdf, id=3067, 722.7pt x 578.16pt>
+ [101 <../figs/beta_normal_30_120.pdf>]
+<../figs/binomial_normal2.pdf, id=3139, 722.7pt x 578.16pt>
 File: ../figs/binomial_normal2.pdf Graphic file (type pdf)
 
 <use ../figs/binomial_normal2.pdf>
-Package pdftex.def Info: ../figs/binomial_normal2.pdf used on input line 439.
+Package pdftex.def Info: ../figs/binomial_normal2.pdf used on input line 395.
 (pdftex.def)             Requested size: 312.00104pt x 249.60083pt.
 
-Overfull \hbox (12.00104pt too wide) in paragraph at lines 439--440
+Overfull \hbox (12.00104pt too wide) in paragraph at lines 395--396
 [][]  
  []
 
-[103 <../figs/binomial_normal1.pdf> <../figs/binomial_normal2.pdf
+[102 <../figs/binomial_normal1.pdf> <../figs/binomial_normal2.pdf
 
 pdfTeX warning: /usr/texbin/pdflatex (file ../figs/binomial_normal2.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: Marginpar on page 104 moved.
+LaTeX Warning: Marginpar on page 103 moved.
 
 
-LaTeX Warning: Marginpar on page 104 moved.
+LaTeX Warning: Marginpar on page 103 moved.
 
 
-Overfull \hbox (99.01372pt too wide) in alignment at lines 471--480
+Overfull \hbox (99.01372pt too wide) in alignment at lines 427--436
+ [][][] []
+ []
+
+[103]
+Overfull \hbox (0.50371pt too wide) in alignment at lines 463--468
+ [][][] []
+ []
+
+
+Overfull \hbox (20.77893pt too wide) in alignment at lines 478--480
  [][][] []
  []
 
 [104]
-Overfull \hbox (0.50371pt too wide) in alignment at lines 507--512
- [][][] []
- []
-
-
-Overfull \hbox (20.77893pt too wide) in alignment at lines 522--524
- [][][] []
- []
-
-[105]
-Overfull \hbox (38.3073pt too wide) in alignment at lines 537--537
+Overfull \hbox (38.3073pt too wide) in alignment at lines 493--493
  [][][] []
  []
 
 (../python/examples/Priors_Likelihoods_and_Posteriors.tex
 <../python/examples/Priors_Likelihoods_and_Posteriors/Priors_Likelihoods_and_Po
-steriors_fig0.png, id=3197, 733.74126pt x 484.81125pt>
+steriors_fig0.png, id=3269, 733.74126pt x 484.81125pt>
 File: ../python/examples/Priors_Likelihoods_and_Posteriors/Priors_Likelihoods_a
 nd_Posteriors_fig0.png Graphic file (type png)
 
@@ -2763,9 +2799,9 @@ d_Posteriors_fig0.png>
 Package pdftex.def Info: ../python/examples/Priors_Likelihoods_and_Posteriors/P
 riors_Likelihoods_and_Posteriors_fig0.png used on input line 29.
 (pdftex.def)             Requested size: 325.2207pt x 214.8859pt.
- [106]
+ [105]
 <../python/examples/Priors_Likelihoods_and_Posteriors/Priors_Likelihoods_and_Po
-steriors_fig1.png, id=3215, 715.67375pt x 490.83376pt>
+steriors_fig1.png, id=3287, 715.67375pt x 490.83376pt>
 File: ../python/examples/Priors_Likelihoods_and_Posteriors/Priors_Likelihoods_a
 nd_Posteriors_fig1.png Graphic file (type png)
 
@@ -2777,18 +2813,81 @@ riors_Likelihoods_and_Posteriors_fig1.png used on input line 63.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [107 <../python/examples/Priors_Likelihoods_and_Posteriors/Priors_Likelihoods_
-and_Posteriors_fig0.png>])) [108 <../python/examples/Priors_Likelihoods_and_Pos
+ [106 <../python/examples/Priors_Likelihoods_and_Posteriors/Priors_Likelihoods_
+and_Posteriors_fig0.png>])) [107 <../python/examples/Priors_Likelihoods_and_Pos
 teriors/Priors_Likelihoods_and_Posteriors_fig1.png>]
-\openout2 = `chap-parameter-estimation-applications.aux'.
+\openout2 = `chap-z-test-t-test.aux'.
+
+ (./chap-z-test-t-test.tex [108
 
 
-(./chap-parameter-estimation-applications.tex
+
+]
 Chapter 6.
+
+LaTeX Warning: Reference `' on page 109 undefined on input line 9.
+
+
+LaTeX Warning: Reference `' on page 109 undefined on input line 9.
+
 
 LaTeX Warning: Marginpar on page 109 moved.
 
-<../figs/normal_mu_known_sigma.pdf, id=3242, 505.89pt x 505.89pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 19.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 19.
+
+[109] [110]
+
+LaTeX Warning: Marginpar on page 111 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+[]\T1/pplj/m/n/10 number of de-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+\T1/pplj/m/n/10 vi-a-tions away
+ []
+
+
+LaTeX Warning: Marginpar on page 111 moved.
+
+[111]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 116.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 116.
+
+[112] (../python/examples/Common_Significance_Tests.tex
+<../python/examples/Common_Significance_Tests/Common_Significance_Tests_fig0.pn
+g, id=3362, 859.21pt x 581.17125pt>
+File: ../python/examples/Common_Significance_Tests/Common_Significance_Tests_fi
+g0.png Graphic file (type png)
+
+<use ../python/examples/Common_Significance_Tests/Common_Significance_Tests_fig
+0.png>
+Package pdftex.def Info: ../python/examples/Common_Significance_Tests/Common_Si
+gnificance_Tests_fig0.png used on input line 47.
+(pdftex.def)             Requested size: 325.21837pt x 219.9783pt.
+ [113])) [114 <../python/examples/Common_Significance_Tests/Common_Significance
+_Tests_fig0.png>]
+\openout2 = `chap-parameter-estimation-applications.aux'.
+
+ (./chap-parameter-estimation-applications.tex
+Chapter 7.
+
+LaTeX Warning: Marginpar on page 115 moved.
+
+<../figs/normal_mu_known_sigma.pdf, id=3403, 505.89pt x 505.89pt>
 File: ../figs/normal_mu_known_sigma.pdf Graphic file (type pdf)
 
 <use ../figs/normal_mu_known_sigma.pdf>
@@ -2797,9 +2896,9 @@ Package pdftex.def Info: ../figs/normal_mu_known_sigma.pdf used on input line 3
 (pdftex.def)             Requested size: 130.0848pt x 130.0848pt.
 
 
-LaTeX Warning: Marginpar on page 109 moved.
+LaTeX Warning: Marginpar on page 115 moved.
 
-[109
+[115
 
 
 
@@ -2809,12 +2908,12 @@ Overfull \hbox (17.90398pt too wide) in paragraph at lines 73--73
 ions| 
  []
 
-[110]
+[116]
 Overfull \hbox (130.5437pt too wide) in alignment at lines 112--119
  [][][] []
  []
 
-<../figs/iris_tdist.pdf, id=3293, 867.24pt x 578.16pt>
+<../figs/iris_tdist.pdf, id=3458, 867.24pt x 578.16pt>
 File: ../figs/iris_tdist.pdf Graphic file (type pdf)
 
 <use ../figs/iris_tdist.pdf>
@@ -2831,9 +2930,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--133
  []
 
 
-LaTeX Warning: Marginpar on page 111 moved.
+LaTeX Warning: Marginpar on page 117 moved.
 
-[111] <../figs/iris_tdist_diff.pdf, id=3300, 867.24pt x 578.16pt>
+[117] <../figs/iris_tdist_diff.pdf, id=3465, 867.24pt x 578.16pt>
 File: ../figs/iris_tdist_diff.pdf Graphic file (type pdf)
 
 <use ../figs/iris_tdist_diff.pdf>
@@ -2850,27 +2949,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--148
  []
 
 
-LaTeX Warning: Marginpar on page 112 moved.
+LaTeX Warning: Marginpar on page 118 moved.
 
-[112 <../figs/iris_tdist.pdf>]
+[118 <../figs/iris_tdist.pdf>]
 Overfull \hbox (104.03995pt too wide) in alignment at lines 189--194
  [][][] []
  []
 
-[113 <../figs/iris_tdist_diff.pdf>]
+[119 <../figs/iris_tdist_diff.pdf>]
 
-LaTeX Warning: Marginpar on page 114 moved.
+LaTeX Warning: Marginpar on page 120 moved.
 
-[114]pdfTeX warning (ext4): destination with the same identifier (name{cite.ber
+[120]pdfTeX warning (ext4): destination with the same identifier (name{cite.ber
 ry1996statistics}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.245 ...istics textbook\cite{berry1996statistics}
                                                   :
 
-LaTeX Warning: Marginpar on page 115 moved.
+LaTeX Warning: Marginpar on page 121 moved.
 
-<../figs/average_weather_jul4_prov.png, id=3422, 653.44125pt x 321.2pt>
+[121] <../figs/average_weather_jul4_prov.png, id=3592, 653.44125pt x 321.2pt>
 File: ../figs/average_weather_jul4_prov.png Graphic file (type png)
 
 <use ../figs/average_weather_jul4_prov.png>
@@ -2882,15 +2981,14 @@ Overfull \hbox (11.9931pt too wide) in paragraph at lines 281--282
 [][]  
  []
 
-[115]
 
-LaTeX Warning: Marginpar on page 116 moved.
+LaTeX Warning: Marginpar on page 122 moved.
 
-[116 <../figs/average_weather_jul4_prov.png>]
+[122 <../figs/average_weather_jul4_prov.png>]
 
-LaTeX Warning: Marginpar on page 117 moved.
+LaTeX Warning: Marginpar on page 123 moved.
 
-<../figs/mass1960_1974.pdf, id=3435, 1156.32pt x 650.43pt>
+<../figs/mass1960_1974.pdf, id=3599, 1156.32pt x 650.43pt>
 File: ../figs/mass1960_1974.pdf Graphic file (type pdf)
 
 <use ../figs/mass1960_1974.pdf>
@@ -2906,12 +3004,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 359--361
 
  []
 
-[117] [118 <../figs/mass1960_1974.pdf>]
+[123] [124 <../figs/mass1960_1974.pdf>]
 Overfull \hbox (28.87512pt too wide) in alignment at lines 389--393
  [][][] []
  []
 
-<../figs/mass1965_1974_1_value.pdf, id=3477, 1156.32pt x 650.43pt>
+[125] <../figs/mass1965_1974_1_value.pdf, id=3649, 1156.32pt x 650.43pt>
 File: ../figs/mass1965_1974_1_value.pdf Graphic file (type pdf)
 
 <use ../figs/mass1965_1974_1_value.pdf>
@@ -2923,7 +3021,7 @@ Overfull \hbox (121.61894pt too wide) in paragraph at lines 416--416
  [] 
  []
 
-<../figs/mass1965_1974_1_value_dist.pdf, id=3478, 1156.32pt x 650.43pt>
+<../figs/mass1965_1974_1_value_dist.pdf, id=3650, 1156.32pt x 650.43pt>
 File: ../figs/mass1965_1974_1_value_dist.pdf Graphic file (type pdf)
 
 <use ../figs/mass1965_1974_1_value_dist.pdf>
@@ -2935,17 +3033,17 @@ Overfull \hbox (121.61894pt too wide) in paragraph at lines 417--417
  [] 
  []
 
-[119] [120 <../figs/mass1965_1974_1_value.pdf> <../figs/mass1965_1974_1_value_d
-ist.pdf
 
-pdfTeX warning: /usr/texbin/pdflatex (file ../figs/mass1965_1974_1_value_dist.p
-df): PDF inclusion: multiple pdfs with page group included in a single page
->]
 Overfull \hbox (28.87512pt too wide) in alignment at lines 467--470
  [][][] []
  []
 
-[121] <../figs/mass1965_2003_1_value.pdf, id=3634, 1156.32pt x 650.43pt>
+[126] [127 <../figs/mass1965_1974_1_value.pdf> <../figs/mass1965_1974_1_value_d
+ist.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ../figs/mass1965_1974_1_value_dist.p
+df): PDF inclusion: multiple pdfs with page group included in a single page
+>] <../figs/mass1965_2003_1_value.pdf, id=3797, 1156.32pt x 650.43pt>
 File: ../figs/mass1965_2003_1_value.pdf Graphic file (type pdf)
 
 <use ../figs/mass1965_2003_1_value.pdf>
@@ -2957,7 +3055,7 @@ Overfull \hbox (121.61894pt too wide) in paragraph at lines 498--498
  [] 
  []
 
-[122] <../figs/mass1965_2003_2_value.pdf, id=3643, 1156.32pt x 650.43pt>
+[128] <../figs/mass1965_2003_2_value.pdf, id=3808, 1156.32pt x 650.43pt>
 File: ../figs/mass1965_2003_2_value.pdf Graphic file (type pdf)
 
 <use ../figs/mass1965_2003_2_value.pdf>
@@ -2969,8 +3067,8 @@ Overfull \hbox (49.3491pt too wide) in paragraph at lines 537--537
  [] 
  []
 
-[123 <../figs/mass1965_2003_1_value.pdf>]
-<../figs/mass1965_2003_2_value_diff.pdf, id=3726, 1156.32pt x 650.43pt>
+[129 <../figs/mass1965_2003_1_value.pdf>]
+<../figs/mass1965_2003_2_value_diff.pdf, id=3891, 1156.32pt x 650.43pt>
 File: ../figs/mass1965_2003_2_value_diff.pdf Graphic file (type pdf)
 
 <use ../figs/mass1965_2003_2_value_diff.pdf>
@@ -2982,10 +3080,10 @@ Overfull \hbox (49.3491pt too wide) in paragraph at lines 558--558
  [] 
  []
 
-(../python/examples/Applications_of_Parameter_Estimation.tex [124 <../figs/mass
-1965_2003_2_value.pdf>] [125 <../figs/mass1965_2003_2_value_diff.pdf>]
+(../python/examples/Applications_of_Parameter_Estimation.tex [130 <../figs/mass
+1965_2003_2_value.pdf>] [131 <../figs/mass1965_2003_2_value_diff.pdf>]
 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
-ter_Estimation_fig0.png, id=3886, 717.68124pt x 489.83pt>
+ter_Estimation_fig0.png, id=4042, 717.68124pt x 489.83pt>
 File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
 arameter_Estimation_fig0.png Graphic file (type png)
 
@@ -2994,12 +3092,9 @@ rameter_Estimation_fig0.png>
 Package pdftex.def Info: ../python/examples/Applications_of_Parameter_Estimatio
 n/Applications_of_Parameter_Estimation_fig0.png used on input line 97.
 (pdftex.def)             Requested size: 325.22041pt x 221.96861pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [126]
+ [132]
 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
-ter_Estimation_fig1.png, id=3914, 714.67pt x 484.81125pt>
+ter_Estimation_fig1.png, id=4079, 714.67pt x 484.81125pt>
 File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
 arameter_Estimation_fig1.png Graphic file (type png)
 
@@ -3008,11 +3103,11 @@ rameter_Estimation_fig1.png>
 Package pdftex.def Info: ../python/examples/Applications_of_Parameter_Estimatio
 n/Applications_of_Parameter_Estimation_fig1.png used on input line 103.
 (pdftex.def)             Requested size: 325.21898pt x 220.61905pt.
- [127 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
+ [133 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
 Parameter_Estimation_fig0.png> <../python/examples/Applications_of_Parameter_Es
 timation/Applications_of_Parameter_Estimation_fig1.png>]
 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
-ter_Estimation_fig2.png, id=3928, 752.8125pt x 484.81125pt>
+ter_Estimation_fig2.png, id=4093, 752.8125pt x 484.81125pt>
 File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
 arameter_Estimation_fig2.png Graphic file (type png)
 
@@ -3029,7 +3124,7 @@ Overfull \hbox (10.3732pt too wide) in paragraph at lines 140--140
 
 
 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
-ter_Estimation_fig3.png, id=3929, 509.905pt x 317.185pt>
+ter_Estimation_fig3.png, id=4094, 509.905pt x 317.185pt>
 File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
 arameter_Estimation_fig3.png Graphic file (type png)
 
@@ -3038,7 +3133,7 @@ rameter_Estimation_fig3.png>
 Package pdftex.def Info: ../python/examples/Applications_of_Parameter_Estimatio
 n/Applications_of_Parameter_Estimation_fig3.png used on input line 153.
 (pdftex.def)             Requested size: 325.23325pt x 202.31042pt.
- [128 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
+ [134 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
 Parameter_Estimation_fig2.png> <../python/examples/Applications_of_Parameter_Es
 timation/Applications_of_Parameter_Estimation_fig3.png>]
 Overfull \hbox (10.3732pt too wide) in paragraph at lines 161--161
@@ -3048,7 +3143,7 @@ Overfull \hbox (10.3732pt too wide) in paragraph at lines 161--161
 
 
 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
-ter_Estimation_fig4.png, id=3946, 779.91376pt x 518.93875pt>
+ter_Estimation_fig4.png, id=4111, 779.91376pt x 518.93875pt>
 File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
 arameter_Estimation_fig4.png Graphic file (type png)
 
@@ -3060,9 +3155,9 @@ n/Applications_of_Parameter_Estimation_fig4.png used on input line 203.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [129]
+ [135]
 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
-ter_Estimation_fig5.png, id=3961, 758.835pt x 508.90125pt>
+ter_Estimation_fig5.png, id=4126, 758.835pt x 508.90125pt>
 File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
 arameter_Estimation_fig5.png Graphic file (type png)
 
@@ -3071,11 +3166,11 @@ rameter_Estimation_fig5.png>
 Package pdftex.def Info: ../python/examples/Applications_of_Parameter_Estimatio
 n/Applications_of_Parameter_Estimation_fig5.png used on input line 215.
 (pdftex.def)             Requested size: 325.21585pt x 218.1011pt.
- [130 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
+ [136 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
 Parameter_Estimation_fig4.png> <../python/examples/Applications_of_Parameter_Es
 timation/Applications_of_Parameter_Estimation_fig5.png>]
 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
-ter_Estimation_fig6.png, id=3979, 779.91376pt x 518.93875pt>
+ter_Estimation_fig6.png, id=4144, 779.91376pt x 518.93875pt>
 File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
 arameter_Estimation_fig6.png Graphic file (type png)
 
@@ -3084,10 +3179,10 @@ rameter_Estimation_fig6.png>
 Package pdftex.def Info: ../python/examples/Applications_of_Parameter_Estimatio
 n/Applications_of_Parameter_Estimation_fig6.png used on input line 237.
 (pdftex.def)             Requested size: 325.21715pt x 216.39287pt.
- [131 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
+ [137 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
 Parameter_Estimation_fig6.png>]
 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
-ter_Estimation_fig7.png, id=3996, 762.85pt x 508.90125pt>
+ter_Estimation_fig7.png, id=4161, 762.85pt x 508.90125pt>
 File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
 arameter_Estimation_fig7.png Graphic file (type png)
 
@@ -3098,7 +3193,7 @@ n/Applications_of_Parameter_Estimation_fig7.png used on input line 293.
 (pdftex.def)             Requested size: 325.21384pt x 216.95186pt.
 
 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
-ter_Estimation_fig8.png, id=3997, 766.865pt x 518.93875pt>
+ter_Estimation_fig8.png, id=4162, 766.865pt x 518.93875pt>
 File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
 arameter_Estimation_fig8.png Graphic file (type png)
 
@@ -3107,10 +3202,10 @@ rameter_Estimation_fig8.png>
 Package pdftex.def Info: ../python/examples/Applications_of_Parameter_Estimatio
 n/Applications_of_Parameter_Estimation_fig8.png used on input line 308.
 (pdftex.def)             Requested size: 325.21709pt x 220.0749pt.
- [132 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
+ [138 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
 Parameter_Estimation_fig7.png>]
 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
-ter_Estimation_fig9.png, id=4025, 734.745pt x 484.81125pt>
+ter_Estimation_fig9.png, id=4190, 734.745pt x 484.81125pt>
 File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
 arameter_Estimation_fig9.png Graphic file (type png)
 
@@ -3122,11 +3217,11 @@ n/Applications_of_Parameter_Estimation_fig9.png used on input line 332.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [133 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
-Parameter_Estimation_fig8.png>] [134 <../python/examples/Applications_of_Parame
+ [139 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
+Parameter_Estimation_fig8.png>] [140 <../python/examples/Applications_of_Parame
 ter_Estimation/Applications_of_Parameter_Estimation_fig9.png>]
 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
-ter_Estimation_fig10.png, id=4077, 739.76375pt x 508.90125pt>
+ter_Estimation_fig10.png, id=4242, 739.76375pt x 508.90125pt>
 File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
 arameter_Estimation_fig10.png Graphic file (type png)
 
@@ -3135,22 +3230,296 @@ rameter_Estimation_fig10.png>
 Package pdftex.def Info: ../python/examples/Applications_of_Parameter_Estimatio
 n/Applications_of_Parameter_Estimation_fig10.png used on input line 390.
 (pdftex.def)             Requested size: 325.21486pt x 223.72311pt.
-)) [135 <../python/examples/Applications_of_Parameter_Estimation/Applications_o
+)) [141 <../python/examples/Applications_of_Parameter_Estimation/Applications_o
 f_Parameter_Estimation_fig10.png>]
-\openout2 = `chap-conclusions.aux'.
+\openout2 = `chap-multi-parameter.aux'.
 
 
-(./chap-conclusions.tex [136
+(./chap-multi-parameter.tex [142
 
 
 
 ]
-Chapter 7.
+Chapter 8.
+
+Package natbib Warning: Citation `mclaren2012using' undefined on input line 8.
+
+
+LaTeX Warning: Marginpar on page 143 moved.
+
+<../figs/shoesize_subset.pdf, id=4258, 722.7pt x 578.16pt>
+File: ../figs/shoesize_subset.pdf Graphic file (type pdf)
+
+<use ../figs/shoesize_subset.pdf>
+Package pdftex.def Info: ../figs/shoesize_subset.pdf used on input line 31.
+(pdftex.def)             Requested size: 312.00104pt x 249.60083pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--34
+
+ []
+
+[143] [144 <../figs/shoesize_subset.pdf>]
+<../figs/shoesize_subset_slope.pdf, id=4303, 993.7125pt x 660.36716pt>
+File: ../figs/shoesize_subset_slope.pdf Graphic file (type pdf)
+
+<use ../figs/shoesize_subset_slope.pdf>
+Package pdftex.def Info: ../figs/shoesize_subset_slope.pdf used on input line 6
+3.
+(pdftex.def)             Requested size: 312.00519pt x 207.34164pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--65
+
+ []
+
+<../figs/shoesize_subset_intercept.pdf, id=4304, 993.7125pt x 660.36716pt>
+File: ../figs/shoesize_subset_intercept.pdf Graphic file (type pdf)
+
+<use ../figs/shoesize_subset_intercept.pdf>
+Package pdftex.def Info: ../figs/shoesize_subset_intercept.pdf used on input li
+ne 68.
+(pdftex.def)             Requested size: 312.00519pt x 207.34164pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+
+ []
+
+<../figs/shoesize_subset_fit.pdf, id=4305, 722.7pt x 578.16pt>
+File: ../figs/shoesize_subset_fit.pdf Graphic file (type pdf)
+
+<use ../figs/shoesize_subset_fit.pdf>
+Package pdftex.def Info: ../figs/shoesize_subset_fit.pdf used on input line 73.
+
+(pdftex.def)             Requested size: 312.00104pt x 249.60083pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--75
+
+ []
+
+[145 <../figs/shoesize_subset_slope.pdf>] [146 <../figs/shoesize_subset_interce
+pt.pdf> <../figs/shoesize_subset_fit.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ../figs/shoesize_subset_fit.pdf): PD
+F inclusion: multiple pdfs with page group included in a single page
+>] <../figs/shoesize_subset_regression_mse.pdf, id=4424, 722.7pt x 578.16pt>
+File: ../figs/shoesize_subset_regression_mse.pdf Graphic file (type pdf)
+
+<use ../figs/shoesize_subset_regression_mse.pdf>
+Package pdftex.def Info: ../figs/shoesize_subset_regression_mse.pdf used on inp
+ut line 87.
+(pdftex.def)             Requested size: 312.00104pt x 249.60083pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
+
+ []
+
+
+Package natbib Warning: Citation `guber1999getting' undefined on input line 94.
+
+
+
+LaTeX Warning: Marginpar on page 147 moved.
+
+<../figs/sat_result.pdf, id=4426, 1445.4pt x 1445.4pt>
+File: ../figs/sat_result.pdf Graphic file (type pdf)
+
+<use ../figs/sat_result.pdf>
+Package pdftex.def Info: ../figs/sat_result.pdf used on input line 101.
+(pdftex.def)             Requested size: 466.0883pt x 466.0883pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
+
+ []
+
+
+LaTeX Warning: Marginpar on page 147 moved.
+
+[147 <../figs/shoesize_subset_regression_mse.pdf>] [148 <../figs/sat_result.pdf
+>] <../figs/sat_result_percent_taking.pdf, id=4545, 1445.4pt x 1445.4pt>
+File: ../figs/sat_result_percent_taking.pdf Graphic file (type pdf)
+
+<use ../figs/sat_result_percent_taking.pdf>
+Package pdftex.def Info: ../figs/sat_result_percent_taking.pdf used on input li
+ne 119.
+(pdftex.def)             Requested size: 466.0883pt x 466.0883pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--121
+
+ []
+
+<../figs/sat_multiple.pdf, id=4547, 1156.32pt x 1445.4pt>
+File: ../figs/sat_multiple.pdf Graphic file (type pdf)
+
+<use ../figs/sat_multiple.pdf>
+Package pdftex.def Info: ../figs/sat_multiple.pdf used on input line 145.
+(pdftex.def)             Requested size: 311.99884pt x 389.99857pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--147
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--147
+
+ []
+
+(../python/examples/Regression.tex [149] [150 <../figs/sat_result_percent_takin
+g.pdf>] [151 <../figs/sat_multiple.pdf>]
+<../python/examples/Regression/Regression_fig0.png, id=4687, 639.38875pt x 522.
+95375pt>
+File: ../python/examples/Regression/Regression_fig0.png Graphic file (type png)
+
+ <use ../python/examples/Regression/Regression_fig0.png>
+Package pdftex.def Info: ../python/examples/Regression/Regression_fig0.png used
+ on input line 60.
+(pdftex.def)             Requested size: 325.21564pt x 265.99269pt.
+ [152]
+<../python/examples/Regression/Regression_fig1.png, id=4712, 984.67876pt x 512.
+91624pt>
+File: ../python/examples/Regression/Regression_fig1.png Graphic file (type png)
+
+ <use ../python/examples/Regression/Regression_fig1.png>
+Package pdftex.def Info: ../python/examples/Regression/Regression_fig1.png used
+ on input line 69.
+(pdftex.def)             Requested size: 325.21544pt x 169.40376pt.
+
+<../python/examples/Regression/Regression_fig2.png, id=4713, 961.5925pt x 520.9
+4624pt>
+File: ../python/examples/Regression/Regression_fig2.png Graphic file (type png)
+
+ <use ../python/examples/Regression/Regression_fig2.png>
+Package pdftex.def Info: ../python/examples/Regression/Regression_fig2.png used
+ on input line 74.
+(pdftex.def)             Requested size: 325.22041pt x 176.18935pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [153 <../python/examples/Regression/Regression_fig0.png> <../python/examples/R
+egression/Regression_fig1.png>]
+<../python/examples/Regression/Regression_fig3.png, id=4722, 639.38875pt x 522.
+95375pt>
+File: ../python/examples/Regression/Regression_fig3.png Graphic file (type png)
+
+ <use ../python/examples/Regression/Regression_fig3.png>
+Package pdftex.def Info: ../python/examples/Regression/Regression_fig3.png used
+ on input line 96.
+(pdftex.def)             Requested size: 325.21564pt x 265.99269pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [154 <../python/examples/Regression/Regression_fig2.png>]
+<../python/examples/Regression/Regression_fig4.png, id=4746, 996.72375pt x 512.
+91624pt>
+File: ../python/examples/Regression/Regression_fig4.png Graphic file (type png)
+
+ <use ../python/examples/Regression/Regression_fig4.png>
+Package pdftex.def Info: ../python/examples/Regression/Regression_fig4.png used
+ on input line 109.
+(pdftex.def)             Requested size: 325.20892pt x 167.35323pt.
+
+<../python/examples/Regression/Regression_fig5.png, id=4747, 992.70876pt x 520.
+94624pt>
+File: ../python/examples/Regression/Regression_fig5.png Graphic file (type png)
+
+ <use ../python/examples/Regression/Regression_fig5.png>
+Package pdftex.def Info: ../python/examples/Regression/Regression_fig5.png used
+ on input line 114.
+(pdftex.def)             Requested size: 325.21675pt x 170.6648pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [155 <../python/examples/Regression/Regression_fig3.png> <../python/examples/R
+egression/Regression_fig4.png>]
+<../python/examples/Regression/Regression_fig6.png, id=4758, 664.4825pt x 522.9
+5375pt>
+File: ../python/examples/Regression/Regression_fig6.png Graphic file (type png)
+
+ <use ../python/examples/Regression/Regression_fig6.png>
+Package pdftex.def Info: ../python/examples/Regression/Regression_fig6.png used
+ on input line 133.
+(pdftex.def)             Requested size: 325.21397pt x 255.94635pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [156 <../python/examples/Regression/Regression_fig5.png>]
+<../python/examples/Regression/Regression_fig7.png, id=4778, 996.72375pt x 512.
+91624pt>
+File: ../python/examples/Regression/Regression_fig7.png Graphic file (type png)
+
+ <use ../python/examples/Regression/Regression_fig7.png>
+Package pdftex.def Info: ../python/examples/Regression/Regression_fig7.png used
+ on input line 142.
+(pdftex.def)             Requested size: 325.20892pt x 167.35323pt.
+
+<../python/examples/Regression/Regression_fig8.png, id=4779, 992.70876pt x 520.
+94624pt>
+File: ../python/examples/Regression/Regression_fig8.png Graphic file (type png)
+
+ <use ../python/examples/Regression/Regression_fig8.png>
+Package pdftex.def Info: ../python/examples/Regression/Regression_fig8.png used
+ on input line 147.
+(pdftex.def)             Requested size: 325.21675pt x 170.6648pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [157 <../python/examples/Regression/Regression_fig6.png> <../python/examples/R
+egression/Regression_fig7.png>]
+<../python/examples/Regression/Regression_fig9.png, id=4789, 640.3925pt x 522.9
+5375pt>
+File: ../python/examples/Regression/Regression_fig9.png Graphic file (type png)
+
+ <use ../python/examples/Regression/Regression_fig9.png>
+Package pdftex.def Info: ../python/examples/Regression/Regression_fig9.png used
+ on input line 166.
+(pdftex.def)             Requested size: 325.21805pt x 265.57776pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [158 <../python/examples/Regression/Regression_fig8.png>]
+<../python/examples/Regression/Regression_fig10.png, id=4809, 996.72375pt x 512
+.91624pt>
+File: ../python/examples/Regression/Regression_fig10.png Graphic file (type png
+)
+ <use ../python/examples/Regression/Regression_fig10.png>
+Package pdftex.def Info: ../python/examples/Regression/Regression_fig10.png use
+d on input line 175.
+(pdftex.def)             Requested size: 325.20892pt x 167.35323pt.
+
+<../python/examples/Regression/Regression_fig11.png, id=4810, 992.70876pt x 520
+.94624pt>
+File: ../python/examples/Regression/Regression_fig11.png Graphic file (type png
+)
+ <use ../python/examples/Regression/Regression_fig11.png>
+Package pdftex.def Info: ../python/examples/Regression/Regression_fig11.png use
+d on input line 180.
+(pdftex.def)             Requested size: 325.21675pt x 170.6648pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [159 <../python/examples/Regression/Regression_fig9.png> <../python/examples/R
+egression/Regression_fig10.png>]
+<../python/examples/Regression/Regression_fig12.png, id=4819, 979.66pt x 520.94
+624pt>
+File: ../python/examples/Regression/Regression_fig12.png Graphic file (type png
+)
+ <use ../python/examples/Regression/Regression_fig12.png>
+Package pdftex.def Info: ../python/examples/Regression/Regression_fig12.png use
+d on input line 185.
+(pdftex.def)             Requested size: 325.2022pt x 172.93025pt.
+)) [160 <../python/examples/Regression/Regression_fig11.png> <../python/example
+s/Regression/Regression_fig12.png>]
+\openout2 = `chap-conclusions.aux'.
+
+ (./chap-conclusions.tex
+Chapter 9.
 
 Underfull \vbox (badness 1163) has occurred while \output is active []
 
- [137])
-[138] (./main.bblpdfTeX warning (ext4): destination with the same identifier (n
+ [161
+
+
+
+])
+[162] (./main.bblpdfTeX warning (ext4): destination with the same identifier (n
 ame{cite.wiki:psychic_octopus}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -3227,7 +3596,7 @@ e ignored
 <to be read again> 
                    \relax 
 l.77 \bibitem[Randi(1982)]{randi1982flim}
-                                          [139
+                                          [163
 
 
 
@@ -3248,19 +3617,19 @@ icate ignored
 <to be read again> 
                    \relax 
 l.93 ...ersky and Gilovich(2005)]{tversky2005cold}
-                                                  ) [140]
+                                                  ) [164]
 \openout2 = `chap-computational.aux'.
 
 
 (./chap-computational.tex
 Appendix A.
-) [141
+) [165
 
 
 ]
 \openout2 = `chap-notation.aux'.
 
- (./chap-notation.tex [142
+ (./chap-notation.tex [166
 
 
 
@@ -3321,23 +3690,23 @@ Overfull \hbox (12.69362pt too wide) in paragraph at lines 7--45
 [][]  
  []
 
-[143]
+[167]
 
-LaTeX Warning: Marginpar on page 144 moved.
+LaTeX Warning: Marginpar on page 168 moved.
 
-[144]) [145]
+[168]) [169]
 \openout2 = `chap-distributions.aux'.
 
- (./chap-distributions.tex [146
+ (./chap-distributions.tex [170
 
 
 
 ]
 Appendix C.
 
-LaTeX Warning: Marginpar on page 147 moved.
+LaTeX Warning: Marginpar on page 171 moved.
 
-<../figs/distributions_1.pdf, id=4146, 722.7pt x 578.16pt>
+<../figs/distributions_1.pdf, id=4885, 722.7pt x 578.16pt>
 File: ../figs/distributions_1.pdf Graphic file (type pdf)
 
 <use ../figs/distributions_1.pdf>
@@ -3360,9 +3729,9 @@ Overfull \hbox (9.14153pt too wide) detected at line 27
  []
 
 
-LaTeX Warning: Marginpar on page 147 moved.
+LaTeX Warning: Marginpar on page 171 moved.
 
-[147]
+[171]
 File: ../figs/distributions_1.pdf Graphic file (type pdf)
  <use ../figs/distributions_1.pdf>
 Package pdftex.def Info: ../figs/distributions_1.pdf used on input line 29.
@@ -3377,7 +3746,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--32
 
  []
 
-<../figs/distributions_plumber.pdf, id=4152, 722.7pt x 578.16pt>
+<../figs/distributions_plumber.pdf, id=4891, 722.7pt x 578.16pt>
 File: ../figs/distributions_plumber.pdf Graphic file (type pdf)
 
 <use ../figs/distributions_plumber.pdf>
@@ -3395,17 +3764,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--45
  []
 
 
-LaTeX Warning: Marginpar on page 148 moved.
+LaTeX Warning: Marginpar on page 172 moved.
 
-[148 <../figs/distributions_1.pdf>] [149 <../figs/distributions_plumber.pdf>]
+[172 <../figs/distributions_1.pdf>] [173 <../figs/distributions_plumber.pdf>]
 Overfull \hbox (10.86345pt too wide) in alignment at lines 71--71
  [][][] []
  []
 
 
-LaTeX Warning: Marginpar on page 150 moved.
+LaTeX Warning: Marginpar on page 174 moved.
 
-<../figs/coinflips5.pdf, id=4224, 879.88722pt x 663.07722pt>
+<../figs/coinflips5.pdf, id=4963, 879.88722pt x 663.07722pt>
 File: ../figs/coinflips5.pdf Graphic file (type pdf)
 
 <use ../figs/coinflips5.pdf>
@@ -3427,9 +3796,9 @@ Overfull \hbox (44.0935pt too wide) in alignment at lines 94--94
  []
 
 
-LaTeX Warning: Marginpar on page 150 moved.
+LaTeX Warning: Marginpar on page 174 moved.
 
-[150 <../figs/coinflips5.pdf>]
+[174 <../figs/coinflips5.pdf>]
 File: ../figs/beta_dist4.pdf Graphic file (type pdf)
  <use ../figs/beta_dist4.pdf>
 Package pdftex.def Info: ../figs/beta_dist4.pdf used on input line 100.
@@ -3459,20 +3828,20 @@ Overfull \hbox (18.44286pt too wide) in alignment at lines 125--125
  []
 
 
-LaTeX Warning: Marginpar on page 151 moved.
+LaTeX Warning: Marginpar on page 175 moved.
 
-[151]) [152]
+[175]) [176]
 \openout2 = `chap-tables.aux'.
 
  (./chap-tables.tex
 Appendix D.
-<../figs/z_table_CI.pdf, id=4289, 804.08217pt x 549.28963pt>
+<../figs/z_table_CI.pdf, id=5028, 804.08217pt x 549.28963pt>
 File: ../figs/z_table_CI.pdf Graphic file (type pdf)
 
 <use ../figs/z_table_CI.pdf>
 Package pdftex.def Info: ../figs/z_table_CI.pdf used on input line 5.
 (pdftex.def)             Requested size: 311.99577pt x 213.13249pt.
- (./z_table_CI.tex) [153
+ (./z_table_CI.tex) [177
 
 
 
@@ -3518,7 +3887,7 @@ Overfull \hbox (77.64232pt too wide) in paragraph at lines 31--42
 
 Underfull \vbox (badness 1189) has occurred while \output is active []
 
- [154]
+ [178]
 Underfull \hbox (badness 10000) in paragraph at lines 47--47
 []|\T1/pplj/b/n/10 Credible
  []
@@ -3538,8 +3907,8 @@ Overfull \hbox (77.64232pt too wide) in paragraph at lines 59--70
  [] 
  []
 
-) [155] (./z_table.tex
-<../figs/z_table_crit.pdf, id=4343, 867.24pt x 578.16pt>
+) [179] (./z_table.tex
+<../figs/z_table_crit.pdf, id=5082, 867.24pt x 578.16pt>
 File: ../figs/z_table_crit.pdf Graphic file (type pdf)
 
 <use ../figs/z_table_crit.pdf>
@@ -3575,7 +3944,7 @@ Overfull \hbox (164.82498pt too wide) in paragraph at lines 4--186
 [][]  
  []
 
-[156 <../figs/z_table_crit.pdf>]
+[180 <../figs/z_table_crit.pdf>]
 File: ../figs/z_table_crit.pdf Graphic file (type pdf)
  <use ../figs/z_table_crit.pdf>
 Package pdftex.def Info: ../figs/z_table_crit.pdf used on input line 190.
@@ -3610,7 +3979,7 @@ Overfull \hbox (164.82498pt too wide) in paragraph at lines 192--374
 [][]  
  []
 
-[157]
+[181]
 File: ../figs/z_table_crit.pdf Graphic file (type pdf)
  <use ../figs/z_table_crit.pdf>
 Package pdftex.def Info: ../figs/z_table_crit.pdf used on input line 378.
@@ -3645,7 +4014,7 @@ Overfull \hbox (158.16498pt too wide) in paragraph at lines 380--562
 [][]  
  []
 
-[158]
+[182]
 File: ../figs/z_table_crit.pdf Graphic file (type pdf)
  <use ../figs/z_table_crit.pdf>
 Package pdftex.def Info: ../figs/z_table_crit.pdf used on input line 566.
@@ -3680,7 +4049,7 @@ Overfull \hbox (148.17497pt too wide) in paragraph at lines 568--750
 [][]  
  []
 
-[159]
+[183]
 File: ../figs/z_table_crit.pdf Graphic file (type pdf)
  <use ../figs/z_table_crit.pdf>
 Package pdftex.def Info: ../figs/z_table_crit.pdf used on input line 754.
@@ -3715,24 +4084,27 @@ Overfull \hbox (148.17497pt too wide) in paragraph at lines 756--938
 [][]  
  []
 
-[160]))
+[184]))
 No file main.ind.
+
+Package natbib Warning: There were undefined citations.
+
 \tf@thm=\write9
 \openout9 = `main.thm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 109.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 109.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
 (./main.aux (./frontmatter.aux) (./proposal.aux) (./chap-introduction.aux)
 (./chap-probability-applications.aux) (./chap-random-sequences.aux)
 (./chap-model-comparison2.aux) (./chap-model-comparison-applications.aux)
 (./chap-parameter-estimation.aux) (./chap-priors-posteriors.aux)
-(./chap-parameter-estimation-applications.aux) (./chap-conclusions.aux)
-(./chap-computational.aux) (./chap-notation.aux) (./chap-distributions.aux)
-(./chap-tables.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 109.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 109.
+(./chap-z-test-t-test.aux) (./chap-parameter-estimation-applications.aux)
+(./chap-multi-parameter.aux) (./chap-conclusions.aux) (./chap-computational.aux
+) (./chap-notation.aux) (./chap-distributions.aux) (./chap-tables.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4D52D0C9E224FCC89E713CF611B3FA5D;10425.
+(rerunfilecheck)             Checksum: 341465BD0296DC5BA2B3956CE3872192;11870.
 
 
 LaTeX Warning: There were undefined references.
@@ -3740,16 +4112,16 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
  ) 
 Here is how much of TeX's memory you used:
- 16530 strings out of 493117
- 243025 string characters out of 6135433
- 474978 words of memory out of 5000000
- 18719 multiletter control sequences out of 15000+600000
+ 16902 strings out of 493117
+ 251521 string characters out of 6135433
+ 479712 words of memory out of 5000000
+ 18873 multiletter control sequences out of 15000+600000
  144900 words of font info for 226 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 50i,20n,72p,1546b,1783s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,20n,72p,1546b,1797s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2014/texmf-dist/fonts/enc/dvips/arev/arevoms.enc}</usr/local/texlive/201
 4/texmf-dist/fonts/type1/public/arev/ArevSans-Roman.pfb></usr/local/texlive/201
@@ -3769,9 +4141,9 @@ r/local/texlive/2014/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local
 /texlive/2014/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2014
 /texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (160 pages, 4500232 bytes).
+Output written on main.pdf (184 pages, 5200618 bytes).
 PDF statistics:
- 4586 PDF objects out of 5155 (max. 8388607)
- 692 named destinations out of 1000 (max. 500000)
- 4369 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5358 PDF objects out of 6186 (max. 8388607)
+ 860 named destinations out of 1000 (max. 500000)
+ 4551 words of extra memory for PDF output out of 10000 (max. 10000000)
 

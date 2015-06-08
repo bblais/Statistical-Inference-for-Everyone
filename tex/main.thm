@@ -20,23 +20,23 @@
 \contentsline {myexercise}{{Exercise}{5.{2}}{Normal Distribution - Likelihood}}{94}{myexercise.5.2}
 \contentsline {myexercise}{{Exercise}{5.{3}}{Normal Distribution - Likelihood Again}}{94}{myexercise.5.3}
 \contentsline {myexample}{{Example}{5.{3}}{We have two Normal distributions $P(x)={\rm Normal}(\mu =8,\sigma =2)$ and $P(y)={\rm Normal}(\mu =20,\sigma =7)$. What is the distribution for $z=y-x$? }}{95}{myexample.5.3}
-\contentsline {myexample}{{Example}{5.{4}}{Estimating the True Length of an Object}}{98}{myexample.5.4}
-\contentsline {myexample}{{Example}{5.{5}}{Estimating the True Length of an Object...Again\label {ex:length_tdist}}}{99}{myexample.5.5}
-\contentsline {myexample}{{Example}{5.{6}}{Estimating the True Length of an Object...Yet Again}}{104}{myexample.5.6}
-\contentsline {myexample}{{Example}{6.{1}}{Iris petal lengths - Best estimate}}{109}{myexample.6.1}
-\contentsline {myexample}{{Example}{6.{2}}{Iris petal lengths - A different species?}}{110}{myexample.6.2}
-\contentsline {myexample}{{Example}{6.{3}}{Iris petal lengths - Significantly different?}}{110}{myexample.6.3}
-\contentsline {myexample}{{Example}{6.{4}}{Ball Bearing Sizes}}{112}{myexample.6.4}
-\contentsline {myexample}{{Example}{6.{5}}{What is the best estimate (and uncertainty) for each of the two production lines of ball bearings?}}{113}{myexample.6.5}
-\contentsline {myexample}{{Example}{6.{6}}{Is it reasonable to believe that there is a difference in the size produced between the two lines?}}{114}{myexample.6.6}
-\contentsline {myexample}{{Example}{6.{7}}{The Sunrise Problem}}{114}{myexample.6.7}
-\contentsline {myexample}{{Example}{6.{8}}{Cancer Rates}}{115}{myexample.6.8}
-\contentsline {myexample}{{Example}{6.{9}}{Cancer Rates - Normal Approximation}}{115}{myexample.6.9}
-\contentsline {myexample}{{Example}{6.{10}}{Will it rain on the 4$^{\rm th}$ of July?}}{115}{myexample.6.10}
-\contentsline {myexample}{{Example}{6.{11}}{Hot Hand Reexamined\label {ex:hothand}}}{116}{myexample.6.11}
-\contentsline {myexample}{{Example}{6.{12}}{Mass of the Penny, Model 1 - One True Value}}{117}{myexample.6.12}
-\contentsline {myexample}{{Example}{6.{13}}{Mass of the Penny, Model 1 - One True Value with More Data}}{121}{myexample.6.13}
-\contentsline {myexample}{{Example}{6.{14}}{Mass of the Penny, Model 2 - Two True Values}}{122}{myexample.6.14}
-\contentsline {myexample}{{Example}{C.{1}}{ You call a plumber, and they say that they can come anytime in the next 4 hours. The probability of them arriving at any particular time can be represented with a uniform distribution. What is the probability that they arrive in the first 20 minutes of the second hour? \label {ex:plumber}}}{148}{myexample.C.1}
-\contentsline {myexample}{{Example}{D.{1}}{Usage of the Credible Interval Table for the Normal Distribution}}{153}{myexample.D.1}
-\contentsline {myexample}{{Example}{D.{2}}{Usage of the Credible Interval Table for the Student's $t$ Distribution}}{155}{myexample.D.2}
+\contentsline {myexample}{{Example}{5.{4}}{Estimating the True Length of an Object}}{97}{myexample.5.4}
+\contentsline {myexample}{{Example}{5.{5}}{Estimating the True Length of an Object...Again\label {ex:length_tdist}}}{98}{myexample.5.5}
+\contentsline {myexample}{{Example}{5.{6}}{Estimating the True Length of an Object...Yet Again}}{103}{myexample.5.6}
+\contentsline {myexample}{{Example}{7.{1}}{Iris petal lengths - Best estimate}}{115}{myexample.7.1}
+\contentsline {myexample}{{Example}{7.{2}}{Iris petal lengths - A different species?}}{116}{myexample.7.2}
+\contentsline {myexample}{{Example}{7.{3}}{Iris petal lengths - Significantly different?}}{116}{myexample.7.3}
+\contentsline {myexample}{{Example}{7.{4}}{Ball Bearing Sizes}}{118}{myexample.7.4}
+\contentsline {myexample}{{Example}{7.{5}}{What is the best estimate (and uncertainty) for each of the two production lines of ball bearings?}}{119}{myexample.7.5}
+\contentsline {myexample}{{Example}{7.{6}}{Is it reasonable to believe that there is a difference in the size produced between the two lines?}}{120}{myexample.7.6}
+\contentsline {myexample}{{Example}{7.{7}}{The Sunrise Problem}}{120}{myexample.7.7}
+\contentsline {myexample}{{Example}{7.{8}}{Cancer Rates}}{121}{myexample.7.8}
+\contentsline {myexample}{{Example}{7.{9}}{Cancer Rates - Normal Approximation}}{121}{myexample.7.9}
+\contentsline {myexample}{{Example}{7.{10}}{Will it rain on the 4$^{\rm th}$ of July?}}{122}{myexample.7.10}
+\contentsline {myexample}{{Example}{7.{11}}{Hot Hand Reexamined\label {ex:hothand}}}{122}{myexample.7.11}
+\contentsline {myexample}{{Example}{7.{12}}{Mass of the Penny, Model 1 - One True Value}}{123}{myexample.7.12}
+\contentsline {myexample}{{Example}{7.{13}}{Mass of the Penny, Model 1 - One True Value with More Data}}{126}{myexample.7.13}
+\contentsline {myexample}{{Example}{7.{14}}{Mass of the Penny, Model 2 - Two True Values}}{129}{myexample.7.14}
+\contentsline {myexample}{{Example}{C.{1}}{ You call a plumber, and they say that they can come anytime in the next 4 hours. The probability of them arriving at any particular time can be represented with a uniform distribution. What is the probability that they arrive in the first 20 minutes of the second hour? \label {ex:plumber}}}{172}{myexample.C.1}
+\contentsline {myexample}{{Example}{D.{1}}{Usage of the Credible Interval Table for the Normal Distribution}}{177}{myexample.D.1}
+\contentsline {myexample}{{Example}{D.{2}}{Usage of the Credible Interval Table for the Student's $t$ Distribution}}{179}{myexample.D.2}

@@ -56,63 +56,74 @@
 \contentsline {subsection}{Summarizing the Distribution}{92}{subsection*.33}
 \contentsline {subsection}{Moving from a General Normal to the Standard Normal and Back}{92}{subsection*.34}
 \contentsline {subsection}{Sum and Differences}{94}{subsection*.35}
-\contentsline {subsection}{Significance}{96}{subsection*.36}
-\contentsline {paragraph}{An unintuitive consequence}{96}{paragraph*.37}
-\contentsline {section}{\numberline {5.3}The Normal Distribution - Estimating From Data}{97}{section.5.3}
-\contentsline {subsection}{Estimating the mean, $\mu $, knowing the deviation, $\sigma $}{97}{subsection*.38}
-\contentsline {subsection}{Estimating the mean, $\mu $, \emph {not} knowing the deviation, $\sigma $}{99}{subsection*.39}
-\contentsline {section}{\numberline {5.4}Normal Approximation}{100}{section.5.4}
-\contentsline {subsection}{The Beta Distribution}{100}{subsection*.40}
-\contentsline {subsection}{The Binomial Distribution}{102}{subsection*.41}
-\contentsline {subsection}{The Student's $t$ Distribution}{103}{subsection*.42}
-\contentsline {section}{\numberline {5.5}Summary}{105}{section.5.5}
-\contentsline {section}{\numberline {5.6}Computer Examples}{106}{section.5.6}
-\contentsline {subsection}{Estimating Lengths}{106}{subsection*.43}
-\contentsline {paragraph}{Known deviation, $\sigma $}{106}{paragraph*.44}
-\contentsline {paragraph}{Unknown $\sigma $}{107}{paragraph*.45}
-\contentsline {chapter}{\numberline {6}Applications of Parameter Estimation and Inference}{109}{chapter.6}
-\contentsline {section}{\numberline {6.1}Normal Model - Inference about Means}{109}{section.6.1}
-\contentsline {section}{\numberline {6.2}Normal Model Again - Inference about Means and Deviations}{110}{section.6.2}
-\contentsline {section}{\numberline {6.3}Beta Model - Inference About Proportions}{114}{section.6.3}
-\contentsline {section}{\numberline {6.4}Model Construction}{117}{section.6.4}
-\contentsline {paragraph}{Overlapping Intervals}{123}{paragraph*.46}
-\contentsline {paragraph}{Is the Difference Zero?}{123}{paragraph*.47}
-\contentsline {section}{\numberline {6.5}Computer Examples}{124}{section.6.5}
-\contentsline {subsection}{Iris Example}{124}{subsection*.48}
-\contentsline {subsection}{Sunrise}{127}{subsection*.49}
-\contentsline {subsection}{Cancer Example}{128}{subsection*.50}
-\contentsline {subsection}{Pennies}{129}{subsection*.51}
-\contentsline {paragraph}{Do the 2 datasets}{131}{paragraph*.52}
-\contentsline {paragraph}{Distribution of the difference, normal approximation}{133}{paragraph*.53}
-\contentsline {subsection}{Ball Bearing Sizes}{134}{subsection*.54}
-\contentsline {chapter}{\numberline {7}Concluding Thoughts}{137}{chapter.7}
-\contentsline {section}{\numberline {7.1}Where have we come?}{137}{section.7.1}
-\contentsline {section}{\numberline {7.2}Where are we going?}{138}{section.7.2}
-\contentsline {chapter}{Bibliography}{139}{chapter*.55}
+\contentsline {section}{\numberline {5.3}The Normal Distribution - Estimating From Data}{96}{section.5.3}
+\contentsline {subsection}{Estimating the mean, $\mu $, knowing the deviation, $\sigma $}{96}{subsection*.36}
+\contentsline {subsection}{Estimating the mean, $\mu $, \emph {not} knowing the deviation, $\sigma $}{98}{subsection*.37}
+\contentsline {section}{\numberline {5.4}Normal Approximation}{99}{section.5.4}
+\contentsline {subsection}{The Beta Distribution}{99}{subsection*.38}
+\contentsline {subsection}{The Binomial Distribution}{101}{subsection*.39}
+\contentsline {subsection}{The Student's $t$ Distribution}{102}{subsection*.40}
+\contentsline {section}{\numberline {5.5}Summary}{104}{section.5.5}
+\contentsline {section}{\numberline {5.6}Computer Examples}{105}{section.5.6}
+\contentsline {subsection}{Estimating Lengths}{105}{subsection*.41}
+\contentsline {paragraph}{Known deviation, $\sigma $}{105}{paragraph*.42}
+\contentsline {paragraph}{Unknown $\sigma $}{106}{paragraph*.43}
+\contentsline {chapter}{\numberline {6}Common Statistical Significance Tests}{109}{chapter.6}
+\contentsline {section}{\numberline {6.1}$z$-test}{109}{section.6.1}
+\contentsline {section}{\numberline {6.2}What it means and doesn't mean}{111}{section.6.2}
+\contentsline {subsection}{Significance}{111}{subsection*.44}
+\contentsline {paragraph}{An unintuitive consequence}{112}{paragraph*.45}
+\contentsline {section}{\numberline {6.3}Student-$t$-test}{112}{section.6.3}
+\contentsline {section}{\numberline {6.4}Computer Examples}{113}{section.6.4}
+\contentsline {chapter}{\numberline {7}Applications of Parameter Estimation and Inference}{115}{chapter.7}
+\contentsline {section}{\numberline {7.1}Normal Model - Inference about Means}{115}{section.7.1}
+\contentsline {section}{\numberline {7.2}Normal Model Again - Inference about Means and Deviations}{116}{section.7.2}
+\contentsline {section}{\numberline {7.3}Beta Model - Inference About Proportions}{120}{section.7.3}
+\contentsline {section}{\numberline {7.4}Model Construction}{123}{section.7.4}
+\contentsline {paragraph}{Overlapping Intervals}{129}{paragraph*.46}
+\contentsline {paragraph}{Is the Difference Zero?}{130}{paragraph*.47}
+\contentsline {section}{\numberline {7.5}Computer Examples}{130}{section.7.5}
+\contentsline {subsection}{Iris Example}{131}{subsection*.48}
+\contentsline {subsection}{Sunrise}{133}{subsection*.49}
+\contentsline {subsection}{Cancer Example}{134}{subsection*.50}
+\contentsline {subsection}{Pennies}{135}{subsection*.51}
+\contentsline {paragraph}{Do the 2 datasets}{137}{paragraph*.52}
+\contentsline {paragraph}{Distribution of the difference, normal approximation}{139}{paragraph*.53}
+\contentsline {subsection}{Ball Bearing Sizes}{140}{subsection*.54}
+\contentsline {chapter}{\numberline {8}Multi-parameter Models}{143}{chapter.8}
+\contentsline {section}{\numberline {8.1}Simple Linear Regression}{143}{section.8.1}
+\contentsline {subsection}{Mean Squared Error}{145}{subsection*.55}
+\contentsline {subsection}{An Educational Example}{147}{subsection*.56}
+\contentsline {section}{\numberline {8.2}Multiple regression}{149}{section.8.2}
+\contentsline {section}{\numberline {8.3}Computer Examples}{152}{section.8.3}
+\contentsline {chapter}{\numberline {9}Concluding Thoughts}{161}{chapter.9}
+\contentsline {section}{\numberline {9.1}Where have we come?}{161}{section.9.1}
+\contentsline {section}{\numberline {9.2}Where are we going?}{162}{section.9.2}
+\contentsline {chapter}{Bibliography}{163}{chapter*.57}
 \ttl@change@i {\@ne }{chapter}{0em}{\vspace {1.5\baselineskip }\begin {fullwidth}\LARGE \rmfamily \itshape }{\hspace *{0em}\appendixname ~\thecontentslabel : }{\hspace *{0em}}{\rmfamily \upshape \qquad \thecontentspage }\relax 
 \ttl@change@v {chapter}{}{}{\end {fullwidth}}\relax 
-\contentsline {chapter}{\numberline {A}Computational Analysis}{141}{appendix.A}
-\contentsline {chapter}{\numberline {B}Notation and Standards}{143}{appendix.B}
-\contentsline {section}{\numberline {B.1}Useful Greek Letters}{143}{section.B.1}
-\contentsline {section}{\numberline {B.2}Some Math Notation}{143}{section.B.2}
-\contentsline {subsection}{Variables}{143}{subsection*.56}
-\contentsline {subsection}{Sums}{144}{subsection*.57}
-\contentsline {subsection}{Products}{144}{subsection*.58}
-\contentsline {subsection}{Sample Mean}{144}{subsection*.59}
-\contentsline {subsection}{Sample Standard Deviation}{145}{subsection*.60}
-\contentsline {subsection}{Estimates}{145}{subsection*.61}
-\contentsline {subsection}{Factorials}{145}{subsection*.62}
-\contentsline {section}{\numberline {B.3}Qualitative labels to probability values}{145}{section.B.3}
-\contentsline {chapter}{\numberline {C}Common Distributions and Their Properties}{147}{appendix.C}
-\contentsline {section}{\numberline {C.1}Discrete and Continuous}{147}{section.C.1}
-\contentsline {section}{\numberline {C.2}Uniform}{147}{section.C.2}
-\contentsline {subsection}{Discrete}{147}{subsection*.63}
-\contentsline {subsection}{Continuous}{147}{subsection*.64}
-\contentsline {section}{\numberline {C.3}Binomial}{150}{section.C.3}
-\contentsline {section}{\numberline {C.4}Beta}{150}{section.C.4}
-\contentsline {section}{\numberline {C.5}Normal (Gaussian)}{151}{section.C.5}
-\contentsline {chapter}{\numberline {D}Tables}{153}{appendix.D}
-\contentsline {section}{\numberline {D.1}Credible Intervals for Standard Normal Distribution}{153}{section.D.1}
-\contentsline {section}{\numberline {D.2}Credible Intervals for Student's $t$ Distribution}{154}{section.D.2}
-\contentsline {section}{\numberline {D.3}Cumulative Standard Normal Distribution}{156}{section.D.3}
+\contentsline {chapter}{\numberline {A}Computational Analysis}{165}{appendix.A}
+\contentsline {chapter}{\numberline {B}Notation and Standards}{167}{appendix.B}
+\contentsline {section}{\numberline {B.1}Useful Greek Letters}{167}{section.B.1}
+\contentsline {section}{\numberline {B.2}Some Math Notation}{167}{section.B.2}
+\contentsline {subsection}{Variables}{167}{subsection*.58}
+\contentsline {subsection}{Sums}{168}{subsection*.59}
+\contentsline {subsection}{Products}{168}{subsection*.60}
+\contentsline {subsection}{Sample Mean}{168}{subsection*.61}
+\contentsline {subsection}{Sample Standard Deviation}{169}{subsection*.62}
+\contentsline {subsection}{Estimates}{169}{subsection*.63}
+\contentsline {subsection}{Factorials}{169}{subsection*.64}
+\contentsline {section}{\numberline {B.3}Qualitative labels to probability values}{169}{section.B.3}
+\contentsline {chapter}{\numberline {C}Common Distributions and Their Properties}{171}{appendix.C}
+\contentsline {section}{\numberline {C.1}Discrete and Continuous}{171}{section.C.1}
+\contentsline {section}{\numberline {C.2}Uniform}{171}{section.C.2}
+\contentsline {subsection}{Discrete}{171}{subsection*.65}
+\contentsline {subsection}{Continuous}{171}{subsection*.66}
+\contentsline {section}{\numberline {C.3}Binomial}{174}{section.C.3}
+\contentsline {section}{\numberline {C.4}Beta}{174}{section.C.4}
+\contentsline {section}{\numberline {C.5}Normal (Gaussian)}{175}{section.C.5}
+\contentsline {chapter}{\numberline {D}Tables}{177}{appendix.D}
+\contentsline {section}{\numberline {D.1}Credible Intervals for Standard Normal Distribution}{177}{section.D.1}
+\contentsline {section}{\numberline {D.2}Credible Intervals for Student's $t$ Distribution}{178}{section.D.2}
+\contentsline {section}{\numberline {D.3}Cumulative Standard Normal Distribution}{180}{section.D.3}
 \contentsfinish 

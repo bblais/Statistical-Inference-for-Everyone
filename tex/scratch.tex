@@ -1,0 +1,30 @@
+Because of the simplifying assumptions, these distributions are also Normal in form, and thus we can use all of the techniques learned earlier.
+
+We make the following definitions,
+\beqn
+\sum x_{i} = x_{1} + x_{2} + \cdots + x_{N}  &&\mbox{ (sum of the $x$ values)} \\
+\sum y_{i} = y_{1} + y_{2} + \cdots + y_{N}  &&\mbox{ (sum of $y$ values)} \\
+\sum x_{i}\cdot y_{i} = x_{1}\cdot y_{1} + x_{2}\cdot y_{2} + \cdots + x_{N}\cdot y_{N}  &&\mbox{ (sum of the product of $x$ and $y$ values)} \\
+\bar{x} = \frac{\sum x_{i}}{N}  &&\mbox{ (mean of the $x$ values)} \\
+\bar{y} = \frac{\sum y_{i}}{N}  &&\mbox{ (mean of the $y$ values)} \\
+S_{xy} = \sum (x_{i}-\bar{x})(y_{i}-\bar{y}) && \\
+S_{xx} = \sum (x_{i}-\bar{x})(x_{i}-\bar{x})=\sum (x_{i}-\bar{x})^{2}&& \\
+e_{i}=y_{i}-(\hat{m} \cdot x_{i}+\hat{b}) && \mbox{ (residuals = observed-predicted)}\\
+SSE = \sum (y_{i}-(\hat{m} \cdot x_{i}+\hat{b}))^{2}&&\mbox{ (sum square of the residuals)} \\
+s^{2} = \frac{SSE}{N-2} && \mbox{ (mean square error)} \\
+s = \sqrt{\frac{SSE}{N-2}} && \mbox{ (standard error)}
+\eeqn
+
+Then the posterior distributions for $m$ and $b$, separately, are
+
+\beqn
+P(m|{\rm data}) &=&{\rm Student}-t(\mu=\hat{m}=\frac{SS_{xy}}{SS_{xx}}, \\
+&&\hspace{.7in} \sigma=\frac{s}{\sqrt{SS_{xx}}}) \\
+P(b|{\rm data}) &=&{\rm Student}-t(\mu=\bar{y}-\hat{m}\bar{x}, \\
+&& \hspace{.7in}\sigma=s\sqrt{\frac{1}{N} + \frac{\bar{x}^{2}}{S_{xx}}}) 
+\eeqn
+
+Clearly this is getting to the complexity point where the computer is a near necessity.
+
+
+

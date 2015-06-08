@@ -201,50 +201,6 @@ The distribution $P(z)$ is also a Normal distribution, with mean $\mu_{z}=20-8 =
 \includegraphics{gaussian_sigma_y_minus_x}
 
 
-\subsection{Significance}
-
-There is a term used in the literature called {\em statistical significance}.\footnote{Although the word ``significant'' occurs in the term ``statistically significant'', it does not imply that the result itself is important - it may be a small, uninteresting effect, but credibly non-zero.  Perhaps a term like ``statistically detectable'' would be better, but we are unfortunately bound to the historical use of the term.}  Roughly it means a value that is \emph{very unlikely} to be zero (see Table~\ref{table1} on page~\pageref{table1}), or in other words, the value of zero is not within the 95\% percentile.  This is within 2 standard deviations of the value, so the following estimated values are {\em not statistically significant}:
-\bi
-\i $5\pm 3$ - the \emph{two}-deviation range is [-1,11] contains the value 0
-\i $7\pm 4$
-\i $-3 \pm 2$
-\ei
-but the following {\em are statistically significant}:
-\bi
-\i $5\pm 2$  - the two-deviation range is [1,9] does not contain the value 0
-\i $7\pm 3$
-\i $-3 \pm 1$
-\ei
-
-Statistical significance, at the \emph{very unlikely} level (i.e. 95\% percentile) is often used as a rough guideline to publish a positive effect.  
-\begin{table}
-\begin{tabular}{cp{1.3in}c}
-\parbox{1in}{number of deviations away from zero\\ \ }& term & probability \\\hline\hline
-$1\sigma$ & slightly likely/likely & 0.7 (i.e. 7/10) \\
-$2\sigma$ & very likely & 0.95 (i.e. 19/20) \\
-$3\sigma$ & extremely likely & 0.01 (i.e. 1/100) \\
-$>4\sigma$ & virtually certain & $>999,999/1,000,000$
-\end{tabular}
-\label{tbl:norm likely}
-\caption{Rough guide for the conversion of deviations away from zero and the  qualitative labels for probability values for being a \emph{significant} deviation.}
-\end{table}
-
-
-\subsubsection{An unintuitive consequence}
-
-One consequence of this is that two studies that seem different may not be statistically different.  The following example is from Gelman and Hill's book on Data Analysis.\cite{gelman2007data} Say, we have two measurements with means and standard deviations:
-\bi
-\i 25$\pm$10
-\i 10$\pm$10
-\ei
-
-Further, let us suppose that we are interested in whether the measurements are zero or not.  The first measurement shows a significant effect (the two-deviation range is [5,45] does not contain zero), while the second one doesn't (the two-deviation range is [-10,30] contains zero).  The {\em difference} between them is 
-\beqn
-(25-10) \pm \sqrt{10^{2}+10^{2}} = 15\pm 14
-\eeqn
-which is {\em not} significant.  One should be careful comparing the magnitudes and uncertainties of measurements!
-
-
 \section{The Normal Distribution - Estimating From Data}
 
 \subsection{Estimating the mean, $\mu$, knowing the deviation, $\sigma$}\label{sec:estmean}

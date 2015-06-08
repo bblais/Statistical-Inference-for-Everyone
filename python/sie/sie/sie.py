@@ -337,9 +337,9 @@ def binomial(p,h,N):
     
 def load_data(fname):
     if ".csv" in fname:
-        return pandas.io.parsers.read_csv(fname)
+        return pandas.read_csv(fname)
     elif ".xls" in fname:
-        return pandas.io.parsers.read_xls(fname)
+        return pandas.read_excel(fname)
     else:
         raise ValueError,"Not Implemented for this type of file (%s)" % fname
         
@@ -375,6 +375,7 @@ def distplot2(vars,label=None,
     fignum=None,
     figsize=None,
     quartiles=array([1,5,10,25,50,75,90,95,99])/100.0,
+    notebook=False,
     ):
 
     qmin=.0001
@@ -401,20 +402,27 @@ def distplot2(vars,label=None,
         
     yl=[-max(maxys)*.12, max(maxys)*1.25]
     
+    if not notebook:
+        if fignum is None:
+            figure()
+        else:
+            figure(fignum)
+            
+        fig=gcf()
+        if figsize is None:
+            fig.set_size_inches( 13.75  ,   9.1375,forward=True)
+        else:
+            fig.set_size_inches(*figsize,forward=True)
     
-    if fignum is None:
-        figure()
-    else:
-        figure(fignum)
-        
+        clf()
+        show()
+    
     fig=gcf()
     if figsize is None:
         fig.set_size_inches( 13.75  ,   9.1375,forward=True)
     else:
         fig.set_size_inches(*figsize,forward=True)
-    
-    clf()
-    show()
+
 
     for y in ys:    
         plot(x,y,'-',linewidth=3)
@@ -502,7 +510,9 @@ def distplot2(vars,label=None,
         
     gca().set_ylim(yl)
     gca().set_xlim(xl)
-    draw()
+
+    if not notebook:
+        draw()
   
 
 
@@ -600,4 +610,63 @@ def fitval(result,x):
         
     return y
     
+
+def _predict(res):
+
+    def fun(**kwargs):
+        return res.predict(exog=kwargs)
+
+    return fun
+
+def regression(equation,data,plot=True):
+    import statsmodels.formula.api as smf
+    import warnings    
+
+    # supress the low-N kurtosis test warning
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore")
+        mod = smf.ols(formula=equation, data=data)
+        res = mod.fit()
+
+    df=res.df_resid
+    result=Struct()
+
+    result['_Normal_Approximation']={}
+    result['_Predict']=_predict(res)
+    for key in res.params.keys():
+        result[key]=tdist(df,res.params[key],res.bse[key])
+
+        N=res.nobs
+        k=1+20.0/N**2
+        result['_Normal_Approximation'][key]=[res.params[key],res.bse[key]*k]
+
+    result['_Fit_Results']=res
+    result['_Cov']=res.cov_params()
+    result['_R2']=res.rsquared
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore")
+        result['_Summary']=res.summary()
+
+
+    if plot:
+        for key in res.params.keys():
+            var=result[key]
+            xmin=var.ppf(0.001)
+            xmax=var.ppf(0.999)
+            if key=="Intercept":
+                label=key
+            else:
+                key=key.replace("_",' ')
+                label=r'$\beta_{\rm %s}$' % key
+            
+            distplot(var,
+                xlim=[xmin,xmax],
+                label=label,
+                figsize=(16,8),
+                )
+
+    return result
+
+
+
  
