@@ -39,11 +39,11 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {8.1}{\ignorespaces Heights (in inches) and shoe sizes from a subset of McLaren (2012) data.}}{144}{section.8.1}
 \contentsline {figure}{\numberline {8.2}{\ignorespaces Posterior distribution for the slope for the linear model on the shoe size data subset.}}{145}{Item.163}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Posterior distributions for the intercept for the linear model on the shoe size data subset.}}{146}{Item.163}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Posterior distribution for the intercept for the linear model on the shoe size data subset.}}{146}{Item.163}
 \contentsline {figure}{\numberline {8.4}{\ignorespaces Best linear fit for the shoe size data subset.}}{146}{Item.163}
 \contentsline {figure}{\numberline {8.5}{\ignorespaces Minimizing the Mean Squared Error (MSE) results in the best linear fit for the shoe size data subset.}}{147}{subsection*.55}
 \contentsline {figure}{\numberline {8.6}{\ignorespaces Total SAT score vs expenditure (top) and the distributions for the slope (bottom left) and intercept (bottom right).}}{148}{subsection*.56}
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Percent of Students Taking the SAT vs per pupil expenditure (top) and the distributions for the slope (bottom left) and intercept (bottom right).}}{150}{Item.166}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Percent of students taking the SAT vs per pupil expenditure (top) and the distributions for the slope (bottom left) and intercept (bottom right).}}{150}{Item.166}
 \contentsline {figure}{\numberline {8.8}{\ignorespaces The posterior distributions for coefficients on the expenditure term, the percent taking term, and the intercept.}}{151}{section.8.2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -6,13 +6,13 @@ The basic idea of common statistical tests in the approach we have taken has bee
 
 \be
 \i Observe some data
-\i Construct a model of the data, with a parameter that needs to be estimated, such as the ``true'' single value ($\mu$, in Section~\ref{}), or the proportion of the event ($\theta$, in Section~\ref{}).  
-\i Calculate the posterior probability of that parameter
+\i Construct a model of the data, with a parameter that needs to be estimated, such as the ``true'' single value ($\mu$, in Section~\ref{sec:estmean}), or the proportion of the event ($\theta$, in Section~\ref{sec:beta}).  
+\i Calculate the final, posterior probability of that parameter
 \i ``Test'' to see if there is a significant (usually 95\%) probability that the parameter is {\em not} zero\marginnote{In some cases we are not comparing the parameter to \emph{zero} but to some theoretical expectation.  Even there, we are comparing the parameter \emph{minus} the theoretical expectation to zero and thus we don't lose any generality in the procedure by always comparing to zero.}.
 \i If the test passes, then one can be reasonably confident that the parameter is non-zero - that the effect is real.  If the test fails, then under the model, the possibility of a zero-effect cannot be reasonably excluded.
 \ee
 
-These tests are a subset of the parameter estimation techniques covered in Chapter~\ref{ch:parameter1} (\emph{\nameref{ch:parameter1}} on page~\pageref{ch:parameter1}) and Chapter~\ref{ch:priors_posteriors} (\emph{\nameref{ch:priors_posteriors}} on page~\pageref{ch:priors_posteriors}), in the special case where we are interested in determining if there is an effect at all.  For example, we might be interested to see if a medical treatment works, so we compare the before- and after-treatment values to see if the difference is non-zero. 
+These tests are a subset of the parameter estimation techniques covered in both Chapter~\ref{ch:parameter1} (\emph{\nameref{ch:parameter1}} on page~\pageref{ch:parameter1}) and Chapter~\ref{ch:priors_posteriors} (\emph{\nameref{ch:priors_posteriors}} on page~\pageref{ch:priors_posteriors}), in the special case where we are interested in determining if there is an effect at all.  For example, we might be interested to see if a medical treatment works, so we compare the before- and after-treatment values to see if the difference is non-zero. 
 
 The tests that one typically employs in simple cases go by various names, depending on the model.  This chapter summarizes several of the common ones, and applies them to some typical cases.
 
@@ -21,8 +21,8 @@ The tests that one typically employs in simple cases go by various names, depend
 The $z$-test is the simplest test to use, and is perhaps the most common.  It is used when we have the following assumptions:
 \be
 \i We are modeling the data as a true value, $\mu$, with uncertainty 
-\i The uncertainty we model as a Normal distribution with \emph{known} deviation, $\sigma$, as in ${\rm Normal}(0,\sigma)$.
-\i Independence between the measurements.
+\i We are modeling the as a Normal distribution with \emph{known} deviation, $\sigma$, as in ${\rm Normal}(0,\sigma)$.
+\i We are assuming independence between the measurements.
 \ee
 
 The model of the data is 
@@ -43,7 +43,7 @@ To use the $z$-test, we perform the following steps:
 There are several scenarios where we use the $z$-test, each with the same procedure, differing only in the method of estimating the ``true'' value $\mu$.  
 
 \be
-\i  For $N$ independent observations, we have
+\i  For $N$ independent observations, $x_{1}, x_{2}, \ldots, x_{N}$ we have the best estimate given by the sample mean, and uncertainty related to the single-measurement deviation, $\sigma$, as
 \beqn
 \hat{\mu} = \frac{x_{1} + x_{2} + \cdots + x_{N}}{N}  \pm \sigma/\sqrt{N}
 \eeqn
@@ -72,7 +72,7 @@ For all of these tests, we use the vocabulary of ``statistical significance'', w
 
 \subsection{Significance}
 
-There is a term used in the literature called {\em statistical significance}.\footnote{Although the word ``significant'' occurs in the term ``statistically significant'', it does not imply that the result itself is important - it may be a small, uninteresting effect, but credibly non-zero.  Perhaps a term like ``statistically detectable'' would be better, but we are unfortunately bound to the historical use of the term.}  Roughly it means a value that is \emph{very unlikely} to be zero (see Table~\ref{table1} on page~\pageref{table1}), or in other words, the value of zero is not within the 95\% percentile.  This is within 2 standard deviations of the value, so the following estimated values are {\em not statistically significant}:
+There is a term used in the literature called {\em statistical significance}.\footnote{Although the word ``significant'' occurs in the term ``statistically significant,'' it does not imply that the result itself is important - it may be a small, uninteresting effect, but credibly non-zero.  Perhaps a term like ``statistically detectable'' would be better, but we are unfortunately bound to the historical use of the term.}  Roughly it means a value that is \emph{very unlikely} to be zero (see Table~\ref{table1} on page~\pageref{table1}), or in other words, the value of zero is not within the 95\% percentile.  This is within 2 standard deviations of the value, so the following estimated values are {\em not statistically significant}:
 \bi
 \i $5\pm 3$ - the \emph{two}-deviation range is [-1,11] contains the value 0
 \i $7\pm 4$
@@ -101,21 +101,21 @@ $>4\sigma$ & virtually certain & $>999,999/1,000,000$
 
 \subsubsection{An unintuitive consequence}
 
-One consequence of this is that two studies that seem different may not be statistically different.  The following example is from Gelman and Hill's book on Data Analysis.\cite{gelman2007data} Say, we have two measurements with means and standard deviations:
+One consequence of this is that two studies that display different magnitudes for a quantity may not be statistically significant in their difference.  The following example is based on an example from Gelman and Hill's book on Data Analysis.\cite{gelman2007data} Say we have two measurements with means and standard deviations:
 \bi
 \i 25$\pm$10
-\i 10$\pm$10
+\i 10$\pm$3
 \ei
 
-Further, let us suppose that we are interested in whether the measurements are zero or not.  The first measurement shows a significant effect (the two-deviation range is [5,45] does not contain zero), while the second one doesn't (the two-deviation range is [-10,30] contains zero).  The {\em difference} between them is 
+Further, let us suppose that we are interested in whether the measurements are zero or not.  The first measurement shows a significant effect (the two-deviation range is [5,45] does not contain zero), and the second one does as well (the two-deviation range is [4,16] does not contain zero).  The {\em difference} between them is 
 \beqn
-(25-10) \pm \sqrt{10^{2}+10^{2}} = 15\pm 14
+(25-10) \pm \sqrt{10^{2}+3^{2}} = 15\pm 10.4
 \eeqn
 which is {\em not} significant.  One should be careful comparing the magnitudes and uncertainties of measurements!
 
 \section{Student-$t$-test}\label{sec:ttest}
 
-When we are not given the uncertainty of the measurements, $\sigma$, and the data are insufficient to estimate the uncertainty then we need to estimate both the ``true'' value, $\mu$, and the uncertainty.  This leads to a wider credible range for the ``true'' value.  We can apply the same testing procedure, by looking at the 95\% credible region to see if it includes zero, but this time the posterior distribution we use comes from the so-called Student-$t$ distribution.
+When we are not given the uncertainty of the measurements, $\sigma$, and the data are insufficient to estimate the uncertainty, then we need to estimate both the ``true'' value, $\mu$, and the uncertainty.  This leads to a wider credible range for the ``true'' value.  We can apply the same testing procedure, by looking at the 95\% credible region to see if it includes zero, but this time the posterior distribution we use comes from the so-called Student-$t$ distribution.\marginnote{The odd name ``Student-$t$ test'' comes from the fact the test was originally published by  William Gosset who worked at the Guinness brewery in Dublin and his pen name was ``Student''.}
 \be
 \i  For $N$ independent observations, we still have the best estimate of the ``true'' value given by the sample mean
 \beqn

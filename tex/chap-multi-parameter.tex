@@ -1,7 +1,7 @@
 %!TEX root = main.tex
 \chapter{Multi-parameter Models}\label{ch:multiparam}
 
-We have already met cases of multiple parameter estimation in the case of unknown uncertainty, where we have to estimate both the ``true'' value, $\mu$, and the uncertainty, $\sigma$.  In this chapter, we introduce the model of {\em linear regression}, which has multiple ``true'' value parameters and their uncertainty.  In the simple cases, we can calculate the estimates by hand and apply the same testing procedures as described in Chapter~\ref{ch:tests} (\emph{\nameref{ch:tests}} on page~\pageref{ch:tests}).  In the more complex cases we will have to rely on the computer to give us the estimates, but we can still interpret them in the same way as before.
+We have already met examples of multiple parameter estimation in the case of unknown uncertainty, where we have to estimate both the ``true'' value, $\mu$, and the uncertainty, $\sigma$.  In this chapter, we introduce the model of {\em linear regression}, which has multiple ``true'' value parameters and their uncertainty.  In the simple cases, we can calculate the estimates by hand and apply the same testing procedures as described in Chapter~\ref{ch:tests} (\emph{\nameref{ch:tests}} on page~\pageref{ch:tests}).  In the more complex cases we will have to rely on the computer to give us the estimates, but we can still interpret them in the same way as before.
 
 \section{Simple Linear Regression}
 
@@ -66,7 +66,7 @@ The Student-$t$ test clearly shows that the slope is non-zero (well over 95\% of
 
 \begin{figure}
 \includegraphics{shoesize_subset_intercept}
-\caption{Posterior distributions for the intercept for the linear model on the shoe size data subset.}\label{fig:shoesize_dist_intercept}
+\caption{Posterior distribution for the intercept for the linear model on the shoe size data subset.}\label{fig:shoesize_dist_intercept}
 \end{figure}
 
 \begin{figure}
@@ -77,7 +77,7 @@ The Student-$t$ test clearly shows that the slope is non-zero (well over 95\% of
 
 \subsection{Mean Squared Error}
 
-Another way of looking at the same idea is to introduce the notion of \emph{Mean Squared Error} (MSE).  This is defined to be the number resulting from taking the predicted values minus the observed values, squaring them, and taking their mean.  The squaring ensures that deviations from the predictions both too high and too low are considered the same.  The closer the prediction overall the smaller the resulting MSE.  Mathematically this is written as
+Another way of looking at the same idea is to introduce the notion of \emph{Mean Squared Error} (MSE).  This is defined to be the number resulting from taking the predicted values minus the observed values, squaring them, and taking their mean.  The squaring ensures that deviations from the predictions both too high and too low are considered the same.  The closer the prediction overall, the smaller the resulting MSE.  Mathematically this is written as
 \beqn
 {\rm MSE} \equiv \frac{\sum_{i} \left(y_{i}- (\hat{m} x_{i}+\hat{b})\right)^{2}}{N}
 \eeqn
@@ -117,7 +117,7 @@ For example, if we look at the relationship between expenditure per pupil and th
 
 \begin{figure*}
 \includegraphics{sat_result_percent_taking}
-\caption{Percent of Students Taking the SAT vs per pupil expenditure (top) and the distributions for the slope (bottom left) and intercept (bottom right).}\label{fig:percent_taking}
+\caption{Percent of students taking the SAT vs per pupil expenditure (top) and the distributions for the slope (bottom left) and intercept (bottom right).}\label{fig:percent_taking}
 \end{figure*}
 
 
@@ -132,7 +132,7 @@ where the different $x_{1}$, $x_{2}$, etc... denote different variables.  For th
 \beqn
 {\rm total} &=& \beta_{0} + \beta_{1}\cdot{\rm expenditure} + \beta_{2}\cdot{\rm percent\_taking}
 \eeqn
-where $\rm percent\_taking$ is a variable representing the percent of students taking the exam.  Including this variable, gives the posterior distributions shown in Figure~\ref{fig:sat_multiple}.  Notice that the effect of expenditure is both statistically significant and \emph{positive}.  We can interpret the values in the following way.
+where $\rm percent\_taking$ is a variable representing the percent of students taking the exam.  Including this variable gives the posterior distributions shown in Figure~\ref{fig:sat_multiple}.  Notice that the effect of expenditure is both statistically significant and \emph{positive}.  We can interpret the values in the following way.
 \bi
 \i For each \$1000 more spent per pupil the total SAT score increases on average by 12.29.
 \i For each percent increase in students taking the SAT, the total SAT score \emph{decreases} on average by 2.29.
