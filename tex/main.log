@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  8 JUN 2015 18:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  10 JUN 2015 07:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -909,7 +909,7 @@ Overfull \hbox (2.89195pt too wide) in paragraph at lines 66--69
 ] [6
 
 ] (./acknowledgements.tex
-Overfull \hbox (169.61998pt too wide) in paragraph at lines 10--19
+Overfull \hbox (169.61998pt too wide) in paragraph at lines 10--20
 [][]  
  []
 
@@ -4141,7 +4141,7 @@ r/local/texlive/2014/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local
 /texlive/2014/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2014
 /texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (184 pages, 5200618 bytes).
+Output written on main.pdf (184 pages, 5200634 bytes).
 PDF statistics:
  5358 PDF objects out of 6186 (max. 8388607)
  860 named destinations out of 1000 (max. 500000)
