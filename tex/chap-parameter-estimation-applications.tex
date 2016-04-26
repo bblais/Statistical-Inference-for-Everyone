@@ -55,7 +55,7 @@ and the full answer, with uncertainty, is
 
 \example{Iris petal lengths - A different species?}
 
-Imagine we have a single observation of another iris with petal length 2.5 [cm].  Is this likely to be the same type as the {\em Setosa} type above?    As outlined in Section~\ref{sec:sumdiffnormal}, we get the best estimate for the difference as:
+Here we apply the $z$-test (Section~\emph{\nameref{sec:ztest}} on page~\pageref{sec:ztest}) to a new observation to see if there is reason to believe it to be a different species.  Imagine we have a single observation of another iris with petal length 2.5 [cm].  Is this likely to be the same type as the {\em Setosa} type above?    As outlined in Section~\ref{sec:sumdiffnormal}, we get the best estimate for the difference as:
 \beqn
 \mu_{\rm diff} = 2.5 - 1.464 = 1.036
 \eeqn
@@ -88,7 +88,7 @@ which makes it \emph{virtually certain} to be a different type (see Table~\ref{t
 
 \example{Iris petal lengths - Significantly different?}
 
-Shown in Table~\ref{tbl:iris_length2} is a very small subset of the full iris petal-length data.  Are the types \emph{Virginica} and \emph{Versicolor} longer than the type \emph{Setosa}?  Is the \emph{Virginica} longer than \emph{Versicolor}?  For each of these, we need to specify the model, determine the best estimate for the parameters of the model, and then compare the distributions.
+In this example we apply the $t$-test (Section~\emph{\nameref{sec:ttest}} on page~\pageref{sec:ttest}) to a subset of the iris samples, to see if the different species can be reasonably separated using their petal lengths.  Shown in Table~\ref{tbl:iris_length2} is a very small subset of the full iris petal-length data.  Are the types \emph{Virginica} and \emph{Versicolor} longer than the type \emph{Setosa}?  Is the \emph{Virginica} longer than \emph{Versicolor}?  For each of these, we need to specify the model, determine the best estimate for the parameters of the model, and then compare the distributions.
 
 The model we will use is the simple Normal model, 
 \beqn

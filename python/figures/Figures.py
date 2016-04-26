@@ -3,12 +3,12 @@
 
 # # Distributions
 
-# In[ ]:
+# In[1]:
 
 get_ipython().magic(u'matplotlib inline')
 
 
-# In[1]:
+# In[2]:
 
 from sie import *
 
