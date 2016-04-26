@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  20 MAY 2015 18:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  26 APR 2016 08:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -658,8 +658,11 @@ Writing index file main.idx
 \m=\count139
 \n=\count140
 ) (./main.aux (./frontmatter.aux) (./proposal.aux)
-(./chap-introduction.aux) (./chap-probability-applications.aux)
-(./chap-random-sequences.aux) (./chap-model-comparison2.aux)
+(./chap-introduction.aux) (./chap-probability-applications.aux
+
+LaTeX Warning: Label `ex:cleverbirthday' multiply defined.
+
+) (./chap-random-sequences.aux) (./chap-model-comparison2.aux)
 (./chap-model-comparison-applications.aux) (./chap-parameter-estimation.aux)
 (./chap-priors-posteriors.aux
 
@@ -815,7 +818,7 @@ Overfull \hbox (52.52039pt too wide) in paragraph at lines 4--4
 []\T1/phv/m/n/36/200ls STATISTICAL IN-FER-ENCE 
  []
 
-<../figs/Saturn_with_Dice.png, id=235, 1151.9838pt x 590.205pt>
+<../figs/Saturn_with_Dice.png, id=315, 1151.9838pt x 590.205pt>
 File: ../figs/Saturn_with_Dice.png Graphic file (type png)
 
 <use ../figs/Saturn_with_Dice.png>
@@ -917,13 +920,11 @@ Overfull \hbox (169.61998pt too wide) in paragraph at lines 10--19
 
 ] [8
 
-] (./main.toc [9] [10] [11])
+] (./main.toc [9] [10] [11] [12] [13])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [12] [13] [14
-
-] (./main.lof
+ [14] (./main.lof
 Overfull \hbox (9.86987pt too wide) in paragraph at lines 2--2
  [][] [][][]\T1/pplj/m/n/10 Standard 52-card deck. 13 cards of each suit, la-be
 led Spades, Clubs,
@@ -1046,405 +1047,481 @@ he to-tal area
  []
 
 
-Overfull \hbox (11.48985pt too wide) in paragraph at lines 8--8
- [][] [][][]\T1/pplj/m/n/10 High Deck - 55 Cards with ten 10's, nine 9's, etc..
-. down to one Ace.
+Overfull \hbox (3.87979pt too wide) in paragraph at lines 8--8
+ [][] [][][]\T1/pplj/m/n/10 Probability of hav-ing at least two peo-ple in a gr
+oup with the same
  []
 
 
-Overfull \hbox (14.49983pt too wide) in paragraph at lines 9--9
- [][] [][][]\T1/pplj/m/n/10 Low Deck - 55 Cards with ten Aces, two 2's, etc... 
-up to one 10. Aces
+Overfull \hbox (12.39978pt too wide) in paragraph at lines 8--8
+ \T1/pplj/m/n/10 birth-day de-pend-ing on the num-ber of peo-ple in the group. 
+The 50%
  []
 
 
-Overfull \hbox (4.84981pt too wide) in paragraph at lines 10--10
- [][] [][][]\T1/pplj/m/n/10 Drawing a num-ber of 9's in a row, pos-si-bly from 
-a High, Low, and
+Overfull \hbox (4.30977pt too wide) in paragraph at lines 9--9
+ [][] [][][]\T1/pplj/m/n/10 Probability for rolling var-i-ous sums of two dice.
+ Shown are the re-
  []
 
 
-Overfull \hbox (6.9398pt too wide) in paragraph at lines 12--12
- [][] [][][]\T1/pplj/m/n/10 Rare dis-ease and test-ing. Shown is a pop-u-la-tio
-n of 3000 where 1 in
+Overfull \hbox (34.18985pt too wide) in paragraph at lines 9--9
+ \T1/pplj/m/n/10 sults for two 6-sided dice (left) and two 20-sided dice (right
+). The dashed
  []
 
 
-Overfull \hbox (14.4098pt too wide) in paragraph at lines 12--12
- \T1/pplj/m/n/10 ev-ery 200 peo-ple have the dis-ease (large cir-cles). A test 
-which is 99%
+Overfull \hbox (19.60982pt too wide) in paragraph at lines 9--9
+ \T1/pplj/m/n/10 line is for clar-ity, but rep-re-sents the fact that you can't
+ roll a frac-tional
  []
 
 
-Overfull \hbox (3.06978pt too wide) in paragraph at lines 12--12
- \T1/pplj/m/n/10 ef-fec-tive is ap-plied to ev-ery-one in the pop-u-la-tion, an
-d the pos-i-tive
+Overfull \hbox (20.83983pt too wide) in paragraph at lines 11--11
+ [][] [][][]\T1/pplj/m/n/10 Probability of get-ting $\OML/zplm/m/it/10 h$ \T1/p
+plj/m/n/10 heads in 30 flips. Clearly the most likely value
  []
 
 
-Overfull \hbox (17.2697pt too wide) in paragraph at lines 12--12
- \T1/pplj/m/n/10 test re-sults (i.e. the test says that you have the dis-ease) 
-are shown ask
- []
-
-
-Overfull \hbox (5.00983pt too wide) in paragraph at lines 12--12
- \T1/pplj/m/n/10 small black dots. No-tice that al-though nearly all of those t
-hat have
- []
-
-
-Overfull \hbox (15.31985pt too wide) in paragraph at lines 12--12
- \T1/pplj/m/n/10 the dis-ease test pos-i-tive (a small black dot in-side a larg
-e cir-cle), there
- []
-
-
-Overfull \hbox (19.70984pt too wide) in paragraph at lines 12--12
- \T1/pplj/m/n/10 are many false pos-i-tives (black dot in an empty square) - he
-althy peo-
- []
-
-
-Overfull \hbox (27.27972pt too wide) in paragraph at lines 12--12
- \T1/pplj/m/n/10 ple that test pos-i-tive for the dis-ease. Even though the tes
-t is quite good,
- []
-
-
-Overfull \hbox (2.42986pt too wide) in paragraph at lines 12--12
- \T1/pplj/m/n/10 there are many more healthy peo-ple and 1 out of 100 of them w
-ill
+Overfull \hbox (8.7998pt too wide) in paragraph at lines 11--11
+ \T1/pplj/m/n/10 is 15, but all of the num-bers from 12 up to 18 have sig-nif-i
+-cant prob-
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15]
-Overfull \hbox (4.83974pt too wide) in paragraph at lines 13--13
- [][] [][][]\T1/pplj/m/n/10 The full re-sults of the pre-dic-tions of Paul the 
-Oc-to-pus, re-pro-duced
- []
+ [15
 
-
-Overfull \hbox (4.58986pt too wide) in paragraph at lines 16--16
- [][] [][][]\T1/pplj/m/n/10 Probability for dif-fer-ent bent-coin mod-els, give
-n the data=9 tails, 3
- []
-
-
-Overfull \hbox (2.43985pt too wide) in paragraph at lines 17--17
- [][] [][][]\T1/pplj/m/n/10 Probability for dif-fer-ent bent-coin mod-els, give
-n no data (left), the
- []
-
-
-Overfull \hbox (15.64984pt too wide) in paragraph at lines 17--17
- \T1/pplj/m/n/10 first tails (mid-dle), and the sec-ond tails (right). The curv
-e for no data
- []
-
-
-Overfull \hbox (2.63986pt too wide) in paragraph at lines 17--17
- \T1/pplj/m/n/10 is the same as the prior prob-a-bil-ity, and in this case all 
-mod-els are
- []
-
-
-Overfull \hbox (19.6798pt too wide) in paragraph at lines 17--17
- \T1/pplj/m/n/10 equally likely. When the first tails is ob-served, the model w
-hich states
- []
-
-
-Overfull \hbox (15.38983pt too wide) in paragraph at lines 17--17
- \T1/pplj/m/n/10 that heads are \T1/pplj/m/it/10 cer-tain \T1/pplj/m/n/10 (coin
- 10) goes to zero prob-a-bil-ity. As more tails
- []
-
-
-Overfull \hbox (18.82982pt too wide) in paragraph at lines 17--17
- \T1/pplj/m/n/10 are ob-served, the prob-a-bil-ity for the lower mod-els is in-
-creased.[][] 73 
- []
-
-
-Overfull \hbox (12.66983pt too wide) in paragraph at lines 18--18
- [][] [][][]\T1/pplj/m/n/10 Probability for dif-fer-ent bent-coin mod-els, give
-n three tails (left), the
- []
-
-
-Overfull \hbox (5.84982pt too wide) in paragraph at lines 18--18
- \T1/pplj/m/n/10 first heads (mid-dle), and an-other tails (right). When the fi
-rst heads
- []
-
-
-Overfull \hbox (1.92982pt too wide) in paragraph at lines 18--18
- \T1/pplj/m/n/10 is ob-served, the model which states that heads are \T1/pplj/m
-/it/10 im-pos-si-ble \T1/pplj/m/n/10 (coin
- []
-
-
-Overfull \hbox (2.43985pt too wide) in paragraph at lines 19--19
- [][] [][][]\T1/pplj/m/n/10 Probability for dif-fer-ent bent-coin mod-els, give
-n no data (left), the
- []
-
-
-Overfull \hbox (18.31987pt too wide) in paragraph at lines 19--19
- \T1/pplj/m/n/10 first half of the data set (mid-dle), and the en-tire data set
- of 9 tails and
- []
-
-
-Overfull \hbox (5.31976pt too wide) in paragraph at lines 20--20
- [][] [][][]\T1/pplj/m/n/10 Posterior prob-a-bil-ity dis-tri-bu-tion for the $\
-OML/zplm/m/it/10 ^^R$ \T1/pplj/m/n/10 val-ues of the bent coin -
- []
-
-
-Overfull \hbox (24.4198pt too wide) in paragraph at lines 20--20
- \T1/pplj/m/n/10 the prob-a-bil-ity that the coin will land heads. The dis-tri-
-bu-tion is shown
- []
-
-
-Overfull \hbox (5.31976pt too wide) in paragraph at lines 21--21
- [][] [][][]\T1/pplj/m/n/10 Posterior prob-a-bil-ity dis-tri-bu-tion for the $\
-OML/zplm/m/it/10 ^^R$ \T1/pplj/m/n/10 val-ues of the bent coin -
- []
-
-
-Overfull \hbox (24.4198pt too wide) in paragraph at lines 21--21
- \T1/pplj/m/n/10 the prob-a-bil-ity that the coin will land heads. The dis-tri-
-bu-tion is shown
- []
-
-
-Overfull \hbox (5.31976pt too wide) in paragraph at lines 22--22
- [][] [][][]\T1/pplj/m/n/10 Posterior prob-a-bil-ity dis-tri-bu-tion for the $\
-OML/zplm/m/it/10 ^^R$ \T1/pplj/m/n/10 val-ues of the bent coin -
- []
-
-
-Overfull \hbox (24.4198pt too wide) in paragraph at lines 22--22
- \T1/pplj/m/n/10 the prob-a-bil-ity that the coin will land heads. The dis-tri-
-bu-tion is shown
- []
-
-
-Overfull \hbox (5.31976pt too wide) in paragraph at lines 23--23
- [][] [][][]\T1/pplj/m/n/10 Posterior prob-a-bil-ity dis-tri-bu-tion for the $\
-OML/zplm/m/it/10 ^^R$ \T1/pplj/m/n/10 val-ues of the bent coin -
- []
-
-
-Overfull \hbox (24.4198pt too wide) in paragraph at lines 23--23
- \T1/pplj/m/n/10 the prob-a-bil-ity that the coin will land heads. The dis-tri-
-bu-tion is shown
- []
-
-
-Overfull \hbox (6.3998pt too wide) in paragraph at lines 23--23
- \T1/pplj/m/n/10 for data 3 heads and 9 tails. The var-i-ous quar-tiles are sho
-wn in the
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16]
-Overfull \hbox (5.31976pt too wide) in paragraph at lines 24--24
- [][] [][][]\T1/pplj/m/n/10 Posterior prob-a-bil-ity dis-tri-bu-tion for the $\
-OML/zplm/m/it/10 ^^R$ \T1/pplj/m/n/10 val-ues of the bent coin -
- []
-
-
-Overfull \hbox (24.4198pt too wide) in paragraph at lines 24--24
- \T1/pplj/m/n/10 the prob-a-bil-ity that the coin will land heads. The dis-tri-
-bu-tion is shown
- []
-
-
-Overfull \hbox (16.3998pt too wide) in paragraph at lines 24--24
- \T1/pplj/m/n/10 for data 10 heads and 20 tails. The var-i-ous quar-tiles are s
-hown in the
- []
-
-
-Overfull \hbox (16.67973pt too wide) in paragraph at lines 27--27
- [][] [][][]\T1/pplj/m/n/10 The Nor-mal dis-tri-bu-tion with dif-fer-ent lo-ca-
-tion pa-ram-e-ters, $\OML/zplm/m/it/10 ^^V$\T1/pplj/m/n/10 .[][] 89 
- []
-
-
-Overfull \hbox (23.0598pt too wide) in paragraph at lines 28--28
- [][] [][][]\T1/pplj/m/n/10 The Nor-mal dis-tri-bu-tion with dif-fer-ent de-vi-
-a-tion pa-ram-e-ters, $\OML/zplm/m/it/10 ^^[$\T1/pplj/m/n/10 .[][] 90 
- []
-
-
-Overfull \hbox (3.84981pt too wide) in paragraph at lines 29--29
- [][] [][][]\T1/pplj/m/n/10 The Stan-dard Nor-mal Dis-tri-bu-tion (the Nor-mal 
-dis-tri-bu-tion in the
- []
-
-
-Overfull \hbox (8.54973pt too wide) in paragraph at lines 29--29
- \T1/pplj/m/n/10 for po-si-tions 1-$\OML/zplm/m/it/10 ^^[$ \T1/pplj/m/n/10 away
- from the cen-ter, 2-$\OML/zplm/m/it/10 ^^[$ \T1/pplj/m/n/10 away, and 3-$\OML/
-zplm/m/it/10 ^^[$ \T1/pplj/m/n/10 away. The
- []
-
-
-Overfull \hbox (4.87987pt too wide) in paragraph at lines 29--29
- \T1/pplj/m/n/10 area within 1-$\OML/zplm/m/it/10 ^^[$ \T1/pplj/m/n/10 is 0.68,
- within 2-$\OML/zplm/m/it/10 ^^[$ \T1/pplj/m/n/10 is 0.95, and 3-$\OML/zplm/m/i
-t/10 ^^[$ \T1/pplj/m/n/10 is 0.99. These lo-
- []
-
-
-Overfull \hbox (6.4298pt too wide) in paragraph at lines 29--29
- \T1/pplj/m/n/10 ca-tions are the most preva-lently used in any kind of sta-tis
--ti-cal test-
- []
-
-
-Overfull \hbox (15.7298pt too wide) in paragraph at lines 31--31
- [][] [][][]\T1/pplj/m/n/10 Probability dis-tri-bu-tions for the sub-set of iri
-s petal lengths. Each dis-
- []
-
-
-Overfull \hbox (12.79979pt too wide) in paragraph at lines 32--32
- [][] [][][]\T1/pplj/m/n/10 Probability dis-tri-bu-tions for the dif-fer-ence b
-e-tween iris petal lengths
- []
-
-
-Overfull \hbox (3.1898pt too wide) in paragraph at lines 32--32
- \T1/pplj/m/n/10 for the clos-est two iris types, \T1/pplj/m/it/10 Vir-ginica \
-T1/pplj/m/n/10 and \T1/pplj/m/it/10 Ver-si-color\T1/pplj/m/n/10 . The dis-tri-b
-u-
- []
-
-
-Overfull \hbox (3.8898pt too wide) in paragraph at lines 32--32
- \T1/pplj/m/n/10 tion fol-lows a Student-t form, and clearly shows sig-nif-i-ca
-nt prob-a-
- []
-
-
-Overfull \hbox (7.01984pt too wide) in paragraph at lines 34--34
- [][] [][][]\T1/pplj/m/n/10 Mass of Pen-nies from 1960 to 1974, with best es-ti
--mates and 99% CI
- []
-
-
-Overfull \hbox (7.01984pt too wide) in paragraph at lines 35--35
- [][] [][][]\T1/pplj/m/n/10 Mass of Pen-nies from 1960 to 2003, with best es-ti
--mates and 99% CI
- []
-
-
-Overfull \hbox (4.4998pt too wide) in paragraph at lines 36--36
- [][] [][][]\T1/pplj/m/n/10 Mass of Pen-nies from 1960 to 2003, with best es-ti
--mates for the two
- []
-
-
-Overfull \hbox (2.26978pt too wide) in paragraph at lines 36--36
- \T1/pplj/m/n/10 true val-ues and their 99% CI (i.e. $\OT1/pplx/m/n/10 3\OML/zp
-lm/m/it/10 ^^[$\T1/pplj/m/n/10 ) un-cer-tainty plot-ted. There is
- []
-
-
-Overfull \hbox (6.1298pt too wide) in paragraph at lines 36--36
- \T1/pplj/m/n/10 clearly no over-lap in their cred-i-ble in-ter-vals, thus ther
-e is a sta-tis-ti-
- []
-
-
-Overfull \hbox (13.22978pt too wide) in paragraph at lines 37--37
- [][] [][][]\T1/pplj/m/n/10 Difference in the es-ti-mated val-ues of the pre- a
-nd post 1975 pen-nies,
- []
-
-
-Overfull \hbox (5.2972pt too wide) in paragraph at lines 37--37
- \OML/zplm/m/it/10 ^^V[] \OMS/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 ^^V[]$\T1/pplj/
-m/n/10 . The value zero is clearly out-side of the 99% in-ter-val of the
- []
-
-
-Overfull \hbox (8.7098pt too wide) in paragraph at lines 37--37
- \T1/pplj/m/n/10 dif-fer-ence, thus there is a sta-tis-ti-cally sig-nif-i-cant 
-dif-fer-ence be-tween
- []
-
-
-Overfull \hbox (1.51978pt too wide) in paragraph at lines 43--43
- [][] [][][]\T1/pplj/m/n/10 Discrete uni-form dis-tri-bu-tion for val-ues 1 to 
-6. The value for each
- []
-
-
-Overfull \hbox (3.28978pt too wide) in paragraph at lines 45--45
- [][] [][][]\T1/pplj/m/n/10 Continuous uni-form dis-tri-bu-tion for the plumber
- ex-am-ple (Ex-am-
- []
-
-
-Overfull \hbox (14.63983pt too wide) in paragraph at lines 46--46
+]
+Overfull \hbox (14.63983pt too wide) in paragraph at lines 12--12
  [][] [][][]\T1/pplj/m/n/10 Probability of get-ting $\OML/zplm/m/it/10 h$ \T1/p
 plj/m/n/10 heads in 30 flips given a pos-si-ble un-fair coin.
  []
 
 
-Overfull \hbox (1.53508pt too wide) in paragraph at lines 46--46
+Overfull \hbox (1.53508pt too wide) in paragraph at lines 12--12
  \T1/pplj/m/n/10 One coin has $\OML/zplm/m/it/10 p \OT1/zplm/m/n/10 = \OT1/pplx
 /m/n/10 0.1$\T1/pplj/m/n/10 , where the max-i-mum is for 3 heads (or 1/10
  []
 
 
-Overfull \hbox (7.13506pt too wide) in paragraph at lines 46--46
+Overfull \hbox (7.13506pt too wide) in paragraph at lines 12--12
  \T1/pplj/m/n/10 of the 30 flips), but 2 heads is nearly as likely. An-other ha
 s $\OML/zplm/m/it/10 p \OT1/zplm/m/n/10 = \OT1/pplx/m/n/10 0.5$\T1/pplj/m/n/10 
 ,
  []
 
 
-Overfull \hbox (6.69989pt too wide) in paragraph at lines 46--46
+Overfull \hbox (6.69989pt too wide) in paragraph at lines 12--12
  \T1/pplj/m/n/10 and is the fair coin con-sid-ered ear-lier with a max-i-mum at
  15 heads
  []
 
 
-Overfull \hbox (13.43504pt too wide) in paragraph at lines 46--46
+Overfull \hbox (13.43504pt too wide) in paragraph at lines 12--12
  \T1/pplj/m/n/10 (or 1/2 of the 30 flips). Fi-nally, an-other coin shown as $\O
 ML/zplm/m/it/10 p \OT1/zplm/m/n/10 = \OT1/pplx/m/n/10 0.8$ \T1/pplj/m/n/10 wher
 e
  []
 
 
+Overfull \hbox (11.48985pt too wide) in paragraph at lines 14--14
+ [][] [][][]\T1/pplj/m/n/10 High Deck - 55 Cards with ten 10's, nine 9's, etc..
+. down to one Ace.
+ []
+
+
+Overfull \hbox (14.49983pt too wide) in paragraph at lines 15--15
+ [][] [][][]\T1/pplj/m/n/10 Low Deck - 55 Cards with ten Aces, two 2's, etc... 
+up to one 10. Aces
+ []
+
+
+Overfull \hbox (4.84981pt too wide) in paragraph at lines 16--16
+ [][] [][][]\T1/pplj/m/n/10 Drawing a num-ber of 9's in a row, pos-si-bly from 
+a High, Low, and
+ []
+
+
+Overfull \hbox (6.9398pt too wide) in paragraph at lines 18--18
+ [][] [][][]\T1/pplj/m/n/10 Rare dis-ease and test-ing. Shown is a pop-u-la-tio
+n of 3000 where 1 in
+ []
+
+
+Overfull \hbox (14.4098pt too wide) in paragraph at lines 18--18
+ \T1/pplj/m/n/10 ev-ery 200 peo-ple have the dis-ease (large cir-cles). A test 
+which is 99%
+ []
+
+
+Overfull \hbox (3.06978pt too wide) in paragraph at lines 18--18
+ \T1/pplj/m/n/10 ef-fec-tive is ap-plied to ev-ery-one in the pop-u-la-tion, an
+d the pos-i-tive
+ []
+
+
+Overfull \hbox (17.2697pt too wide) in paragraph at lines 18--18
+ \T1/pplj/m/n/10 test re-sults (i.e. the test says that you have the dis-ease) 
+are shown ask
+ []
+
+
+Overfull \hbox (5.00983pt too wide) in paragraph at lines 18--18
+ \T1/pplj/m/n/10 small black dots. No-tice that al-though nearly all of those t
+hat have
+ []
+
+
+Overfull \hbox (15.31985pt too wide) in paragraph at lines 18--18
+ \T1/pplj/m/n/10 the dis-ease test pos-i-tive (a small black dot in-side a larg
+e cir-cle), there
+ []
+
+
+Overfull \hbox (19.70984pt too wide) in paragraph at lines 18--18
+ \T1/pplj/m/n/10 are many false pos-i-tives (black dot in an empty square) - he
+althy peo-
+ []
+
+
+Overfull \hbox (27.27972pt too wide) in paragraph at lines 18--18
+ \T1/pplj/m/n/10 ple that test pos-i-tive for the dis-ease. Even though the tes
+t is quite good,
+ []
+
+
+Overfull \hbox (2.42986pt too wide) in paragraph at lines 18--18
+ \T1/pplj/m/n/10 there are many more healthy peo-ple and 1 out of 100 of them w
+ill
+ []
+
+
+Overfull \hbox (4.83974pt too wide) in paragraph at lines 19--19
+ [][] [][][]\T1/pplj/m/n/10 The full re-sults of the pre-dic-tions of Paul the 
+Oc-to-pus, re-pro-duced
+ []
+
+
+Overfull \hbox (4.58986pt too wide) in paragraph at lines 22--22
+ [][] [][][]\T1/pplj/m/n/10 Probability for dif-fer-ent bent-coin mod-els, give
+n the data=9 tails, 3
+ []
+
+
+Overfull \hbox (2.43985pt too wide) in paragraph at lines 23--23
+ [][] [][][]\T1/pplj/m/n/10 Probability for dif-fer-ent bent-coin mod-els, give
+n no data (left), the
+ []
+
+
+Overfull \hbox (15.64984pt too wide) in paragraph at lines 23--23
+ \T1/pplj/m/n/10 first tails (mid-dle), and the sec-ond tails (right). The curv
+e for no data
+ []
+
+
+Overfull \hbox (2.63986pt too wide) in paragraph at lines 23--23
+ \T1/pplj/m/n/10 is the same as the prior prob-a-bil-ity, and in this case all 
+mod-els are
+ []
+
+
+Overfull \hbox (19.6798pt too wide) in paragraph at lines 23--23
+ \T1/pplj/m/n/10 equally likely. When the first tails is ob-served, the model w
+hich states
+ []
+
+
+Overfull \hbox (15.38983pt too wide) in paragraph at lines 23--23
+ \T1/pplj/m/n/10 that heads are \T1/pplj/m/it/10 cer-tain \T1/pplj/m/n/10 (coin
+ 10) goes to zero prob-a-bil-ity. As more tails
+ []
+
+
+Overfull \hbox (23.82982pt too wide) in paragraph at lines 23--23
+ \T1/pplj/m/n/10 are ob-served, the prob-a-bil-ity for the lower mod-els is in-
+creased.[][] 119 
+ []
+
+
+Overfull \hbox (12.66983pt too wide) in paragraph at lines 24--24
+ [][] [][][]\T1/pplj/m/n/10 Probability for dif-fer-ent bent-coin mod-els, give
+n three tails (left), the
+ []
+
+
+Overfull \hbox (5.84982pt too wide) in paragraph at lines 24--24
+ \T1/pplj/m/n/10 first heads (mid-dle), and an-other tails (right). When the fi
+rst heads
+ []
+
+
+Overfull \hbox (1.92982pt too wide) in paragraph at lines 24--24
+ \T1/pplj/m/n/10 is ob-served, the model which states that heads are \T1/pplj/m
+/it/10 im-pos-si-ble \T1/pplj/m/n/10 (coin
+ []
+
+
+Overfull \hbox (2.43985pt too wide) in paragraph at lines 25--25
+ [][] [][][]\T1/pplj/m/n/10 Probability for dif-fer-ent bent-coin mod-els, give
+n no data (left), the
+ []
+
+
+Overfull \hbox (18.31987pt too wide) in paragraph at lines 25--25
+ \T1/pplj/m/n/10 first half of the data set (mid-dle), and the en-tire data set
+ of 9 tails and
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17]
-Overfull \hbox (5.31976pt too wide) in paragraph at lines 47--47
+ [16]
+Overfull \hbox (5.31976pt too wide) in paragraph at lines 26--26
  [][] [][][]\T1/pplj/m/n/10 Posterior prob-a-bil-ity dis-tri-bu-tion for the $\
 OML/zplm/m/it/10 ^^R$ \T1/pplj/m/n/10 val-ues of the bent coin -
  []
 
 
-Overfull \hbox (24.4198pt too wide) in paragraph at lines 47--47
+Overfull \hbox (24.4198pt too wide) in paragraph at lines 26--26
  \T1/pplj/m/n/10 the prob-a-bil-ity that the coin will land heads. The dis-tri-
 bu-tion is shown
  []
 
 
-Overfull \hbox (6.3998pt too wide) in paragraph at lines 47--47
+Overfull \hbox (5.31976pt too wide) in paragraph at lines 27--27
+ [][] [][][]\T1/pplj/m/n/10 Posterior prob-a-bil-ity dis-tri-bu-tion for the $\
+OML/zplm/m/it/10 ^^R$ \T1/pplj/m/n/10 val-ues of the bent coin -
+ []
+
+
+Overfull \hbox (24.4198pt too wide) in paragraph at lines 27--27
+ \T1/pplj/m/n/10 the prob-a-bil-ity that the coin will land heads. The dis-tri-
+bu-tion is shown
+ []
+
+
+Overfull \hbox (5.31976pt too wide) in paragraph at lines 28--28
+ [][] [][][]\T1/pplj/m/n/10 Posterior prob-a-bil-ity dis-tri-bu-tion for the $\
+OML/zplm/m/it/10 ^^R$ \T1/pplj/m/n/10 val-ues of the bent coin -
+ []
+
+
+Overfull \hbox (24.4198pt too wide) in paragraph at lines 28--28
+ \T1/pplj/m/n/10 the prob-a-bil-ity that the coin will land heads. The dis-tri-
+bu-tion is shown
+ []
+
+
+Overfull \hbox (5.31976pt too wide) in paragraph at lines 29--29
+ [][] [][][]\T1/pplj/m/n/10 Posterior prob-a-bil-ity dis-tri-bu-tion for the $\
+OML/zplm/m/it/10 ^^R$ \T1/pplj/m/n/10 val-ues of the bent coin -
+ []
+
+
+Overfull \hbox (24.4198pt too wide) in paragraph at lines 29--29
+ \T1/pplj/m/n/10 the prob-a-bil-ity that the coin will land heads. The dis-tri-
+bu-tion is shown
+ []
+
+
+Overfull \hbox (6.3998pt too wide) in paragraph at lines 29--29
+ \T1/pplj/m/n/10 for data 3 heads and 9 tails. The var-i-ous quar-tiles are sho
+wn in the
+ []
+
+
+Overfull \hbox (5.31976pt too wide) in paragraph at lines 30--30
+ [][] [][][]\T1/pplj/m/n/10 Posterior prob-a-bil-ity dis-tri-bu-tion for the $\
+OML/zplm/m/it/10 ^^R$ \T1/pplj/m/n/10 val-ues of the bent coin -
+ []
+
+
+Overfull \hbox (24.4198pt too wide) in paragraph at lines 30--30
+ \T1/pplj/m/n/10 the prob-a-bil-ity that the coin will land heads. The dis-tri-
+bu-tion is shown
+ []
+
+
+Overfull \hbox (16.3998pt too wide) in paragraph at lines 30--30
+ \T1/pplj/m/n/10 for data 10 heads and 20 tails. The var-i-ous quar-tiles are s
+hown in the
+ []
+
+
+Overfull \hbox (21.67973pt too wide) in paragraph at lines 33--33
+ [][] [][][]\T1/pplj/m/n/10 The Nor-mal dis-tri-bu-tion with dif-fer-ent lo-ca-
+tion pa-ram-e-ters, $\OML/zplm/m/it/10 ^^V$\T1/pplj/m/n/10 .[][] 135 
+ []
+
+
+Overfull \hbox (28.0598pt too wide) in paragraph at lines 34--34
+ [][] [][][]\T1/pplj/m/n/10 The Nor-mal dis-tri-bu-tion with dif-fer-ent de-vi-
+a-tion pa-ram-e-ters, $\OML/zplm/m/it/10 ^^[$\T1/pplj/m/n/10 .[][] 136 
+ []
+
+
+Overfull \hbox (3.84981pt too wide) in paragraph at lines 35--35
+ [][] [][][]\T1/pplj/m/n/10 The Stan-dard Nor-mal Dis-tri-bu-tion (the Nor-mal 
+dis-tri-bu-tion in the
+ []
+
+
+Overfull \hbox (8.54973pt too wide) in paragraph at lines 35--35
+ \T1/pplj/m/n/10 for po-si-tions 1-$\OML/zplm/m/it/10 ^^[$ \T1/pplj/m/n/10 away
+ from the cen-ter, 2-$\OML/zplm/m/it/10 ^^[$ \T1/pplj/m/n/10 away, and 3-$\OML/
+zplm/m/it/10 ^^[$ \T1/pplj/m/n/10 away. The
+ []
+
+
+Overfull \hbox (4.87987pt too wide) in paragraph at lines 35--35
+ \T1/pplj/m/n/10 area within 1-$\OML/zplm/m/it/10 ^^[$ \T1/pplj/m/n/10 is 0.68,
+ within 2-$\OML/zplm/m/it/10 ^^[$ \T1/pplj/m/n/10 is 0.95, and 3-$\OML/zplm/m/i
+t/10 ^^[$ \T1/pplj/m/n/10 is 0.99. These lo-
+ []
+
+
+Overfull \hbox (6.4298pt too wide) in paragraph at lines 35--35
+ \T1/pplj/m/n/10 ca-tions are the most preva-lently used in any kind of sta-tis
+-ti-cal test-
+ []
+
+
+Overfull \hbox (15.7298pt too wide) in paragraph at lines 37--37
+ [][] [][][]\T1/pplj/m/n/10 Probability dis-tri-bu-tions for the sub-set of iri
+s petal lengths. Each dis-
+ []
+
+
+Overfull \hbox (12.79979pt too wide) in paragraph at lines 38--38
+ [][] [][][]\T1/pplj/m/n/10 Probability dis-tri-bu-tions for the dif-fer-ence b
+e-tween iris petal lengths
+ []
+
+
+Overfull \hbox (3.1898pt too wide) in paragraph at lines 38--38
+ \T1/pplj/m/n/10 for the clos-est two iris types, \T1/pplj/m/it/10 Vir-ginica \
+T1/pplj/m/n/10 and \T1/pplj/m/it/10 Ver-si-color\T1/pplj/m/n/10 . The dis-tri-b
+u-
+ []
+
+
+Overfull \hbox (3.8898pt too wide) in paragraph at lines 38--38
+ \T1/pplj/m/n/10 tion fol-lows a Student-t form, and clearly shows sig-nif-i-ca
+nt prob-a-
+ []
+
+
+Overfull \hbox (7.01984pt too wide) in paragraph at lines 40--40
+ [][] [][][]\T1/pplj/m/n/10 Mass of Pen-nies from 1960 to 1974, with best es-ti
+-mates and 99% CI
+ []
+
+
+Overfull \hbox (7.01984pt too wide) in paragraph at lines 41--41
+ [][] [][][]\T1/pplj/m/n/10 Mass of Pen-nies from 1960 to 2003, with best es-ti
+-mates and 99% CI
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+Overfull \hbox (4.4998pt too wide) in paragraph at lines 42--42
+ [][] [][][]\T1/pplj/m/n/10 Mass of Pen-nies from 1960 to 2003, with best es-ti
+-mates for the two
+ []
+
+
+Overfull \hbox (2.26978pt too wide) in paragraph at lines 42--42
+ \T1/pplj/m/n/10 true val-ues and their 99% CI (i.e. $\OT1/pplx/m/n/10 3\OML/zp
+lm/m/it/10 ^^[$\T1/pplj/m/n/10 ) un-cer-tainty plot-ted. There is
+ []
+
+
+Overfull \hbox (6.1298pt too wide) in paragraph at lines 42--42
+ \T1/pplj/m/n/10 clearly no over-lap in their cred-i-ble in-ter-vals, thus ther
+e is a sta-tis-ti-
+ []
+
+
+Overfull \hbox (13.22978pt too wide) in paragraph at lines 43--43
+ [][] [][][]\T1/pplj/m/n/10 Difference in the es-ti-mated val-ues of the pre- a
+nd post 1975 pen-nies,
+ []
+
+
+Overfull \hbox (5.2972pt too wide) in paragraph at lines 43--43
+ \OML/zplm/m/it/10 ^^V[] \OMS/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 ^^V[]$\T1/pplj/
+m/n/10 . The value zero is clearly out-side of the 99% in-ter-val of the
+ []
+
+
+Overfull \hbox (8.7098pt too wide) in paragraph at lines 43--43
+ \T1/pplj/m/n/10 dif-fer-ence, thus there is a sta-tis-ti-cally sig-nif-i-cant 
+dif-fer-ence be-tween
+ []
+
+
+Overfull \hbox (1.51978pt too wide) in paragraph at lines 49--49
+ [][] [][][]\T1/pplj/m/n/10 Discrete uni-form dis-tri-bu-tion for val-ues 1 to 
+6. The value for each
+ []
+
+
+Overfull \hbox (3.28978pt too wide) in paragraph at lines 51--51
+ [][] [][][]\T1/pplj/m/n/10 Continuous uni-form dis-tri-bu-tion for the plumber
+ ex-am-ple (Ex-am-
+ []
+
+
+Overfull \hbox (14.63983pt too wide) in paragraph at lines 52--52
+ [][] [][][]\T1/pplj/m/n/10 Probability of get-ting $\OML/zplm/m/it/10 h$ \T1/p
+plj/m/n/10 heads in 30 flips given a pos-si-ble un-fair coin.
+ []
+
+
+Overfull \hbox (1.53508pt too wide) in paragraph at lines 52--52
+ \T1/pplj/m/n/10 One coin has $\OML/zplm/m/it/10 p \OT1/zplm/m/n/10 = \OT1/pplx
+/m/n/10 0.1$\T1/pplj/m/n/10 , where the max-i-mum is for 3 heads (or 1/10
+ []
+
+
+Overfull \hbox (7.13506pt too wide) in paragraph at lines 52--52
+ \T1/pplj/m/n/10 of the 30 flips), but 2 heads is nearly as likely. An-other ha
+s $\OML/zplm/m/it/10 p \OT1/zplm/m/n/10 = \OT1/pplx/m/n/10 0.5$\T1/pplj/m/n/10 
+,
+ []
+
+
+Overfull \hbox (6.69989pt too wide) in paragraph at lines 52--52
+ \T1/pplj/m/n/10 and is the fair coin con-sid-ered ear-lier with a max-i-mum at
+ 15 heads
+ []
+
+
+Overfull \hbox (13.43504pt too wide) in paragraph at lines 52--52
+ \T1/pplj/m/n/10 (or 1/2 of the 30 flips). Fi-nally, an-other coin shown as $\O
+ML/zplm/m/it/10 p \OT1/zplm/m/n/10 = \OT1/pplx/m/n/10 0.8$ \T1/pplj/m/n/10 wher
+e
+ []
+
+
+Overfull \hbox (5.31976pt too wide) in paragraph at lines 53--53
+ [][] [][][]\T1/pplj/m/n/10 Posterior prob-a-bil-ity dis-tri-bu-tion for the $\
+OML/zplm/m/it/10 ^^R$ \T1/pplj/m/n/10 val-ues of the bent coin -
+ []
+
+
+Overfull \hbox (24.4198pt too wide) in paragraph at lines 53--53
+ \T1/pplj/m/n/10 the prob-a-bil-ity that the coin will land heads. The dis-tri-
+bu-tion is shown
+ []
+
+
+Overfull \hbox (6.3998pt too wide) in paragraph at lines 53--53
  \T1/pplj/m/n/10 for data 3 heads and 9 tails. The var-i-ous quar-tiles are sho
 wn in the
  []
@@ -1468,198 +1545,559 @@ Overfull \hbox (16.6599pt too wide) in paragraph at lines 6--6
  []
 
 
-Overfull \hbox (0.43993pt too wide) in paragraph at lines 7--7
+Overfull \hbox (15.03986pt too wide) in paragraph at lines 7--7
+ [][] [][][] \T1/pplj/m/n/10 Let's imag-ine we have the case where two peo-ple 
+meet on the 
+ []
+
+
+Overfull \hbox (4.95987pt too wide) in paragraph at lines 7--7
+ \T1/pplj/m/n/10 street. What is the prob-a-bil-ity that they both have April 3
+ as 
+ []
+
+
+Overfull \hbox (8.55984pt too wide) in paragraph at lines 8--8
+ [][] [][][] \T1/pplj/m/n/10 Two peo-ple meet on the street, and we ask what is
+ the prob- 
+ []
+
+
+Overfull \hbox (24.79987pt too wide) in paragraph at lines 9--9
+ [][] [][][] \T1/pplj/m/n/10 What is the prob-a-bil-ity that three ran-dom peo-
+ple have the same 
+ []
+
+
+Overfull \hbox (2.72993pt too wide) in paragraph at lines 10--10
+ [][] [][][]\T1/pplj/m/n/10 What is the prob-a-bil-ity that \T1/pplj/m/it/10 at
+ least two \T1/pplj/m/n/10 have the same birth- 
+ []
+
+
+Overfull \hbox (2.72993pt too wide) in paragraph at lines 11--11
+ [][] [][][]\T1/pplj/m/n/10 What is the prob-a-bil-ity that \T1/pplj/m/it/10 at
+ least two \T1/pplj/m/n/10 have the same birth- 
+ []
+
+
+Overfull \hbox (12.94986pt too wide) in paragraph at lines 12--12
+ [][] [][][] \T1/pplj/m/n/10 When you have a group of 30 peo-ple, like stu-dent
+s in a class- 
+ []
+
+
+Overfull \hbox (8.61987pt too wide) in paragraph at lines 12--12
+ \T1/pplj/m/n/10 room, and you ask what the prob-a-bil-ity of find-ing two in t
+he 
+ []
+
+
+Overfull \hbox (0.63988pt too wide) in paragraph at lines 12--12
+ \T1/pplj/m/n/10 room with the same birth-day, would your in-tu-ition say it is
+ 
+ []
+
+
+Overfull \hbox (11.27982pt too wide) in paragraph at lines 13--13
+ [][] [][][] \T1/pplj/m/n/10 Sup-pose you're on a game show, and you're given t
+he choice 
+ []
+
+
+Overfull \hbox (28.14986pt too wide) in paragraph at lines 13--13
+ \T1/pplj/m/n/10 of three doors: be-hind one door is a car; be-hind the oth-ers
+, goats. 
+ []
+
+
+Overfull \hbox (5.03989pt too wide) in paragraph at lines 13--13
+ \T1/pplj/m/n/10 You pick a door, say No. 1 (but the door is not opened), and 
+ []
+
+
+Overfull \hbox (9.03981pt too wide) in paragraph at lines 13--13
+ \T1/pplj/m/n/10 the host, who knows what's be-hind the doors, opens an-other 
+ []
+
+
+Overfull \hbox (2.11987pt too wide) in paragraph at lines 13--13
+ \T1/pplj/m/n/10 door, say No. 3, which has a goat. He then says to you, "Do 
+ []
+
+
+Overfull \hbox (4.81985pt too wide) in paragraph at lines 13--13
+ \T1/pplj/m/n/10 you want to change your choice to door No. 2?" Is it to your 
+ []
+
+
+Overfull \hbox (2.03989pt too wide) in paragraph at lines 13--13
+ \T1/pplj/m/n/10 ad-van-tage or dis-ad-van-tage to switch your choice, or does 
+it 
+ []
+
+
+Overfull \hbox (1.1799pt too wide) in paragraph at lines 14--14
+ [][] [][][] \T1/pplj/m/n/10 Imag-ine we have a game with two doors: Be-hind on
+e door 
+ []
+
+
+Overfull \hbox (2.61992pt too wide) in paragraph at lines 14--14
+ \T1/pplj/m/n/10 is a car; be-hind the other is a goat. You pick a door, say No
+. 
+ []
+
+
+Overfull \hbox (20.20984pt too wide) in paragraph at lines 14--14
+ \T1/pplj/m/n/10 1 (but the door is not opened), and the host, who knows what's
+ 
+ []
+
+
+Overfull \hbox (7.9999pt too wide) in paragraph at lines 14--14
+ \T1/pplj/m/n/10 be-hind the doors, says that there is a 90% chance that the ca
+r 
+ []
+
+
+Overfull \hbox (3.13988pt too wide) in paragraph at lines 14--14
+ \T1/pplj/m/n/10 is be-hind door No. 2. Is it to your ad-van-tage to switch you
+r 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19
+
+]
+Overfull \hbox (24.37982pt too wide) in paragraph at lines 15--15
+ [][] [][][] \T1/pplj/m/n/10 The host, who knows what's be-hind the doors, poin
+ts to a door, 
+ []
+
+
+Overfull \hbox (1.0199pt too wide) in paragraph at lines 15--15
+ \T1/pplj/m/n/10 choos-ing the cor-rect door 90% of the time and the in-cor-rec
+t 
+ []
+
+
+Overfull \hbox (0.77988pt too wide) in paragraph at lines 15--15
+ \T1/pplj/m/n/10 one 10%. You pick a door, say No. 1, and the host points to 
+ []
+
+
+Overfull \hbox (11.27982pt too wide) in paragraph at lines 16--16
+ [][] [][][] \T1/pplj/m/n/10 Sup-pose you're on a game show, and you're given t
+he choice 
+ []
+
+
+Overfull \hbox (28.72986pt too wide) in paragraph at lines 16--16
+ \T1/pplj/m/n/10 of three doors: Be-hind one door is a car; be-hind the oth-ers
+, goats. 
+ []
+
+
+Overfull \hbox (5.03989pt too wide) in paragraph at lines 16--16
+ \T1/pplj/m/n/10 You pick a door, say No. 1 (but the door is not opened), and 
+ []
+
+
+Overfull \hbox (1.66985pt too wide) in paragraph at lines 16--16
+ \T1/pplj/m/n/10 the host, who knows what's be-hind the doors, says that an- 
+ []
+
+
+Overfull \hbox (19.51991pt too wide) in paragraph at lines 16--16
+ \T1/pplj/m/n/10 other door, say No. 3, has a 0% chance of hav-ing a car, and t
+hat 
+ []
+
+
+Overfull \hbox (9.00987pt too wide) in paragraph at lines 16--16
+ \T1/pplj/m/n/10 the re-main-ing door (that you haven't cho-sen - i.e door No. 
+2) 
+ []
+
+
+Overfull \hbox (19.72983pt too wide) in paragraph at lines 16--16
+ \T1/pplj/m/n/10 has a 66% of hav-ing the car. He then says to you, "Do you wan
+t 
+ []
+
+
+Overfull \hbox (32.80988pt too wide) in paragraph at lines 16--16
+ \T1/pplj/m/n/10 to pick door No. 2?" Is it to your ad-van-tage to switch your 
+choice? 
+ []
+
+
+Overfull \hbox (11.27982pt too wide) in paragraph at lines 17--17
+ [][] [][][] \T1/pplj/m/n/10 Sup-pose you're on a game show, and you're given t
+he choice 
+ []
+
+
+Overfull \hbox (28.14986pt too wide) in paragraph at lines 17--17
+ \T1/pplj/m/n/10 of three doors: be-hind one door is a car; be-hind the oth-ers
+, goats. 
+ []
+
+
+Overfull \hbox (5.03989pt too wide) in paragraph at lines 17--17
+ \T1/pplj/m/n/10 You pick a door, say No. 1 (but the door is not opened), and 
+ []
+
+
+Overfull \hbox (9.03981pt too wide) in paragraph at lines 17--17
+ \T1/pplj/m/n/10 the host, who knows what's be-hind the doors, opens an-other 
+ []
+
+
+Overfull \hbox (2.11987pt too wide) in paragraph at lines 17--17
+ \T1/pplj/m/n/10 door, say No. 3, which has a goat. He then says to you, "Do 
+ []
+
+
+Overfull \hbox (4.81985pt too wide) in paragraph at lines 17--17
+ \T1/pplj/m/n/10 you want to change your choice to door No. 2?" Is it to your 
+ []
+
+
+Overfull \hbox (2.03989pt too wide) in paragraph at lines 17--17
+ \T1/pplj/m/n/10 ad-van-tage or dis-ad-van-tage to switch your choice, or does 
+it 
+ []
+
+
+Overfull \hbox (16.20993pt too wide) in paragraph at lines 18--18
+ [][] [][][] \T1/pplj/m/n/10 If the prob-a-bil-ity that it will rain next Sat-u
+r-day is 0.25 and the 
+ []
+
+
+Overfull \hbox (25.8099pt too wide) in paragraph at lines 18--18
+ \T1/pplj/m/n/10 prob-a-bil-ity that it will rain next Sun-day is 0.25, what is
+ the prob- 
+ []
+
+
+Overfull \hbox (6.22993pt too wide) in paragraph at lines 19--19
+ [][] [][][] \T1/pplj/m/n/10 What is the prob-a-bil-ity of the \T1/pplj/m/it/10
+ sum \T1/pplj/m/n/10 of two dice get-ting a par- 
+ []
+
+
+Overfull \hbox (10.56993pt too wide) in paragraph at lines 20--20
+ [][] [][][] \T1/pplj/m/n/10 What is the prob-a-bil-ity of rolling a sum \T1/pp
+lj/m/it/10 more than 7 \T1/pplj/m/n/10 with two 
+ []
+
+
+Overfull \hbox (12.26988pt too wide) in paragraph at lines 21--21
+ [][] [][][] \T1/pplj/m/n/10 What is the prob-a-bil-ity of rolling var-i-ous su
+ms with two dice 
+ []
+
+
+Overfull \hbox (0.42992pt too wide) in paragraph at lines 22--22
+ [][] [][][]\T1/pplj/m/n/10 What is the prob-a-bil-ity of both hav-ing can-cer 
+and get-ting a 
+ []
+
+
+Overfull \hbox (9.9699pt too wide) in paragraph at lines 23--23
+ [][] [][][]\T1/pplj/m/n/10 What is the prob-a-bil-ity of both not hav-ing can-
+cer and get-ting 
+ []
+
+
+Overfull \hbox (4.85991pt too wide) in paragraph at lines 24--24
+ [][] [][][]\T1/pplj/m/n/10 What is the prob-a-bil-ity of hav-ing can-cer \T1/p
+plj/m/it/10 given \T1/pplj/m/n/10 a pos-i-tive test 
+ []
+
+
+Overfull \hbox (11.09988pt too wide) in paragraph at lines 33--33
+ [][] [][][] \T1/pplj/m/n/10 What is the prob-a-bil-ity of flip-ping three head
+s in a row, with 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+Overfull \hbox (11.86992pt too wide) in paragraph at lines 34--34
+ [][] [][][] \T1/pplj/m/n/10 What is the prob-a-bil-ity of flip-ping \T1/pplj/m
+/it/10 thirty \T1/pplj/m/n/10 heads in a row, with 
+ []
+
+
+Overfull \hbox (2.28989pt too wide) in paragraph at lines 35--35
+ [][] [][][] \T1/pplj/m/n/10 What is the prob-a-bil-ity of flip-ping two heads 
+in three flips, 
+ []
+
+
+Overfull \hbox (1.6999pt too wide) in paragraph at lines 36--36
+ [][] [][][] \T1/pplj/m/n/10 What is the prob-a-bil-ity of flip-ping ten heads 
+in thirty flips, 
+ []
+
+
+Overfull \hbox (9.4399pt too wide) in paragraph at lines 37--37
+ [][] [][][] \T1/pplj/m/n/10 How many ways can we re-ar-range the unique sym-bo
+ls A, B, 
+ []
+
+
+Overfull \hbox (10.04994pt too wide) in paragraph at lines 38--38
+ [][] [][][] \T1/pplj/m/n/10 How many ways can we re-ar-range the sym-bols A, A
+, A, and 
+ []
+
+
+Overfull \hbox (6.49991pt too wide) in paragraph at lines 39--39
+ [][] [][][] \T1/pplj/m/n/10 How many ways are there of re-ar-rang-ing the sym-
+bols ``A A 
+ []
+
+
+Overfull \hbox (1.6999pt too wide) in paragraph at lines 40--40
+ [][] [][][] \T1/pplj/m/n/10 What is the prob-a-bil-ity of flip-ping ten heads 
+in thirty flips, 
+ []
+
+
+Overfull \hbox (6.16994pt too wide) in paragraph at lines 41--41
+ [][] [][][]\T1/pplj/m/n/10 What is the prob-a-bil-ity of get-ting 17 or more h
+eads in 30 flips?[][] [][]  
+ []
+
+
+Overfull \hbox (0.43993pt too wide) in paragraph at lines 42--42
  [][] [][][]\T1/pplj/m/n/10 What is the prob-a-bil-ity of draw-ing a 9, given t
 hat we know 
  []
 
 
-Overfull \hbox (9.13988pt too wide) in paragraph at lines 8--8
+Overfull \hbox (9.13988pt too wide) in paragraph at lines 43--43
  [][] [][][]\T1/pplj/m/n/10 What is the prob-a-bil-ity that you are hold-ing on
 e of ei-ther the 
  []
 
 
-Overfull \hbox (19.67986pt too wide) in paragraph at lines 8--8
+Overfull \hbox (19.67986pt too wide) in paragraph at lines 43--43
  \T1/pplj/m/n/10 High or the Low Deck hav-ing drawn five 9's in a row from that
  
  []
 
 
-Overfull \hbox (9.13988pt too wide) in paragraph at lines 9--9
+Overfull \hbox (9.13988pt too wide) in paragraph at lines 44--44
  [][] [][][]\T1/pplj/m/n/10 What is the prob-a-bil-ity that you are hold-ing on
 e of ei-ther the 
  []
 
 
-Overfull \hbox (11.63988pt too wide) in paragraph at lines 9--9
+Overfull \hbox (11.63988pt too wide) in paragraph at lines 44--44
  \T1/pplj/m/n/10 High or the Low Deck hav-ing drawn $\OML/zplm/m/it/10 m$ \T1/p
 plj/m/n/10 9's in a row from that 
  []
 
 
-Overfull \hbox (9.13988pt too wide) in paragraph at lines 10--10
+Overfull \hbox (9.13988pt too wide) in paragraph at lines 45--45
  [][] [][][]\T1/pplj/m/n/10 What is the prob-a-bil-ity that you are hold-ing on
 e of ei-ther the 
  []
 
 
-Overfull \hbox (7.66988pt too wide) in paragraph at lines 10--10
+Overfull \hbox (7.66988pt too wide) in paragraph at lines 45--45
  \T1/pplj/m/n/10 High, Low, or Nines Deck hav-ing drawn $\OML/zplm/m/it/10 m$ \
 T1/pplj/m/n/10 9's in a row from 
  []
 
 
-Overfull \hbox (13.1699pt too wide) in paragraph at lines 15--15
+Overfull \hbox (13.1699pt too wide) in paragraph at lines 50--50
  [][] [][][]\T1/pplj/m/n/10 What is the best es-ti-mate of the prob-a-bil-ity o
 f a bent coin flip- 
  []
 
 
-Overfull \hbox (11.53275pt too wide) in paragraph at lines 18--18
+Overfull \hbox (11.53275pt too wide) in paragraph at lines 53--53
  [][] [][][]\T1/pplj/m/n/10 Given a Nor-mal dis-tri-bu-tion with a mean of $\OM
 L/zplm/m/it/10 ^^V \OT1/zplm/m/n/10 = \OT1/pplx/m/n/10 150$ \T1/pplj/m/n/10 and
  $\OML/zplm/m/it/10 ^^[ \OT1/zplm/m/n/10 = 
  []
 
 
-Overfull \hbox (13.01448pt too wide) in paragraph at lines 22--22
+Overfull \hbox (13.01448pt too wide) in paragraph at lines 57--57
  [][] [][][]\T1/pplj/m/n/10 We have two Nor-mal dis-tri-bu-tions $\OML/zplm/m/i
 t/10 P\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 ) = [](\OML/zplm/m/
 it/10 ^^V \OT1/zplm/m/n/10 = \OT1/pplx/m/n/10 8, \OML/zplm/m/it/10 ^^[ \OT1/zpl
 m/m/n/10 = 
  []
 
-[19
-
-]
-Overfull \hbox (15.04988pt too wide) in paragraph at lines 30--30
+[21]
+Overfull \hbox (15.04988pt too wide) in paragraph at lines 65--65
  [][] [][][]\T1/pplj/m/n/10 What is the best es-ti-mate (and un-cer-tainty) for
  each of the two 
  []
 
 
-Overfull \hbox (7.80988pt too wide) in paragraph at lines 31--31
+Overfull \hbox (7.80988pt too wide) in paragraph at lines 66--66
  [][] [][][]\T1/pplj/m/n/10 Is it rea-son-able to be-lieve that there is a dif-
 fer-ence in the size 
  []
 
 
-Overfull \hbox (1.93987pt too wide) in paragraph at lines 38--38
+Overfull \hbox (1.93987pt too wide) in paragraph at lines 73--73
  [][] [][][]\T1/pplj/m/n/10 Mass of the Penny, Model 1 - One True Value with Mo
 re Data[][] [][]  
  []
 
 
-Overfull \hbox (10.9199pt too wide) in paragraph at lines 40--40
+Overfull \hbox (10.9199pt too wide) in paragraph at lines 75--75
  [][] [][][] \T1/pplj/m/n/10 You call a plumber, and they say that they can com
 e any-time 
  []
 
 
-Overfull \hbox (1.39989pt too wide) in paragraph at lines 40--40
+Overfull \hbox (1.39989pt too wide) in paragraph at lines 75--75
  \T1/pplj/m/n/10 in the next 4 hours. The prob-a-bil-ity of them ar-riv-ing at 
 any 
  []
 
 
-Overfull \hbox (1.10991pt too wide) in paragraph at lines 40--40
+Overfull \hbox (1.10991pt too wide) in paragraph at lines 75--75
  \T1/pplj/m/n/10 par-tic-u-lar time can be rep-re-sented with a uni-form dis-tr
 i-bu- 
  []
 
 
-Overfull \hbox (19.5499pt too wide) in paragraph at lines 40--40
+Overfull \hbox (19.5499pt too wide) in paragraph at lines 75--75
  \T1/pplj/m/n/10 tion. What is the prob-a-bil-ity that they ar-rive in the firs
 t 20 min- 
  []
 
 
-Overfull \hbox (9.93988pt too wide) in paragraph at lines 41--41
+Overfull \hbox (9.93988pt too wide) in paragraph at lines 76--76
  [][] [][][]\T1/pplj/m/n/10 Usage of the Cred-i-ble In-ter-val Ta-ble for the N
 or-mal Dis-tri-bu- 
  []
 
 
-Overfull \hbox (1.65974pt too wide) in paragraph at lines 42--42
+Overfull \hbox (1.65974pt too wide) in paragraph at lines 77--77
  [][] [][][]\T1/pplj/m/n/10 Usage of the Cred-i-ble In-ter-val Ta-ble for the S
 tu-dent's $\OML/zplm/m/it/10 t$ \T1/pplj/m/n/10 Dis- 
  []
 
-) [20] (./main.lot
+) [22] (./main.lot
 Overfull \hbox (2.5998pt too wide) in paragraph at lines 2--2
  [][] [][][]\T1/pplj/m/n/10 Rough guide for the con-ver-sion of qual-i-ta-tive 
 la-bels to prob-a-bil-ity
  []
 
 
-Overfull \hbox (18.75983pt too wide) in paragraph at lines 4--4
+Overfull \hbox (5.66971pt too wide) in paragraph at lines 5--5
+ [][] [][][]\T1/pplj/m/n/10 Total Cor-rect Guesses from Stu-dents ``Pre-dict-in
+g'' the Re-sults of 50
+ []
+
+
+Overfull \hbox (17.92972pt too wide) in paragraph at lines 5--5
+ \T1/pplj/m/n/10 Coin Flips. Shown are the re-sults of a first round and a sec-
+ond round
+ []
+
+
+Overfull \hbox (7.53975pt too wide) in paragraph at lines 6--6
+ [][] [][][]\T1/pplj/m/n/10 Performance in the Sec-ond Round of Stu-dents ``Pre
+-dict-ing'' the Re-
+ []
+
+
+Overfull \hbox (9.52971pt too wide) in paragraph at lines 6--6
+ \T1/pplj/m/n/10 sults of 50 Coin Flips. Shown are the re-sults for those stu-d
+ents who
+ []
+
+
+Overfull \hbox (21.9698pt too wide) in paragraph at lines 6--6
+ \T1/pplj/m/n/10 per-formed \T1/pplj/m/it/10 best \T1/pplj/m/n/10 in the first 
+round (left), and those that per-formed \T1/pplj/m/it/10 worst
+ []
+
+
+Overfull \hbox (23.75983pt too wide) in paragraph at lines 9--9
  [][] [][][]\T1/pplj/m/n/10 Drawing $\OML/zplm/m/it/10 m$ \T1/pplj/m/n/10 9's i
-n a row, from ei-ther a High Deck or Low Deck.[][] 54 
+n a row, from ei-ther a High Deck or Low Deck.[][] 100 
  []
 
 
-Overfull \hbox (16.30984pt too wide) in paragraph at lines 7--7
+Overfull \hbox (21.30984pt too wide) in paragraph at lines 12--12
  [][] [][][]\T1/pplj/m/n/10 Probabilities for flip-ping heads given a col-lec-t
-ion of bent coins[][] 69 
+ion of bent coins[][] 115 
  []
 
 
-Overfull \hbox (4.58986pt too wide) in paragraph at lines 8--8
+Overfull \hbox (4.58986pt too wide) in paragraph at lines 13--13
  [][] [][][]\T1/pplj/m/n/10 Probability for dif-fer-ent bent-coin mod-els, give
 n the data=9 tails, 3
  []
 
 
-Overfull \hbox (10.91982pt too wide) in paragraph at lines 8--8
+Overfull \hbox (10.91982pt too wide) in paragraph at lines 13--13
  \T1/pplj/m/n/10 heads. The mid-dle col-umn is the non-normalized value from Ba
 yes'
  []
 
 
-Overfull \hbox (0.56975pt too wide) in paragraph at lines 8--8
+Overfull \hbox (0.56975pt too wide) in paragraph at lines 13--13
  \T1/pplj/m/n/10 Rule, need-ing to be di-vided by $\OML/zplm/m/it/10 K$ \T1/ppl
 j/m/n/10 (the sum of the mid-dle col-umn)
  []
 
 
-Overfull \hbox (1.94975pt too wide) in paragraph at lines 10--10
+Overfull \hbox (1.94975pt too wide) in paragraph at lines 15--15
  [][] [][][]\T1/pplj/m/n/10 Rough guide for the con-ver-sion of de-vi-a-tions a
 way from zero and
  []
 
 
-Overfull \hbox (12.49985pt too wide) in paragraph at lines 10--10
+Overfull \hbox (12.49985pt too wide) in paragraph at lines 15--15
  \T1/pplj/m/n/10 the qual-i-ta-tive la-bels for prob-a-bil-ity val-ues for be-i
 ng a \T1/pplj/m/it/10 sig-nif-i-cant \T1/pplj/m/n/10 de-
  []
 
 
-Overfull \hbox (14.5798pt too wide) in paragraph at lines 13--13
+Overfull \hbox (14.5798pt too wide) in paragraph at lines 18--18
  [][] [][][]\T1/pplj/m/n/10 Subset of iris petal lengths, in cen-time-ters, for
  iris types \T1/pplj/m/it/10 Vir-ginica\T1/pplj/m/n/10 , \T1/pplj/m/it/10 Se-
  []
 
 
-Overfull \hbox (3.46985pt too wide) in paragraph at lines 14--14
+Overfull \hbox (3.46985pt too wide) in paragraph at lines 19--19
  [][] [][][]\T1/pplj/m/n/10 Production lines are pro-duce a ball bear-ing with 
 a di-am-e-ter of ap-
  []
 
 
-Overfull \hbox (13.76984pt too wide) in paragraph at lines 14--14
+Overfull \hbox (13.76984pt too wide) in paragraph at lines 19--19
  \T1/pplj/m/n/10 prox-i-mately 1 mi-cron. Ten ball bear-ings were ran-domly pic
 ked from
  []
 
 
-Overfull \hbox (14.01984pt too wide) in paragraph at lines 14--14
+Overfull \hbox (14.01984pt too wide) in paragraph at lines 19--19
  \T1/pplj/m/n/10 the pro-duc-tion line (i.e. the \T1/pplj/m/it/10 First line\T1
 /pplj/m/n/10 ) at one time, and then again for
  []
 
 
-Overfull \hbox (3.16986pt too wide) in paragraph at lines 14--14
+Overfull \hbox (3.16986pt too wide) in paragraph at lines 19--19
  \T1/pplj/m/n/10 a dif-fer-ent pro-duc-tion line (i.e. the \T1/pplj/m/it/10 Sec
 -ond line\T1/pplj/m/n/10 ). Ro-mano, A. (1977)
  []
@@ -1668,29 +2106,29 @@ Overfull \hbox (3.16986pt too wide) in paragraph at lines 14--14
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [21
+ [23
 
-] [22
+] [24
 
 ])
 \openout2 = `proposal.aux'.
 
- (./proposal.tex [23
+ (./proposal.tex [25
 
 
 
-] [24]
+] [26]
 
-LaTeX Warning: Marginpar on page 25 moved.
+LaTeX Warning: Marginpar on page 27 moved.
 
 
-LaTeX Warning: Marginpar on page 25 moved.
+LaTeX Warning: Marginpar on page 27 moved.
 
-[25]
+[27]
 
-LaTeX Warning: Marginpar on page 26 moved.
+LaTeX Warning: Marginpar on page 28 moved.
 
-) [26]
+) [28]
 \openout2 = `chap-introduction.aux'.
 
  (./chap-introduction.tex
@@ -1698,31 +2136,31 @@ Chapter 1.
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 6.80005pt on input line 7.
 
-LaTeX Warning: Marginpar on page 27 moved.
+LaTeX Warning: Marginpar on page 29 moved.
 
 
-LaTeX Warning: Marginpar on page 27 moved.
+LaTeX Warning: Marginpar on page 29 moved.
 
-[27
+[29
 
 
 
 
 ]
 
-LaTeX Warning: Marginpar on page 28 moved.
+LaTeX Warning: Marginpar on page 30 moved.
 
-
-LaTeX Warning: Marginpar on page 28 moved.
-
-
-LaTeX Warning: Marginpar on page 28 moved.
-
-[28] [29]
 
 LaTeX Warning: Marginpar on page 30 moved.
 
-<../figs/StandardDeck.pdf, id=908, 1276.77pt x 1106.1325pt>
+
+LaTeX Warning: Marginpar on page 30 moved.
+
+[30] [31]
+
+LaTeX Warning: Marginpar on page 32 moved.
+
+<../figs/StandardDeck.pdf, id=1241, 1276.77pt x 1106.1325pt>
 File: ../figs/StandardDeck.pdf Graphic file (type pdf)
 
 <use ../figs/StandardDeck.pdf>
@@ -1734,7 +2172,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--56
  []
 
 
-LaTeX Warning: Marginpar on page 30 moved.
+LaTeX Warning: Marginpar on page 32 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 60--60
@@ -1766,47 +2204,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--60
 \T1/pplj/m/n/10 there are no more cards, not-ing each
  []
 
-[30 <../figs/StandardDeck.pdf>]
+[32 <../figs/StandardDeck.pdf>]
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <8> not available
 (Font)              Font shape `T1/pplj/b/n' tried instead on input line 67.
 
 
-LaTeX Warning: Marginpar on page 31 moved.
+LaTeX Warning: Marginpar on page 33 moved.
 
 
-LaTeX Warning: Marginpar on page 31 moved.
+LaTeX Warning: Marginpar on page 33 moved.
 
-[31]
+[33]
 
-LaTeX Warning: Marginpar on page 32 moved.
+LaTeX Warning: Marginpar on page 34 moved.
 
-[32]
+[34]
 Overfull \hbox (63.07808pt too wide) in alignment at lines 136--136
  [][][] []
  []
 
 
-LaTeX Warning: Marginpar on page 33 moved.
+LaTeX Warning: Marginpar on page 35 moved.
 
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <9> not available
 (Font)              Font shape `T1/pplj/b/n' tried instead on input line 170.
-[33]
+[35]
 
-LaTeX Warning: Marginpar on page 34 moved.
-
-
-LaTeX Warning: Marginpar on page 34 moved.
+LaTeX Warning: Marginpar on page 36 moved.
 
 
-LaTeX Warning: Marginpar on page 34 moved.
+LaTeX Warning: Marginpar on page 36 moved.
 
 
-LaTeX Warning: Marginpar on page 34 moved.
+LaTeX Warning: Marginpar on page 36 moved.
 
 
-LaTeX Warning: Marginpar on page 34 moved.
+LaTeX Warning: Marginpar on page 36 moved.
 
-[34]
+
+LaTeX Warning: Marginpar on page 36 moved.
+
+[36]
 Overfull \hbox (55.24774pt too wide) in alignment at lines 242--242
  [][][] []
  []
@@ -1817,23 +2255,23 @@ Overfull \hbox (42.83174pt too wide) in alignment at lines 242--242
  []
 
 
-LaTeX Warning: Marginpar on page 35 moved.
+LaTeX Warning: Marginpar on page 37 moved.
 
 Package hyperref Info: bookmark level for unknown myexample defaults to 0 on in
 put line 259.
 
-LaTeX Warning: Marginpar on page 35 moved.
-
-[35]
-
-LaTeX Warning: Marginpar on page 36 moved.
-
-[36]
-
 LaTeX Warning: Marginpar on page 37 moved.
 
+[37]
 
-LaTeX Warning: Marginpar on page 37 moved.
+LaTeX Warning: Marginpar on page 38 moved.
+
+[38]
+
+LaTeX Warning: Marginpar on page 39 moved.
+
+
+LaTeX Warning: Marginpar on page 39 moved.
 
 
 Overfull \hbox (1.29741pt too wide) in paragraph at lines 374--375
@@ -1857,17 +2295,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 380--380
 \T1/pplj/m/n/10 equal to
  []
 
-[37]
+[39]
 
-LaTeX Warning: Marginpar on page 38 moved.
-
-
-LaTeX Warning: Marginpar on page 38 moved.
+LaTeX Warning: Marginpar on page 40 moved.
 
 
-LaTeX Warning: Reference `sec:lottery' on page 38 undefined on input line 420.
+LaTeX Warning: Marginpar on page 40 moved.
 
-[38]
+[40]
 Overfull \hbox (29.33693pt too wide) in alignment at lines 431--433
  [][][] []
  []
@@ -1878,10 +2313,10 @@ Overfull \hbox (34.58801pt too wide) in alignment at lines 444--444
  []
 
 
-LaTeX Warning: Marginpar on page 39 moved.
+LaTeX Warning: Marginpar on page 41 moved.
 
 
-LaTeX Warning: Marginpar on page 39 moved.
+LaTeX Warning: Marginpar on page 41 moved.
 
 
 Overfull \hbox (33.2626pt too wide) in alignment at lines 487--487
@@ -1889,9 +2324,9 @@ Overfull \hbox (33.2626pt too wide) in alignment at lines 487--487
  []
 
 
-LaTeX Warning: Marginpar on page 39 moved.
+LaTeX Warning: Marginpar on page 41 moved.
 
-[39] [40]
+[41] [42]
 Overfull \hbox (31.64157pt too wide) in alignment at lines 538--538
  [][][] []
  []
@@ -1902,19 +2337,19 @@ Overfull \hbox (49.72661pt too wide) in alignment at lines 538--538
  []
 
 
-LaTeX Warning: Marginpar on page 41 moved.
+LaTeX Warning: Marginpar on page 43 moved.
 
 
-LaTeX Warning: Marginpar on page 41 moved.
+LaTeX Warning: Marginpar on page 43 moved.
 
 
-LaTeX Warning: Marginpar on page 41 moved.
+LaTeX Warning: Marginpar on page 43 moved.
 
-[41]
+[43]
 
-LaTeX Warning: Marginpar on page 42 moved.
+LaTeX Warning: Marginpar on page 44 moved.
 
-[42] <../figs/venn1.pdf, id=1218, 669.0077pt x 890.92265pt>
+[44] <../figs/venn1.pdf, id=1552, 669.0077pt x 890.92265pt>
 File: ../figs/venn1.pdf Graphic file (type pdf)
 
 <use ../figs/venn1.pdf>
@@ -1922,19 +2357,19 @@ Package pdftex.def Info: ../figs/venn1.pdf used on input line 591.
 (pdftex.def)             Requested size: 101.17369pt x 134.73376pt.
 
 
-LaTeX Warning: Marginpar on page 43 moved.
+LaTeX Warning: Marginpar on page 45 moved.
 
-<../figs/venn2.pdf, id=1220, 672.2713pt x 894.18588pt>
+<../figs/venn2.pdf, id=1554, 672.2713pt x 894.18588pt>
 File: ../figs/venn2.pdf Graphic file (type pdf)
  <use ../figs/venn2.pdf>
 Package pdftex.def Info: ../figs/venn2.pdf used on input line 599.
 (pdftex.def)             Requested size: 101.17485pt x 134.57234pt.
 
 
-LaTeX Warning: Marginpar on page 43 moved.
+LaTeX Warning: Marginpar on page 45 moved.
 
-[43 <../figs/venn1.pdf> <../figs/venn2.pdf>]
-<../figs/venn4.pdf, id=1418, 748.96223pt x 538.46973pt>
+[45 <../figs/venn1.pdf> <../figs/venn2.pdf>]
+<../figs/venn4.pdf, id=1751, 748.96223pt x 538.46973pt>
 File: ../figs/venn4.pdf Graphic file (type pdf)
 
 <use ../figs/venn4.pdf>
@@ -1942,47 +2377,994 @@ Package pdftex.def Info: ../figs/venn4.pdf used on input line 623.
 (pdftex.def)             Requested size: 101.1741pt x 72.73956pt.
 
 
-LaTeX Warning: Marginpar on page 44 moved.
+LaTeX Warning: Marginpar on page 46 moved.
 
-<../figs/venn3.pdf, id=1419, 669.0074pt x 890.92265pt>
+<../figs/venn3.pdf, id=1752, 669.0074pt x 890.92265pt>
 File: ../figs/venn3.pdf Graphic file (type pdf)
  <use ../figs/venn3.pdf>
 Package pdftex.def Info: ../figs/venn3.pdf used on input line 630.
 (pdftex.def)             Requested size: 101.17365pt x 134.73376pt.
 
 
-LaTeX Warning: Marginpar on page 44 moved.
+LaTeX Warning: Marginpar on page 46 moved.
 
 
-LaTeX Warning: Marginpar on page 44 moved.
+LaTeX Warning: Marginpar on page 46 moved.
 
-[44 <../figs/venn4.pdf> <../figs/venn3.pdf>]) [45]
+[46 <../figs/venn4.pdf> <../figs/venn3.pdf>]) [47]
 \openout2 = `chap-probability-applications.aux'.
 
 
-No file chap-probability-applications.tex.
-\openout2 = `chap-random-sequences.aux'.
-
-No file chap-random-sequences.tex.
-\openout2 = `chap-model-comparison2.aux'.
-
-(./chap-model-comparison2.tex [46
-
-
-
-
+(./chap-probability-applications.tex [48
 
 
 
 ]
 Chapter 2.
 
-LaTeX Warning: Marginpar on page 47 moved.
+Package natbib Warning: Citation `mosteller1965fifty' undefined on input line 8
+.
 
 
-LaTeX Warning: Marginpar on page 47 moved.
+LaTeX Warning: Marginpar on page 49 moved.
 
-<../figs/HighDeck.pdf, id=1572, 2047.65pt x 865.2325pt>
+
+LaTeX Warning: Marginpar on page 49 moved.
+
+[49]
+
+LaTeX Warning: Marginpar on page 50 moved.
+
+
+Overfull \hbox (3.85971pt too wide) in alignment at lines 39--44
+ [][][] []
+ []
+
+
+LaTeX Warning: Marginpar on page 50 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
+[]$\OML/zplm/m/it/10 D[]$ \T1/pplj/m/n/10 is a spe-cific day \T1/pplj/b/n/10 an
+d
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
+[]\T1/pplj/m/n/10 number of pos-si-ble
+ []
+
+[50]
+
+LaTeX Warning: Marginpar on page 51 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]\T1/pplj/m/n/10 number of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\T1/pplj/m/n/10 pos-si-bil-i-ties of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
+[]\T1/pplj/m/n/10 number of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
+\T1/pplj/m/n/10 pos-si-bil-i-ties of
+ []
+
+
+Overfull \hbox (41.48158pt too wide) in alignment at lines 99--102
+ [][][] []
+ []
+
+[51]
+
+LaTeX Warning: Marginpar on page 52 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[]\T1/pplj/m/n/10 number of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\T1/pplj/m/n/10 pos-si-bil-i-ties of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+[]\T1/pplj/m/n/10 number of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\T1/pplj/m/n/10 pos-si-bil-i-ties of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
+[]\T1/pplj/m/n/10 number of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
+\T1/pplj/m/n/10 pos-si-bil-i-ties of
+ []
+
+
+LaTeX Warning: Marginpar on page 52 moved.
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]\T1/pplj/m/n/10 none the same
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]\T1/pplj/b/n/10 not \T1/pplj/m/n/10 ``none
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\T1/pplj/m/n/10 the same in 3
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]\T1/pplj/m/n/10 none the same
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]\T1/pplj/m/n/10 at least 2 the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\T1/pplj/m/n/10 same in 3
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+[]\T1/pplj/m/n/10 at least 2 the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+\T1/pplj/m/n/10 same in 3
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+[]\T1/pplj/m/n/10 none the same
+ []
+
+
+LaTeX Warning: Marginpar on page 53 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+[]\T1/pplj/m/n/10 at least 2 the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+\T1/pplj/m/n/10 same in 30
+ []
+
+[53] <../figs/birthday.pdf, id=1939, 879.88722pt x 663.07722pt>
+File: ../figs/birthday.pdf Graphic file (type pdf)
+
+<use ../figs/birthday.pdf>
+Package pdftex.def Info: ../figs/birthday.pdf used on input line 162.
+(pdftex.def)             Requested size: 311.99294pt x 235.11581pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--164
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--164
+
+ []
+
+
+Package natbib Warning: Citation `abc2002lottery' undefined on input line 169.
+
+
+Overfull \hbox (1.03986pt too wide) in paragraph at lines 169--170
+\T1/pplj/m/n/10 This prob-lem is iden-ti-cal to the birth-day prob-lem math-e-m
+at-i-cally,with 
+ []
+
+
+LaTeX Warning: Marginpar on page 54 moved.
+
+[54 <../figs/birthday.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 188--188
+[]\T1/pplj/m/n/10 no one
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--188
+\T1/pplj/m/n/10 win-ning
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--188
+[]\T1/pplj/m/n/10 5 mil-lion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--188
+\T1/pplj/m/n/10 plays daily
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--188
+\T1/pplj/m/n/10 for 20
+ []
+
+
+Package natbib Warning: Citation `selvin1975problem' undefined on input line 19
+9.
+
+
+Package natbib Warning: Citation `vos1990ask' undefined on input line 199.
+
+
+LaTeX Warning: Marginpar on page 55 moved.
+
+
+LaTeX Warning: Marginpar on page 55 moved.
+
+[55]
+
+LaTeX Warning: Marginpar on page 56 moved.
+
+
+Overfull \hbox (56.004pt too wide) in paragraph at lines 215--216
+\T1/pplj/m/n/10 ther choice, so we as-sign equal prob-a-bil-i-ties to the choic
+es: $\OML/zplm/m/it/10 P [] \OT1/zplm/m/n/10 = 
+ []
+
+[56]
+
+LaTeX Warning: Marginpar on page 57 moved.
+
+[57]
+Overfull \hbox (42.00568pt too wide) in alignment at lines 264--269
+ [][][] []
+ []
+
+
+Overfull \hbox (13.46852pt too wide) in paragraph at lines 271--272
+\T1/pplj/m/n/10 more in-tu-itive, es-pe-cially the term where we sub-tract $\OM
+L/zplm/m/it/10 P\OT1/zplm/m/n/10 ([]) \OMS/zplm/m/n/10 ^^B 
+ []
+
+
+LaTeX Warning: Marginpar on page 58 moved.
+
+
+Overfull \hbox (37.66702pt too wide) in alignment at lines 281--284
+ [][][] []
+ []
+
+
+Overfull \hbox (21.63972pt too wide) in paragraph at lines 284--286
+\T1/pplj/m/n/10 Notice, how-ever, that we don't have a di-rect ex-pres-sion for
+ $\OML/zplm/m/it/10 P\OT1/zplm/m/n/10 ([])$ 
+ []
+
+
+Overfull \hbox (104.62639pt too wide) in paragraph at lines 284--286
+\T1/pplj/m/n/10 any-more. We only have the \T1/pplj/m/it/10 con-di-tional \T1/p
+plj/m/n/10 or \T1/pplj/m/it/10 de-pen-dent \T1/pplj/m/n/10 forms, like $\OML/zp
+lm/m/it/10 P []$\T1/pplj/m/n/10 . 
+ []
+
+
+Overfull \hbox (0.2598pt too wide) in paragraph at lines 284--286
+\T1/pplj/m/n/10 We can use the marginal-iza-tion pro-ce-dure (Equa-tion [][]1.1
+3[][] on page [][]43[][]), 
+ []
+
+
+Overfull \hbox (37.4428pt too wide) in alignment at lines 286--290
+ [][][] []
+ []
+
+
+Overfull \hbox (108.69888pt too wide) in alignment at lines 292--295
+ [][][] []
+ []
+
+[58] [59]
+
+Package natbib Warning: Citation `mlodinow2008drunkard' on page 60 undefined on
+ input line 325.
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Jaynes20
+03}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.331 ... comes from Jaynes, 2003\cite{Jaynes2003}
+                                                  .  We have the following p...
+
+LaTeX Warning: Marginpar on page 60 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+[]\T1/pplj/m/n/10 ``Mr $\OML/zplm/m/it/10 N$\T1/pplj/m/n/10 . has gone on TV wi
+th a sen-sa-tional claim
+ []
+
+[60] [61]
+<../figs/dice/Anonymous_two_red_dice.png, id=2038, 803.0pt x 500.87125pt>
+File: ../figs/dice/Anonymous_two_red_dice.png Graphic file (type png)
+
+<use ../figs/dice/Anonymous_two_red_dice.png>
+Package pdftex.def Info: ../figs/dice/Anonymous_two_red_dice.png used on input 
+line 380.
+(pdftex.def)             Requested size: 72.26688pt x 45.07646pt.
+
+
+LaTeX Warning: Marginpar on page 62 moved.
+
+<../figs/sumdice2.pdf, id=2039, 879.88722pt x 663.07722pt>
+File: ../figs/sumdice2.pdf Graphic file (type pdf)
+
+<use ../figs/sumdice2.pdf>
+Package pdftex.def Info: ../figs/sumdice2.pdf used on input line 404.
+(pdftex.def)             Requested size: 158.99046pt x 119.81416pt.
+
+Overfull \hbox (17.16179pt too wide) in paragraph at lines 404--404
+[][] 
+ []
+
+
+Overfull \hbox (28.90425pt too wide) in paragraph at lines 404--404
+[]  
+ []
+
+
+LaTeX Warning: Marginpar on page 62 moved.
+
+
+Overfull \hbox (13.07999pt too wide) in paragraph at lines 408--428
+[][]  
+ []
+
+<../figs/dice/twenty_sided_dice.png, id=2041, 697.60625pt x 803.0pt>
+File: ../figs/dice/twenty_sided_dice.png Graphic file (type png)
+
+<use ../figs/dice/twenty_sided_dice.png>
+Package pdftex.def Info: ../figs/dice/twenty_sided_dice.png used on input line 
+451.
+(pdftex.def)             Requested size: 36.12776pt x 41.58592pt.
+
+
+LaTeX Warning: Marginpar on page 62 moved.
+
+File: ../figs/sumdice2.pdf Graphic file (type pdf)
+<use ../figs/sumdice2.pdf>
+Package pdftex.def Info: ../figs/sumdice2.pdf used on input line 457.
+(pdftex.def)             Requested size: 216.80273pt x 163.3811pt.
+
+<../figs/sumdice4.pdf, id=2044, 879.88722pt x 663.07722pt>
+File: ../figs/sumdice4.pdf Graphic file (type pdf)
+
+<use ../figs/sumdice4.pdf>
+Package pdftex.def Info: ../figs/sumdice4.pdf used on input line 458.
+(pdftex.def)             Requested size: 216.80273pt x 163.3811pt.
+ [62 <../figs/dice/Anonymous_two_red_dice.png> <../figs/sumdice2.pdf> <../figs/
+dice/twenty_sided_dice.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 469--469
+[]|\T1/pplj/b/n/10 Number of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 470--470
+[]|\T1/pplj/m/n/10 Doesn't Have
+ []
+
+
+Overfull \hbox (43.4763pt too wide) in alignment at lines 482--485
+ [][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 491--491
+[]|\T1/pplj/b/n/10 Posterior Prob-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--492
+[]|\T1/pplj/m/n/10 Doesn't Have
+ []
+
+[63 <../figs/sumdice4.pdf>]
+Overfull \hbox (35.5763pt too wide) in alignment at lines 517--520
+ [][][] []
+ []
+
+
+Overfull \hbox (39.55638pt too wide) in paragraph at lines 532--534
+\T1/pplj/m/n/10 where we have used the sum of the \T1/pplj/m/it/10 Pos-i-tive T
+est \T1/pplj/m/n/10 col-umn for $\OML/zplm/m/it/10 P []$\T1/pplj/m/n/10 . 
+ []
+
+
+Overfull \hbox (69.63483pt too wide) in alignment at lines 534--537
+ [][][] []
+ []
+
+Package hyperref Info: bookmark level for unknown myexercise defaults to 0 on i
+nput line 546.
+[64]pdfTeX warning (ext4): destination with the same identifier (name{cite.SULL
+IVAN:fk}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.579 ...lity to each as follows\cite{SULLIVAN:fk}
+                                                  :
+
+LaTeX Warning: Marginpar on page 65 moved.
+
+[65]
+Overfull \hbox (4.90501pt too wide) in alignment at lines 618--621
+ [][][] []
+ []
+
+[66]pdfTeX warning (ext4): destination with the same identifier (name{cite.KAY:
+2003uq}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.631 ...er of her two young sons\cite{KAY:2003uq}
+                                                  .  In the case, the statis...
+
+LaTeX Warning: Marginpar on page 67 moved.
+
+
+Overfull \hbox (108.71834pt too wide) in alignment at lines 638--640
+ [][][] []
+ []
+
+
+Package natbib Warning: Citation `Wikipedia:2014fk' undefined on input line 650
+.
+
+
+LaTeX Warning: Marginpar on page 67 moved.
+
+[67] (../python/examples/Applications_of_Probability.tex
+Overfull \hbox (0.13913pt too wide) in paragraph at lines 28--28
+[]\T1/fvm/m/n/10 [1 1 1 0 0 0 0 1 1 1 1 0 1 1 0 1 1 0 0 1 1 1 0 1 0 0 1 1 0 0][
+] 
+ []
+
+
+Overfull \hbox (30.84134pt too wide) in paragraph at lines 63--63
+[]\T1/fvm/m/n/10 array([1011, 1010, 1001, 1051, 1001, 1008,  962,  990,  976,  
+978])[] 
+ []
+
+[68]
+<../python/examples/Applications_of_Probability/Applications_of_Probability_fig
+0.png, id=2207, 760.8425pt x 518.93875pt>
+File: ../python/examples/Applications_of_Probability/Applications_of_Probabilit
+y_fig0.png Graphic file (type png)
+
+<use ../python/examples/Applications_of_Probability/Applications_of_Probability
+_fig0.png>
+Package pdftex.def Info: ../python/examples/Applications_of_Probability/Applica
+tions_of_Probability_fig0.png used on input line 88.
+(pdftex.def)             Requested size: 325.2171pt x 221.81694pt.
+ [69 <../python/examples/Applications_of_Probability/Applications_of_Probabilit
+y_fig0.png>]
+<../python/examples/Applications_of_Probability/Applications_of_Probability_fig
+1.png, id=2228, 772.8875pt x 520.94624pt>
+File: ../python/examples/Applications_of_Probability/Applications_of_Probabilit
+y_fig1.png Graphic file (type png)
+
+<use ../python/examples/Applications_of_Probability/Applications_of_Probability
+_fig1.png>
+Package pdftex.def Info: ../python/examples/Applications_of_Probability/Applica
+tions_of_Probability_fig1.png used on input line 124.
+(pdftex.def)             Requested size: 325.21199pt x 219.20132pt.
+)) [70 <../python/examples/Applications_of_Probability/Applications_of_Probabil
+ity_fig1.png>]
+\openout2 = `chap-random-sequences.aux'.
+
+ (./chap-random-sequences.tex
+Chapter 3.
+
+LaTeX Warning: Marginpar on page 71 moved.
+
+[71
+
+
+
+]
+
+LaTeX Warning: Marginpar on page 72 moved.
+
+
+Overfull \hbox (24.20628pt too wide) in alignment at lines 73--76
+ [][][] []
+ []
+
+
+Overfull \hbox (29.3669pt too wide) in alignment at lines 79--84
+ [][][] []
+ []
+
+[72] [73]
+
+LaTeX Warning: Marginpar on page 74 moved.
+
+
+LaTeX Warning: Marginpar on page 74 moved.
+
+
+LaTeX Warning: Marginpar on page 74 moved.
+
+
+Overfull \hbox (2.34006pt too wide) in paragraph at lines 138--138
+ []  
+ []
+
+
+LaTeX Warning: Marginpar on page 74 moved.
+
+
+LaTeX Warning: Marginpar on page 74 moved.
+
+
+Overfull \hbox (1.30463pt too wide) in paragraph at lines 164--164
+ []  
+ []
+
+
+LaTeX Warning: Marginpar on page 74 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]\T1/pplj/m/n/10 number of re-ar-range-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\T1/pplj/m/n/10 ments of four dif-fer-ent
+ []
+
+
+Overfull \hbox (7.9193pt too wide) in alignment at lines 181--181
+ [][][] []
+ []
+
+
+LaTeX Warning: Marginpar on page 74 moved.
+
+
+LaTeX Warning: Marginpar on page 74 moved.
+
+
+LaTeX Warning: Marginpar on page 74 moved.
+
+
+LaTeX Warning: Marginpar on page 74 moved.
+
+[74]
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+[]\T1/pplj/m/n/10 number of re-ar-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\T1/pplj/m/n/10 range-ments of ``A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+[]\T1/pplj/m/n/10 number of re-ar-range-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\T1/pplj/m/n/10 ments of four \T1/pplj/m/it/10 unique
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+[]\T1/pplj/m/n/10 number of re-ar-range-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\T1/pplj/m/n/10 ments of the over-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\T1/pplj/m/n/10 counted du-pli-cate three
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--215
+[]$\OT1/pplx/m/n/10 3\OT1/zplm/m/n/10 !$ \T1/pplj/m/n/10 ways of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--215
+\T1/pplj/m/n/10 re-ar-rang-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--215
+[]$\OT1/pplx/m/n/10 2\OT1/zplm/m/n/10 !$ \T1/pplj/m/n/10 ways of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--215
+\T1/pplj/m/n/10 re-ar-rang-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--215
+[]$\OT1/pplx/m/n/10 5\OT1/zplm/m/n/10 !$ \T1/pplj/m/n/10 ways of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--215
+\T1/pplj/m/n/10 re-ar-rang-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--215
+\T1/pplj/m/n/10 5 \T1/pplj/m/it/10 unique
+ []
+
+
+LaTeX Warning: Marginpar on page 75 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--236
+[]\T1/pplj/m/n/10 number of re-ar-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--236
+\T1/pplj/m/n/10 range-ments of
+ []
+
+[75]
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
+[]\T1/pplj/m/n/10 one se-quence of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
+\T1/pplj/m/n/10 10 heads and 20
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
+[]\T1/pplj/m/n/10 number of re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
+\T1/pplj/m/n/10 ar-range-ments
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
+\T1/pplj/m/n/10 of a length-30
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
+\T1/pplj/m/n/10 se-quence with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
+\T1/pplj/m/n/10 10 ``H'' and 20
+ []
+
+
+Overfull \hbox (4.01772pt too wide) in alignment at lines 251--253
+ [][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
+[]\T1/pplj/m/n/10 one se-quence of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
+\T1/pplj/m/n/10 10 heads and 20
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
+[]\T1/pplj/m/n/10 number of re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
+\T1/pplj/m/n/10 ar-range-ments
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
+\T1/pplj/m/n/10 of a length-30
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
+\T1/pplj/m/n/10 se-quence with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
+\T1/pplj/m/n/10 10 ``H'' and 20
+ []
+
+
+Overfull \hbox (15.23184pt too wide) in alignment at lines 298--298
+ [][][] []
+ []
+
+
+LaTeX Warning: Marginpar on page 76 moved.
+
+[76] <../figs/coinflips1.pdf, id=2285, 879.88722pt x 663.07722pt>
+File: ../figs/coinflips1.pdf Graphic file (type pdf)
+
+<use ../figs/coinflips1.pdf>
+Package pdftex.def Info: ../figs/coinflips1.pdf used on input line 303.
+(pdftex.def)             Requested size: 311.99294pt x 235.11581pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--306
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--306
+
+ []
+
+[77 <../figs/coinflips1.pdf>]
+Overfull \hbox (112.3783pt too wide) in alignment at lines 312--315
+ [][][] []
+ []
+
+LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <10> not available
+(Font)              Font shape `T1/pplj/b/it' tried instead on input line 340.
+LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <8> not available
+(Font)              Font shape `T1/pplj/b/it' tried instead on input line 340.
+
+Overfull \hbox (8.015pt too wide) in alignment at lines 340--340
+ [][][] []
+ []
+
+
+LaTeX Warning: Marginpar on page 78 moved.
+
+<../figs/coinflips5.pdf, id=2337, 879.88722pt x 663.07722pt>
+File: ../figs/coinflips5.pdf Graphic file (type pdf)
+
+<use ../figs/coinflips5.pdf>
+Package pdftex.def Info: ../figs/coinflips5.pdf used on input line 343.
+(pdftex.def)             Requested size: 311.99294pt x 235.11581pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--346
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--346
+
+ []
+
+
+Overfull \hbox (63.43954pt too wide) in paragraph at lines 355--356
+[]\T1/pplj/m/n/10 HTTHTHHTTHTHTTHHHTHHTTHHTHHTTHTHHTHHTTHTTHHHTHTHTT  
+ []
+
+
+Overfull \hbox (59.05954pt too wide) in paragraph at lines 356--357
+[]\T1/pplj/m/n/10 HHTHHHTTTTTTTHTHTTHTTTHTHTHHTHTTHTTTHHTTTHHHHTHHHH  
+ []
+
+[78] [79 <../figs/coinflips5.pdf>]
+
+LaTeX Warning: Marginpar on page 80 moved.
+
+
+LaTeX Warning: Marginpar on page 80 moved.
+
+[80]
+Underfull \hbox (badness 10000) in paragraph at lines 394--394
+[]|\T1/pplj/m/n/10 Total Cor-rect
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
+[]|\T1/pplj/m/n/10 Total Cor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
+\T1/pplj/m/n/10 rect Sec-ond
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--431
+[]|\T1/pplj/m/n/10 Performance the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--439
+[]|\T1/pplj/m/n/10 Performance the
+ []
+
+
+Overfull \hbox (5.28741pt too wide) in paragraph at lines 426--448
+ [] 
+ []
+
+
+Package natbib Warning: Citation `Gelman2002' undefined on input line 463.
+
+
+Package natbib Warning: Citation `galton1914hereditary' undefined on input line
+ 463.
+
+
+LaTeX Warning: Marginpar on page 81 moved.
+
+
+LaTeX Warning: Marginpar on page 81 moved.
+
+[81] [82] [83]
+
+LaTeX Warning: Marginpar on page 84 moved.
+
+
+Package natbib Warning: Citation `Arel-Bundock:2014uq' undefined on input line 
+490.
+
+
+LaTeX Warning: Marginpar on page 84 moved.
+
+<../figs/histmale.pdf, id=2429, 867.24pt x 578.16pt>
+File: ../figs/histmale.pdf Graphic file (type pdf)
+
+<use ../figs/histmale.pdf>
+Package pdftex.def Info: ../figs/histmale.pdf used on input line 521.
+(pdftex.def)             Requested size: 311.99443pt x 207.99628pt.
+
+Overfull \hbox (11.99443pt too wide) in paragraph at lines 521--524
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [84]
+<../figs/histmale_toofewbins.pdf, id=2437, 867.24pt x 578.16pt>
+File: ../figs/histmale_toofewbins.pdf Graphic file (type pdf)
+
+<use ../figs/histmale_toofewbins.pdf>
+Package pdftex.def Info: ../figs/histmale_toofewbins.pdf used on input line 537
+.
+(pdftex.def)             Requested size: 311.99443pt x 207.99628pt.
+
+Overfull \hbox (11.99443pt too wide) in paragraph at lines 537--538
+[][]  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [85 <../figs/histmale.pdf>]
+<../figs/histmale_toomanybins.pdf, id=2482, 867.24pt x 578.16pt>
+File: ../figs/histmale_toomanybins.pdf Graphic file (type pdf)
+
+<use ../figs/histmale_toomanybins.pdf>
+Package pdftex.def Info: ../figs/histmale_toomanybins.pdf used on input line 54
+5.
+(pdftex.def)             Requested size: 311.99443pt x 207.99628pt.
+
+Overfull \hbox (11.99443pt too wide) in paragraph at lines 545--546
+[][]  
+ []
+
+<../figs/wrhand_hist.pdf, id=2483, 867.24pt x 578.16pt>
+File: ../figs/wrhand_hist.pdf Graphic file (type pdf)
+
+<use ../figs/wrhand_hist.pdf>
+Package pdftex.def Info: ../figs/wrhand_hist.pdf used on input line 554.
+(pdftex.def)             Requested size: 311.99443pt x 207.99628pt.
+
+Overfull \hbox (11.99443pt too wide) in paragraph at lines 554--555
+[][]  
+ []
+
+[86 <../figs/histmale_toofewbins.pdf> <../figs/histmale_toomanybins.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ../figs/histmale_toomanybins.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+>] <../figs/height_wrhand_scatter.pdf, id=2559, 867.24pt x 578.16pt>
+File: ../figs/height_wrhand_scatter.pdf Graphic file (type pdf)
+
+<use ../figs/height_wrhand_scatter.pdf>
+Package pdftex.def Info: ../figs/height_wrhand_scatter.pdf used on input line 5
+58.
+(pdftex.def)             Requested size: 311.99443pt x 207.99628pt.
+
+Overfull \hbox (11.99443pt too wide) in paragraph at lines 558--559
+[][]  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [87 <../figs/wrhand_hist.pdf> <../figs/height_wrhand_scatter.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ../figs/height_wrhand_scatter.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+>] (../python/examples/Random_Sequences_and_Visualization.tex
+<../python/examples/Random_Sequences_and_Visualization/Random_Sequences_and_Vis
+ualization_fig0.png, id=2637, 753.81625pt x 518.93875pt>
+File: ../python/examples/Random_Sequences_and_Visualization/Random_Sequences_an
+d_Visualization_fig0.png Graphic file (type png)
+
+<use ../python/examples/Random_Sequences_and_Visualization/Random_Sequences_and
+_Visualization_fig0.png>
+Package pdftex.def Info: ../python/examples/Random_Sequences_and_Visualization/
+Random_Sequences_and_Visualization_fig0.png used on input line 33.
+(pdftex.def)             Requested size: 325.20439pt x 223.87572pt.
+ [88 <../python/examples/Random_Sequences_and_Visualization/Random_Sequences_an
+d_Visualization_fig0.png>]
+<../python/examples/Random_Sequences_and_Visualization/Random_Sequences_and_Vis
+ualization_fig1.png, id=2656, 754.82pt x 518.93875pt>
+File: ../python/examples/Random_Sequences_and_Visualization/Random_Sequences_an
+d_Visualization_fig1.png Graphic file (type png)
+
+<use ../python/examples/Random_Sequences_and_Visualization/Random_Sequences_and
+_Visualization_fig1.png>
+Package pdftex.def Info: ../python/examples/Random_Sequences_and_Visualization/
+Random_Sequences_and_Visualization_fig1.png used on input line 70.
+(pdftex.def)             Requested size: 325.21127pt x 223.58273pt.
+)) [89 <../python/examples/Random_Sequences_and_Visualization/Random_Sequences_
+and_Visualization_fig1.png>]
+\openout2 = `chap-model-comparison2.aux'.
+
+
+(./chap-model-comparison2.tex [90
+
+
+
+]
+Chapter 4.
+
+LaTeX Warning: Marginpar on page 91 moved.
+
+
+LaTeX Warning: Marginpar on page 91 moved.
+
+<../figs/HighDeck.pdf, id=2681, 2047.65pt x 865.2325pt>
 File: ../figs/HighDeck.pdf Graphic file (type pdf)
 
 <use ../figs/HighDeck.pdf>
@@ -1998,7 +3380,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--23
 
  []
 
-<../figs/LowDeck.pdf, id=1573, 2047.65pt x 865.2325pt>
+<../figs/LowDeck.pdf, id=2682, 2047.65pt x 865.2325pt>
 File: ../figs/LowDeck.pdf Graphic file (type pdf)
 
 <use ../figs/LowDeck.pdf>
@@ -2014,33 +3396,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
  []
 
-[47] [48 <../figs/HighDeck.pdf> <../figs/LowDeck.pdf>]
+[91] [92 <../figs/HighDeck.pdf> <../figs/LowDeck.pdf>]
 
-LaTeX Warning: Marginpar on page 49 moved.
+LaTeX Warning: Marginpar on page 93 moved.
 
-[49]
+[93]
 
-LaTeX Warning: Marginpar on page 50 moved.
+LaTeX Warning: Marginpar on page 94 moved.
 
-[50]
+[94]
 Underfull \hbox (badness 10000) in paragraph at lines 126--126
 []\T1/pplj/m/n/10 ``We've drawn one card, and it is a 9, re-placed
  []
 
-[51]
+[95]
 
-LaTeX Warning: Reference `sec:birthday' on page 52 undefined on input line 171.
-
-
-
-LaTeX Warning: Marginpar on page 52 moved.
+LaTeX Warning: Marginpar on page 96 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 173--173
 []\T1/pplj/m/n/10 ``We've drawn one card, and it is a 9, re-placed
  []
 
-[52]
+[96]
 Underfull \hbox (badness 10000) in paragraph at lines 182--182
 []\T1/pplj/m/n/10 ``We know there are only two decks, and then
  []
@@ -2050,7 +3428,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 182--182
 \T1/pplj/m/n/10 we draw one card and it is a 9, re-place it and
  []
 
-[53]
+[97]
 Underfull \hbox (badness 10000) in paragraph at lines 228--228
 []\T1/pplj/m/n/10 ``We've drawn one card, and it is a 9, re-placed
  []
@@ -2065,11 +3443,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 228--228
 \T1/pplj/m/n/10 9, re-peated this pro-ce-dure and ob-served three
  []
 
-[54] [55]
+[98] [99]
 
-LaTeX Warning: Marginpar on page 56 moved.
+LaTeX Warning: Marginpar on page 100 moved.
 
-[56] <../figs/nines_HLN.pdf, id=1752, 879.88722pt x 663.07722pt>
+[100] <../figs/nines_HLN.pdf, id=2862, 879.88722pt x 663.07722pt>
 File: ../figs/nines_HLN.pdf Graphic file (type pdf)
 
 <use ../figs/nines_HLN.pdf>
@@ -2085,31 +3463,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 358--361
 
  []
 
-[57 <../figs/nines_HLN.pdf>]
+[101 <../figs/nines_HLN.pdf>]
 
-LaTeX Warning: Marginpar on page 58 moved.
+LaTeX Warning: Marginpar on page 102 moved.
 
-Package hyperref Info: bookmark level for unknown myexercise defaults to 0 on i
-nput line 367.
-[58]) [59]
+[102]) [103]
 \openout2 = `chap-model-comparison-applications.aux'.
 
- (./chap-model-comparison-applications.tex [60
+ (./chap-model-comparison-applications.tex [104
 
 
 
 ]
-Chapter 3.
-[61]
+Chapter 5.
+[105]
 
-LaTeX Warning: Marginpar on page 62 moved.
+LaTeX Warning: Marginpar on page 106 moved.
 
 
 Overfull \hbox (44.30478pt too wide) in alignment at lines 41--46
  [][][] []
  []
 
-<../figs/disease_plot.pdf, id=1837, 1190.64821pt x 630.55576pt>
+<../figs/disease_plot.pdf, id=2947, 1190.64821pt x 630.55576pt>
 File: ../figs/disease_plot.pdf Graphic file (type pdf)
 
 <use ../figs/disease_plot.pdf>
@@ -2125,14 +3501,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--69
 
  []
 
-[62] [63 <../figs/disease_plot.pdf>]
+[106] [107 <../figs/disease_plot.pdf>]
 
-LaTeX Warning: Marginpar on page 64 moved.
+LaTeX Warning: Marginpar on page 108 moved.
 
-
-LaTeX Warning: Reference `sec:monty' on page 64 undefined on input line 84.
-
-[64]
+[108]
 Overfull \hbox (13.43402pt too wide) in paragraph at lines 120--121
 \T1/pplj/m/n/10 free-dom to choose ei-ther door 2 or door 3, so $\OML/zplm/m/it
 /10 P [] \OT1/zplm/m/n/10 = 
@@ -2143,21 +3516,21 @@ Overfull \hbox (32.56984pt too wide) in paragraph at lines 143--156
  [] 
  []
 
-[65]
+[109]
 
-LaTeX Warning: Marginpar on page 66 moved.
+LaTeX Warning: Marginpar on page 110 moved.
 
 
-LaTeX Warning: Marginpar on page 66 moved.
+LaTeX Warning: Marginpar on page 110 moved.
 
-<../figs/paul1.pdf, id=1886, 1020.81375pt x 378.41376pt>
+<../figs/paul1.pdf, id=2998, 1020.81375pt x 378.41376pt>
 File: ../figs/paul1.pdf Graphic file (type pdf)
 
 <use ../figs/paul1.pdf>
 Package pdftex.def Info: ../figs/paul1.pdf used on input line 171.
 (pdftex.def)             Requested size: 311.99416pt x 115.65564pt.
 
-<../figs/paul2.pdf, id=1887, 1009.7725pt x 456.70625pt>
+<../figs/paul2.pdf, id=2999, 1009.7725pt x 456.70625pt>
 File: ../figs/paul2.pdf Graphic file (type pdf)
 
 <use ../figs/paul2.pdf>
@@ -2178,23 +3551,23 @@ Overfull \hbox (15.84174pt too wide) in paragraph at lines 176--176
 [][]\T1/pplj/m/n/8 en.wikipedia.org/wiki/Psychic_octopus[][].  
  []
 
-[66 <../figs/paul1.pdf> <../figs/paul2.pdf>]
+[110 <../figs/paul1.pdf> <../figs/paul2.pdf>]
 
-LaTeX Warning: Marginpar on page 67 moved.
+LaTeX Warning: Marginpar on page 111 moved.
 
 
-LaTeX Warning: Marginpar on page 67 moved.
+LaTeX Warning: Marginpar on page 111 moved.
 
-[67] [68]) [69]
+[111] [112]) [113]
 \openout2 = `chap-parameter-estimation.aux'.
 
- (./chap-parameter-estimation.tex [70
+ (./chap-parameter-estimation.tex [114
 
 
 
 ]
-Chapter 4.
-<../figs/bentcoin.jpg, id=1943, 172.645pt x 118.4425pt>
+Chapter 6.
+<../figs/bentcoin.jpg, id=3054, 172.645pt x 118.4425pt>
 File: ../figs/bentcoin.jpg Graphic file (type jpg)
 
 <use ../figs/bentcoin.jpg>
@@ -2202,13 +3575,13 @@ Package pdftex.def Info: ../figs/bentcoin.jpg used on input line 8.
 (pdftex.def)             Requested size: 72.27066pt x 49.58104pt.
 
 
-LaTeX Warning: Marginpar on page 71 moved.
+LaTeX Warning: Marginpar on page 115 moved.
 
 
-LaTeX Warning: Marginpar on page 71 moved.
+LaTeX Warning: Marginpar on page 115 moved.
 
-[71 <../figs/bentcoin.jpg>]
-<../figs/bentcoinprobs1.pdf, id=1956, 879.88722pt x 663.07722pt>
+[115 <../figs/bentcoin.jpg>]
+<../figs/bentcoinprobs1.pdf, id=3068, 879.88722pt x 663.07722pt>
 File: ../figs/bentcoinprobs1.pdf Graphic file (type pdf)
 
 <use ../figs/bentcoinprobs1.pdf>
@@ -2224,11 +3597,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--105
 
  []
 
-[72] [73 <../figs/bentcoinprobs1.pdf>]
+[116] [117 <../figs/bentcoinprobs1.pdf>]
 
-LaTeX Warning: Marginpar on page 74 moved.
+LaTeX Warning: Marginpar on page 118 moved.
 
-<../figs/bentcoinprobs2.pdf, id=2014, 1313.50723pt x 446.26726pt>
+<../figs/bentcoinprobs2.pdf, id=3125, 1313.50723pt x 446.26726pt>
 File: ../figs/bentcoinprobs2.pdf Graphic file (type pdf)
 
 <use ../figs/bentcoinprobs2.pdf>
@@ -2244,7 +3617,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--134
 
  []
 
-[74] <../figs/bentcoinprobs3.pdf, id=2023, 1313.50723pt x 446.26726pt>
+[118] <../figs/bentcoinprobs3.pdf, id=3134, 1313.50723pt x 446.26726pt>
 File: ../figs/bentcoinprobs3.pdf Graphic file (type pdf)
 
 <use ../figs/bentcoinprobs3.pdf>
@@ -2260,7 +3633,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--143
 
  []
 
-<../figs/bentcoinprobs5.pdf, id=2024, 1313.50723pt x 446.26726pt>
+<../figs/bentcoinprobs5.pdf, id=3135, 1313.50723pt x 446.26726pt>
 File: ../figs/bentcoinprobs5.pdf Graphic file (type pdf)
 
 <use ../figs/bentcoinprobs5.pdf>
@@ -2276,28 +3649,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--153
 
  []
 
-[75 <../figs/bentcoinprobs2.pdf> <../figs/bentcoinprobs3.pdf>]
+[119 <../figs/bentcoinprobs2.pdf> <../figs/bentcoinprobs3.pdf>]
 Overfull \hbox (7.55403pt too wide) in paragraph at lines 162--163
 []\T1/pplj/m/n/10 We can't prac-ti-cally dis-tin-guish be-tween mod-els such as
  $\OML/zplm/m/it/10 P [] \OT1/zplm/m/n/10 = 
  []
 
-[76 <../figs/bentcoinprobs5.pdf>]
-<../figs/bentcoindist1.pdf, id=2153, 722.7pt x 540.21826pt>
+[120 <../figs/bentcoinprobs5.pdf>]
+<../figs/bentcoindist1.pdf, id=3264, 722.7pt x 540.21826pt>
 File: ../figs/bentcoindist1.pdf Graphic file (type pdf)
 
 <use ../figs/bentcoindist1.pdf>
 Package pdftex.def Info: ../figs/bentcoindist1.pdf used on input line 179.
 (pdftex.def)             Requested size: 130.08038pt x 97.23508pt.
 
-<../figs/bentcoindist2.pdf, id=2154, 867.24pt x 612.48827pt>
+<../figs/bentcoindist2.pdf, id=3265, 867.24pt x 612.48827pt>
 File: ../figs/bentcoindist2.pdf Graphic file (type pdf)
 
 <use ../figs/bentcoindist2.pdf>
 Package pdftex.def Info: ../figs/bentcoindist2.pdf used on input line 198.
 (pdftex.def)             Requested size: 130.08038pt x 91.86926pt.
 
-<../figs/bentcoindist3.pdf, id=2155, 867.24pt x 612.48827pt>
+<../figs/bentcoindist3.pdf, id=3266, 867.24pt x 612.48827pt>
 File: ../figs/bentcoindist3.pdf Graphic file (type pdf)
 
 <use ../figs/bentcoindist3.pdf>
@@ -2305,10 +3678,10 @@ Package pdftex.def Info: ../figs/bentcoindist3.pdf used on input line 204.
 (pdftex.def)             Requested size: 130.08038pt x 91.86926pt.
 
 
-LaTeX Warning: Marginpar on page 77 moved.
+LaTeX Warning: Marginpar on page 121 moved.
 
-[77 <../figs/bentcoindist1.pdf> <../figs/bentcoindist2.pdf> <../figs/bentcoindi
-st3.pdf>] <../figs/beta_dist.pdf, id=2322, 722.7pt x 578.16pt>
+[121 <../figs/bentcoindist1.pdf> <../figs/bentcoindist2.pdf> <../figs/bentcoind
+ist3.pdf>] <../figs/beta_dist.pdf, id=3434, 722.7pt x 578.16pt>
 File: ../figs/beta_dist.pdf Graphic file (type pdf)
 
 <use ../figs/beta_dist.pdf>
@@ -2320,12 +3693,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 226--229
  []
 
 
-LaTeX Warning: Marginpar on page 78 moved.
+LaTeX Warning: Marginpar on page 122 moved.
 
 
-LaTeX Warning: Marginpar on page 78 moved.
+LaTeX Warning: Marginpar on page 122 moved.
 
-<../figs/beta_dist2.pdf, id=2328, 722.7pt x 578.16pt>
+<../figs/beta_dist2.pdf, id=3440, 722.7pt x 578.16pt>
 File: ../figs/beta_dist2.pdf Graphic file (type pdf)
 
 <use ../figs/beta_dist2.pdf>
@@ -2336,8 +3709,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 241--244
 
  []
 
-[78 <../figs/beta_dist.pdf>]
-<../figs/beta_dist3.pdf, id=2379, 722.7pt x 578.16pt>
+[122 <../figs/beta_dist.pdf>]
+<../figs/beta_dist3.pdf, id=3491, 722.7pt x 578.16pt>
 File: ../figs/beta_dist3.pdf Graphic file (type pdf)
 
 <use ../figs/beta_dist3.pdf>
@@ -2349,70 +3722,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 251--254
  []
 
 
-LaTeX Warning: Marginpar on page 79 moved.
+LaTeX Warning: Marginpar on page 123 moved.
 
 
 Underfull \vbox (badness 5847) has occurred while \output is active []
 
- [79 <../figs/beta_dist2.pdf>]
+ [123 <../figs/beta_dist2.pdf>]
 
-LaTeX Warning: Marginpar on page 80 moved.
+LaTeX Warning: Marginpar on page 124 moved.
 
-<../figs/beta_dist4.pdf, id=2424, 722.7pt x 578.16pt>
+<../figs/beta_dist4.pdf, id=3535, 722.7pt x 578.16pt>
 File: ../figs/beta_dist4.pdf Graphic file (type pdf)
 
 <use ../figs/beta_dist4.pdf>
 Package pdftex.def Info: ../figs/beta_dist4.pdf used on input line 261.
 (pdftex.def)             Requested size: 330.6265pt x 264.50119pt.
-LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <10> not available
-(Font)              Font shape `T1/pplj/b/it' tried instead on input line 262.
 
 Overfull \hbox (35.84998pt too wide) in paragraph at lines 261--274
 []|[]| 
  []
 
-[80 <../figs/beta_dist3.pdf>]
+[124 <../figs/beta_dist3.pdf>]
 
-LaTeX Warning: Marginpar on page 81 moved.
-
-
-LaTeX Warning: Marginpar on page 81 moved.
-
-[81 <../figs/beta_dist4.pdf>]
-
-LaTeX Warning: Marginpar on page 82 moved.
+LaTeX Warning: Marginpar on page 125 moved.
 
 
-LaTeX Warning: Marginpar on page 82 moved.
+LaTeX Warning: Marginpar on page 125 moved.
+
+[125 <../figs/beta_dist4.pdf>]
+
+LaTeX Warning: Marginpar on page 126 moved.
 
 
-LaTeX Warning: Marginpar on page 82 moved.
+LaTeX Warning: Marginpar on page 126 moved.
 
 
-LaTeX Warning: Marginpar on page 82 moved.
+LaTeX Warning: Marginpar on page 126 moved.
 
 
-LaTeX Warning: Marginpar on page 82 moved.
-
-[82]
-
-LaTeX Warning: Marginpar on page 83 moved.
+LaTeX Warning: Marginpar on page 126 moved.
 
 
-LaTeX Warning: Marginpar on page 83 moved.
+LaTeX Warning: Marginpar on page 126 moved.
+
+[126]
+
+LaTeX Warning: Marginpar on page 127 moved.
 
 
-LaTeX Warning: Marginpar on page 83 moved.
-
-[83]
-
-LaTeX Warning: Marginpar on page 84 moved.
+LaTeX Warning: Marginpar on page 127 moved.
 
 
-LaTeX Warning: Reference `sec:cancer_prob' on page 84 undefined on input line 3
-87.
+LaTeX Warning: Marginpar on page 127 moved.
 
-[84] <../figs/beta_dist5.pdf, id=2548, 722.7pt x 578.16pt>
+[127]
+
+LaTeX Warning: Marginpar on page 128 moved.
+
+[128] <../figs/beta_dist5.pdf, id=3660, 722.7pt x 578.16pt>
 File: ../figs/beta_dist5.pdf Graphic file (type pdf)
 
 <use ../figs/beta_dist5.pdf>
@@ -2425,7 +3792,7 @@ Overfull \hbox (45.84998pt too wide) in paragraph at lines 424--437
 
 (../python/examples/Introduction_to_Parameter_Estimation.tex
 <../python/examples/Introduction_to_Parameter_Estimation/Introduction_to_Parame
-ter_Estimation_fig0.png, id=2549, 733.74126pt x 484.81125pt>
+ter_Estimation_fig0.png, id=3661, 733.74126pt x 484.81125pt>
 File: ../python/examples/Introduction_to_Parameter_Estimation/Introduction_to_P
 arameter_Estimation_fig0.png Graphic file (type png)
 
@@ -2434,7 +3801,7 @@ rameter_Estimation_fig0.png>
 Package pdftex.def Info: ../python/examples/Introduction_to_Parameter_Estimatio
 n/Introduction_to_Parameter_Estimation_fig0.png used on input line 18.
 (pdftex.def)             Requested size: 325.2207pt x 214.8859pt.
- [85 <../figs/beta_dist5.pdf>]
+ [129 <../figs/beta_dist5.pdf>]
 Overfull \hbox (15.49023pt too wide) in paragraph at lines 38--38
 []\T1/fvm/m/n/10 (0.067585986488542985, 0.38572756813238962, 0.8058795503167566
 2)[] 
@@ -2442,7 +3809,7 @@ Overfull \hbox (15.49023pt too wide) in paragraph at lines 38--38
 
 
 <../python/examples/Introduction_to_Parameter_Estimation/Introduction_to_Parame
-ter_Estimation_fig1.png, id=2601, 733.74126pt x 484.81125pt>
+ter_Estimation_fig1.png, id=3712, 733.74126pt x 484.81125pt>
 File: ../python/examples/Introduction_to_Parameter_Estimation/Introduction_to_P
 arameter_Estimation_fig1.png Graphic file (type png)
 
@@ -2454,34 +3821,34 @@ n/Introduction_to_Parameter_Estimation_fig1.png used on input line 53.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [86 <../python/examples/Introduction_to_Parameter_Estimation/Introduction_to_P
-arameter_Estimation_fig0.png>]
+ [130 <../python/examples/Introduction_to_Parameter_Estimation/Introduction_to_
+Parameter_Estimation_fig0.png>]
 Overfull \hbox (15.49023pt too wide) in paragraph at lines 61--61
 []\T1/fvm/m/n/10 (0.052744950526316919, 0.31381017045569742, 0.7164179361180894
 6)[] 
  []
 
-)) [87 <../python/examples/Introduction_to_Parameter_Estimation/Introduction_to
-_Parameter_Estimation_fig1.png>]
+)) [131 <../python/examples/Introduction_to_Parameter_Estimation/Introduction_t
+o_Parameter_Estimation_fig1.png>]
 \openout2 = `chap-priors-posteriors.aux'.
 
- (./chap-priors-posteriors.tex [88
+ (./chap-priors-posteriors.tex [132
 
 
 
 ]
-Chapter 5.
+Chapter 7.
 
 Overfull \hbox (4.99979pt too wide) in paragraph at lines 8--9
 []\T1/pplj/m/n/10 Notice what the pro-ce-dure of Bayes' Recipe is and how the B
 ayesian 
  []
 
-[89]
+[133]
 
-LaTeX Warning: Marginpar on page 90 moved.
+LaTeX Warning: Marginpar on page 134 moved.
 
-<../figs/gaussian1.pdf, id=2642, 867.24pt x 578.16pt>
+<../figs/gaussian1.pdf, id=3754, 867.24pt x 578.16pt>
 File: ../figs/gaussian1.pdf Graphic file (type pdf)
 
 <use ../figs/gaussian1.pdf>
@@ -2497,8 +3864,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--48
 
  []
 
-[90 <../figs/gaussian1.pdf>]
-<../figs/gaussian_mu.pdf, id=2683, 867.24pt x 578.16pt>
+[134 <../figs/gaussian1.pdf>]
+<../figs/gaussian_mu.pdf, id=3795, 867.24pt x 578.16pt>
 File: ../figs/gaussian_mu.pdf Graphic file (type pdf)
 
 <use ../figs/gaussian_mu.pdf>
@@ -2514,8 +3881,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--58
 
  []
 
-[91 <../figs/gaussian_mu.pdf>]
-<../figs/gaussian_sigma.pdf, id=2737, 867.24pt x 578.16pt>
+[135 <../figs/gaussian_mu.pdf>]
+<../figs/gaussian_sigma.pdf, id=3848, 867.24pt x 578.16pt>
 File: ../figs/gaussian_sigma.pdf Graphic file (type pdf)
 
 <use ../figs/gaussian_sigma.pdf>
@@ -2532,9 +3899,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--78
  []
 
 
-LaTeX Warning: Marginpar on page 92 moved.
+LaTeX Warning: Marginpar on page 136 moved.
 
-<../figs/gaussian_standard.pdf, id=2738, 867.24pt x 578.16pt>
+<../figs/gaussian_standard.pdf, id=3849, 867.24pt x 578.16pt>
 File: ../figs/gaussian_standard.pdf Graphic file (type pdf)
 
 <use ../figs/gaussian_standard.pdf>
@@ -2550,14 +3917,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--91
 
  []
 
-[92 <../figs/gaussian_sigma.pdf>] [93 <../figs/gaussian_standard.pdf>] [94]
+[136 <../figs/gaussian_sigma.pdf>] [137 <../figs/gaussian_standard.pdf>]
+[138]
 
-LaTeX Warning: Marginpar on page 95 moved.
+LaTeX Warning: Marginpar on page 139 moved.
 
 
-LaTeX Warning: Marginpar on page 95 moved.
+LaTeX Warning: Marginpar on page 139 moved.
 
-<../figs/gaussian_sigma_y_minus_x.pdf, id=2861, 867.24pt x 578.16pt>
+<../figs/gaussian_sigma_y_minus_x.pdf, id=3972, 867.24pt x 578.16pt>
 File: ../figs/gaussian_sigma_y_minus_x.pdf Graphic file (type pdf)
 
 <use ../figs/gaussian_sigma_y_minus_x.pdf>
@@ -2572,9 +3940,9 @@ Overfull \hbox (11.99443pt too wide) in paragraph at lines 201--202
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [95]
+ [139]
 
-LaTeX Warning: Marginpar on page 96 moved.
+LaTeX Warning: Marginpar on page 140 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 222--222
@@ -2587,15 +3955,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--222
  []
 
 
-LaTeX Warning: Marginpar on page 96 moved.
+LaTeX Warning: Marginpar on page 140 moved.
 
-[96 <../figs/gaussian_sigma_y_minus_x.pdf>]
+[140 <../figs/gaussian_sigma_y_minus_x.pdf>]
 
-LaTeX Warning: Marginpar on page 97 moved.
+LaTeX Warning: Marginpar on page 141 moved.
 
-[97]
+[141]
 
-LaTeX Warning: Marginpar on page 98 moved.
+LaTeX Warning: Marginpar on page 142 moved.
 
 
 Overfull \hbox (7.27834pt too wide) in alignment at lines 283--283
@@ -2603,39 +3971,37 @@ Overfull \hbox (7.27834pt too wide) in alignment at lines 283--283
  []
 
 
-LaTeX Warning: Marginpar on page 98 moved.
+LaTeX Warning: Marginpar on page 142 moved.
 
 
-LaTeX Warning: Marginpar on page 98 moved.
+LaTeX Warning: Marginpar on page 142 moved.
 
 
-LaTeX Warning: Marginpar on page 98 moved.
+LaTeX Warning: Marginpar on page 142 moved.
 
-[98]
+[142]
 Overfull \hbox (42.03871pt too wide) in alignment at lines 324--324
  [][][] []
  []
 
 
-LaTeX Warning: Marginpar on page 99 moved.
+LaTeX Warning: Marginpar on page 143 moved.
 
 
-LaTeX Warning: Marginpar on page 99 moved.
+LaTeX Warning: Marginpar on page 143 moved.
 
 
-LaTeX Warning: Marginpar on page 99 moved.
+LaTeX Warning: Marginpar on page 143 moved.
 
-LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <8> not available
-(Font)              Font shape `T1/pplj/b/it' tried instead on input line 352.
 
 Overfull \hbox (29.717pt too wide) in alignment at lines 352--352
  [][][] []
  []
 
 
-LaTeX Warning: Marginpar on page 99 moved.
+LaTeX Warning: Marginpar on page 143 moved.
 
-[99]
+[143]
 Overfull \hbox (87.24493pt too wide) in alignment at lines 366--373
  [][][] []
  []
@@ -2645,15 +4011,15 @@ Overfull \hbox (61.50328pt too wide) in alignment at lines 377--380
  [][][] []
  []
 
-[100]
+[144]
 Overfull \hbox (6.4102pt too wide) in alignment at lines 406--406
  [][][] []
  []
 
 
-LaTeX Warning: Marginpar on page 101 moved.
+LaTeX Warning: Marginpar on page 145 moved.
 
-<../figs/beta_normal_3_12.pdf, id=2952, 722.7pt x 578.16pt>
+<../figs/beta_normal_3_12.pdf, id=4063, 722.7pt x 578.16pt>
 File: ../figs/beta_normal_3_12.pdf Graphic file (type pdf)
 
 <use ../figs/beta_normal_3_12.pdf>
@@ -2664,7 +4030,7 @@ Overfull \hbox (12.00104pt too wide) in paragraph at lines 409--410
 [][]  
  []
 
-<../figs/beta_normal_30_120.pdf, id=2953, 722.7pt x 578.16pt>
+<../figs/beta_normal_30_120.pdf, id=4064, 722.7pt x 578.16pt>
 File: ../figs/beta_normal_30_120.pdf Graphic file (type pdf)
 
 <use ../figs/beta_normal_30_120.pdf>
@@ -2679,13 +4045,9 @@ Overfull \hbox (12.00104pt too wide) in paragraph at lines 413--414
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [101 <../figs/beta_normal_3_12.pdf>]
+ [145 <../figs/beta_normal_3_12.pdf>]
 
-LaTeX Warning: Marginpar on page 102 moved.
-
-
-LaTeX Warning: Reference `eq:binomial' on page 102 undefined on input line 420.
-
+LaTeX Warning: Marginpar on page 146 moved.
 
 
 Overfull \hbox (20.35315pt too wide) in alignment at lines 431--431
@@ -2693,9 +4055,9 @@ Overfull \hbox (20.35315pt too wide) in alignment at lines 431--431
  []
 
 
-LaTeX Warning: Marginpar on page 102 moved.
+LaTeX Warning: Marginpar on page 146 moved.
 
-<../figs/binomial_normal1.pdf, id=3010, 722.7pt x 578.16pt>
+<../figs/binomial_normal1.pdf, id=4123, 722.7pt x 578.16pt>
 File: ../figs/binomial_normal1.pdf Graphic file (type pdf)
 
 <use ../figs/binomial_normal1.pdf>
@@ -2709,8 +4071,8 @@ Overfull \hbox (12.00104pt too wide) in paragraph at lines 435--436
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [102 <../figs/beta_normal_30_120.pdf>]
-<../figs/binomial_normal2.pdf, id=3067, 722.7pt x 578.16pt>
+ [146 <../figs/beta_normal_30_120.pdf>]
+<../figs/binomial_normal2.pdf, id=4180, 722.7pt x 578.16pt>
 File: ../figs/binomial_normal2.pdf Graphic file (type pdf)
 
 <use ../figs/binomial_normal2.pdf>
@@ -2721,23 +4083,23 @@ Overfull \hbox (12.00104pt too wide) in paragraph at lines 439--440
 [][]  
  []
 
-[103 <../figs/binomial_normal1.pdf> <../figs/binomial_normal2.pdf
+[147 <../figs/binomial_normal1.pdf> <../figs/binomial_normal2.pdf
 
 pdfTeX warning: /usr/texbin/pdflatex (file ../figs/binomial_normal2.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: Marginpar on page 104 moved.
+LaTeX Warning: Marginpar on page 148 moved.
 
 
-LaTeX Warning: Marginpar on page 104 moved.
+LaTeX Warning: Marginpar on page 148 moved.
 
 
 Overfull \hbox (99.01372pt too wide) in alignment at lines 471--480
  [][][] []
  []
 
-[104]
+[148]
 Overfull \hbox (0.50371pt too wide) in alignment at lines 507--512
  [][][] []
  []
@@ -2747,14 +4109,14 @@ Overfull \hbox (20.77893pt too wide) in alignment at lines 522--524
  [][][] []
  []
 
-[105]
+[149]
 Overfull \hbox (38.3073pt too wide) in alignment at lines 537--537
  [][][] []
  []
 
 (../python/examples/Priors_Likelihoods_and_Posteriors.tex
 <../python/examples/Priors_Likelihoods_and_Posteriors/Priors_Likelihoods_and_Po
-steriors_fig0.png, id=3197, 733.74126pt x 484.81125pt>
+steriors_fig0.png, id=4309, 733.74126pt x 484.81125pt>
 File: ../python/examples/Priors_Likelihoods_and_Posteriors/Priors_Likelihoods_a
 nd_Posteriors_fig0.png Graphic file (type png)
 
@@ -2763,9 +4125,9 @@ d_Posteriors_fig0.png>
 Package pdftex.def Info: ../python/examples/Priors_Likelihoods_and_Posteriors/P
 riors_Likelihoods_and_Posteriors_fig0.png used on input line 29.
 (pdftex.def)             Requested size: 325.2207pt x 214.8859pt.
- [106]
+ [150]
 <../python/examples/Priors_Likelihoods_and_Posteriors/Priors_Likelihoods_and_Po
-steriors_fig1.png, id=3215, 715.67375pt x 490.83376pt>
+steriors_fig1.png, id=4327, 715.67375pt x 490.83376pt>
 File: ../python/examples/Priors_Likelihoods_and_Posteriors/Priors_Likelihoods_a
 nd_Posteriors_fig1.png Graphic file (type png)
 
@@ -2777,18 +4139,18 @@ riors_Likelihoods_and_Posteriors_fig1.png used on input line 63.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [107 <../python/examples/Priors_Likelihoods_and_Posteriors/Priors_Likelihoods_
-and_Posteriors_fig0.png>])) [108 <../python/examples/Priors_Likelihoods_and_Pos
+ [151 <../python/examples/Priors_Likelihoods_and_Posteriors/Priors_Likelihoods_
+and_Posteriors_fig0.png>])) [152 <../python/examples/Priors_Likelihoods_and_Pos
 teriors/Priors_Likelihoods_and_Posteriors_fig1.png>]
 \openout2 = `chap-parameter-estimation-applications.aux'.
 
 
 (./chap-parameter-estimation-applications.tex
-Chapter 6.
+Chapter 8.
 
-LaTeX Warning: Marginpar on page 109 moved.
+LaTeX Warning: Marginpar on page 153 moved.
 
-<../figs/normal_mu_known_sigma.pdf, id=3242, 505.89pt x 505.89pt>
+<../figs/normal_mu_known_sigma.pdf, id=4355, 505.89pt x 505.89pt>
 File: ../figs/normal_mu_known_sigma.pdf Graphic file (type pdf)
 
 <use ../figs/normal_mu_known_sigma.pdf>
@@ -2797,9 +4159,9 @@ Package pdftex.def Info: ../figs/normal_mu_known_sigma.pdf used on input line 3
 (pdftex.def)             Requested size: 130.0848pt x 130.0848pt.
 
 
-LaTeX Warning: Marginpar on page 109 moved.
+LaTeX Warning: Marginpar on page 153 moved.
 
-[109
+[153
 
 
 
@@ -2809,12 +4171,12 @@ Overfull \hbox (17.90398pt too wide) in paragraph at lines 73--73
 ions| 
  []
 
-[110]
+[154]
 Overfull \hbox (130.5437pt too wide) in alignment at lines 112--119
  [][][] []
  []
 
-<../figs/iris_tdist.pdf, id=3293, 867.24pt x 578.16pt>
+<../figs/iris_tdist.pdf, id=4405, 867.24pt x 578.16pt>
 File: ../figs/iris_tdist.pdf Graphic file (type pdf)
 
 <use ../figs/iris_tdist.pdf>
@@ -2831,9 +4193,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--133
  []
 
 
-LaTeX Warning: Marginpar on page 111 moved.
+LaTeX Warning: Marginpar on page 155 moved.
 
-[111] <../figs/iris_tdist_diff.pdf, id=3300, 867.24pt x 578.16pt>
+[155] <../figs/iris_tdist_diff.pdf, id=4412, 867.24pt x 578.16pt>
 File: ../figs/iris_tdist_diff.pdf Graphic file (type pdf)
 
 <use ../figs/iris_tdist_diff.pdf>
@@ -2850,27 +4212,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--148
  []
 
 
-LaTeX Warning: Marginpar on page 112 moved.
+LaTeX Warning: Marginpar on page 156 moved.
 
-[112 <../figs/iris_tdist.pdf>]
+[156 <../figs/iris_tdist.pdf>]
 Overfull \hbox (104.03995pt too wide) in alignment at lines 189--194
  [][][] []
  []
 
-[113 <../figs/iris_tdist_diff.pdf>]
+[157 <../figs/iris_tdist_diff.pdf>]
 
-LaTeX Warning: Marginpar on page 114 moved.
+LaTeX Warning: Marginpar on page 158 moved.
 
-[114]pdfTeX warning (ext4): destination with the same identifier (name{cite.ber
+[158]pdfTeX warning (ext4): destination with the same identifier (name{cite.ber
 ry1996statistics}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.245 ...istics textbook\cite{berry1996statistics}
                                                   :
 
-LaTeX Warning: Marginpar on page 115 moved.
+LaTeX Warning: Marginpar on page 159 moved.
 
-<../figs/average_weather_jul4_prov.png, id=3422, 653.44125pt x 321.2pt>
+<../figs/average_weather_jul4_prov.png, id=4535, 653.44125pt x 321.2pt>
 File: ../figs/average_weather_jul4_prov.png Graphic file (type png)
 
 <use ../figs/average_weather_jul4_prov.png>
@@ -2882,15 +4244,20 @@ Overfull \hbox (11.9931pt too wide) in paragraph at lines 281--282
 [][]  
  []
 
-[115]
+[159]pdfTeX warning (ext4): destination with the same identifier (name{cite.tve
+rsky2005cold}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.303 ...versky and Gilovich\cite{tversky2005cold}
+                                                   we have the following dat...
 
-LaTeX Warning: Marginpar on page 116 moved.
+LaTeX Warning: Marginpar on page 160 moved.
 
-[116 <../figs/average_weather_jul4_prov.png>]
+[160 <../figs/average_weather_jul4_prov.png>]
 
-LaTeX Warning: Marginpar on page 117 moved.
+LaTeX Warning: Marginpar on page 161 moved.
 
-<../figs/mass1960_1974.pdf, id=3435, 1156.32pt x 650.43pt>
+<../figs/mass1960_1974.pdf, id=4546, 1156.32pt x 650.43pt>
 File: ../figs/mass1960_1974.pdf Graphic file (type pdf)
 
 <use ../figs/mass1960_1974.pdf>
@@ -2906,12 +4273,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 359--361
 
  []
 
-[117] [118 <../figs/mass1960_1974.pdf>]
+[161] [162 <../figs/mass1960_1974.pdf>]
 Overfull \hbox (28.87512pt too wide) in alignment at lines 389--393
  [][][] []
  []
 
-<../figs/mass1965_1974_1_value.pdf, id=3477, 1156.32pt x 650.43pt>
+<../figs/mass1965_1974_1_value.pdf, id=4588, 1156.32pt x 650.43pt>
 File: ../figs/mass1965_1974_1_value.pdf Graphic file (type pdf)
 
 <use ../figs/mass1965_1974_1_value.pdf>
@@ -2923,7 +4290,7 @@ Overfull \hbox (121.61894pt too wide) in paragraph at lines 416--416
  [] 
  []
 
-<../figs/mass1965_1974_1_value_dist.pdf, id=3478, 1156.32pt x 650.43pt>
+<../figs/mass1965_1974_1_value_dist.pdf, id=4589, 1156.32pt x 650.43pt>
 File: ../figs/mass1965_1974_1_value_dist.pdf Graphic file (type pdf)
 
 <use ../figs/mass1965_1974_1_value_dist.pdf>
@@ -2935,7 +4302,7 @@ Overfull \hbox (121.61894pt too wide) in paragraph at lines 417--417
  [] 
  []
 
-[119] [120 <../figs/mass1965_1974_1_value.pdf> <../figs/mass1965_1974_1_value_d
+[163] [164 <../figs/mass1965_1974_1_value.pdf> <../figs/mass1965_1974_1_value_d
 ist.pdf
 
 pdfTeX warning: /usr/texbin/pdflatex (file ../figs/mass1965_1974_1_value_dist.p
@@ -2945,7 +4312,7 @@ Overfull \hbox (28.87512pt too wide) in alignment at lines 467--470
  [][][] []
  []
 
-[121] <../figs/mass1965_2003_1_value.pdf, id=3634, 1156.32pt x 650.43pt>
+[165] <../figs/mass1965_2003_1_value.pdf, id=4745, 1156.32pt x 650.43pt>
 File: ../figs/mass1965_2003_1_value.pdf Graphic file (type pdf)
 
 <use ../figs/mass1965_2003_1_value.pdf>
@@ -2957,7 +4324,7 @@ Overfull \hbox (121.61894pt too wide) in paragraph at lines 498--498
  [] 
  []
 
-[122] <../figs/mass1965_2003_2_value.pdf, id=3643, 1156.32pt x 650.43pt>
+[166] <../figs/mass1965_2003_2_value.pdf, id=4754, 1156.32pt x 650.43pt>
 File: ../figs/mass1965_2003_2_value.pdf Graphic file (type pdf)
 
 <use ../figs/mass1965_2003_2_value.pdf>
@@ -2969,8 +4336,8 @@ Overfull \hbox (49.3491pt too wide) in paragraph at lines 537--537
  [] 
  []
 
-[123 <../figs/mass1965_2003_1_value.pdf>]
-<../figs/mass1965_2003_2_value_diff.pdf, id=3726, 1156.32pt x 650.43pt>
+[167 <../figs/mass1965_2003_1_value.pdf>]
+<../figs/mass1965_2003_2_value_diff.pdf, id=4837, 1156.32pt x 650.43pt>
 File: ../figs/mass1965_2003_2_value_diff.pdf Graphic file (type pdf)
 
 <use ../figs/mass1965_2003_2_value_diff.pdf>
@@ -2982,10 +4349,10 @@ Overfull \hbox (49.3491pt too wide) in paragraph at lines 558--558
  [] 
  []
 
-(../python/examples/Applications_of_Parameter_Estimation.tex [124 <../figs/mass
-1965_2003_2_value.pdf>] [125 <../figs/mass1965_2003_2_value_diff.pdf>]
+(../python/examples/Applications_of_Parameter_Estimation.tex [168 <../figs/mass
+1965_2003_2_value.pdf>] [169 <../figs/mass1965_2003_2_value_diff.pdf>]
 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
-ter_Estimation_fig0.png, id=3886, 717.68124pt x 489.83pt>
+ter_Estimation_fig0.png, id=4998, 717.68124pt x 489.83pt>
 File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
 arameter_Estimation_fig0.png Graphic file (type png)
 
@@ -2997,9 +4364,9 @@ n/Applications_of_Parameter_Estimation_fig0.png used on input line 97.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [126]
+ [170]
 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
-ter_Estimation_fig1.png, id=3914, 714.67pt x 484.81125pt>
+ter_Estimation_fig1.png, id=5026, 714.67pt x 484.81125pt>
 File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
 arameter_Estimation_fig1.png Graphic file (type png)
 
@@ -3008,11 +4375,11 @@ rameter_Estimation_fig1.png>
 Package pdftex.def Info: ../python/examples/Applications_of_Parameter_Estimatio
 n/Applications_of_Parameter_Estimation_fig1.png used on input line 103.
 (pdftex.def)             Requested size: 325.21898pt x 220.61905pt.
- [127 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
+ [171 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
 Parameter_Estimation_fig0.png> <../python/examples/Applications_of_Parameter_Es
 timation/Applications_of_Parameter_Estimation_fig1.png>]
 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
-ter_Estimation_fig2.png, id=3928, 752.8125pt x 484.81125pt>
+ter_Estimation_fig2.png, id=5039, 752.8125pt x 484.81125pt>
 File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
 arameter_Estimation_fig2.png Graphic file (type png)
 
@@ -3029,7 +4396,7 @@ Overfull \hbox (10.3732pt too wide) in paragraph at lines 140--140
 
 
 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
-ter_Estimation_fig3.png, id=3929, 509.905pt x 317.185pt>
+ter_Estimation_fig3.png, id=5040, 509.905pt x 317.185pt>
 File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
 arameter_Estimation_fig3.png Graphic file (type png)
 
@@ -3038,7 +4405,7 @@ rameter_Estimation_fig3.png>
 Package pdftex.def Info: ../python/examples/Applications_of_Parameter_Estimatio
 n/Applications_of_Parameter_Estimation_fig3.png used on input line 153.
 (pdftex.def)             Requested size: 325.23325pt x 202.31042pt.
- [128 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
+ [172 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
 Parameter_Estimation_fig2.png> <../python/examples/Applications_of_Parameter_Es
 timation/Applications_of_Parameter_Estimation_fig3.png>]
 Overfull \hbox (10.3732pt too wide) in paragraph at lines 161--161
@@ -3048,7 +4415,7 @@ Overfull \hbox (10.3732pt too wide) in paragraph at lines 161--161
 
 
 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
-ter_Estimation_fig4.png, id=3946, 779.91376pt x 518.93875pt>
+ter_Estimation_fig4.png, id=5057, 779.91376pt x 518.93875pt>
 File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
 arameter_Estimation_fig4.png Graphic file (type png)
 
@@ -3060,9 +4427,9 @@ n/Applications_of_Parameter_Estimation_fig4.png used on input line 203.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [129]
+ [173]
 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
-ter_Estimation_fig5.png, id=3961, 758.835pt x 508.90125pt>
+ter_Estimation_fig5.png, id=5072, 758.835pt x 508.90125pt>
 File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
 arameter_Estimation_fig5.png Graphic file (type png)
 
@@ -3071,11 +4438,11 @@ rameter_Estimation_fig5.png>
 Package pdftex.def Info: ../python/examples/Applications_of_Parameter_Estimatio
 n/Applications_of_Parameter_Estimation_fig5.png used on input line 215.
 (pdftex.def)             Requested size: 325.21585pt x 218.1011pt.
- [130 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
+ [174 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
 Parameter_Estimation_fig4.png> <../python/examples/Applications_of_Parameter_Es
 timation/Applications_of_Parameter_Estimation_fig5.png>]
 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
-ter_Estimation_fig6.png, id=3979, 779.91376pt x 518.93875pt>
+ter_Estimation_fig6.png, id=5090, 779.91376pt x 518.93875pt>
 File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
 arameter_Estimation_fig6.png Graphic file (type png)
 
@@ -3084,10 +4451,10 @@ rameter_Estimation_fig6.png>
 Package pdftex.def Info: ../python/examples/Applications_of_Parameter_Estimatio
 n/Applications_of_Parameter_Estimation_fig6.png used on input line 237.
 (pdftex.def)             Requested size: 325.21715pt x 216.39287pt.
- [131 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
+ [175 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
 Parameter_Estimation_fig6.png>]
 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
-ter_Estimation_fig7.png, id=3996, 762.85pt x 508.90125pt>
+ter_Estimation_fig7.png, id=5108, 762.85pt x 508.90125pt>
 File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
 arameter_Estimation_fig7.png Graphic file (type png)
 
@@ -3098,7 +4465,7 @@ n/Applications_of_Parameter_Estimation_fig7.png used on input line 293.
 (pdftex.def)             Requested size: 325.21384pt x 216.95186pt.
 
 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
-ter_Estimation_fig8.png, id=3997, 766.865pt x 518.93875pt>
+ter_Estimation_fig8.png, id=5109, 766.865pt x 518.93875pt>
 File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
 arameter_Estimation_fig8.png Graphic file (type png)
 
@@ -3107,10 +4474,10 @@ rameter_Estimation_fig8.png>
 Package pdftex.def Info: ../python/examples/Applications_of_Parameter_Estimatio
 n/Applications_of_Parameter_Estimation_fig8.png used on input line 308.
 (pdftex.def)             Requested size: 325.21709pt x 220.0749pt.
- [132 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
+ [176 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
 Parameter_Estimation_fig7.png>]
 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
-ter_Estimation_fig9.png, id=4025, 734.745pt x 484.81125pt>
+ter_Estimation_fig9.png, id=5137, 734.745pt x 484.81125pt>
 File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
 arameter_Estimation_fig9.png Graphic file (type png)
 
@@ -3122,11 +4489,11 @@ n/Applications_of_Parameter_Estimation_fig9.png used on input line 332.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [133 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
-Parameter_Estimation_fig8.png>] [134 <../python/examples/Applications_of_Parame
+ [177 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_
+Parameter_Estimation_fig8.png>] [178 <../python/examples/Applications_of_Parame
 ter_Estimation/Applications_of_Parameter_Estimation_fig9.png>]
 <../python/examples/Applications_of_Parameter_Estimation/Applications_of_Parame
-ter_Estimation_fig10.png, id=4077, 739.76375pt x 508.90125pt>
+ter_Estimation_fig10.png, id=5188, 739.76375pt x 508.90125pt>
 File: ../python/examples/Applications_of_Parameter_Estimation/Applications_of_P
 arameter_Estimation_fig10.png Graphic file (type png)
 
@@ -3135,22 +4502,22 @@ rameter_Estimation_fig10.png>
 Package pdftex.def Info: ../python/examples/Applications_of_Parameter_Estimatio
 n/Applications_of_Parameter_Estimation_fig10.png used on input line 390.
 (pdftex.def)             Requested size: 325.21486pt x 223.72311pt.
-)) [135 <../python/examples/Applications_of_Parameter_Estimation/Applications_o
+)) [179 <../python/examples/Applications_of_Parameter_Estimation/Applications_o
 f_Parameter_Estimation_fig10.png>]
 \openout2 = `chap-conclusions.aux'.
 
 
-(./chap-conclusions.tex [136
+(./chap-conclusions.tex [180
 
 
 
 ]
-Chapter 7.
+Chapter 9.
 
 Underfull \vbox (badness 1163) has occurred while \output is active []
 
- [137])
-[138] (./main.bblpdfTeX warning (ext4): destination with the same identifier (n
+ [181])
+[182] (./main.bblpdfTeX warning (ext4): destination with the same identifier (n
 ame{cite.wiki:psychic_octopus}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -3227,7 +4594,7 @@ e ignored
 <to be read again> 
                    \relax 
 l.77 \bibitem[Randi(1982)]{randi1982flim}
-                                          [139
+                                          [183
 
 
 
@@ -3248,19 +4615,19 @@ icate ignored
 <to be read again> 
                    \relax 
 l.93 ...ersky and Gilovich(2005)]{tversky2005cold}
-                                                  ) [140]
+                                                  ) [184]
 \openout2 = `chap-computational.aux'.
 
 
 (./chap-computational.tex
 Appendix A.
-) [141
+) [185
 
 
 ]
 \openout2 = `chap-notation.aux'.
 
- (./chap-notation.tex [142
+ (./chap-notation.tex [186
 
 
 
@@ -3321,23 +4688,23 @@ Overfull \hbox (12.69362pt too wide) in paragraph at lines 7--45
 [][]  
  []
 
-[143]
+[187]
 
-LaTeX Warning: Marginpar on page 144 moved.
+LaTeX Warning: Marginpar on page 188 moved.
 
-[144]) [145]
+[188]) [189]
 \openout2 = `chap-distributions.aux'.
 
- (./chap-distributions.tex [146
+ (./chap-distributions.tex [190
 
 
 
 ]
 Appendix C.
 
-LaTeX Warning: Marginpar on page 147 moved.
+LaTeX Warning: Marginpar on page 191 moved.
 
-<../figs/distributions_1.pdf, id=4146, 722.7pt x 578.16pt>
+<../figs/distributions_1.pdf, id=5257, 722.7pt x 578.16pt>
 File: ../figs/distributions_1.pdf Graphic file (type pdf)
 
 <use ../figs/distributions_1.pdf>
@@ -3360,9 +4727,9 @@ Overfull \hbox (9.14153pt too wide) detected at line 27
  []
 
 
-LaTeX Warning: Marginpar on page 147 moved.
+LaTeX Warning: Marginpar on page 191 moved.
 
-[147]
+[191]
 File: ../figs/distributions_1.pdf Graphic file (type pdf)
  <use ../figs/distributions_1.pdf>
 Package pdftex.def Info: ../figs/distributions_1.pdf used on input line 29.
@@ -3377,7 +4744,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--32
 
  []
 
-<../figs/distributions_plumber.pdf, id=4152, 722.7pt x 578.16pt>
+<../figs/distributions_plumber.pdf, id=5263, 722.7pt x 578.16pt>
 File: ../figs/distributions_plumber.pdf Graphic file (type pdf)
 
 <use ../figs/distributions_plumber.pdf>
@@ -3395,19 +4762,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--45
  []
 
 
-LaTeX Warning: Marginpar on page 148 moved.
+LaTeX Warning: Marginpar on page 192 moved.
 
-[148 <../figs/distributions_1.pdf>] [149 <../figs/distributions_plumber.pdf>]
+[192 <../figs/distributions_1.pdf>] [193 <../figs/distributions_plumber.pdf>]
 Overfull \hbox (10.86345pt too wide) in alignment at lines 71--71
  [][][] []
  []
 
 
-LaTeX Warning: Marginpar on page 150 moved.
+LaTeX Warning: Marginpar on page 194 moved.
 
-<../figs/coinflips5.pdf, id=4224, 879.88722pt x 663.07722pt>
 File: ../figs/coinflips5.pdf Graphic file (type pdf)
-
 <use ../figs/coinflips5.pdf>
 Package pdftex.def Info: ../figs/coinflips5.pdf used on input line 74.
 (pdftex.def)             Requested size: 311.99294pt x 235.11581pt.
@@ -3427,9 +4792,9 @@ Overfull \hbox (44.0935pt too wide) in alignment at lines 94--94
  []
 
 
-LaTeX Warning: Marginpar on page 150 moved.
+LaTeX Warning: Marginpar on page 194 moved.
 
-[150 <../figs/coinflips5.pdf>]
+[194]
 File: ../figs/beta_dist4.pdf Graphic file (type pdf)
  <use ../figs/beta_dist4.pdf>
 Package pdftex.def Info: ../figs/beta_dist4.pdf used on input line 100.
@@ -3459,20 +4824,20 @@ Overfull \hbox (18.44286pt too wide) in alignment at lines 125--125
  []
 
 
-LaTeX Warning: Marginpar on page 151 moved.
+LaTeX Warning: Marginpar on page 195 moved.
 
-[151]) [152]
+[195]) [196]
 \openout2 = `chap-tables.aux'.
 
  (./chap-tables.tex
 Appendix D.
-<../figs/z_table_CI.pdf, id=4289, 804.08217pt x 549.28963pt>
+<../figs/z_table_CI.pdf, id=5352, 804.08217pt x 549.28963pt>
 File: ../figs/z_table_CI.pdf Graphic file (type pdf)
 
 <use ../figs/z_table_CI.pdf>
 Package pdftex.def Info: ../figs/z_table_CI.pdf used on input line 5.
 (pdftex.def)             Requested size: 311.99577pt x 213.13249pt.
- (./z_table_CI.tex) [153
+ (./z_table_CI.tex) [197
 
 
 
@@ -3518,7 +4883,7 @@ Overfull \hbox (77.64232pt too wide) in paragraph at lines 31--42
 
 Underfull \vbox (badness 1189) has occurred while \output is active []
 
- [154]
+ [198]
 Underfull \hbox (badness 10000) in paragraph at lines 47--47
 []|\T1/pplj/b/n/10 Credible
  []
@@ -3538,8 +4903,8 @@ Overfull \hbox (77.64232pt too wide) in paragraph at lines 59--70
  [] 
  []
 
-) [155] (./z_table.tex
-<../figs/z_table_crit.pdf, id=4343, 867.24pt x 578.16pt>
+) [199] (./z_table.tex
+<../figs/z_table_crit.pdf, id=5407, 867.24pt x 578.16pt>
 File: ../figs/z_table_crit.pdf Graphic file (type pdf)
 
 <use ../figs/z_table_crit.pdf>
@@ -3575,7 +4940,7 @@ Overfull \hbox (164.82498pt too wide) in paragraph at lines 4--186
 [][]  
  []
 
-[156 <../figs/z_table_crit.pdf>]
+[200 <../figs/z_table_crit.pdf>]
 File: ../figs/z_table_crit.pdf Graphic file (type pdf)
  <use ../figs/z_table_crit.pdf>
 Package pdftex.def Info: ../figs/z_table_crit.pdf used on input line 190.
@@ -3610,7 +4975,7 @@ Overfull \hbox (164.82498pt too wide) in paragraph at lines 192--374
 [][]  
  []
 
-[157]
+[201]
 File: ../figs/z_table_crit.pdf Graphic file (type pdf)
  <use ../figs/z_table_crit.pdf>
 Package pdftex.def Info: ../figs/z_table_crit.pdf used on input line 378.
@@ -3645,7 +5010,7 @@ Overfull \hbox (158.16498pt too wide) in paragraph at lines 380--562
 [][]  
  []
 
-[158]
+[202]
 File: ../figs/z_table_crit.pdf Graphic file (type pdf)
  <use ../figs/z_table_crit.pdf>
 Package pdftex.def Info: ../figs/z_table_crit.pdf used on input line 566.
@@ -3680,7 +5045,7 @@ Overfull \hbox (148.17497pt too wide) in paragraph at lines 568--750
 [][]  
  []
 
-[159]
+[203]
 File: ../figs/z_table_crit.pdf Graphic file (type pdf)
  <use ../figs/z_table_crit.pdf>
 Package pdftex.def Info: ../figs/z_table_crit.pdf used on input line 754.
@@ -3715,8 +5080,11 @@ Overfull \hbox (148.17497pt too wide) in paragraph at lines 756--938
 [][]  
  []
 
-[160]))
+[204]))
 No file main.ind.
+
+Package natbib Warning: There were undefined citations.
+
 \tf@thm=\write9
 \openout9 = `main.thm'.
 
@@ -3732,10 +5100,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 109.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 109.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 109.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4D52D0C9E224FCC89E713CF611B3FA5D;10425.
-
-
-LaTeX Warning: There were undefined references.
+(rerunfilecheck)             Checksum: 1A48B91365ED0455A1BECD0E904C906D;13714.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -3743,10 +5108,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
  ) 
 Here is how much of TeX's memory you used:
- 16530 strings out of 493117
- 243025 string characters out of 6135433
- 474978 words of memory out of 5000000
- 18719 multiletter control sequences out of 15000+600000
+ 16942 strings out of 493117
+ 250977 string characters out of 6135433
+ 489011 words of memory out of 5000000
+ 18857 multiletter control sequences out of 15000+600000
  144900 words of font info for 226 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  50i,20n,72p,1546b,1783s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3769,9 +5134,9 @@ r/local/texlive/2014/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local
 /texlive/2014/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2014
 /texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (160 pages, 4500232 bytes).
+Output written on main.pdf (204 pages, 5027202 bytes).
 PDF statistics:
- 4586 PDF objects out of 5155 (max. 8388607)
- 692 named destinations out of 1000 (max. 500000)
- 4369 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5696 PDF objects out of 6186 (max. 8388607)
+ 930 named destinations out of 1000 (max. 500000)
+ 4604 words of extra memory for PDF output out of 10000 (max. 10000000)
 
