@@ -1,57 +1,63 @@
-# -*- coding: utf-8 -*-
-# <nbformat>3.0</nbformat>
 
-# <codecell>
+# coding: utf-8
+
+# In[1]:
 
 from sie import *
 
-# <markdowncell>
 
 # ## Estimating Lengths
 # 
 # ### Known deviation, $\sigma$
 
-# <codecell>
+# In[2]:
 
 x=[5.1, 4.9, 4.7, 4.9, 5.0]
 sigma=0.5
 
-# <codecell>
+
+# In[7]:
 
 mu=sample_mean(x)
 N=len(x)
 
-# <codecell>
+
+# In[8]:
 
 dist=normal(mu,sigma/sqrt(N))
 distplot(dist)
 
-# <codecell>
+
+# In[9]:
 
 credible_interval(dist)
 
-# <markdowncell>
 
 # ### Unknown $\sigma$
 
-# <codecell>
+# In[10]:
 
 mu=sample_mean(x)
 s=sample_deviation(x)
 print mu,s
 
-# <codecell>
+
+# In[26]:
 
 dist=tdist(N-1,mu,s/sqrt(N))
 
-# <codecell>
+
+# In[30]:
 
 distplot(dist,xlim=[4.6,5.4])
 
-# <codecell>
+
+# In[31]:
 
 credible_interval(dist)
 
-# <codecell>
+
+# In[ ]:
+
 
 

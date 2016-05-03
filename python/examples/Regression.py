@@ -6,7 +6,7 @@
 from sie import *
 
 
-# ##Shoe size data
+# ## Shoe size data
 
 # In[2]:
 

@@ -4,30 +4,30 @@
 \contentsline {myexample}{{Example}{1.{4}}{What is the probability of flipping two heads in a row?}}{39}{myexample.1.4}
 \contentsline {myexample}{{Example}{1.{5}}{Marginalization and Card Suit}}{42}{myexample.1.5}
 \contentsline {myexample}{{Example}{1.{6}}{What is the probability of drawing a jack, knowing that you've drawn a face card?}}{43}{myexample.1.6}
-\contentsline {myexample}{{Example}{2.{1}}{ Let's imagine we have the case where two people meet on the street. What is the probability that they both have April 3 as their birthday? }}{49}{myexample.2.1}
-\contentsline {myexample}{{Example}{2.{2}}{ Two people meet on the street, and we ask what is the probability that they both have the same birthday? }}{50}{myexample.2.2}
-\contentsline {myexample}{{Example}{2.{3}}{ What is the probability that three random people have the same birthday? }}{51}{myexample.2.3}
-\contentsline {myexample}{{Example}{2.{4}}{What is the probability that {\em at least two} have the same birthday? }}{51}{myexample.2.4}
-\contentsline {myexample}{{Example}{2.{5}}{What is the probability that {\em at least two} have the same birthday? A clever shortcut.\label {ex:cleverbirthday}}}{52}{myexample.2.5}
-\contentsline {myexample}{{Example}{2.{6}}{ When you have a group of 30 people, like students in a classroom, and you ask what the probability of finding two in the room with the same birthday, would your intuition say it is greater or less than 50\%? }}{53}{myexample.2.6}
-\contentsline {myexample}{{Example}{2.{7}}{ Suppose you're on a game show, and you're given the choice of three doors: behind one door is a car; behind the others, goats. You pick a door, say No. 1 (but the door is not opened), and the host, who knows what's behind the doors, opens another door, say No. 3, which has a goat. He then says to you, "Do you want to change your choice to door No. 2?" Is it to your advantage or disadvantage to switch your choice, or does it matter whether you switch your choice or not? }}{55}{myexample.2.7}
-\contentsline {myexample}{{Example}{2.{8}}{ Imagine we have a game with two doors: Behind one door is a car; behind the other is a goat. You pick a door, say No. 1 (but the door is not opened), and the host, who knows what's behind the doors, says that there is a 90\% chance that the car is behind door No. 2. Is it to your advantage to switch your choice? }}{56}{myexample.2.8}
-\contentsline {myexample}{{Example}{2.{9}}{ The host, who knows what's behind the doors, points to a door, choosing the correct door 90\% of the time and the incorrect one 10\%. You pick a door, say No. 1, and the host points to door No. 2. Is it to your advantage to switch your choice? }}{56}{myexample.2.9}
-\contentsline {myexample}{{Example}{2.{10}}{ Suppose you're on a game show, and you're given the choice of three doors: Behind one door is a car; behind the others, goats. You pick a door, say No. 1 (but the door is not opened), and the host, who knows what's behind the doors, says that another door, say No. 3, has a 0\% chance of having a car, and that the remaining door (that you haven't chosen - i.e door No. 2) has a 66\% of having the car. He then says to you, "Do you want to pick door No. 2?" Is it to your advantage to switch your choice? }}{56}{myexample.2.10}
-\contentsline {myexample}{{Example}{2.{11}}{ Suppose you're on a game show, and you're given the choice of three doors: behind one door is a car; behind the others, goats. You pick a door, say No. 1 (but the door is not opened), and the host, who knows what's behind the doors, opens another door, say No. 3, which has a goat. He then says to you, "Do you want to change your choice to door No. 2?" Is it to your advantage or disadvantage to switch your choice, or does it matter whether you switch your choice or not?}}{57}{myexample.2.11}
-\contentsline {myexample}{{Example}{2.{12}}{ If the probability that it will rain next Saturday is 0.25 and the probability that it will rain next Sunday is 0.25, what is the probability that it will rain during the weekend? }}{57}{myexample.2.12}
-\contentsline {myexample}{{Example}{2.{13}}{ What is the probability of the {\em sum} of two dice getting a particular value, say, 7? }}{62}{myexample.2.13}
-\contentsline {myexample}{{Example}{2.{14}}{ What is the probability of rolling a sum {\em more than 7} with two dice? }}{62}{myexample.2.14}
-\contentsline {myexample}{{Example}{2.{15}}{ What is the probability of rolling various sums with two dice {\em each with 20 sides}? }}{62}{myexample.2.15}
-\contentsline {myexample}{{Example}{2.{16}}{What is the probability of both having cancer and getting a positive test for it?}}{63}{myexample.2.16}
-\contentsline {myexample}{{Example}{2.{17}}{What is the probability of both not having cancer and getting a positive test for it?}}{64}{myexample.2.17}
-\contentsline {myexample}{{Example}{2.{18}}{What is the probability of having cancer \emph {given} a positive test for it?}}{64}{myexample.2.18}
-\contentsline {myexercise}{{Exercise}{2.{1}}{Birthdays}}{65}{myexercise.2.1}
-\contentsline {myexercise}{{Exercise}{2.{2}}{Monte Hall Again}}{65}{myexercise.2.2}
-\contentsline {myexercise}{{Exercise}{2.{3}}{9-sided Dice}}{65}{myexercise.2.3}
-\contentsline {myexercise}{{Exercise}{2.{4}}{Odd Dice}}{65}{myexercise.2.4}
-\contentsline {myexercise}{{Exercise}{2.{5}}{More than...}}{65}{myexercise.2.5}
-\contentsline {myexercise}{{Exercise}{2.{6}}{Cancer Questions}}{65}{myexercise.2.6}
+\contentsline {myexample}{{Example}{2.{1}}{What is the probability of both having cancer and getting a positive test for it?}}{49}{myexample.2.1}
+\contentsline {myexample}{{Example}{2.{2}}{What is the probability of both not having cancer and getting a positive test for it?}}{50}{myexample.2.2}
+\contentsline {myexample}{{Example}{2.{3}}{What is the probability of having cancer \emph {given} a positive test for it?}}{50}{myexample.2.3}
+\contentsline {myexample}{{Example}{2.{4}}{ If the probability that it will rain next Saturday is 0.25 and the probability that it will rain next Sunday is 0.25, what is the probability that it will rain during the weekend? }}{51}{myexample.2.4}
+\contentsline {myexample}{{Example}{2.{5}}{ What is the probability of the {\em sum} of two dice getting a particular value, say, 7? }}{52}{myexample.2.5}
+\contentsline {myexample}{{Example}{2.{6}}{ What is the probability of rolling a sum {\em more than 7} with two dice? }}{53}{myexample.2.6}
+\contentsline {myexample}{{Example}{2.{7}}{ What is the probability of rolling various sums with two dice {\em each with 20 sides}? }}{53}{myexample.2.7}
+\contentsline {myexample}{{Example}{2.{8}}{ Let's imagine we have the case where two people meet on the street. What is the probability that they both have April 3 as their birthday? }}{54}{myexample.2.8}
+\contentsline {myexample}{{Example}{2.{9}}{ Two people meet on the street, and we ask what is the probability that they both have the same birthday? }}{54}{myexample.2.9}
+\contentsline {myexample}{{Example}{2.{10}}{ What is the probability that three random people have the same birthday? }}{55}{myexample.2.10}
+\contentsline {myexample}{{Example}{2.{11}}{What is the probability that {\em at least two} have the same birthday? }}{56}{myexample.2.11}
+\contentsline {myexample}{{Example}{2.{12}}{What is the probability that {\em at least two} have the same birthday? A clever shortcut.\label {ex:cleverbirthday}}}{57}{myexample.2.12}
+\contentsline {myexample}{{Example}{2.{13}}{ When you have a group of 30 people, like students in a classroom, and you ask what the probability of finding two in the room with the same birthday, would your intuition say it is greater or less than 50\%? }}{58}{myexample.2.13}
+\contentsline {myexample}{{Example}{2.{14}}{ Suppose you're on a game show, and you're given the choice of three doors: behind one door is a car; behind the others, goats. You pick a door, say No. 1 (but the door is not opened), and the host, who knows what's behind the doors, opens another door, say No. 3, which has a goat. He then says to you, "Do you want to change your choice to door No. 2?" Is it to your advantage or disadvantage to switch your choice, or does it matter whether you switch your choice or not? }}{60}{myexample.2.14}
+\contentsline {myexample}{{Example}{2.{15}}{ Imagine we have a game with two doors: Behind one door is a car; behind the other is a goat. You pick a door, say No. 1 (but the door is not opened), and the host, who knows what's behind the doors, says that there is a 90\% chance that the car is behind door No. 2. Is it to your advantage to switch your choice? }}{61}{myexample.2.15}
+\contentsline {myexample}{{Example}{2.{16}}{ The host, who knows what's behind the doors, points to a door, choosing the correct door 90\% of the time and the incorrect one 10\%. You pick a door, say No. 1, and the host points to door No. 2. Is it to your advantage to switch your choice? }}{61}{myexample.2.16}
+\contentsline {myexample}{{Example}{2.{17}}{ Suppose you're on a game show, and you're given the choice of three doors: Behind one door is a car; behind the others, goats. You pick a door, say No. 1 (but the door is not opened), and the host, who knows what's behind the doors, says that another door, say No. 3, has a 0\% chance of having a car, and that the remaining door (that you haven't chosen - i.e door No. 2) has a 66\% of having the car. He then says to you, "Do you want to pick door No. 2?" Is it to your advantage to switch your choice? }}{61}{myexample.2.17}
+\contentsline {myexample}{{Example}{2.{18}}{ Suppose you're on a game show, and you're given the choice of three doors: behind one door is a car; behind the others, goats. You pick a door, say No. 1 (but the door is not opened), and the host, who knows what's behind the doors, opens another door, say No. 3, which has a goat. He then says to you, "Do you want to change your choice to door No. 2?" Is it to your advantage or disadvantage to switch your choice, or does it matter whether you switch your choice or not?}}{62}{myexample.2.18}
+\contentsline {myexercise}{{Exercise}{2.{1}}{Birthdays}}{62}{myexercise.2.1}
+\contentsline {myexercise}{{Exercise}{2.{2}}{Monte Hall Again}}{62}{myexercise.2.2}
+\contentsline {myexercise}{{Exercise}{2.{3}}{9-sided Dice}}{62}{myexercise.2.3}
+\contentsline {myexercise}{{Exercise}{2.{4}}{Odd Dice}}{62}{myexercise.2.4}
+\contentsline {myexercise}{{Exercise}{2.{5}}{More than...}}{62}{myexercise.2.5}
+\contentsline {myexercise}{{Exercise}{2.{6}}{Cancer Questions}}{63}{myexercise.2.6}
 \contentsline {myexample}{{Example}{2.{19}}{Beard and Mustache - An Examination of Independence}}{66}{myexample.2.19}
 \contentsline {myexercise}{{Exercise}{2.{7}}{Simulation: 5 Heads}}{70}{myexercise.2.7}
 \contentsline {myexample}{{Example}{3.{1}}{ What is the probability of flipping three heads in a row, with a fair coin? }}{71}{myexample.3.1}

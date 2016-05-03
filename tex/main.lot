@@ -2,8 +2,8 @@
 \contentsline {table}{\numberline {1.1}{\ignorespaces Rough guide for the conversion of qualitative labels to probability values. }}{47}{section.1.6}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Total Correct Guesses from Students ``Predicting'' the Results of 50 Coin Flips. Shown are the results of a first round and a second round of guessing.}}{82}{section.3.6}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Performance in the Second Round of Students ``Predicting'' the Results of 50 Coin Flips. Shown are the results for those students who performed \emph {best} in the first round (left), and those that performed \emph {worst} in the first round (right). }}{82}{section.3.6}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Total Correct Guesses from Students ``Predicting'' the Results of 50 Coin Flips. Shown are the results of a first round and a second round of guessing.}}{82}{subsection*.38}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Performance in the Second Round of Students ``Predicting'' the Results of 50 Coin Flips. Shown are the results for those students who performed \emph {best} in the first round (left), and those that performed \emph {worst} in the first round (right). }}{82}{subsection*.38}
 \contentsline {table}{\numberline {3.3}{\ignorespaces 106 Male Student Heights (in cm) from a Survey.}}{84}{Item.55}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {4.1}{\ignorespaces Drawing $m$ 9's in a row, from either a High Deck or Low Deck.}}{100}{Item.83}
@@ -13,7 +13,7 @@
 \contentsline {table}{\numberline {6.2}{\ignorespaces Probability for different bent-coin models, given the data={9 tails, 3 heads}. The middle column is the non-normalized value from Bayes' Rule, needing to be divided by $K$ (the sum of the middle column) to get the final column which is the actual probability.}}{117}{Item.119}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces Rough guide for the conversion of deviations away from zero and the qualitative labels for probability values for being a \emph {significant} deviation.}}{155}{subsection*.68}
+\contentsline {table}{\numberline {8.1}{\ignorespaces Rough guide for the conversion of deviations away from zero and the qualitative labels for probability values for being a \emph {significant} deviation.}}{155}{subsection*.72}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {9.1}{\ignorespaces Iris petal lengths, in centimeters, for Iris type \emph {Setosa}.}}{159}{myexample.9.1}
 \contentsline {table}{\numberline {9.2}{\ignorespaces Subset of iris petal lengths, in centimeters, for iris types\nobreakspace {}\emph {Virginica}, \emph {Setosa}, and \emph {Versicolor}.}}{160}{section.9.2}

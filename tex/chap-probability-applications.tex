@@ -3,6 +3,220 @@
 
 In this chapter we go through a number of examples of the uses of probability, and present several useful mathematical tools along the way.
 
+\section{Cancer and Probability}\label{sec:cancer_prob}
+
+This is perhaps the most important probability question to learn, so we will spend some time covering it here and then cover it again, in a slightly different way, in Section~\ref{sec:disease} on page~\pageref{sec:disease}.  Imagine we have a population of 10000 people who have been tested for cancer, and we get the following hypothetical data:
+\begin{center}
+\begin{tabular}{||p{1.0in}|c|c|c||}\hline\hline
+{\bf Number of Individuals}& Negative Test & Positive Test & Total\\\hline\hline
+Doesn't Have Cancer& 9200  & 700 & 9900 \\\hline
+Has Cancer        & 20 & 80 & 100\\\hline\hline
+                           &9220 & 780 & 10000 \\ \hline\hline
+\end{tabular}
+\end{center}
+
+We may be interested in a number of related probabilities.  
+
+\example{What is the probability of both having cancer and getting a positive test for it?}
+
+We can determine this by simply dividing the person counts from the table
+
+\beqn
+\P{cancer \textbf{and} positive test} &=& \frac{\mbox{\# of people with both cancer and positive test}}{\mbox{total \# of people}} \\
+&=&\frac{80}{10000} = 0.008
+\eeqn
+
+Doing this process for every part of the table yields a posterior probability table, giving the probability for every combination of variables (i.e. with cancer and positive test, without cancer and positive test, etc...)
+
+\begin{center}
+\begin{tabular}{||p{1.0in}|c|c|c||}\hline\hline
+{\bf Posterior Probability}& Negative Test  & Positive Test & Total\\\hline\hline
+Doesn't Have Cancer  & 0.92  & 0.07 & 0.99 \\\hline
+Has Cancer         & 0.002 & 0.008 & 0.01\\\hline\hline
+                           &0.922 & 0.078 & 1.0 \\ \hline\hline
+\end{tabular}
+\end{center}
+
+
+\example{What is the probability of both not having cancer and getting a positive test for it?}
+
+Reading off of the table, we have 
+
+\beqn
+\P{no cancer \textbf{and} positive test} &=& 0.07
+\eeqn
+
+This question, it turns out, is a not very interesting question.  The type of question that \emph{actually} arises in life is the following,
+
+\example{What is the probability of having cancer \emph{given} a positive test for it?}
+
+Here we can perform the calculation in a couple of different ways, to give the (unintuitive) result.
+
+\be
+\i {\em Counting the individuals}.  
+
+
+\beqn
+\Pg{cancer}{positive test} &=& \frac{\mbox{\# of people with both cancer and positive test}}{\mbox{\# of people with a positive test}} \\
+&=&\frac{80}{780} = 0.103
+\eeqn
+
+Although those with cancer nearly always test positive, out of the pool of all people who test positive - including a large number of false-positives - those actually having cancer are a small minority.  It is because there are many more people without cancer, so even if a small fraction of those mistakenly test positive it will outweigh the small fraction of those people with the disease.  This is why we insist on second opinions and why the rarity of a disease often matters even more than the accuracy of the test.
+
+
+\i {\em Applying Product Rule}
+
+Using the Product Rule (Section~\ref{sec:product_rule} on page~\pageref{sec:product_rule}), we have 
+
+\beqn
+\P{positive test} &=& \P{no cancer \textbf{and} positive test} + \P{cancer \textbf{and} positive test} \\
+&=&= 0.07 + 0.008 = 0.078\\
+\Pg{cancer}{positive test} &=& \frac{\P{cancer \textbf{and} positive test}}{\P{positive test}} \\
+&=& \frac{0.008}{0.078} = 0.103
+\eeqn
+where we have used the sum of the \emph{Positive Test} column for $\P{positive test}$.  This is simply a shortcut to the \emph{marginalization} process (Section~\ref{sec:marginalization_intro} on page~\pageref{sec:marginalization_intro}) - determine the probability of an event by adding up all of the possible conditional situations.
+\ee
+
+
+
+\section{Weather}
+
+\example{
+If the probability that it will rain next Saturday is 0.25 and the probability that it will rain next Sunday is 0.25, what is the probability that it will rain during the weekend?
+}
+
+\subsection{First Solution - Independence}
+
+If we assume that Sunday and Saturday weather are {\em independent} then the sum-rule (Section~\ref{sec:sumrule}) applies:
+
+\beq
+\nn\lefteqn{P(\mbox{rain Saturday {\bf or} rain Sunday})=} \\
+\nn&&P(\mbox{rain Saturday}) + P(\mbox{rain Sunday}) - P(\mbox{rain Saturday {\bf and} rain Sunday}) \\
+\nn&=& P(\mbox{rain Saturday}) + P(\mbox{rain Sunday}) - P(\mbox{rain Saturday})\times P(\mbox{rain Sunday}) \\
+&=& 0.25 + 0.25 - 0.25\times 0.25 = 0.4375\label{eq:satsunind}
+\eeq
+
+The diagrams in Figure~\ref{fig:venn_and_or} are useful in making this calculation more intuitive, especially the term where we subtract $P(\mbox{rain Saturday})\times P(\mbox{rain Sunday})$ because otherwise we over count the double-rain weekends.  \marginnote{Another way to think of this term can be seen in answering a different question - {\em what is the total number of weekends with rain?}.  Imagine we have, in a year, 40 Saturdays with rain (by simply going through all of the Saturdays and counting them if it rains on that day)  and we also have 40 Sundays with rain.  If we want to know the number of weekends with rain we can add the Saturdays with rain and the Sundays with rain (coming to 80!) and it becomes clear that we've over counted those weekends where it rained both days - a year can only have 52 (or possibly 53) weekends.  We need to subtract those double-counts to get a reasonable answer.  The same logic applies to the calculation of probabilities.}
+
+\subsection{Second Solution - Correlation}
+
+Is it really reasonable that rain on Saturday and Sunday are independent events?  Probably not!  It's probably the case that knowing that it rained on Saturday, then rain on Sunday is more likely.  It may also be that if it {\em didn't rain} on Saturday then it will be {\em less likely} for rain on Sunday.  So we'd have information possibly like:
+\beqn
+\Pg{rain Sunday}{rain Saturday} &=& 0.35 \\
+\Pg{rain Sunday}{not rain Saturday} &=& 0.15
+\eeqn
+Knowing this changes the equation as
+\beqn
+\lefteqn{P(\mbox{rain Saturday {\bf or} rain Sunday})=}\\ 
+&=& P(\mbox{rain Saturday}) + P(\mbox{rain Sunday}) - P(\mbox{rain Saturday {\bf and} rain Sunday})
+\eeqn
+Notice, however, that we don't have a direct expression for $P(\mbox{rain Sunday})$ anymore.  We only have the {\em conditional} or {\em dependent} forms, like $\Pg{rain Sunday}{rain Saturday}$.  We can use the marginalization procedure (Equation~\ref{eq:marginalization} on page~\pageref{eq:marginalization}), and sum over all of the conditional expressions
+\beqn
+\P{rain Sunday}&=&\Pg{rain Sunday}{rain Saturday}\P{rain Saturday}+\\
+&&\Pg{rain Sunday}{{\bf not} rain Saturday}\P{{\bf not} rain Saturday} \\
+&=&0.35\times 0.25 + 0.15\times (1-0.25) =0.2
+\eeqn
+and then we have
+\beq
+\nn&=& P(\mbox{rain Saturday}) + P(\mbox{rain Sunday}) - P(\mbox{rain Saturday})\times \Pg{rain Sunday}{rain Saturday} \\
+&=&0.25+0.2 - 0.25 \times 0.35 = 0.3625\label{eq:satsuncorr}
+\eeq
+which makes it {\em less likely} to rain on the weekend if the Sunday rain is correlated with the Saturday rain (Equation~\ref{eq:satsuncorr}) than if they are independent (Equation~\ref{eq:satsunind}).  Why is that?
+
+One way to think of it is that, although the probability of rain on Sunday is increased due to rain on Saturday, it is more likely that Saturday is not rainy.  In those cases, which are more frequent, Sunday is less likely to be rainy as well.  When the two days are independent, Sunday's rain is the same probability regardless of Saturday's weather.   When they are dependent, then the more often clear Saturday weather makes it a little less likely for the Sunday rain, and thus lowers the chance of weekend rain by a little bit.
+
+
+\section{Adding Dice}\example{
+What is the probability of the {\em sum} of two dice getting a particular value, say, 7?
+}
+
+\marginnote{
+\includegraphics[width=1in]{dice/Anonymous_two_red_dice}
+}
+
+
+In this case, we simply outline every single possibility, and count the fractions.  In a more complex case we may need to find a better method of counting, but the idea will be the same.
+
+We find immediately that the probability of getting a sum of 7 is the largest, because there are more arrangements of the two dice which yield a sum of 7 than for any other sum.\marginnote{
+All possible results from rolling two dice:
+
+\begin{tabular}{cl}
+sum & (die 1,die 2) \\ \hline
+2 & (1,1) \\
+3 & (1,2),(2,1)\\
+4 & (3,1),(1,3),(2,2)   \\
+5 & (1,4),(4,1),(3,2),(2,3)    \\
+6 & (1,5),(5,1),(4,2),(2,4),(3,3)   \\
+7 & (1,6),(6,1),(5,2),(2,5),(4,3),(3,4)\\
+8 & (3,5),(5,3),(6,2),(2,6),(4,4)   \\
+9 & (5,4),(4,5),(3,6),(6,3)    \\
+10 & (4,6),(6,4),(5,5)   \\
+11 & (6,5),(5,6)   \\
+12 & (6,6)\\
+& (36 arrangments total) 
+\end{tabular}
+\includegraphics[width=2.2in]{sumdice2}
+}
+
+  Each probability of a particular sum is just the number of arrangements to get that particular sum divided by the total number of arrangements of a two dice (i.e. 36). 
+  
+\begin{tabular}{cc}
+\begin{minipage}{2in}
+\beqn
+P(2) &=& \frac{1}{36}=0.028 \\
+P(3) &=& \frac{2}{36}=0.055 \\
+P(4) &=&  \frac{3}{36}=0.083 \\
+P(5) &=&  \frac{4}{36}=0.111 \\
+P(6) &=&  \frac{5}{36}=0.139 
+\eeqn
+\end{minipage}&
+\begin{minipage}{2in}
+\beqn
+P(8) &=&  \frac{5}{36}=0.139 \\
+P(9) &=&  \frac{4}{36}=0.111 \\
+P(10) &=&  \frac{3}{36}=0.083 \\
+P(11) &=&  \frac{2}{36}=0.055 \\
+P(12) &=&  \frac{1}{36}=0.028 
+\eeqn
+\end{minipage}
+\end{tabular}
+
+
+\example{
+What is the probability of rolling a sum {\em more than 7} with two dice?
+}
+
+In our notation this is
+\beqn
+P(8\mbox{ or }9\mbox{ or }10\mbox{ or }11\mbox{ or }12)
+\eeqn
+which are all {\em exclusive events}, so we use the {\em Sum Rule} for exclusive events (Equation~\ref{eq:exclusive_sum}) and obtain
+\beqn
+P(8\mbox{ or }9\mbox{ or }10\mbox{ or }11\mbox{ or }12)&=&P(8)+P(9)+P(10)+P(11)+P(12) \\
+&=&0.139+0.111+0.083+0.055+0.028\\
+&=&0.416
+\eeqn
+
+
+\example{
+What is the probability of rolling various sums with two dice {\em each with 20 sides}?
+}
+\marginnote{
+\includegraphics[width=0.5in]{dice/twenty_sided_dice}
+}
+
+20-sided dice are common in some kinds of games, and provide a nice alternative to the standard 6-sided variety.  The figure comparing the 6-sided and 20-sided dice can be see in in Figure~\ref{fig:sixandtwentysum} on page~\pageref{fig:sixandtwentysum}. 
+
+\begin{figure*}
+\begin{tabular}{cc}
+\includegraphics[width=3in]{sumdice2}&
+\includegraphics[width=3in]{sumdice4}
+\end{tabular}
+\caption{Probability for rolling various sums of two dice.  Shown are the results for two 6-sided dice (left) and two 20-sided dice (right). The dashed line is for clarity, but represents the fact that you can't roll a fractional sum, such as 2.5.}
+\label{fig:sixandtwentysum}
+\end{figure*}
+
+
 \section{The Birthday Problem}\label{sec:birthday}
 
 This is a famous problem in probability\cite{mosteller1965fifty}, which we address here in stages.  We introduce a simple version, and make it more complex in steps until we can tackle the general problem.
@@ -81,7 +295,7 @@ What is the probability that three random people have the same birthday?
 P(D_{1}=D_{2}=D_{3}) &=& \left(\frac{1}{365}\times\frac{1}{365}\times\frac{1}{365}\right)\times 365\\
 &=&\frac{1}{133,225}=0.0000075
 \eeqn
-which is even more extremely unlikely (see Table~\ref{table1} on page~\pageref{table1}) then the previous two-person example.  It is interesting to note that this is the same answer we received when we asked for the probability of two people with a {\em specific} birthday.  One can think of the the three people having the same, unspecified, birthday in the following way if it helps.  The first person's birthday specifies the necessary birthday for the other two, so it is the same as the case where we specify a single birthday for two people.
+which is even more extremely unlikely (see Table~\ref{table1} on page~\pageref{table1}) than the previous two-person example.  It is interesting to note that this is the same answer we received when we asked for the probability of two people with a {\em specific} birthday.  One can think of the three people having the same, unspecified, birthday in the following way if it helps.  The first person's birthday specifies the necessary birthday for the other two, so it is the same as the case where we specify a single birthday for two people.
 
 \subsection{Two People...Out of Three}
 
@@ -251,53 +465,42 @@ Formally, we need to involve model comparison, so we postpone this particular an
 
 
 
-\section{Weather}
 
-\example{
-If the probability that it will rain next Saturday is 0.25 and the probability that it will rain next Sunday is 0.25, what is the probability that it will rain during the weekend?
+
+\section{Exercises}
+
+\exercise{Birthdays}{
+What is the probability that at least 3 people have the same birthday in a group of 50?
+}
+\exercise{Monte Hall Again}{
+Examine the case of Monte Hall with 4 doors, the host opening one door with a goat, and leaving you with a choice of 3.  Should you switch?  Does it matter which of the other two you choose?
+}
+\exercise{9-sided Dice}{
+What is the probability of rolling various sums from two 9-sided dice?
 }
 
-\subsection{First Solution - Independence}
+\exercise{Odd Dice}{
+What is the probability of rolling an odd sum with two dice?
+}
 
-If we assume that Sunday and Saturday weather are {\em independent} then the sum-rule (Section~\ref{sec:sumrule}) applies:
+\exercise{More than...}{
+What is the probability of rolling more than 7 from two 20-sided dice?
+}
 
-\beq
-\nn\lefteqn{P(\mbox{rain Saturday {\bf or} rain Sunday})=} \\
-\nn&&P(\mbox{rain Saturday}) + P(\mbox{rain Sunday}) - P(\mbox{rain Saturday {\bf and} rain Sunday}) \\
-\nn&=& P(\mbox{rain Saturday}) + P(\mbox{rain Sunday}) - P(\mbox{rain Saturday})\times P(\mbox{rain Sunday}) \\
-&=& 0.25 + 0.25 - 0.25\times 0.25 = 0.4375\label{eq:satsunind}
-\eeq
 
-The diagrams in Figure~\ref{fig:venn_and_or} are useful in making this calculation more intuitive, especially the term where we subtract $P(\mbox{rain Saturday})\times P(\mbox{rain Sunday})$ because otherwise we over count the double-rain weekends.  \marginnote{Another way to think of this term can be seen in answering a different question - {\em what is the total number of weekends with rain?}.  Imagine we have, in a year, 40 Saturdays with rain (by simply going through all of the Saturdays and counting them if it rains on that day)  and we also have 40 Sundays with rain.  If we want to know the number of weekends with rain we can add the Saturdays with rain and the Sundays with rain (coming to 80!) and it becomes clear that we've over counted those weekends where it rained both days - a year can only have 52 (or possibly 53) weekends.  We need to subtract those double-counts to get a reasonable answer.  The same logic applies to the calculation of probabilities.}
 
-\subsection{Second Solution - Correlation}
+\exercise{Cancer Questions}{
+Given the table above, determine the following quantities, and describe what they {\em mean}:
+\be
+\i $\P{\rm cancer {\bf and} negative test}$ 
+\i $\Pg{\rm cancer}{\rm negative test}$ 
+\i $\P{\rm not cancer}$
+\i $\P{\rm not cancer} + \P{\rm cancer}$
+\ee
+}
 
-Is it really reasonable that rain on Saturday and Sunday are independent events?  Probably not!  It's probably the case that knowing that it rained on Saturday, then rain on Sunday is more likely.  It may also be that if it {\em didn't rain} on Saturday then it will be {\em less likely} for rain on Sunday.  So we'd have information possibly like:
-\beqn
-\Pg{rain Sunday}{rain Saturday} &=& 0.35 \\
-\Pg{rain Sunday}{not rain Saturday} &=& 0.15
-\eeqn
-Knowing this changes the equation as
-\beqn
-\lefteqn{P(\mbox{rain Saturday {\bf or} rain Sunday})=}\\ 
-&=& P(\mbox{rain Saturday}) + P(\mbox{rain Sunday}) - P(\mbox{rain Saturday {\bf and} rain Sunday})
-\eeqn
-Notice, however, that we don't have a direct expression for $P(\mbox{rain Sunday})$ anymore.  We only have the {\em conditional} or {\em dependent} forms, like $\Pg{rain Sunday}{rain Saturday}$.  We can use the marginalization procedure (Equation~\ref{eq:marginalization} on page~\pageref{eq:marginalization}), and sum over all of the conditional expressions
-\beqn
-\P{rain Sunday}&=&\Pg{rain Sunday}{rain Saturday}\P{rain Saturday}+\\
-&&\Pg{rain Sunday}{{\bf not} rain Saturday}\P{{\bf not} rain Saturday} \\
-&=&0.35\times 0.25 + 0.15\times (1-0.25) =0.2
-\eeqn
-and then we have
-\beq
-\nn&=& P(\mbox{rain Saturday}) + P(\mbox{rain Sunday}) - P(\mbox{rain Saturday})\times \Pg{rain Sunday}{rain Saturday} \\
-&=&0.25+0.2 - 0.25 \times 0.35 = 0.3625\label{eq:satsuncorr}
-\eeq
-which makes it {\em less likely} to rain on the weekend if the Sunday rain is correlated with the Saturday rain (Equation~\ref{eq:satsuncorr}) than if they are independent (Equation~\ref{eq:satsunind}).  Why is that?
 
-One way to think of it is that, although the probability of rain on Sunday is increased due to rain on Saturday, it is more likely that Saturday is not rainy.  In those cases, which are more frequent, Sunday is less likely to be rainy as well.  When the two days are independent, Sunday's rain is the same probability regardless of Saturday's weather.   When they are dependent, then the more often clear Saturday weather makes it a little less likely for the Sunday rain, and thus lowers the chance of weekend rain by a little bit.
-
-\section{Claims and Priors}
+\section{Some Philosophical Applications}
 
 \subsection{Doctors' Claims - English Language and Probability}
 
@@ -371,209 +574,6 @@ Observer $A$ changed their mind, Observer $B$ had their assessment confirmed a b
 
 Although you'd think that hearing the announcement of the unsafe nature of the drug would have moved all of the probabilities by the same amount, but the information isn't that the drug is unsafe, but the someone is {\em claiming} that the drug is unsafe.  Thus, ones prior information about both the drug and who is making the claim comes into play.
 
-\section{Adding Dice}\example{
-What is the probability of the {\em sum} of two dice getting a particular value, say, 7?
-}
-
-\marginnote{
-\includegraphics[width=1in]{dice/Anonymous_two_red_dice}
-}
-
-
-In this case, we simply outline every single possibility, and count the fractions.  In a more complex case we may need to find a better method of counting, but the idea will be the same.
-
-We find immediately that the probability of getting a sum of 7 is the largest, because there are more arrangements of the two dice which yield a sum of 7 than for any other sum.\marginnote{
-All possible results from rolling two dice:
-
-\begin{tabular}{cl}
-sum & (die 1,die 2) \\ \hline
-2 & (1,1) \\
-3 & (1,2),(2,1)\\
-4 & (3,1),(1,3),(2,2)   \\
-5 & (1,4),(4,1),(3,2),(2,3)    \\
-6 & (1,5),(5,1),(4,2),(2,4),(3,3)   \\
-7 & (1,6),(6,1),(5,2),(2,5),(4,3),(3,4)\\
-8 & (3,5),(5,3),(6,2),(2,6),(4,4)   \\
-9 & (5,4),(4,5),(3,6),(6,3)    \\
-10 & (4,6),(6,4),(5,5)   \\
-11 & (6,5),(5,6)   \\
-12 & (6,6)\\
-& (36 arrangments total) 
-\end{tabular}
-\includegraphics[width=2.2in]{sumdice2}
-}
-
-  Each probability of a particular sum is just the number of arrangements to get that particular sum divided by the total number of arrangements of a two dice (i.e. 36). 
-  
-\begin{tabular}{cc}
-\begin{minipage}{2in}
-\beqn
-P(2) &=& \frac{1}{36}=0.028 \\
-P(3) &=& \frac{2}{36}=0.055 \\
-P(4) &=&  \frac{3}{36}=0.083 \\
-P(5) &=&  \frac{4}{36}=0.111 \\
-P(6) &=&  \frac{5}{36}=0.139 
-\eeqn
-\end{minipage}&
-\begin{minipage}{2in}
-\beqn
-P(8) &=&  \frac{5}{36}=0.139 \\
-P(9) &=&  \frac{4}{36}=0.111 \\
-P(10) &=&  \frac{3}{36}=0.083 \\
-P(11) &=&  \frac{2}{36}=0.055 \\
-P(12) &=&  \frac{1}{36}=0.028 
-\eeqn
-\end{minipage}
-\end{tabular}
-
-
-\example{
-What is the probability of rolling a sum {\em more than 7} with two dice?
-}
-
-In our notation this is
-\beqn
-P(8\mbox{ or }9\mbox{ or }10\mbox{ or }11\mbox{ or }12)
-\eeqn
-which are all {\em exclusive events}, so we use the {\em Sum Rule} for exclusive events (Equation~\ref{eq:exclusive_sum}) and obtain
-\beqn
-P(8\mbox{ or }9\mbox{ or }10\mbox{ or }11\mbox{ or }12)&=&P(8)+P(9)+P(10)+P(11)+P(12) \\
-&=&0.139+0.111+0.083+0.055+0.028\\
-&=&0.416
-\eeqn
-
-
-\example{
-What is the probability of rolling various sums with two dice {\em each with 20 sides}?
-}
-\marginnote{
-\includegraphics[width=0.5in]{dice/twenty_sided_dice}
-}
-
-20-sided dice are common in some kinds of games, and provide a nice alternative to the standard 6-sided variety.  The figure comparing the 6-sided and 20-sided dice can be see in in Figure~\ref{fig:sixandtwentysum} on page~\pageref{fig:sixandtwentysum}. 
-
-\begin{figure*}
-\begin{tabular}{cc}
-\includegraphics[width=3in]{sumdice2}&
-\includegraphics[width=3in]{sumdice4}
-\end{tabular}
-\caption{Probability for rolling various sums of two dice.  Shown are the results for two 6-sided dice (left) and two 20-sided dice (right). The dashed line is for clarity, but represents the fact that you can't roll a fractional sum, such as 2.5.}
-\label{fig:sixandtwentysum}
-\end{figure*}
-
-\section{Cancer and Probability}\label{sec:cancer_prob}
-
-Here we explore an example that we cover again, in a slightly different way, in Section~\ref{sec:disease} on page~\pageref{sec:disease}.  Imagine we have a population of 10000 people who have been tested for cancer, and we get the following hypothetical data:
-\begin{center}
-\begin{tabular}{||p{1.0in}|c|c|c||}\hline\hline
-{\bf Number of Individuals}& Negative Test & Positive Test & Total\\\hline\hline
-Doesn't Have Cancer& 9200  & 700 & 9900 \\\hline
-Has Cancer        & 20 & 80 & 100\\\hline\hline
-                           &9220 & 780 & 10000 \\ \hline\hline
-\end{tabular}
-\end{center}
-
-We may be interested in a number of related probabilities.  
-
-\example{What is the probability of both having cancer and getting a positive test for it?}
-
-We can determine this by simply dividing the person counts from the table
-
-\beqn
-\P{cancer \textbf{and} positive test} &=& \frac{\mbox{\# of people with both cancer and positive test}}{\mbox{total \# of people}} \\
-&=&\frac{80}{10000} = 0.008
-\eeqn
-
-Doing this process for every part of the table yields a posterior probability table, giving the probability for every combination of variables (i.e. with cancer and positive test, without cancer and positive test, etc...)
-
-\begin{center}
-\begin{tabular}{||p{1.0in}|c|c|c||}\hline\hline
-{\bf Posterior Probability}& Negative Test  & Positive Test & Total\\\hline\hline
-Doesn't Have Cancer  & 0.92  & 0.07 & 0.99 \\\hline
-Has Cancer         & 0.002 & 0.008 & 0.01\\\hline\hline
-                           &0.922 & 0.078 & 1.0 \\ \hline\hline
-\end{tabular}
-\end{center}
-
-
-\example{What is the probability of both not having cancer and getting a positive test for it?}
-
-Reading off of the table, we have 
-
-\beqn
-\P{no cancer \textbf{and} positive test} &=& 0.07
-\eeqn
-
-This question, it turns out, is a not very interesting question.  The type of question that \emph{actually} arises in life is the following,
-
-\example{What is the probability of having cancer \emph{given} a positive test for it?}
-
-Here we can perform the calculation in a couple of different ways, to give the (unintuitive) result.
-
-\be
-\i {\em Counting the individuals}.  
-
-
-\beqn
-\Pg{cancer}{positive test} &=& \frac{\mbox{\# of people with both cancer and positive test}}{\mbox{\# of people with a positive test}} \\
-&=&\frac{80}{780} = 0.103
-\eeqn
-
-This is such a low probability, even though the bulk of people with cancer actually test positive, and a small fraction of those that don't have cancer test positive.  It is because there are many more people without cancer, so even a small fraction of those that test positive outweighs those with cancer.
-
-
-\i {\em Applying Product Rule}
-
-Using the Product Rule (Section~\ref{sec:product_rule} on page~\pageref{sec:product_rule}), we have 
-
-\beqn
-\Pg{cancer}{positive test} &=& \frac{\P{cancer \textbf{and} positive test}}{\P{positive test}} \\
-&=& \frac{0.008}{0.078} = 0.103
-\eeqn
-where we have used the sum of the \emph{Positive Test} column for $\P{positive test}$.  This is simply a shortcut to the \emph{marginalization} process (Section~\ref{sec:marginalization_intro} on page~\pageref{sec:marginalization_intro}) - determine the probability of an event by adding up all of the possible conditional situations,
-\beqn
-\P{positive test} &=& \P{no cancer \textbf{and} positive test} + \P{cancer \textbf{and} positive test} \\
-&=&= 0.07 + 0.008 = 0.078
-\eeqn
-\ee
-
-
-
-\section{Exercises}
-
-\exercise{Birthdays}{
-What is the probability that at least 3 people have the same birthday in a group of 50?
-}
-\exercise{Monte Hall Again}{
-Examine the case of Monte Hall with 4 doors, the host opening one door with a goat, and leaving you with a choice of 3.  Should you switch?  Does it matter which of the other two you choose?
-}
-\exercise{9-sided Dice}{
-What is the probability of rolling various sums from two 9-sided dice?
-}
-
-\exercise{Odd Dice}{
-What is the probability of rolling an odd sum with two dice?
-}
-
-\exercise{More than...}{
-What is the probability of rolling more than 7 from two 20-sided dice?
-}
-
-
-
-\exercise{Cancer Questions}{
-Given the table above, determine the following quantities, and describe what they {\em mean}:
-\be
-\i $\P{\rm cancer {\bf and} negative test}$ 
-\i $\Pg{\rm cancer}{\rm negative test}$ 
-\i $\P{\rm not cancer}$
-\i $\P{\rm not cancer} + \P{\rm cancer}$
-\ee
-}
-
-
-\section{Probability and Juries}
-
 \subsection{A problem of independence}
 
 As said in the beginning of Chapter~\ref{ch:intro} (\nameref{ch:intro}), in 1968 a jury found defendant Malcolm Ricardo Collins and his wife defendant Janet Louise Collins guilty of second degree robbery.  The prosecutor focussed on the the distinctive features of the dependence, and assigned a probability to each as follows\cite{SULLIVAN:fk}:
@@ -585,7 +585,7 @@ As said in the beginning of Chapter~\ref{ch:intro} (\nameref{ch:intro}), in 1968
 \i Negro man with beard 1/10
 \i Interracial couple in car 1/1000
 \ee
-He then followed with the calculation applying the product rule (Section~\ref{sec:product_rule} on page~\pageref{sec:product_rule}), to find the probability that \emph{all} these things could have been observed:
+He then followed with the calculation applying the product rule for {\em independent} events (Section~\ref{sec:independence} on page~\pageref{sec:independence}), to find the probability that \emph{all} these things could have been observed:
 \beqn
 \frac{1}{10}\times\frac{1}{4}\times\frac{1}{10}\times\frac{1}{3}\times\frac{1}{10}\times\frac{1}{1000} = \frac{1}{12,000,000}
 \eeqn
@@ -642,7 +642,7 @@ which is equivalent to saying
 \begin{quote}
 Knowing that the child dies of a [not well understood] disease tells us \emph{nothing} about the probability of the second child dying of the same [not well understood] disease.
 \end{quote}
-Clearly this is ridiculous, because if there is a common source to the disease, the one death certainly increases the probability of the second.  Such a common source could be something shared in the environmental, or perhaps a genetic disposition in the family for the disease.
+Clearly this is ridiculous, because if there is a common source to the disease, the one death certainly increases the probability of the second.  Such a common source could be something shared in the environmental or perhaps a genetic disposition in the family for the disease.
 
 
 \subsection{Prosecutor's Fallacy}

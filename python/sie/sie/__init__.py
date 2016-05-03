@@ -1,5 +1,6 @@
 from sie import *
 import sie
+import mcmc as mcmc
 
 import matplotlib.pyplot as plt
 

@@ -12,4 +12,5 @@ if not os.path.exists('setup.py'):
     raise ValueError
     
 os.system('python setup.py install')
+os.system('pip install emcee')
 

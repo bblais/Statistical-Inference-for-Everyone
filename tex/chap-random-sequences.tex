@@ -1,7 +1,7 @@
 \chapter{Random Sequences and Visualization}\label{ch:randomseq}
 %!TEX root = main.tex
 
-Now that we understand the rules of probability, and how they are applied in a number of practical examples, we explore the use of these rules to \emph{sequences of random events}.  This will produce several interesting and unintuitive observations and failures of inference, and the proper ways to handle them.  Finally, we examine how visualize both data in general and what we can communicate with such visualization.
+Now that we understand the rules of probability, and how they are applied in a number of practical examples, we explore the use of these rules to \emph{sequences of random events}.  This will produce several interesting and unintuitive observations, failures of inference, and the proper ways to handle them.  Finally, we examine how visualize both data in general and what we can communicate with such visualization.
 
 \section{Coin Flipping}
 
@@ -11,9 +11,7 @@ We'll start with some simple examples of coin flipping, asking some simple quest
 What is the probability of flipping three heads in a row, with a fair coin?
 }
 
-We can approach this problem in two different ways.  The first way, is a brute-force counting method with the definition of probability for exclusive events (using Equation~\ref{eq:p_mutually_exclusive}) and the second way makes use of the other rules of probability.  In the first way, we simply outline every possible combination of three flips, see how many are ``three heads in a row''
-
-\marginnote{
+We can approach this problem in two different ways.  The first way, is a brute-force counting method with the definition of probability for exclusive events (using Equation~\ref{eq:p_mutually_exclusive}) and the second way makes use of the other rules of probability.  \marginnote{
 All possible results from three coin flips:
 
 \begin{tabular}{cc}
@@ -24,15 +22,17 @@ All possible results from three coin flips:
 5 & H T T \\
 6 & H T H \\
 7 & H H T \\
-8 & H H H 
+8 & {\bf H H H}
 \end{tabular}
 }
+In the first way, we simply outline every possible combination of three flips, see how many are ``three heads in a row'', as we show in the margin.
+
 
 Because there is only one case of ``H H H'' in all eight, the probability of three heads in a row is
 \beqn
 \P{three heads in a row}=1/8
 \eeqn
-which is an unlikely outcome, but not extremely so (see Table~\ref{table1}).
+which is an unlikely outcome, but not extremely so (see Table~\ref{table1} on page~\pageref{table1}).
 
 
 In terms of the rule of probability, we have 
@@ -346,9 +346,10 @@ P(h,t)=\frac{(h+t)!}{h!t!}\times p^{h}\times (1-p)^{t}
 \end{figure}
 
 
+\section{Some Philosophical Applications}
 
 
-\section{Streaks}
+\subsection{Streaks}
 
 In the previous section we looked at the probability of getting a certain number of heads in a number of flips.  Look at the following two sequences:
 \be
@@ -358,7 +359,7 @@ In the previous section we looked at the probability of getting a certain number
 One of these sequences was generated from actually flipping a coin 50 times.  The other one is from a person {\em pretending} to flip a coin, and writing down a sequence that they thought would look like a random flipping of a coin.  Which one is which?  While many people think that sequence 1 looks more ``random'' (i.e. it seems to flip around a lot), sequence 2 is actually the random sequence.  
 
 One of the truly unintuitive things about real random sequences, as opposed to designed sequences, is that there are long runs or {\em streaks}.  Why is this?  The general solution is beyond this book but we can think about it this way.  Although a sequence of, say, 5 heads in a row is very unlikely ($\P{5 heads in a row}=(1/2)^{5}=0.03$), there are many opportunities for such a sequence {\em somewhere} within a sequence of 50.  Because of these many opportunities, this raises the probability from 3\% (the probability of 5 heads in a row in 5 flips), to over 55\%, the probability of finding 5 heads in a row {\em somewhere} in 50 flips.  Streaks of 6 heads in a row occur nearly one third of the time in 50 flips, or over half the time if you consider a run to be either heads or tails.  Even streaks of 9 heads or tails in a row, in 50 flips, are not extremely unlikely!
-\section{Gambler's Fallacy}
+\subsection{Gambler's Fallacy}
 
 When we look at a sequence of real coin flips, like:
 \bi
@@ -378,13 +379,13 @@ We'll have to return to this question later, when we consider model comparison, 
 In a total fit of irony, casino slot machines \emph{do not produce independent winnings} - they are programmed so that if you've lost many times, then that machine is a little less likely to lose the next time.  In effect, at gambling houses they train the gamblers in the Gambler's Fallacy!
 
 
-\section{The Hot Hand - Correlations in Random Sequences}
+\subsection{The Hot Hand - Correlations in Random Sequences}
 
 Some work by Tversky and Gilovich\cite{tversky2005cold} looks at the following issue in the sport of basketball:  there are times when it seems as if basketball players have a ``hot hand'' - they are on a shooting streak.  Tversky and Gilovich looked at how basketball fans {\em perceived} streaks, by having them rate sequences of shots as {\em random shooting} or {\em streak shooting}.  Most (65\%) of the respondents classified artificially generated, purely random sequences as {\em streak shooting}.  In real data, they discovered that the actual probability of ``making a given shot (i.e. a player's shooting {\em percentage}) is unaffected by the player's prior performance.''  We examine this effect in a later section (see Example~\ref{ex:hothand} on page~\pageref{ex:hothand}) where we explore the quantitative procedure for assessing this conclusion.  It is enough here to note the large difference between the {\em perception} of the sequence and the likely {\em cause} of the sequence, and thus the need to always be vigilant against faulty perceptions.  Tversky and Gilovich insist that ``their observations do not tell us anything general about sports, but it does suggest a generalization about people, namely that they tend to 'detect' patterns even where none exist.''
 
 What we have here, again, is the general perception that {\em long sequences} are somehow not ``random,'' when in fact the opposite is the case.  People have a natural tendency to see patterns in random data, to infer order where there is none, and to ascribe importance to the appearance of pattern.  It is the role of statistical inference in general to provide the tools to properly handle the distinction between random effects and patterns, and to retune our intuitions.
 
-\section{Regression Toward the Mean}
+\subsection{Regression Toward the Mean}
 There is a peculiar phenomenon referred to as {\em regression toward the mean}, which often is misinterpreted and leads to failures of proper statistical inference.  It can be seen in a simple example.  Imagine that we ``test'' a number of students by having them guess the results of a coin flip.  Clearly this will be entirely luck, because the coin flip has no pattern.  If a student guesses the results of 50 flips, there will be an expectation of getting 25 correct.   Here we simulate 20 students each ``predicting'' the result of 50 flips, the results shown in Table~\ref{tbl:coinguess}.  The test is done twice, and we will look at a particular subset presently.  One can, by eye, see that most of the students get around 25 correct - exactly as expected from random performance.
 
 \begin{table}
@@ -460,7 +461,7 @@ Now, imagine that we look at the {\em top five} coin flip predictors on the firs
 \i Those that did the best the first time did worse the second (on average)
 \i Those that did the worst the first time did better the second (on average)
 \ee
-One might be tempted (had you not known that this is artificial data, and completely random) to interpret this as a causal pattern, e.g. ``the students that did better the first time, grew over-confident the second,'' ``the students that did worse the first time, worked harder to improve the second,'' etc...  This {\em interpretation} of the results by students has been observed in the classroom.\cite{Gelman2002}  However, it runs into serious trouble when the data is something like the heights of children compared to their parents - the tallest parents tend to have children shorter than they are, the shortest parents tend to have children taller than they are, a pattern first quantified by Galton in 1869\cite{galton1914hereditary}.  He noted that clearly the children are not \emph{trying} to be tall, so effort is not a good explanation for the pattern.
+One might be tempted (had you not known that this is artificial data, and completely random) to interpret this as a causal pattern, e.g. ``the students that did better the first time, grew over-confident the second time,'' ``the students that did worse the first time, worked harder to improve the second time,'' etc...  This {\em interpretation} of the results by students has been observed in the classroom.\cite{Gelman2002}  However, it runs into serious trouble when the data is something like the heights of children compared to their parents - the tallest parents tend to have children shorter than they are, the shortest parents tend to have children taller than they are, a pattern first quantified by Galton in 1869\cite{galton1914hereditary}.  He noted that clearly the children are not \emph{trying} to be tall, so effort is not a good explanation for the pattern.
 
 
 What is happening here is that, if the process is dominated by {\em luck} or simple random variation, then outliers occur, but are rare.  Thus a particularly high value will likely be followed by a lower value - closer to the mean.  The tendency is to regress {\em toward the mean} in processes dominated by luck.  This can be confused with the Gambler's Fallacy discussed earlier, where flipping 3 heads in a row doesn't give you any information about flipping another heads - it is {\em not} more likely to be tails.  Part of the difference is that we are dealing with a process that has {\em many possible values}, not just two, and thus we can have a mean value, and outliers.  
