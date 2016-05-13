@@ -6,6 +6,14 @@
 from sie import *
 
 
+# ## Bayesian estimation supersedes the t test.
+# 
+# **John K. Kruschke, Journal of Experimental Psychology: General, 2013, v.142(2), pp.573-603. (doi: 10.1037/a0029146)**
+# 
+# http://www.indiana.edu/~kruschke/BEST/
+# 
+# 
+
 # In[3]:
 
 drug = (101,100,102,104,102,97,105,105,98,101,100,123,105,103,100,95,102,106,

@@ -61,3 +61,18 @@ credible_interval(dist)
 
 
 
+
+# In[ ]:
+
+
+
+
+# In[ ]:
+
+
+
+
+# In[ ]:
+
+
+

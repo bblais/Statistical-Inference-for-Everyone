@@ -123,7 +123,7 @@ L&\equiv& \mbox{``We're holding the Low Deck''}
 \eeqn
 and data is
 \beqn
-{\rm data}&\equiv& \parbox{3in}{``We've drawn one card, and it is a 9, replaced and reshuffled, and then drawn a 7''}\\
+{\rm data}&\equiv& \left\{\parbox{3in}{``We've drawn one card, and it is a 9, replaced and reshuffled, and then drawn a 7''}\right.\\
 \eeqn
 According to Equation~\ref{eq:model_given_data} we are looking for the two probabilities:
 \beqn
@@ -148,7 +148,7 @@ P(L) &=& 0.5
 P(H|{\rm data}=9\mbox{ then a }7)&\sim& P({\rm data}=9\mbox{ then a }7|H)P(H) \\
 P(L|{\rm data}=9\mbox{ then a }7)&\sim& P({\rm data}=9\mbox{ then a }7|L)P(L) 
 \eeqn
-\i Put in the likelihood and prior values
+\i Put in the likelihood and prior values\marginnote{As a reminder, we are performing this next draw {\em having shuffled the first draw back into the deck}.  Although somewhat artificial, it is useful for a later example.  If we had simply set the first card asside, the value of the likelihood would account for the removal of one more card, and would thus be $\frac{9}{55}\times\frac{7}{{\bf 54}}$ for the high deck and $\frac{2}{55}\times\frac{4}{{\bf 54}}$ for the low deck. Note the denominators.}
 \beqn
 P(H|{\rm data}=9\mbox{ then a }7)&\sim& \frac{9}{55}\times\frac{7}{55}\times 0.5 =0.0104 \\
 P(L|{\rm data}=9\mbox{ then a }7)&\sim& \frac{2}{55}\times\frac{4}{55}\times 0.5 =0.0013 
@@ -170,7 +170,7 @@ which again matches our intuition - we're more confident that we're holding the 
 
 In the above example, we started with a prior probability of holding the High Deck at $P(H)=0.5$, because we had no information other than that there were two possibilities.  We then observed a 9, and updated the probability to 0.82, and then observed a 7, and further updated the probability to 0.889 - making it more likely that we were holding the High Deck.  One of the basic tenets of probability theory is that if there is more than one way to arrive at an answer, one should arrive at the same answer.\footnote{E. T. Jaynes uses the principle that ``if there is more than one way to arrive at an answer, one should arrive at the same answer'' to help derive the rules of probability from first principles.  Failures of this principle result in paradoxes.  This principle is also applied in Section~\ref{sec:birthday} for the birthday problem.}  In the above, we calculated the probability of holding the High Deck given the observed data
 \beqn
-{\rm data}&\equiv& \parbox{3in}{``We've drawn one card, and it is a 9, replaced and reshuffled, and then drawn a 7''}\\
+{\rm data}&\equiv&\left\{ \parbox{3in}{``We've drawn one card, and it is a 9, replaced and reshuffled, and then drawn a 7''}\right.\\
 \eeqn
 and prior information
 \beqn
@@ -179,7 +179,7 @@ and prior information
 
 An equivalent situation is found after our first draw, after we've observed the 9, and we're about to draw our second card.  In this case we have the {\em prior} information:
 \beqn
-{\rm prior}&\equiv& \parbox{3in}{``We know there are only two decks, and then we draw one card and it is a 9, replace it and reshuffle.''}\\
+{\rm prior}&\equiv& \left\{\parbox{3in}{``We know there are only two decks, and then we draw one card and it is a 9, replace it and reshuffle.''}\right.\\
 \eeqn
 and observed data:
 \beqn
@@ -195,8 +195,8 @@ P(L,9) &=& 0.18
 \eeqn
 \i Write the top of Bayes' Rule for all models being considered
 \beqn
-P(H|{\rm data}=9\mbox{ then a }7)&\sim& P({\rm data}=\{7\}|H)P(H,9) \\
-P(L|{\rm data}=9\mbox{ then a }7)&\sim& P({\rm data}=\{7\}|L)P(L,9) 
+P(H|{\rm data}=9\mbox{ then a }7)&\sim& P({\rm data}=7|H)P(H,9) \\
+P(L|{\rm data}=9\mbox{ then a }7)&\sim& P({\rm data}=7|L)P(L,9) 
 \eeqn
 \i Put in the likelihood and prior values
 \beqn
@@ -259,7 +259,7 @@ P(L|{\rm data}=5\mbox{ 9's in a row})&=& \frac{0.0000000318}{0.0000587318}=0.000
 \ee
 which is \emph{fantastically} on the side of the high deck, even though we might start getting suspicious in this situation.
 
-\example{What is the probability that you are holding one of either the High or the Low Deck having drawn $m$ 9's in a row from that deck?}
+\example{What is the probability that you are holding one of either the High or the Low Deck having drawn $m$ 9's in a row from that deck, where $m$ stands for a number ($m=1, 2, 3, \cdots$)?}
 
 In general, if we look at $m$ 9's in a row, where $m$ could be 1, 2, 3, etc..., we can see this following the Bayes' Recipe
 \be

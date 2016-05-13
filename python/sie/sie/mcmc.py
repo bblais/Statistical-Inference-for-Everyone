@@ -693,23 +693,34 @@ class MCMCModel_Meta(object):
     
         return result
     
+    
+    
+    def P(self,S):
+        
+        for i,key in enumerate(self.keys):
+            exec('%s=self.samples[:,i]' % key)
+            
+        N=float(np.prod(self.samples[:,0].shape))
+        result=eval('np.sum(%s)/N' % S)
+        return result
  
 
-class MCMCModel2(MCMCModel_Meta):
-    def __init__(self,data,lnprior,lnlike,**kwargs):
+class MCMCModel(MCMCModel_Meta):
+    def __init__(self,data,P_data,**kwargs):
 
         self.data=data
-        self.lnprior_function=lnprior
-        self.lnlike_function=lnlike
+        self.params=kwargs
+        
+        self.lnlike_function=P_data
 
         MCMCModel_Meta.__init__(self,**kwargs)
 
     def lnprior(self,theta):
-        params_dict={}
+        value=0.0
         for i,key in enumerate(self.keys):
-            params_dict[key]=theta[i]
+            value+=self.params[key](theta[i])
                 
-        return self.lnprior_function(**params_dict)
+        return value
 
     def lnlike(self,theta):
         params_dict={}
@@ -718,10 +729,7 @@ class MCMCModel2(MCMCModel_Meta):
                 
         return self.lnlike_function(self.data,**params_dict)
 
-    
-
-
-class MCMCModel(MCMCModel_Meta):
+class MCMCModel_Regression(MCMCModel_Meta):
     
     def __init__(self,x,y,function,**kwargs):
         self.x=x

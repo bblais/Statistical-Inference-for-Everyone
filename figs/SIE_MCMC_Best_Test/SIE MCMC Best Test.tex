@@ -1,0 +1,100 @@
+\begin{Shaded}
+\begin{Highlighting}[]
+\CharTok{from} \NormalTok{sie }\CharTok{import} \NormalTok{*}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{drug = (}\DecValTok{101}\NormalTok{,}\DecValTok{100}\NormalTok{,}\DecValTok{102}\NormalTok{,}\DecValTok{104}\NormalTok{,}\DecValTok{102}\NormalTok{,}\DecValTok{97}\NormalTok{,}\DecValTok{105}\NormalTok{,}\DecValTok{105}\NormalTok{,}\DecValTok{98}\NormalTok{,}
+        \DecValTok{101}\NormalTok{,}\DecValTok{100}\NormalTok{,}\DecValTok{123}\NormalTok{,}\DecValTok{105}\NormalTok{,}\DecValTok{103}\NormalTok{,}\DecValTok{100}\NormalTok{,}\DecValTok{95}\NormalTok{,}\DecValTok{102}\NormalTok{,}\DecValTok{106}\NormalTok{,}
+        \DecValTok{109}\NormalTok{,}\DecValTok{102}\NormalTok{,}\DecValTok{82}\NormalTok{,}\DecValTok{102}\NormalTok{,}\DecValTok{100}\NormalTok{,}\DecValTok{102}\NormalTok{,}\DecValTok{102}\NormalTok{,}\DecValTok{101}\NormalTok{,}\DecValTok{102}\NormalTok{,}
+        \DecValTok{102}\NormalTok{,}\DecValTok{103}\NormalTok{,}\DecValTok{103}\NormalTok{,}\DecValTok{97}\NormalTok{,}\DecValTok{97}\NormalTok{,}\DecValTok{103}\NormalTok{,}\DecValTok{101}\NormalTok{,}\DecValTok{97}\NormalTok{,}\DecValTok{104}\NormalTok{,}
+        \DecValTok{96}\NormalTok{,}\DecValTok{103}\NormalTok{,}\DecValTok{124}\NormalTok{,}\DecValTok{101}\NormalTok{,}\DecValTok{101}\NormalTok{,}\DecValTok{100}\NormalTok{,}\DecValTok{101}\NormalTok{,}\DecValTok{101}\NormalTok{,}\DecValTok{104}\NormalTok{,}
+        \DecValTok{100}\NormalTok{,}\DecValTok{101}\NormalTok{)}
+\NormalTok{placebo = (}\DecValTok{99}\NormalTok{,}\DecValTok{101}\NormalTok{,}\DecValTok{100}\NormalTok{,}\DecValTok{101}\NormalTok{,}\DecValTok{102}\NormalTok{,}\DecValTok{100}\NormalTok{,}\DecValTok{97}\NormalTok{,}\DecValTok{101}\NormalTok{,}
+           \DecValTok{104}\NormalTok{,}\DecValTok{101}\NormalTok{,}\DecValTok{102}\NormalTok{,}\DecValTok{102}\NormalTok{,}\DecValTok{100}\NormalTok{,}\DecValTok{105}\NormalTok{,}\DecValTok{88}\NormalTok{,}\DecValTok{101}\NormalTok{,}\DecValTok{100}\NormalTok{,}
+           \DecValTok{104}\NormalTok{,}\DecValTok{100}\NormalTok{,}\DecValTok{100}\NormalTok{,}\DecValTok{100}\NormalTok{,}\DecValTok{101}\NormalTok{,}\DecValTok{102}\NormalTok{,}\DecValTok{103}\NormalTok{,}\DecValTok{97}\NormalTok{,}\DecValTok{101}\NormalTok{,}
+           \DecValTok{101}\NormalTok{,}\DecValTok{100}\NormalTok{,}\DecValTok{101}\NormalTok{,}\DecValTok{99}\NormalTok{,}\DecValTok{101}\NormalTok{,}\DecValTok{100}\NormalTok{,}\DecValTok{100}\NormalTok{,}
+           \DecValTok{101}\NormalTok{,}\DecValTok{100}\NormalTok{,}\DecValTok{99}\NormalTok{,}\DecValTok{101}\NormalTok{,}\DecValTok{100}\NormalTok{,}\DecValTok{102}\NormalTok{,}\DecValTok{99}\NormalTok{,}\DecValTok{100}\NormalTok{,}\DecValTok{99}\NormalTok{)}
+
+\NormalTok{model=mcmc.BESTModel(drug,placebo)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{model.run_mcmc()}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Running MCMC...
+Done.
+5.80 s
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{model.names}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+['mu1', 'mu2', 'sigma1', 'sigma2', 'nu']
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{model.plot_chains(}\StringTok{'mu1'}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{output_4_0.png}
+\caption{png}
+\end{figure}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{model.plot_distribution(}\StringTok{'mu1'}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{output_5_0.png}
+\caption{png}
+\end{figure}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{model.plot_distribution(}\StringTok{'mu2'}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{output_6_0.png}
+\caption{png}
+\end{figure}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{model.plot_distribution(}\StringTok{r'$\textbackslash{}delta$=mu1-mu2'}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{output_7_0.png}
+\caption{png}
+\end{figure}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+
+\end{Highlighting}
+\end{Shaded}
+

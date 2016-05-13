@@ -126,18 +126,11 @@ which makes it {\em less likely} to rain on the weekend if the Sunday rain is co
 One way to think of it is that, although the probability of rain on Sunday is increased due to rain on Saturday, it is more likely that Saturday is not rainy.  In those cases, which are more frequent, Sunday is less likely to be rainy as well.  When the two days are independent, Sunday's rain is the same probability regardless of Saturday's weather.   When they are dependent, then the more often clear Saturday weather makes it a little less likely for the Sunday rain, and thus lowers the chance of weekend rain by a little bit.
 
 
-\section{Adding Dice}\example{
-What is the probability of the {\em sum} of two dice getting a particular value, say, 7?
-}
-
+\section{Adding Dice}
 \marginnote{
 \includegraphics[width=1in]{dice/Anonymous_two_red_dice}
 }
-
-
-In this case, we simply outline every single possibility, and count the fractions.  In a more complex case we may need to find a better method of counting, but the idea will be the same.
-
-We find immediately that the probability of getting a sum of 7 is the largest, because there are more arrangements of the two dice which yield a sum of 7 than for any other sum.\marginnote{
+\marginnote{
 All possible results from rolling two dice:
 
 \begin{tabular}{cl}
@@ -155,11 +148,24 @@ sum & (die 1,die 2) \\ \hline
 12 & (6,6)\\
 & (36 arrangments total) 
 \end{tabular}
-\includegraphics[width=2.2in]{sumdice2}
 }
 
+
+\example{
+What is the probability of the {\em sum} of two dice getting a particular value, say, 7?
+}
+
+
+
+In this case, we simply outline every single possibility, and count the fractions.  In a more complex case we may need to find a better method of counting, but the idea will be the same.
+
+We find immediately that the probability of getting a sum of 7 is the largest, because there are more arrangements of the two dice which yield a sum of 7 than for any other sum.
   Each probability of a particular sum is just the number of arrangements to get that particular sum divided by the total number of arrangements of a two dice (i.e. 36). 
   
+\pagebreak
+\marginnote{
+\includegraphics[width=2.2in]{sumdice2}
+}
 \begin{tabular}{cc}
 \begin{minipage}{2in}
 \beqn

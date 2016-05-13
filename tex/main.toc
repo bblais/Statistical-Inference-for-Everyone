@@ -1,173 +1,180 @@
-\contentsline {chapter}{Proposal}{25}{chapter*.6}
-\contentsline {chapter}{\numberline {1}Introduction to Probability}{29}{chapter.1}
-\contentsline {section}{\numberline {1.1}Models and Data}{30}{section.1.1}
-\contentsline {section}{\numberline {1.2}What is Probability?}{31}{section.1.2}
-\contentsline {subsection}{Card Game}{32}{subsection*.7}
-\contentsline {subsection}{Other Observations}{34}{subsection*.8}
-\contentsline {section}{\numberline {1.3}Conditional Probability}{35}{section.1.3}
-\contentsline {subsection}{Probability Notation}{35}{subsection*.9}
-\contentsline {section}{\numberline {1.4}Rules of Probability}{36}{section.1.4}
-\contentsline {subsection}{Negation Rule}{37}{subsection*.10}
-\contentsline {subsection}{Product Rule}{38}{subsection*.11}
-\contentsline {subsection}{Independence}{39}{subsection*.12}
-\contentsline {subsection}{Conjunction}{39}{subsection*.13}
-\contentsline {subsection}{Sum Rule}{41}{subsection*.14}
-\contentsline {subsection}{Marginalization}{42}{subsection*.15}
-\contentsline {subsection}{Bayes' Rule}{43}{subsection*.16}
-\contentsline {section}{\numberline {1.5}Venn Mnemonic for the Rules of Probability}{45}{section.1.5}
-\contentsline {section}{\numberline {1.6}Lessons from Bayes' Rule - A First Look}{46}{section.1.6}
-\contentsline {chapter}{\numberline {2}Applications of Probability}{49}{chapter.2}
-\contentsline {section}{\numberline {2.1}Cancer and Probability}{49}{section.2.1}
-\contentsline {section}{\numberline {2.2}Weather}{51}{section.2.2}
-\contentsline {subsection}{First Solution - Independence}{51}{subsection*.17}
-\contentsline {subsection}{Second Solution - Correlation}{51}{subsection*.18}
-\contentsline {section}{\numberline {2.3}Adding Dice}{52}{section.2.3}
-\contentsline {section}{\numberline {2.4}The Birthday Problem}{53}{section.2.4}
-\contentsline {subsection}{Two People on April 3}{54}{subsection*.19}
-\contentsline {subsection}{Two People}{54}{subsection*.20}
-\contentsline {subsection}{Three People}{55}{subsection*.21}
-\contentsline {subsection}{Two People...Out of Three}{56}{subsection*.22}
-\contentsline {subsection}{Two People...Out of Thirty}{58}{subsection*.23}
-\contentsline {section}{\numberline {2.5}The Lottery Problem or Rare Things Are Common}{58}{section.2.5}
-\contentsline {section}{\numberline {2.6}Monte Hall Problem}{60}{section.2.6}
-\contentsline {subsection}{Two Doors with Information}{61}{subsection*.24}
-\contentsline {subsection}{Three Doors with Information}{61}{subsection*.25}
-\contentsline {subsection}{Three Doors Down To Two}{62}{subsection*.26}
-\contentsline {section}{\numberline {2.7}Exercises}{62}{section.2.7}
-\contentsline {section}{\numberline {2.8}Some Philosophical Applications}{63}{section.2.8}
-\contentsline {subsection}{Doctors' Claims - English Language and Probability}{63}{subsection*.27}
-\contentsline {subsection}{Diverging Opinions}{64}{subsection*.28}
-\contentsline {subsection}{A problem of independence}{65}{subsection*.29}
-\contentsline {subsection}{Another problem with independence}{67}{subsection*.30}
-\contentsline {subsection}{Prosecutor's Fallacy}{68}{subsection*.31}
-\contentsline {section}{\numberline {2.9}Computer Examples}{68}{section.2.9}
-\contentsline {subsection}{Coin Flips}{68}{subsection*.32}
-\contentsline {chapter}{\numberline {3}Random Sequences and Visualization}{71}{chapter.3}
-\contentsline {section}{\numberline {3.1}Coin Flipping}{71}{section.3.1}
-\contentsline {subsection}{Counting the Rearrangements}{74}{subsection*.33}
-\contentsline {subsection}{Sequences of Heads and Tails}{75}{subsection*.34}
-\contentsline {section}{\numberline {3.2}Binomial Distribution}{78}{section.3.2}
-\contentsline {section}{\numberline {3.3}Some Philosophical Applications}{78}{section.3.3}
-\contentsline {subsection}{Streaks}{78}{subsection*.35}
-\contentsline {subsection}{Gambler's Fallacy}{79}{subsection*.36}
-\contentsline {subsection}{The Hot Hand - Correlations in Random Sequences}{80}{subsection*.37}
-\contentsline {subsection}{Regression Toward the Mean}{81}{subsection*.38}
-\contentsline {section}{\numberline {3.4}Visualization of Data}{83}{section.3.4}
-\contentsline {subsection}{Histograms}{84}{subsection*.39}
-\contentsline {paragraph}{Too Few Bins}{85}{paragraph*.40}
-\contentsline {paragraph}{Too Many Bins}{86}{paragraph*.41}
-\contentsline {subsection}{Scatter Plots}{86}{subsection*.42}
-\contentsline {section}{\numberline {3.5}Computer Examples}{88}{section.3.5}
-\contentsline {subsection}{Histograms}{88}{subsection*.43}
-\contentsline {subsection}{Scatter Plot}{88}{subsection*.44}
-\contentsline {chapter}{\numberline {4}Introduction to Model Comparison}{91}{chapter.4}
-\contentsline {section}{\numberline {4.1}The High/Low Deck Game}{91}{section.4.1}
-\contentsline {subsection}{What does our intuition say?}{91}{subsection*.45}
-\contentsline {subsection}{Before the data - the prior}{93}{subsection*.46}
-\contentsline {subsection}{The ``easy'' question - the likelihood}{93}{subsection*.47}
-\contentsline {subsection}{Applying the Bayes' recipe}{94}{subsection*.48}
-\contentsline {subsection}{Drawing the next card}{95}{subsection*.49}
-\contentsline {subsection}{Prior information or not?}{96}{subsection*.50}
-\contentsline {section}{\numberline {4.2}Multiple Hypotheses}{98}{section.4.2}
-\contentsline {chapter}{\numberline {5}Applications of Model Comparison}{105}{chapter.5}
-\contentsline {section}{\numberline {5.1}Disease Testing}{105}{section.5.1}
-\contentsline {subsection}{Consequences}{107}{subsection*.51}
-\contentsline {section}{\numberline {5.2}Monty Hall Problem}{108}{section.5.2}
-\contentsline {section}{\numberline {5.3}Psychic Octopi}{110}{section.5.3}
-\contentsline {subsection}{Making a Well Posed Problem}{111}{subsection*.52}
-\contentsline {subsection}{The First Model Comparison}{111}{subsection*.53}
-\contentsline {subsection}{Furthering the Comparison}{112}{subsection*.54}
-\contentsline {chapter}{\numberline {6}Introduction to Parameter Estimation}{115}{chapter.6}
-\contentsline {section}{\numberline {6.1}Bent Coins}{115}{section.6.1}
-\contentsline {section}{\numberline {6.2}Priors versus Data}{118}{section.6.2}
-\contentsline {section}{\numberline {6.3}Moving Toward the Continuous}{119}{section.6.3}
-\contentsline {section}{\numberline {6.4}MAP and Areas}{121}{section.6.4}
-\contentsline {section}{\numberline {6.5}Quartiles}{123}{section.6.5}
-\contentsline {section}{\numberline {6.6}Best Estimates}{125}{section.6.6}
-\contentsline {section}{\numberline {6.7}Uncertainty in the Best Estimates}{127}{section.6.7}
-\contentsline {section}{\numberline {6.8}Marginalization}{128}{section.6.8}
-\contentsline {section}{\numberline {6.9}Exercises}{128}{section.6.9}
-\contentsline {section}{\numberline {6.10}Computer Examples}{129}{section.6.10}
-\contentsline {subsection}{Beta Distribution Example}{129}{subsection*.55}
-\contentsline {paragraph}{3 heads and 9 tails}{129}{paragraph*.56}
-\contentsline {paragraph}{1 heads and 3 tails}{130}{paragraph*.57}
-\contentsline {chapter}{\numberline {7}Priors, Likelihoods, and Posteriors}{133}{chapter.7}
-\contentsline {section}{\numberline {7.1}Binomial and Beta Distributions}{133}{section.7.1}
-\contentsline {section}{\numberline {7.2}The Normal Distribution - Properties}{134}{section.7.2}
-\contentsline {subsection}{The Shape}{134}{subsection*.58}
-\contentsline {subsection}{The location parameter, $\mu $}{135}{subsection*.59}
-\contentsline {subsection}{The deviation parameter, $\sigma $}{135}{subsection*.60}
-\contentsline {subsection}{Summarizing the Distribution}{136}{subsection*.61}
-\contentsline {subsection}{Moving from a General Normal to the Standard Normal and Back}{136}{subsection*.62}
-\contentsline {subsection}{Sum and Differences}{138}{subsection*.63}
-\contentsline {section}{\numberline {7.3}The Normal Distribution - Estimating From Data}{140}{section.7.3}
-\contentsline {subsection}{Estimating the mean, $\mu $, knowing the deviation, $\sigma $}{140}{subsection*.64}
-\contentsline {subsection}{Estimating the mean, $\mu $, \emph {not} knowing the deviation, $\sigma $}{142}{subsection*.65}
-\contentsline {section}{\numberline {7.4}Normal Approximation}{143}{section.7.4}
-\contentsline {subsection}{The Beta Distribution}{143}{subsection*.66}
-\contentsline {subsection}{The Binomial Distribution}{145}{subsection*.67}
-\contentsline {subsection}{The Student's $t$ Distribution}{146}{subsection*.68}
-\contentsline {section}{\numberline {7.5}Summary}{148}{section.7.5}
-\contentsline {section}{\numberline {7.6}Computer Examples}{149}{section.7.6}
-\contentsline {subsection}{Estimating Lengths}{149}{subsection*.69}
-\contentsline {paragraph}{Known deviation, $\sigma $}{149}{paragraph*.70}
-\contentsline {paragraph}{Unknown $\sigma $}{150}{paragraph*.71}
-\contentsline {chapter}{\numberline {8}Common Statistical Significance Tests}{153}{chapter.8}
-\contentsline {section}{\numberline {8.1}$z$-test}{153}{section.8.1}
-\contentsline {section}{\numberline {8.2}What it means and doesn't mean}{155}{section.8.2}
-\contentsline {subsection}{Significance}{155}{subsection*.72}
-\contentsline {paragraph}{An unintuitive consequence}{156}{paragraph*.73}
-\contentsline {section}{\numberline {8.3}Student-$t$-test}{156}{section.8.3}
-\contentsline {section}{\numberline {8.4}Computer Examples}{157}{section.8.4}
-\contentsline {chapter}{\numberline {9}Applications of Parameter Estimation and Inference}{159}{chapter.9}
-\contentsline {section}{\numberline {9.1}Normal Model - Inference about Means}{159}{section.9.1}
-\contentsline {section}{\numberline {9.2}Normal Model Again - Inference about Means and Deviations}{160}{section.9.2}
-\contentsline {section}{\numberline {9.3}Beta Model - Inference About Proportions}{164}{section.9.3}
-\contentsline {section}{\numberline {9.4}Model Construction}{167}{section.9.4}
-\contentsline {paragraph}{Overlapping Intervals}{173}{paragraph*.74}
-\contentsline {paragraph}{Is the Difference Zero?}{174}{paragraph*.75}
-\contentsline {section}{\numberline {9.5}Computer Examples}{174}{section.9.5}
-\contentsline {subsection}{Iris Example}{175}{subsection*.76}
-\contentsline {subsection}{Sunrise}{177}{subsection*.77}
-\contentsline {subsection}{Cancer Example}{178}{subsection*.78}
-\contentsline {subsection}{Pennies}{179}{subsection*.79}
-\contentsline {paragraph}{Do the 2 datasets}{181}{paragraph*.80}
-\contentsline {paragraph}{Distribution of the difference, normal approximation}{183}{paragraph*.81}
-\contentsline {subsection}{Ball Bearing Sizes}{184}{subsection*.82}
-\contentsline {chapter}{\numberline {10}Multi-parameter Models}{187}{chapter.10}
-\contentsline {section}{\numberline {10.1}Simple Linear Regression}{187}{section.10.1}
-\contentsline {subsection}{Mean Squared Error}{189}{subsection*.83}
-\contentsline {subsection}{An Educational Example}{191}{subsection*.84}
-\contentsline {section}{\numberline {10.2}Multiple regression}{193}{section.10.2}
-\contentsline {section}{\numberline {10.3}Computer Examples}{196}{section.10.3}
-\contentsline {chapter}{\numberline {11}Concluding Thoughts}{205}{chapter.11}
-\contentsline {section}{\numberline {11.1}Where have we come?}{205}{section.11.1}
-\contentsline {section}{\numberline {11.2}Where are we going?}{206}{section.11.2}
-\contentsline {chapter}{Bibliography}{207}{chapter*.85}
+\contentsline {chapter}{Proposal}{29}{chapter*.6}
+\contentsline {chapter}{\numberline {1}Introduction to Probability}{33}{chapter.1}
+\contentsline {section}{\numberline {1.1}Models and Data}{34}{section.1.1}
+\contentsline {section}{\numberline {1.2}What is Probability?}{35}{section.1.2}
+\contentsline {subsection}{Card Game}{36}{subsection*.7}
+\contentsline {subsection}{Other Observations}{38}{subsection*.8}
+\contentsline {section}{\numberline {1.3}Conditional Probability}{39}{section.1.3}
+\contentsline {subsection}{Probability Notation}{39}{subsection*.9}
+\contentsline {section}{\numberline {1.4}Rules of Probability}{40}{section.1.4}
+\contentsline {subsection}{Negation Rule}{41}{subsection*.10}
+\contentsline {subsection}{Product Rule}{42}{subsection*.11}
+\contentsline {subsection}{Independence}{43}{subsection*.12}
+\contentsline {subsection}{Conjunction}{43}{subsection*.13}
+\contentsline {subsection}{Sum Rule}{45}{subsection*.14}
+\contentsline {subsection}{Marginalization}{46}{subsection*.15}
+\contentsline {subsection}{Bayes' Rule}{47}{subsection*.16}
+\contentsline {section}{\numberline {1.5}Venn Mnemonic for the Rules of Probability}{49}{section.1.5}
+\contentsline {section}{\numberline {1.6}Lessons from Bayes' Rule - A First Look}{50}{section.1.6}
+\contentsline {chapter}{\numberline {2}Applications of Probability}{53}{chapter.2}
+\contentsline {section}{\numberline {2.1}Cancer and Probability}{53}{section.2.1}
+\contentsline {section}{\numberline {2.2}Weather}{55}{section.2.2}
+\contentsline {subsection}{First Solution - Independence}{55}{subsection*.17}
+\contentsline {subsection}{Second Solution - Correlation}{55}{subsection*.18}
+\contentsline {section}{\numberline {2.3}Adding Dice}{56}{section.2.3}
+\contentsline {section}{\numberline {2.4}The Birthday Problem}{58}{section.2.4}
+\contentsline {subsection}{Two People on April 3}{58}{subsection*.19}
+\contentsline {subsection}{Two People}{58}{subsection*.20}
+\contentsline {subsection}{Three People}{59}{subsection*.21}
+\contentsline {subsection}{Two People...Out of Three}{60}{subsection*.22}
+\contentsline {subsection}{Two People...Out of Thirty}{62}{subsection*.23}
+\contentsline {section}{\numberline {2.5}The Lottery Problem or Rare Things Are Common}{62}{section.2.5}
+\contentsline {section}{\numberline {2.6}Monte Hall Problem}{64}{section.2.6}
+\contentsline {subsection}{Two Doors with Information}{65}{subsection*.24}
+\contentsline {subsection}{Three Doors with Information}{65}{subsection*.25}
+\contentsline {subsection}{Three Doors Down To Two}{66}{subsection*.26}
+\contentsline {section}{\numberline {2.7}Exercises}{66}{section.2.7}
+\contentsline {section}{\numberline {2.8}Some Philosophical Applications}{67}{section.2.8}
+\contentsline {subsection}{Doctors' Claims - English Language and Probability}{67}{subsection*.27}
+\contentsline {subsection}{Diverging Opinions}{68}{subsection*.28}
+\contentsline {subsection}{A problem of independence}{69}{subsection*.29}
+\contentsline {subsection}{Another problem with independence}{71}{subsection*.30}
+\contentsline {subsection}{Prosecutor's Fallacy}{72}{subsection*.31}
+\contentsline {section}{\numberline {2.9}Computer Examples}{72}{section.2.9}
+\contentsline {subsection}{Coin Flips}{72}{subsection*.32}
+\contentsline {chapter}{\numberline {3}Random Sequences and Visualization}{75}{chapter.3}
+\contentsline {section}{\numberline {3.1}Coin Flipping}{75}{section.3.1}
+\contentsline {subsection}{Counting the Rearrangements}{78}{subsection*.33}
+\contentsline {subsection}{Sequences of Heads and Tails}{79}{subsection*.34}
+\contentsline {section}{\numberline {3.2}Binomial Distribution}{82}{section.3.2}
+\contentsline {section}{\numberline {3.3}Some Philosophical Applications}{82}{section.3.3}
+\contentsline {subsection}{Streaks}{82}{subsection*.35}
+\contentsline {subsection}{Gambler's Fallacy}{83}{subsection*.36}
+\contentsline {subsection}{The Hot Hand - Correlations in Random Sequences}{84}{subsection*.37}
+\contentsline {subsection}{Regression Toward the Mean}{85}{subsection*.38}
+\contentsline {section}{\numberline {3.4}Visualization of Data}{87}{section.3.4}
+\contentsline {subsection}{Histograms}{87}{subsection*.39}
+\contentsline {paragraph}{Too Few Bins}{89}{paragraph*.40}
+\contentsline {paragraph}{Too Many Bins}{90}{paragraph*.41}
+\contentsline {subsection}{Scatter Plots}{90}{subsection*.42}
+\contentsline {section}{\numberline {3.5}Computer Examples}{92}{section.3.5}
+\contentsline {subsection}{Histograms}{92}{subsection*.43}
+\contentsline {subsection}{Scatter Plot}{92}{subsection*.44}
+\contentsline {chapter}{\numberline {4}Introduction to Model Comparison}{95}{chapter.4}
+\contentsline {section}{\numberline {4.1}The High/Low Deck Game}{95}{section.4.1}
+\contentsline {subsection}{What does our intuition say?}{95}{subsection*.45}
+\contentsline {subsection}{Before the data - the prior}{97}{subsection*.46}
+\contentsline {subsection}{The ``easy'' question - the likelihood}{97}{subsection*.47}
+\contentsline {subsection}{Applying the Bayes' recipe}{98}{subsection*.48}
+\contentsline {subsection}{Drawing the next card}{99}{subsection*.49}
+\contentsline {subsection}{Prior information or not?}{100}{subsection*.50}
+\contentsline {section}{\numberline {4.2}Multiple Hypotheses}{102}{section.4.2}
+\contentsline {chapter}{\numberline {5}Applications of Model Comparison}{109}{chapter.5}
+\contentsline {section}{\numberline {5.1}Disease Testing}{109}{section.5.1}
+\contentsline {subsection}{Consequences}{111}{subsection*.51}
+\contentsline {section}{\numberline {5.2}M\&M's}{112}{section.5.2}
+\contentsline {subsection}{Updating with other data}{113}{subsection*.52}
+\contentsline {section}{\numberline {5.3}Psychic Octopi}{114}{section.5.3}
+\contentsline {subsection}{Making a Well Posed Problem}{114}{subsection*.53}
+\contentsline {subsection}{The First Model Comparison}{116}{subsection*.54}
+\contentsline {subsection}{Furthering the Comparison}{117}{subsection*.55}
+\contentsline {section}{\numberline {5.4}Monty Hall Problem}{117}{section.5.4}
+\contentsline {chapter}{\numberline {6}Introduction to Parameter Estimation}{121}{chapter.6}
+\contentsline {section}{\numberline {6.1}Bent Coins}{121}{section.6.1}
+\contentsline {section}{\numberline {6.2}Priors versus Data}{124}{section.6.2}
+\contentsline {section}{\numberline {6.3}Moving Toward the Continuous}{125}{section.6.3}
+\contentsline {section}{\numberline {6.4}MAP and Areas}{127}{section.6.4}
+\contentsline {section}{\numberline {6.5}Quartiles}{129}{section.6.5}
+\contentsline {section}{\numberline {6.6}Best Estimates}{131}{section.6.6}
+\contentsline {section}{\numberline {6.7}Uncertainty in the Best Estimates}{133}{section.6.7}
+\contentsline {section}{\numberline {6.8}Marginalization}{134}{section.6.8}
+\contentsline {section}{\numberline {6.9}Exercises}{134}{section.6.9}
+\contentsline {section}{\numberline {6.10}Computer Examples}{135}{section.6.10}
+\contentsline {subsection}{Beta Distribution Example}{135}{subsection*.56}
+\contentsline {paragraph}{3 heads and 9 tails}{135}{paragraph*.57}
+\contentsline {paragraph}{1 heads and 3 tails}{136}{paragraph*.58}
+\contentsline {chapter}{\numberline {7}Priors, Likelihoods, and Posteriors}{139}{chapter.7}
+\contentsline {section}{\numberline {7.1}Binomial and Beta Distributions}{139}{section.7.1}
+\contentsline {section}{\numberline {7.2}The Normal Distribution - Properties}{140}{section.7.2}
+\contentsline {subsection}{The Shape}{140}{subsection*.59}
+\contentsline {subsection}{The location parameter, $\mu $}{141}{subsection*.60}
+\contentsline {subsection}{The deviation parameter, $\sigma $}{141}{subsection*.61}
+\contentsline {subsection}{Summarizing the Distribution}{142}{subsection*.62}
+\contentsline {subsection}{Moving from a General Normal to the Standard Normal and Back}{142}{subsection*.63}
+\contentsline {subsection}{Sum and Differences}{144}{subsection*.64}
+\contentsline {section}{\numberline {7.3}The Normal Distribution - Estimating From Data}{146}{section.7.3}
+\contentsline {subsection}{Estimating the mean, $\mu $, knowing the deviation, $\sigma $}{146}{subsection*.65}
+\contentsline {subsection}{Estimating the mean, $\mu $, \emph {not} knowing the deviation, $\sigma $}{148}{subsection*.66}
+\contentsline {section}{\numberline {7.4}Normal Approximation}{149}{section.7.4}
+\contentsline {subsection}{The Beta Distribution}{149}{subsection*.67}
+\contentsline {subsection}{The Binomial Distribution}{151}{subsection*.68}
+\contentsline {subsection}{The Student's $t$ Distribution}{152}{subsection*.69}
+\contentsline {section}{\numberline {7.5}Summary}{154}{section.7.5}
+\contentsline {section}{\numberline {7.6}Computer Examples}{155}{section.7.6}
+\contentsline {subsection}{Estimating Lengths}{155}{subsection*.70}
+\contentsline {paragraph}{Known deviation, $\sigma $}{155}{paragraph*.71}
+\contentsline {paragraph}{Unknown $\sigma $}{156}{paragraph*.72}
+\contentsline {chapter}{\numberline {8}Common Statistical Significance Tests}{159}{chapter.8}
+\contentsline {section}{\numberline {8.1}$z$-test}{159}{section.8.1}
+\contentsline {section}{\numberline {8.2}What it means and doesn't mean}{161}{section.8.2}
+\contentsline {subsection}{Significance}{161}{subsection*.73}
+\contentsline {paragraph}{An unintuitive consequence}{162}{paragraph*.74}
+\contentsline {section}{\numberline {8.3}Student-$t$-test}{162}{section.8.3}
+\contentsline {section}{\numberline {8.4}Computer Examples}{163}{section.8.4}
+\contentsline {chapter}{\numberline {9}Applications of Parameter Estimation and Inference}{165}{chapter.9}
+\contentsline {section}{\numberline {9.1}Normal Model - Inference about Means}{165}{section.9.1}
+\contentsline {section}{\numberline {9.2}Normal Model Again - Inference about Means and Deviations}{166}{section.9.2}
+\contentsline {section}{\numberline {9.3}Beta Model - Inference About Proportions}{170}{section.9.3}
+\contentsline {section}{\numberline {9.4}Model Construction}{173}{section.9.4}
+\contentsline {paragraph}{Overlapping Intervals}{179}{paragraph*.75}
+\contentsline {paragraph}{Is the Difference Zero?}{180}{paragraph*.76}
+\contentsline {section}{\numberline {9.5}Computer Examples}{180}{section.9.5}
+\contentsline {subsection}{Iris Example}{181}{subsection*.77}
+\contentsline {subsection}{Sunrise}{183}{subsection*.78}
+\contentsline {subsection}{Cancer Example}{184}{subsection*.79}
+\contentsline {subsection}{Pennies}{185}{subsection*.80}
+\contentsline {paragraph}{Do the 2 datasets}{187}{paragraph*.81}
+\contentsline {paragraph}{Distribution of the difference, normal approximation}{189}{paragraph*.82}
+\contentsline {subsection}{Ball Bearing Sizes}{190}{subsection*.83}
+\contentsline {chapter}{\numberline {10}Multi-parameter Models}{193}{chapter.10}
+\contentsline {section}{\numberline {10.1}Simple Linear Regression}{193}{section.10.1}
+\contentsline {subsection}{Mean Squared Error}{195}{subsection*.84}
+\contentsline {subsection}{An Educational Example}{197}{subsection*.85}
+\contentsline {section}{\numberline {10.2}Multiple regression}{199}{section.10.2}
+\contentsline {section}{\numberline {10.3}Computer Examples}{202}{section.10.3}
+\contentsline {chapter}{\numberline {11}Introduction to MCMC}{211}{chapter.11}
+\contentsline {section}{\numberline {11.1}One-Dimensional Models}{211}{section.11.1}
+\contentsline {subsection}{Reading the Output}{212}{subsection*.86}
+\contentsline {section}{\numberline {11.2}Multi-Dimensional Models}{213}{section.11.2}
+\contentsline {section}{\numberline {11.3}Hierarchical Model Example - Kruschke BEST Test}{215}{section.11.3}
+\contentsline {chapter}{\numberline {12}Concluding Thoughts}{219}{chapter.12}
+\contentsline {section}{\numberline {12.1}Where have we come?}{219}{section.12.1}
+\contentsline {section}{\numberline {12.2}Where are we going?}{220}{section.12.2}
+\contentsline {chapter}{Bibliography}{221}{chapter*.87}
 \ttl@change@i {\@ne }{chapter}{0em}{\vspace {1.5\baselineskip }\begin {fullwidth}\LARGE \rmfamily \itshape }{\hspace *{0em}\appendixname ~\thecontentslabel : }{\hspace *{0em}}{\rmfamily \upshape \qquad \thecontentspage }\relax 
 \ttl@change@v {chapter}{}{}{\end {fullwidth}}\relax 
-\contentsline {chapter}{\numberline {A}Computational Analysis}{209}{appendix.A}
-\contentsline {chapter}{\numberline {B}Notation and Standards}{211}{appendix.B}
-\contentsline {section}{\numberline {B.1}Useful Greek Letters}{211}{section.B.1}
-\contentsline {section}{\numberline {B.2}Some Math Notation}{211}{section.B.2}
-\contentsline {subsection}{Variables}{211}{subsection*.86}
-\contentsline {subsection}{Sums}{212}{subsection*.87}
-\contentsline {subsection}{Products}{212}{subsection*.88}
-\contentsline {subsection}{Sample Mean}{212}{subsection*.89}
-\contentsline {subsection}{Sample Standard Deviation}{213}{subsection*.90}
-\contentsline {subsection}{Estimates}{213}{subsection*.91}
-\contentsline {subsection}{Factorials}{213}{subsection*.92}
-\contentsline {section}{\numberline {B.3}Qualitative labels to probability values}{213}{section.B.3}
-\contentsline {chapter}{\numberline {C}Common Distributions and Their Properties}{215}{appendix.C}
-\contentsline {section}{\numberline {C.1}Discrete and Continuous}{215}{section.C.1}
-\contentsline {section}{\numberline {C.2}Uniform}{215}{section.C.2}
-\contentsline {subsection}{Discrete}{215}{subsection*.93}
-\contentsline {subsection}{Continuous}{215}{subsection*.94}
-\contentsline {section}{\numberline {C.3}Binomial}{218}{section.C.3}
-\contentsline {section}{\numberline {C.4}Beta}{218}{section.C.4}
-\contentsline {section}{\numberline {C.5}Normal (Gaussian)}{219}{section.C.5}
-\contentsline {chapter}{\numberline {D}Tables}{221}{appendix.D}
-\contentsline {section}{\numberline {D.1}Credible Intervals for Standard Normal Distribution}{221}{section.D.1}
-\contentsline {section}{\numberline {D.2}Credible Intervals for Student's $t$ Distribution}{222}{section.D.2}
-\contentsline {section}{\numberline {D.3}Cumulative Standard Normal Distribution}{224}{section.D.3}
+\contentsline {chapter}{\numberline {A}Computational Analysis}{223}{appendix.A}
+\contentsline {chapter}{\numberline {B}Notation and Standards}{225}{appendix.B}
+\contentsline {section}{\numberline {B.1}Useful Greek Letters}{225}{section.B.1}
+\contentsline {section}{\numberline {B.2}Some Math Notation}{225}{section.B.2}
+\contentsline {subsection}{Variables}{225}{subsection*.88}
+\contentsline {subsection}{Sums}{226}{subsection*.89}
+\contentsline {subsection}{Products}{226}{subsection*.90}
+\contentsline {subsection}{Sample Mean}{226}{subsection*.91}
+\contentsline {subsection}{Sample Standard Deviation}{227}{subsection*.92}
+\contentsline {subsection}{Estimates}{227}{subsection*.93}
+\contentsline {subsection}{Factorials}{227}{subsection*.94}
+\contentsline {section}{\numberline {B.3}Qualitative labels to probability values}{227}{section.B.3}
+\contentsline {chapter}{\numberline {C}Common Distributions and Their Properties}{229}{appendix.C}
+\contentsline {section}{\numberline {C.1}Discrete and Continuous}{229}{section.C.1}
+\contentsline {section}{\numberline {C.2}Uniform}{229}{section.C.2}
+\contentsline {subsection}{Discrete}{229}{subsection*.95}
+\contentsline {subsection}{Continuous}{229}{subsection*.96}
+\contentsline {section}{\numberline {C.3}Binomial}{232}{section.C.3}
+\contentsline {section}{\numberline {C.4}Beta}{232}{section.C.4}
+\contentsline {section}{\numberline {C.5}Normal (Gaussian)}{233}{section.C.5}
+\contentsline {chapter}{\numberline {D}Tables}{235}{appendix.D}
+\contentsline {section}{\numberline {D.1}Credible Intervals for Standard Normal Distribution}{235}{section.D.1}
+\contentsline {section}{\numberline {D.2}Credible Intervals for Student's $t$ Distribution}{236}{section.D.2}
+\contentsline {section}{\numberline {D.3}Cumulative Standard Normal Distribution}{238}{section.D.3}
 \contentsfinish 

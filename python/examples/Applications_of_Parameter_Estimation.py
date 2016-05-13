@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[32]:
+# In[1]:
 
 from sie import *
 
@@ -64,14 +64,14 @@ print "best estimate:",mu
 print "uncertainty:",sigma
 
 
-# In[8]:
-
-distplot2([t_sertosa,t_versicolor,t_virginica],show_quartiles=False)
-
-
 # In[9]:
 
 distplot(t_virginica)
+
+
+# In[8]:
+
+distplot2([t_sertosa,t_versicolor,t_virginica],show_quartiles=False)
 
 
 # In[10]:
@@ -85,6 +85,13 @@ credible_interval(t_virginica)
 
 
 # ## Sunrise
+
+# In[ ]:
+
+from sie import *
+
+
+# If you knew nothing about sunrises, and watched a year of them, what is the probability of another one tomorrow?
 
 # In[12]:
 
@@ -260,6 +267,31 @@ dist1=normal(mu1,sigma1)
 dist2=normal(mu2,sigma2)
 distplot2([dist1,dist2],show_quartiles=False,label='size [microns]')
 legend([r'$\mu_1$',r'$\mu_2$'])
+
+
+# In[ ]:
+
+
+
+
+# In[ ]:
+
+
+
+
+# In[ ]:
+
+
+
+
+# In[ ]:
+
+
+
+
+# In[ ]:
+
+
 
 
 # In[ ]:

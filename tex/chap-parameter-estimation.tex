@@ -36,7 +36,7 @@ Coin Number & Probability for Flipping Heads ($\P{heads}$) \\ \hline\hline
 
 Now I have the following scenario\cite{Lindley76}, with a few questions.
 \begin{quote}
-Imagine I have taken a random coin from my collection, flipped it and got the following data:
+Imagine I have taken a random coin from my collection, flipped it and observed the following data:
 \begin{center}
 T T T H T H T T T T T H (i.e. 9 tails and 3 heads)
 \end{center}
@@ -122,7 +122,7 @@ which says that this coin is ``likely'' to ``very likely'' (Table~\ref{table1} o
 
 \section{Priors versus Data}
 
-It is instructive to pause and look at this example one flip at a time, to see how the probability and thus our state of knowledge adjusts as we collect more data.  In Figure~\ref{fig:bentcoinprobs2} we see the result of our procedure when there is no data (i.e. our initial, prior probabilities) and when we've flipped once and then again, both times tails.  The curve for no data is the same as the prior probability, and in this case all models are equally likely.  When the first tails is observed, the model which states that heads are {\em certain} (i.e. coin 10) goes to zero probability because coin 10 \emph{cannot} flip tails.\footnote{Notice that the only models with probability equal to zero are ones that are \emph{logically impossible}.  It's not the colloquial usage of impossible, as in ``it is impossible for the Red Sox to win this year,'' but in the strict usage, as in ``it is impossible to flip both heads and tails at the same time.''  The reason this is the case is that a statement with zero probability cannot be made possible with \emph{any about of data} - it is an utterly \emph{dogmatic} statement.  Thus, we reserve it only for things that are \emph{logically impossible}.
+It is instructive to pause and look at this example one flip at a time, to see how the probability and thus our state of knowledge adjusts as we collect more data.  In Figure~\ref{fig:bentcoinprobs2} we see the result of our procedure when there is no data (i.e. our initial, prior probabilities) and when we've flipped once and then again, both times tails.  The curve for ``no data'' is the same as the prior probability, and in this case all models are equally likely.  When the first tails is observed, the model which states that heads are {\em certain} (i.e. coin 10) goes to zero probability because coin 10 \emph{cannot} flip tails.\footnote{Notice that the only models with probability equal to zero are ones that are \emph{logically impossible}.  It's not the colloquial usage of impossible, as in ``it is impossible for the Red Sox to win this year,'' but in the strict usage, as in ``it is impossible to flip both heads and tails at the same time.''  The reason this is the case is that a statement with zero probability cannot be made possible with \emph{any about of data} - it is an utterly \emph{dogmatic} statement.  Thus, we reserve it only for things that are \emph{logically impossible}.
 }.  At this point we {\em know} that it is {\em impossible} for us to be flipping coin 10.  We see also that the high-numbered coins (i.e. the ones with high probability of flipping heads) have greatly reduced probability while we've seen only tails.
 
 As more tails are observed, the probability for the lower models is increased.  As we flip more tails we become more confident in the lower-number models.  Because at this point we haven't flipped any heads, the model 0 still has non-zero probability - it is still possible that we are holding a coin that cannot flip heads.
@@ -228,7 +228,7 @@ T T T H T H T T T T T H (i.e. 9 tails and 3 heads)
 \label{fig:coin_12_3_posterior}
 \end{figure}
 
-One answer to the first question can be accomplished by looking at the {\em maximum} of the posterior distribution, shown in Figure~\ref{fig:coin_12_3_posterior}.\footnote{The maximum of the posterior distribution, which represents the most likely value of a quantity, is often referred to as the {\em MAP estimate}.  It is also commonly referred to as the {\em mode} of the distribution.}  By eye, it seems to have a maximum 0.25.  In fact one can demonstrate that this distribution has a maximum at 
+One answer to the first question can be accomplished by looking at the {\em maximum} of the posterior distribution, shown in Figure~\ref{fig:coin_12_3_posterior}.\footnote{The maximum of the posterior distribution, which represents the most likely value of a quantity, is often referred to as the {\em MAP estimate}.  It is also commonly referred to as the {\em mode} of the distribution.}  By eye, it seems to have a maximum at $\theta=0.25$.  In fact one can demonstrate that this distribution has a maximum at 
 \beqn
 \theta_{\rm max}=\frac{\mbox{number of successes}}{\mbox{total number of attempts}} \,,
 \eeqn
@@ -280,7 +280,7 @@ A table of these values for a distribution can be very useful.  For example, con
 \newpage
 \section{Best Estimates}\label{sec:bestest}
 
-Perhaps surprisingly, there is not a single answer to the best estimate for $\theta$ given the poster distribution, for example the one shown in Figure~\ref{fig:coin_12_3_posterior_quartiles}.  There are several plausible measures, each with their own advantages.  Any specific estimate of a parameter (e.g. $\theta$) is denoted with a hat (e.g. $\hat{\theta}$) in the descriptions that follow.
+Perhaps surprisingly, there is not a single answer to the best estimate for $\theta$ given the posterier distribution, like the one shown in Figure~\ref{fig:coin_12_3_posterior_quartiles}.  There are several plausible measures, each with their own advantages.  Any specific estimate of a parameter (e.g. $\theta$) is denoted with a hat (e.g. $\hat{\theta}$) in the descriptions that follow.
 
 \highlight{The Mode}{Also known as the \emph{maximum a-posteriori probability} (MAP) estimate, the \emph{mode} is the maximum of the posterior probability.   In the case of a Beta distribution with $h$ successes in $N$ trials, we have
 \beqn
