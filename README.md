@@ -16,8 +16,8 @@ For instructors who want to see a more technical justification for this approach
 If you have any suggestions or comments, please comment here, or email me directly!
 
 
-[latest version of the book]: https://drive.google.com/open?id=0B0pJ77HPErGWazAweUFZei1WZnM&authuser=0
-[latest version of the software]: https://drive.google.com/open?id=0B0pJ77HPErGWSXV2RU81REpPY1E&authuser=0
+[latest version of the book]: https://github.com/bblais/Statistical-Inference-for-Everyone
+[latest version of the software]: https://github.com/bblais/Statistical-Inference-for-Everyone/tree/master/python
 [Anaconda distribution]: https://store.continuum.io/cshop/anaconda/
 
 [now available on Amazon]: http://www.amazon.com/Statistical-Inference-Everyone-Brian-Blais/dp/1499715072
