@@ -367,16 +367,16 @@ When you have a group of 30 people, like students in a classroom, and you ask wh
 Many people find that their intuition suggests reasonably strongly that it would be less than 50\%.  We can now do this problem quite easily, and we find that our intuition does not match.\marginnote{We've often used our intuition to verify the result, but now we've reached a state where the problems get subtle enough that our intuition fails.  It is good to use ones' intuition on the ``easy'' problems, but now that we've established the process we can tackle problems where our intuition is not good enough to confirm a result.}  Following the same procedure as with 3 people, we imagine each person ``choosing'' their birthday with a dwindling selection as we go on to avoid ``choosing'' one that has already been taken.  The probability that no one in the room has the same birthday as any other is
 
 \beqn
-P(\mbox{none the same in 30 people}) &=& \underbrace{\frac{365}{365}\times\frac{364}{365}\times \frac{363}{365}\times\cdot\times\frac{335}{365}}_{\mbox{30 terms}}\\
-&=&0.27
+P(\mbox{none the same in 30 people}) &=& \underbrace{\frac{365}{365}\times\frac{364}{365}\times \frac{363}{365}\times\cdot\times\frac{336}{365}}_{\mbox{30 terms}}\\
+&=&0.29
 \eeqn
 
 So the probability of having at least 2 people in the room having the same birthday is
 \beqn
-P\left(\parbox{.9in}{at least 2 the same in 30 people}\right) &=& 1-0.27\\
-&=&0.73
+P\left(\parbox{.9in}{at least 2 the same in 30 people}\right) &=& 1-0.29\\
+&=&0.71
 \eeqn
-which is 73\%!  Compare this likely outcome to the extremely rare outcome of having two random people having matched birthdays, from page~\pageref{subsec:twopeoplebirthday}.  See Figure~\ref{fig:birthday} to see a plot of this unintuitive observation.
+which is 71\%!  Compare this likely outcome to the extremely rare outcome of having two random people having matched birthdays, from page~\pageref{subsec:twopeoplebirthday}.  See Figure~\ref{fig:birthday} to see a plot of this unintuitive observation.
 
 \begin{figure}
 \includegraphics{birthday}
@@ -472,12 +472,18 @@ Formally, we need to involve model comparison, so we postpone this particular an
 
 
 
+\newcommand{\solution}[1]{}
 
 \section{Exercises}
 
 \exercise{Birthdays}{
 What is the probability that at least 3 people have the same birthday in a group of 50?
 }
+\solution{
+
+}
+
+
 \exercise{Monte Hall Again}{
 Examine the case of Monte Hall with 4 doors, the host opening one door with a goat, and leaving you with a choice of 3.  Should you switch?  Does it matter which of the other two you choose?
 }

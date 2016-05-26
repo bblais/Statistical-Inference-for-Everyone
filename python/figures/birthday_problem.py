@@ -3,7 +3,7 @@ from plotty import *
 
 def prob(N):
     p=1
-    for i in range(365-N,365):
+    for i in range(365-N+1,365):
         p*=float(i)/365
         
     return 1-p
