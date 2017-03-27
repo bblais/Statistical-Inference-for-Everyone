@@ -1,4 +1,4 @@
-from __future__ import with_statement
+from __future__ import with_statement,print_function
 
 from distutils.core import setup
 
@@ -12,7 +12,7 @@ def get_version():
         for line in fid:
             if line.startswith('__version__'):
                 version_line=line
-    print version_line
+    print (version_line)
     
     exec(version_line,d)
     return d['__version__']

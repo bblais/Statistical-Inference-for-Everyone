@@ -1,3 +1,4 @@
+from __future__ import with_statement,print_function
 import os
 import pandas
 from pylab import *
@@ -341,13 +342,13 @@ def load_data(fname):
     elif ".xls" in fname:
         return pandas.read_excel(fname)
     else:
-        raise ValueError,"Not Implemented for this type of file (%s)" % fname
+        raise ValueError("Not Implemented for this type of file (%s)" % fname)
         
 def print_data(data):
-    print data.to_string()
+    print (data.to_string())
     
 def describe_data(data):
-    print data.describe().to_string()
+    print (data.describe().to_string())
     
 
 def t_test(data,value):
@@ -587,7 +588,7 @@ def fit(x,y,funcstr,*args,**kwargs):
         result.pandas_result=result2
         
     else:
-        raise ValueError,'Unknown fit name %s' % funcstr
+        raise ValueError('Unknown fit name %s' % funcstr)
         
     return result
         
@@ -606,7 +607,7 @@ def fitval(result,x):
     elif result.type=='exponential':
         y=result.params[0]*np.exp(x*result.params[1])
     else:
-        raise ValueError,'Unknown fit name %s' % result.type
+        raise ValueError('Unknown fit name %s' % result.type)
         
     return y
     

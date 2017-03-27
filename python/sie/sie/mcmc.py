@@ -1,3 +1,4 @@
+from __future__ import with_statement,print_function
 import pylab as py
 import numpy as np
 import emcee
@@ -231,7 +232,7 @@ class BESTModel(object):
         print("Running MCMC...")
         self.sampler.run_mcmc(pos, iterations)
         print("Done.")
-        print timeit()
+        print(timeit())
         
         burnin = int(self.sampler.chain.shape[1]*burn)
         samples = self.sampler.chain[:, burnin:, :]
@@ -514,7 +515,7 @@ class MCMCModel_Meta(object):
             print("Sampling Prior...")
             self.sampler.run_mcmc(pos, N,**kwargs)
             print("Done.")
-            print timeit()
+            print( timeit())
 
             # assign the median back into the simulation values
             self.burn()
@@ -540,7 +541,7 @@ class MCMCModel_Meta(object):
             self.last_pos=emcee.utils.sample_ball(vals, 
                             0.05*vals+1e-4, size=self.nwalkers)
         else:
-            raise ValueError,"Unknown method: %s" % method
+            raise ValueError("Unknown method: %s" % method)
 
     def burn(self,burn_percentage=None):
         if not burn_percentage is None:
@@ -562,7 +563,7 @@ class MCMCModel_Meta(object):
         print("Running MCMC...")
         self.sampler.run_mcmc(self.last_pos, N,**kwargs)
         print("Done.")
-        print timeit()
+        print (timeit())
 
         # assign the median back into the simulation values
         self.burn()
