@@ -69,6 +69,19 @@ def credible_interval(dist,percentage=95):
 
     return bottom,med,top
 
+
+def credible_interval_plot(dist,percentage=95,xlim=None):
+
+    CI=credible_interval(dist,percentage)
+
+    if xlim is None:
+        xlim=gca().get_xlim()
+
+    plot(xlim,[CI[0],CI[0]],'g:')
+    plot(xlim,[CI[1],CI[1]],'g--')
+    plot(xlim,[CI[2],CI[2]],'g:')
+
+
 def distplot(var,label=None,
     show_quartiles=True,
     fill_between_quartiles=[],

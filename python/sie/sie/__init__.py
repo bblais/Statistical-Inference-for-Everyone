@@ -1,6 +1,6 @@
-from sie import *
+from .sie import *
 import sie
-import mcmc as mcmc
+import sie.mcmc as mcmc
 
 import matplotlib.pyplot as plt
 

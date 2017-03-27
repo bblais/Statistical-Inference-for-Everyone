@@ -3,29 +3,39 @@
 
 # In[1]:
 
+from __future__ import with_statement,print_function
+
+
+# In[2]:
+
+get_ipython().magic('pylab inline')
+
+
+# In[3]:
+
 from sie import *
 
 
 # ## Iris Example
 
-# In[33]:
+# In[3]:
 
 data=load_data('data/iris.csv')
 
 
-# In[34]:
+# In[4]:
 
 x_sertosa=data[data['class']=='Iris-setosa']['petal length [cm]']
 x_virginica=data[data['class']=='Iris-virginica']['petal length [cm]']
 x_versicolor=data[data['class']=='Iris-versicolor']['petal length [cm]']
 
 
-# In[40]:
+# In[8]:
 
-print x_sertosa[:10]  # print the first 10
+print (x_sertosa[:10])  # print the first 10
 
 
-# In[41]:
+# In[11]:
 
 x=x_sertosa
 mu=sample_mean(x)
@@ -33,12 +43,12 @@ N=len(x)
 sigma=sample_deviation(x)/sqrt(N)
 t_sertosa=tdist(N,mu,sigma)
 
-print "total number of data points:",N
-print "best estimate:",mu
-print "uncertainty:",sigma
+print ("total number of data points:",N)
+print ("best estimate:",mu)
+print ("uncertainty:",sigma)
 
 
-# In[42]:
+# In[12]:
 
 x=x_versicolor
 mu=sample_mean(x)
@@ -46,12 +56,12 @@ N=len(x)
 sigma=sample_deviation(x)/sqrt(N)
 t_versicolor=tdist(N,mu,sigma)
 
-print "total number of data points:",N
-print "best estimate:",mu
-print "uncertainty:",sigma
+print ("total number of data points:",N)
+print ("best estimate:",mu)
+print ("uncertainty:",sigma)
 
 
-# In[43]:
+# In[13]:
 
 x=x_virginica
 mu=sample_mean(x)
@@ -59,68 +69,68 @@ N=len(x)
 sigma=sample_deviation(x)/sqrt(N)
 t_virginica=tdist(N,mu,sigma)
 
-print "total number of data points:",N
-print "best estimate:",mu
-print "uncertainty:",sigma
+print ("total number of data points:",N)
+print ("best estimate:",mu)
+print ("uncertainty:",sigma)
 
 
-# In[9]:
+# In[14]:
 
 distplot(t_virginica)
 
 
-# In[8]:
+# In[15]:
 
 distplot2([t_sertosa,t_versicolor,t_virginica],show_quartiles=False)
 
 
-# In[10]:
+# In[16]:
 
 credible_interval(t_versicolor)
 
 
-# In[11]:
+# In[17]:
 
 credible_interval(t_virginica)
 
 
 # ## Sunrise
 
-# In[ ]:
+# In[18]:
 
 from sie import *
 
 
 # If you knew nothing about sunrises, and watched a year of them, what is the probability of another one tomorrow?
 
-# In[12]:
+# In[19]:
 
 dist=beta(h=365,N=365)
 
 
-# In[13]:
+# In[20]:
 
 distplot(dist)
 
 
-# In[14]:
+# In[21]:
 
 credible_interval(dist)
 
 
 # ## Cancer Example
 
-# In[15]:
+# In[22]:
 
 dist=beta(h=7,N=10)
 
 
-# In[16]:
+# In[23]:
 
 distplot(dist,figsize=(8,5))
 
 
-# In[17]:
+# In[24]:
 
 credible_interval(dist)
 
@@ -129,21 +139,21 @@ credible_interval(dist)
 
 # ## Pennies
 
-# In[5]:
+# In[4]:
 
 data1=load_data('data/pennies1.csv')
-print data1
+print (data1)
 year,mass=data1['Year'],data1['Mass [g]']
 
 
-# In[6]:
+# In[5]:
 
 plot(year,mass,'o')
 xlabel('year')
 ylabel('Mass per Penny [g]')
 
 
-# In[7]:
+# In[6]:
 
 x=mass
 mu=sample_mean(x)
@@ -154,13 +164,13 @@ t_penny1=tdist(N,mu,sigma)
 distplot(t_penny1,label='mass [g]')
 
 
-# In[8]:
+# In[7]:
 
 CI=credible_interval(t_penny1,percentage=99)
-print CI
+print (CI)
 
 
-# In[9]:
+# In[8]:
 
 plot(year,mass,'o')
 credible_interval_plot(t_penny1,percentage=99)
@@ -170,15 +180,15 @@ ylabel('Mass per Penny [g]')
 
 # ### Do the 2 datasets
 
-# In[10]:
+# In[11]:
 
 data2=load_data('data/pennies2.csv')
-print data2
+print (data2)
 year1,mass1=year,mass
 year2,mass2=data2['Year'],data2['Mass [g]']
 
 
-# In[11]:
+# In[12]:
 
 x=mass1
 mu=sample_mean(x)
@@ -196,7 +206,7 @@ distplot2([t_penny1,t_penny2],show_quartiles=False,label='mass [g]')
 legend([r'$\mu_1$',r'$\mu_2$'])
 
 
-# In[12]:
+# In[13]:
 
 plot(year1,mass1,'o')
 credible_interval_plot(t_penny1,percentage=99)
