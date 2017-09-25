@@ -166,7 +166,7 @@ def logtpdf(x,df,mu,sd):
         N=1
     
     t=(x-mu)/float(sd)
-    return N*(gammaln((df+1)/2.0)-0.5*log(df*np.pi)-gammaln(df/2.0)-np.log(sd))+(-(df+1)/2.0)*np.sum(np.log(1+t**2/df))
+    return N*(gammaln((df+1)/2.0)-0.5*np.log(df*np.pi)-gammaln(df/2.0)-np.log(sd))+(-(df+1)/2.0)*np.sum(np.log(1+t**2/df))
 
 def loguniformpdf(x,mn,mx):
     if mn < x < mx:
@@ -185,12 +185,162 @@ def lognormalpdf(x,mn,sig):
     except TypeError:
         N=1
         
-    return -0.5*log(2*np.pi*sig**2)*N - np.sum((x-mn)**2/sig**2/2.0)
+    return -0.5*np.log(2*np.pi*sig**2)*N - np.sum((x-mn)**2/sig**2/2.0)
 
-def logexponpdf(x,scale):
+def logexponpdf2(x,scale):
     if x<=0:
         return -np.inf
     return -np.log(scale)-x/scale
+
+class BESTModel_OneSample(object):
+    
+    def __init__(self,y1):
+        self.data=np.array(y1,float)
+        pooled=self.data
+        self.S=np.std(pooled)
+        self.M=np.mean(pooled)
+        
+        self.names=['mu1','sigma1','nu']
+        self.params=[]
+        self.params_dict={}
+        
+    def initial_value(self):
+        return np.array([self.M,self.S,10])
+    
+    def prior(self,theta):
+        mu1,sd1,nu=theta
+        value=0.0
+        value+=lognormalpdf(mu1,self.M,1000*self.S)
+        
+        mn=0.001*self.S
+        mx=1000*self.S
+        value+=loguniformpdf(sd1,mn,mx-mn)
+
+        value+=logexponpdf2(nu-1,scale=29)
+        return value
+        
+    def run_mcmc(self,iterations=1000,burn=0.1):
+        # Set up the sampler.
+        ndim, nwalkers = len(self), 100
+        val=self.initial_value()
+        pos=emcee.utils.sample_ball(val, .05*val+1e-4, size=nwalkers)
+        self.sampler = emcee.EnsembleSampler(nwalkers, ndim, self)
+        
+        timeit(reset=True)
+        print("Running MCMC...")
+        self.sampler.run_mcmc(pos, iterations)
+        print("Done.")
+        print(timeit())
+        
+        burnin = int(self.sampler.chain.shape[1]*burn)
+        samples = self.sampler.chain[:, burnin:, :]
+        self.mu1=samples[:,:,0]
+        self.sigma1=samples[:,:,1]
+        self.nu=samples[:,:,2]
+        
+        self.params=[self.mu1,self.sigma1,self.nu]
+        self.params_dict['mu1']=self.mu1
+        self.params_dict['sigma1']=self.sigma1
+        self.params_dict['nu']=self.nu
+        
+        
+        
+    def __len__(self):
+        return 3  # mu1,sd1,nu
+        
+    def likelihood(self,theta):
+        mu1,sd1,nu=theta
+        y1=self.data
+        
+        value=0.0
+        value+=logtpdf(y1,nu,mu1,sd1)
+
+        return value
+    
+    def plot_chains(self,S=None,*args,**kwargs):
+        if S is None:
+            for S in ['mu1','sigma1','nu']:
+                py.figure()
+                self.plot_chains(S)
+            return
+
+        mu1,sigma1,nu=self.params
+        N=float(np.prod(mu1.shape))
+
+        if '=' in S:
+            name,expr=S.split('=')
+            value=eval(expr)
+        else:
+            name=S
+            if name=='mu1':
+                name=r"\mu_1"
+            elif name=='sigma1':
+                name=r"\sigma_1"
+            elif name=='nu':
+                name=r"\nu"
+            else:
+                name=r"%s" % name
+        
+            value=eval(S)
+        
+        py.plot(value, color="k",alpha=0.02,**kwargs)
+        if "\\" in name:        
+            py.ylabel("$"+name+"$")        
+        else:
+            py.ylabel(name)        
+    
+    def plot_distribution(self,S=None,p=95):
+        if S is None:
+            for S in ['mu1','sigma1','nu']:
+                py.figure()
+                self.plot_distribution(S)
+            return
+        
+        pp=[(100-p)/2.0,50,100-(100-p)/2.0]
+        
+        mu1,sigma1,nu=self.params
+        N=float(np.prod(mu1.shape))
+        
+        if '=' in S:
+            name,expr=S.split('=')
+            value=eval(expr)
+        else:
+            name=S
+            if name=='mu1':
+                name=r"\hat{\mu}_1"
+            elif name=='sigma1':
+                name=r"\hat{\sigma}_1"
+            elif name=='nu':
+                name=r"\hat{\nu}"
+            else:
+                name=r"\hat{%s}" % name
+        
+            value=eval(S)
+            
+        result=histogram(value.ravel(),bins=200)
+        v=np.percentile(value.ravel(), pp ,axis=0)
+        if r"\hat" in name:
+            py.title(r'$%s=%.3f^{+%.3f}_{-%.3f}$' % (name,v[1],(v[2]-v[1]),(v[1]-v[0])),va='bottom')
+        else:
+            py.title(r'%s$=%.3f^{+%.3f}_{-%.3f}$' % (name,v[1],(v[2]-v[1]),(v[1]-v[0])),va='bottom')
+        
+        
+    def P(self,S):
+        
+        mu1,sigma1,nu=self.params
+        N=float(np.prod(mu1.shape))
+        result=eval('np.sum(%s)/N' % S)
+        return result
+            
+    def posterior(self,theta):
+        prior = self.prior(theta)
+        if not np.isfinite(prior):
+            return -np.inf
+        return prior + self.likelihood(theta)
+        
+    def __call__(self,theta):
+        return self.posterior(theta)
+
 
 class BESTModel(object):
     
@@ -218,7 +368,7 @@ class BESTModel(object):
         value+=loguniformpdf(sd1,mn,mx-mn)
         value+=loguniformpdf(sd2,mn,mx-mn)
 
-        value+=logexponpdf(nu-1,scale=29)
+        value+=logexponpdf2(nu-1,scale=29)
         return value
         
     def run_mcmc(self,iterations=1000,burn=0.1):
@@ -264,7 +414,13 @@ class BESTModel(object):
 
         return value
     
-    def plot_chains(self,S,*args,**kwargs):
+    def plot_chains(self,S=None,*args,**kwargs):
+        if S is None:
+            for S in ['mu1','mu2','sigma1','sigma2','nu']:
+                py.figure()
+                self.plot_chains(S)
+            return
+
         mu1,mu2,sigma1,sigma2,nu=self.params
         N=float(np.prod(mu1.shape))
 
@@ -294,7 +450,12 @@ class BESTModel(object):
         else:
             py.ylabel(name)        
     
-    def plot_distribution(self,S,p=95):
+    def plot_distribution(self,S=None,p=95):
+        if S is None:
+            for S in ['mu1','mu2','sigma1','sigma2','nu']:
+                py.figure()
+                self.plot_distribution(S)
+            return
         
         pp=[(100-p)/2.0,50,100-(100-p)/2.0]
         
@@ -346,6 +507,8 @@ class BESTModel(object):
         return self.posterior(theta)
 
 
+
+
 from scipy.special import gammaln,gamma
 def logfact(N):
     return gammaln(N+1)
@@ -373,10 +536,29 @@ def lognormalpdf(x,mn,sig):
     return -0.5*np.log(2*np.pi*sig**2)*N - np.sum((x-mn)**2/sig**2/2.0)
     
 def logbernoullipdf(theta, h, N):
-    return lognchoosek(N,h)+np.log(theta)*h+np.log(1-theta)*(N-h)
+    if 0.0<=theta<=1.0:
+        return lognchoosek(N,h)+np.log(theta)*h+np.log(1-theta)*(N-h)
+    else:
+        return -np.inf
 
 def logbetapdf(theta, h, N):
-    return logfact(N+1)-logfact(h)-logfact(N-h)+np.log(theta)*h+np.log(1-theta)*(N-h)
+    if theta<0:
+        return -np.inf
+    if theta>1:
+        return -np.inf
+
+    if theta==0.0:
+        if h==0:
+            return logfact(N+1)-logfact(h)-logfact(N-h)+np.log(1-theta)*(N-h)
+        else:
+            return -np.inf
+    elif theta==1.0:
+        if (N-h)==0:
+            return logfact(N+1)-logfact(h)-logfact(N-h)+np.log(theta)*h
+        else:
+            return -np.inf
+    else:
+        return logfact(N+1)-logfact(h)-logfact(N-h)+np.log(theta)*h+np.log(1-theta)*(N-h)
 
 def logexponpdf(x,_lambda):
     # p(x)=l exp(l x)
@@ -389,6 +571,7 @@ class Normal(object):
         self.mean=mean
         self.std=std
         self.default=mean
+        self.D=D.norm(mean,std)
         
     def rand(self,*args):
         return np.random.randn(*args)*self.std+self.mean
@@ -398,6 +581,7 @@ class Normal(object):
 class Exponential(object):
     def __init__(self,_lambda=1):
         self._lambda=_lambda
+        self.D=D.expon(_lambda)
 
     def rand(self,*args):
         return np.random.rand(*args)*2
@@ -411,7 +595,8 @@ class Uniform(object):
         self.min=min
         self.max=max
         self.default=(min+max)/2.0
-       
+        self.D=D.uniform(min,max-min)
+
     def rand(self,*args):
         return np.random.rand(*args)*(self.max-self.min)+self.min
         
@@ -421,7 +606,8 @@ class Uniform(object):
 class Jeffries(object):
     def __init__(self):
         self.default=1.0
-        
+        self.D=None # improper
+
     def rand(self,*args):
         return np.random.rand(*args)*2
         
@@ -433,6 +619,9 @@ class Beta(object):
         self.h=h
         self.N=N
         self.default=float(h)/N
+        a=h+1
+        b=(N-h)+1
+        self.D=D.beta(a,b)
 
     def rand(self,*args):
         return np.random.rand(*args)
@@ -445,6 +634,7 @@ class Bernoulli(object):
         self.h=h
         self.N=N
         self.default=float(h)/N
+        self.D=D.bernoulli(self.default)
 
     def rand(self,*args):
         return np.random.rand(*args)
@@ -547,6 +737,9 @@ class MCMCModel_Meta(object):
         if not burn_percentage is None:
             self.burn_percentage=burn_percentage
             
+        if self.burn_percentage>1:
+            self.burn_percentage/=100.0
+
         burnin = int(self.sampler.chain.shape[1]*self.burn_percentage)  # burn 25 percent
         ndim=len(self.params)
         self.samples = self.sampler.chain[:, burnin:, :].reshape((-1, ndim))
@@ -580,7 +773,7 @@ class MCMCModel_Meta(object):
             args=self.keys
         
         
-        fig, axes = py.subplots(len(self.params), 1, sharex=True, figsize=(8, 5*len(args)))
+        fig, axes = py.subplots(len(args), 1, sharex=True, figsize=(8, 5*len(args)))
         try:  # is it iterable?
             axes[0]
         except TypeError:
@@ -601,7 +794,11 @@ class MCMCModel_Meta(object):
                     if key.startswith(g):
                         namestr=r'\%s' % key
 
-                label='$%s$' % namestr
+                try:
+                    label = r'$%s$ - %s' % (namestr,self.column_names[i])
+                except (AttributeError,IndexError):
+                    label='$%s$' % namestr
+                # label='$%s$' % namestr
 
             labels.append(label)
             ax.plot(sample, color="k", alpha=0.2,**kwargs)
@@ -625,7 +822,12 @@ class MCMCModel_Meta(object):
                     if key.startswith(g):
                         namestr=r'\%s' % key
 
-                label='$%s$' % namestr
+
+                try:
+                    label = r'$%s$ - %s' % (namestr,self.column_names[i])
+                except (AttributeError,IndexError):
+                    label='$%s$' % namestr
+                    
 
             labels.append(label)
             idx.append(self.index[key])
@@ -664,7 +866,53 @@ class MCMCModel_Meta(object):
             else:
                 py.title(r'$\hat{%s}^{97.5}_{2.5}=%.3f^{+%.3f}_{-%.3f}$' % (label,v[1],(v[2]-v[1]),(v[1]-v[0])))
             py.ylabel(r'$p(%s|{\rm data})$' % label)
-            py.xlabel(r'$%s$' % label)
+            try:
+                py.xlabel(r'$%s$ - %s' % (label,self.column_names[i]))
+            except (AttributeError,IndexError):
+                py.xlabel(r'$%s$' % label)
+
+    def plot_distributions_K(self,*args,**kwargs):
+        if not args:
+            args=self.keys
+        
+        for key in args:
+            if key.startswith('_sigma'):
+                label=r'\sigma'
+            else:
+                namestr=key
+                for g in greek:
+                    if key.startswith(g):
+                        namestr=r'\%s' % key
+
+                label='%s' % namestr
+
+            i=self.index[key]
+            
+            py.figure(figsize=(12,4))
+
+            x,y=histogram(self.samples[:,i],bins=200,plot=False)
+            py.plot(x,y,'.-')
+            py.fill_between(x,y,facecolor='blue', alpha=0.2)
+
+            HDI=np.percentile(self.samples[:,i], [2.5, 50, 97.5],axis=0)
+            yl=py.gca().get_ylim()
+            py.text((HDI[0]+HDI[2])/2, 0.15*yl[1],'95% HDI', ha='center', va='center',fontsize=12)
+            py.plot(HDI,[yl[1]*.1,yl[1]*.1,yl[1]*.1],'k.-',linewidth=1)
+            for v in HDI:
+                if v<0.005:
+                    py.text(v, 0.05*yl[1],'%.3g' % v, ha='center', va='center', 
+                         fontsize=12)
+                else:
+                    py.text(v, 0.05*yl[1],'%.3f' % v, ha='center', va='center', 
+                         fontsize=12)
+
+            py.ylabel(r'$p(%s|{\rm data})$' % label)
+
+            try:
+                py.xlabel(r'$%s$ - %s' % (label,self.column_names[i]))
+            except (AttributeError,IndexError):
+                py.xlabel(r'$%s$' % label)
+
                 
     def get_distribution(self,key,bins=200):
             
@@ -692,9 +940,13 @@ class MCMCModel_Meta(object):
             idx=self.keys.index(arg)
             result.append(self.samples[:,idx])
     
+        return tuple(result)
+    
+    def eval(self,S):
+        for i,key in enumerate(self.keys):
+            exec('%s=self.samples[:,i]' % key)
+        result=eval(S)
         return result
-    
-    
     
     def P(self,S):
         
@@ -805,3 +1057,83 @@ class MCMCModel_Regression(MCMCModel_Meta):
 
             y_predict=np.array([self.function(_,**args) for _ in x])        
             py.plot(x,y_predict,color=color,alpha=0.02)
+
+import patsy
+
+class MCMCModel_MultiLinear(MCMCModel_Meta):
+    
+    def __init__(self,data,eqn,**kwargs):
+        
+        self.dmatrices=patsy.dmatrices(eqn, data)
+        self.eqn=eqn
+        
+        self.y=np.array(self.dmatrices[0])
+        self.X=np.array(self.dmatrices[1])
+        self.column_names=self.dmatrices[1].design_info.column_names
+        
+            
+        MCMCModel_Meta.__init__(self,**kwargs)
+
+        self.index={}
+        self.keys=[]
+        self.params={}
+        count=0
+        for paramname in ['beta_%d' % _ for _ in range(len(self.column_names))]:
+            if paramname in kwargs:
+                self.params[paramname]=kwargs[paramname]
+            else:
+                self.params[paramname]=Normal(0,10)
+            self.index[paramname]=count
+            self.keys.append(paramname)
+            count+=1
+        
+        if 'sigma' in kwargs:
+            self.params['_sigma']=kwargs['sigma']
+        else:
+            self.params['_sigma']=Jeffries()
+
+        self.keys.append('_sigma')        
+        self.index['_sigma']=len(self.keys)-1
+            
+
+    # Define the probability function as likelihood * prior.
+    def lnprior(self,theta):
+        value=0.0
+        for i,key in enumerate(self.keys):
+            value+=self.params[key](theta[i])
+                
+        return value
+
+    def lnlike(self,theta):
+        params_dict={}
+        for i,key in enumerate(self.keys):
+            if key=='_sigma':
+                sigma=theta[i]
+            else:
+                params_dict[key]=theta[i]
+                
+        y_fit=self.X*theta[:-1]
+        
+        return lognormalpdf(self.y,y_fit,sigma)
+    
+
+    def summary(self):
+        from pandas import DataFrame
+        from IPython.display import display
+
+        sdata={}
+        names=[]
+        sdata['median']=[]
+        sdata['2.5%']=[]
+        sdata['97.5%']=[]
+        p=self.percentiles([2.5,50,97.5])
+        for key,col in zip(self.keys,self.column_names+['']):
+            name=key+" - "+col
+            names.append(name)
+            sdata['median'].append(p[key][1])
+            sdata['2.5%'].append(p[key][0])
+            sdata['97.5%'].append(p[key][2])
+
+        sdf=DataFrame(sdata,index=names,columns=['2.5%','median','97.5%'])
+        display(sdf)
+        

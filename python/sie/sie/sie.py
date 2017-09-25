@@ -81,6 +81,92 @@ def credible_interval_plot(dist,percentage=95,xlim=None):
     plot(xlim,[CI[1],CI[1]],'g--')
     plot(xlim,[CI[2],CI[2]],'g:')
 
+def distplot_K(x,dist,ylim=None):
+    from pylab import plot,fill_between,gca,text
+    
+    try:
+        y=dist.pdf(x)
+    except AttributeError:
+        y=dist
+        
+    plot(x,y)
+    fill_between(x,y,facecolor='blue', alpha=0.2)
+    if ylim:
+        gca().set_ylim(ylim)
+    
+
+    try:
+        HDI=sie.credible_interval(dist)
+        yl=gca().get_ylim()
+        text((HDI[0]+HDI[2])/2, 0.15*yl[1],'95% HDI', ha='center', va='center',fontsize=12)
+        plot(HDI,[yl[1]*.1,yl[1]*.1,yl[1]*.1],'k.-',linewidth=1)
+        for v in HDI:
+            text(v, 0.05*yl[1],'%.3f' % v, ha='center', va='center', 
+                 fontsize=12)
+    except AttributeError:
+        pass
+    
+
+def histogram(y,bins=50,plot=True):
+    import numpy as np
+    import pylab as py
+    N,bins=np.histogram(y,bins)
+    
+    dx=bins[1]-bins[0]
+    if dx==0.0:  #  all in 1 bin!
+        val=bins[0]
+        bins=np.linspace(val-abs(val),val+abs(val),50)
+        N,bins=np.histogram(y,bins)
+    
+    dx=bins[1]-bins[0]
+    x=bins[0:-1]+(bins[1]-bins[0])/2.0
+    
+    y=N*1.0/np.sum(N)/dx
+    
+    if plot:
+        py.plot(x,y,'o-')
+        yl=py.gca().get_ylim()
+        py.gca().set_ylim([0,yl[1]])
+        xl=py.gca().get_xlim()
+        if xl[0]<=0 and xl[0]>=0:    
+            py.plot([0,0],[0,yl[1]],'k--')
+
+    return x,y
+
+
+    
+def sampleplot_K(r,ylim=None,HDI_y=None):
+    from pylab import plot,fill_between,gca,text
+    
+    x,y=histogram(r,plot=False)
+    
+    plot(x,y,'-o')
+    
+    fill_between(x,y,facecolor='blue', alpha=0.2)
+    if ylim:
+        gca().set_ylim(ylim)
+
+    dx=x[1]-x[0]
+    cs=np.cumsum(y)*dx
+    
+    HDI=np.percentile(r,[2.5,50,97.5])
+
+    yl=gca().get_ylim()
+    
+    dy=0.05*yl[1]
+    if HDI_y is None:
+        HDI_y=yl[1]*.1
+        
+    
+    text((HDI[0]+HDI[2])/2, HDI_y+dy,'95% HDI', ha='center', va='center',fontsize=12)
+    plot(HDI,[HDI_y,HDI_y,HDI_y],'k.-',linewidth=1)
+    for v in HDI:
+        text(v, HDI_y-dy,'%.3f' % v, ha='center', va='center', 
+             fontsize=12)
+    xl=gca().get_xlim()
+    
+    text(.05*(xl[1]-xl[0])+xl[0], 0.9*yl[1],r'$\tilde{x}=%.3f$' % np.median(r), ha='left', va='center')
+    
 
 def distplot(var,label=None,
     show_quartiles=True,

@@ -20,3 +20,4 @@ Rodrigo Fernandez-Vizarra
 Patrick Marchand
 Allen Downey
 Robert Fairhead
+Shergunov Vasiliy
