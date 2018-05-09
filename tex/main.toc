@@ -29,7 +29,7 @@
 \contentsline {subsection}{Two People...Out of Three}{60}{subsection*.22}
 \contentsline {subsection}{Two People...Out of Thirty}{62}{subsection*.23}
 \contentsline {section}{\numberline {2.5}The Lottery Problem or Rare Things Are Common}{62}{section.2.5}
-\contentsline {section}{\numberline {2.6}Monte Hall Problem}{64}{section.2.6}
+\contentsline {section}{\numberline {2.6}Monty Hall Problem}{64}{section.2.6}
 \contentsline {subsection}{Two Doors with Information}{65}{subsection*.24}
 \contentsline {subsection}{Three Doors with Information}{65}{subsection*.25}
 \contentsline {subsection}{Three Doors Down To Two}{66}{subsection*.26}
