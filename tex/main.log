@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  25 SEP 2017 19:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  29 MAY 2018 14:43
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -3429,8 +3428,8 @@ Overfull \hbox (11.99443pt too wide) in paragraph at lines 555--556
 
 [90 <../figs/histmale_toofewbins.pdf> <../figs/histmale_toomanybins.pdf
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../figs/histmale_toomanybins
-.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ../figs/histmale_toomanybins.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 >] <../figs/height_wrhand_scatter.pdf, id=2695, 867.24pt x 578.16pt>
 File: ../figs/height_wrhand_scatter.pdf Graphic file (type pdf)
 
@@ -3448,8 +3447,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [91 <../figs/wrhand_hist.pdf> <../figs/height_wrhand_scatter.pdf
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../figs/height_wrhand_scatte
-r.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ../figs/height_wrhand_scatter.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
 >] (../python/examples/Random_Sequences_and_Visualization.tex
 <../python/examples/Random_Sequences_and_Visualization/Random_Sequences_and_Vis
 ualization_fig0.png, id=2774, 753.81625pt x 518.93875pt>
@@ -4202,8 +4201,8 @@ Overfull \hbox (12.00104pt too wide) in paragraph at lines 395--396
 
 [152 <../figs/binomial_normal1.pdf> <../figs/binomial_normal2.pdf
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../figs/binomial_normal2.pdf
-): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ../figs/binomial_normal2.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
 >]
 
 LaTeX Warning: Marginpar on page 153 moved.
@@ -4494,9 +4493,8 @@ Overfull \hbox (28.87512pt too wide) in alignment at lines 467--470
 [176] [177 <../figs/mass1965_1974_1_value.pdf> <../figs/mass1965_1974_1_value_d
 ist.pdf
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../figs/mass1965_1974_1_valu
-e_dist.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
+pdfTeX warning: pdflatex (file ../figs/mass1965_1974_1_value_dist.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
 >] <../figs/mass1965_2003_1_value.pdf, id=4976, 1156.32pt x 650.43pt>
 File: ../figs/mass1965_2003_1_value.pdf Graphic file (type pdf)
 
@@ -4752,8 +4750,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--75
 [195 <../figs/shoesize_subset_slope.pdf>] [196 <../figs/shoesize_subset_interce
 pt.pdf> <../figs/shoesize_subset_fit.pdf
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../figs/shoesize_subset_fit.
-pdf): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ../figs/shoesize_subset_fit.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
 >] <../figs/shoesize_subset_regression_mse.pdf, id=5603, 722.7pt x 578.16pt>
 File: ../figs/shoesize_subset_regression_mse.pdf Graphic file (type pdf)
 
@@ -5650,9 +5648,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
 (./chap-tables.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 118.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 118.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CC428DB03A6F77786BB94365BE84F933;15441.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: CC428DB03A6F77786BB94365BE84F933;15441
+(rerunfilecheck)             After:  0827297A8B574F5FD39755BC59C0E5EF;15441.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -5686,7 +5690,7 @@ texlive/2014/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive
 /2014/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2014/
 texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2014/texmf-d
 ist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (242 pages, 6909165 bytes).
+Output written on main.pdf (242 pages, 6909167 bytes).
 PDF statistics:
  6609 PDF objects out of 7423 (max. 8388607)
  1124 named destinations out of 1200 (max. 500000)
