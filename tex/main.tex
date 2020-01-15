@@ -40,16 +40,7 @@ marginparwidth=1.8in
 \renewcommand{\subsubsection}[1]{\paragraph{#1}}
 \renewcommand{\maketitlepagewithimage}[1]{%
   \cleardoublepage%
-  {%
-  \sffamily%
-  \begin{fullwidth}%
-  \fontsize{18}{20}\selectfont\par\noindent\textcolor{darkgray}{\allcaps{\thanklessauthor}}%
-  \vspace{11.5pc}%
-  \fontsize{36}{40}\selectfont\par\noindent\textcolor{darkgray}{\allcaps{\thanklesstitle}}%
-  \vfill%
   \includegraphics{#1}
-  \end{fullwidth}%
-  }
   \thispagestyle{empty}%
   \clearpage%
 }

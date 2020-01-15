@@ -425,7 +425,7 @@ rc('ytick',labelsize=size)
 rc('legend',fontsize=size)
 
 def nchoosek(N,k,exact=0):
-    from scipy.misc import comb
+    from scipy.special import comb
     return comb(N,k,exact)
     
     

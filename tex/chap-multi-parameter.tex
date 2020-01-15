@@ -110,7 +110,7 @@ What is immediately odd is that this result seems to suggest the following:
 \i If you spent zero dollars per pupil, you'd reach a maximum of SAT score of 1089.
 \ee
 
-This seems counter intuitive to say the least.  What is going on here? \marginnote{This is perhaps the most important lesson of regression.  When you see an effect, make sure to think of any variables that might also be effected that may give rise to the illusion of an effect.  It is critical that one get in this habit, or you will be at the whim of every unscrupulous statistician.}  What is happening is that there are other variables that are related to the expenditure which then lead to lower SAT scores on average.  Such a \emph{confounding} variable needs to be taken into account in what is called \emph{controlling} for a variable.
+This seems counter intuitive to say the least.  What is going on here? \marginnote{This is perhaps the most important lesson of regression.  When you see an effect, make sure to think of any variables that might also be affected that may give rise to the illusion of an effect.  It is critical that one get in this habit, or you will be at the whim of every unscrupulous statistician.}  What is happening is that there are other variables that are related to the expenditure which then lead to lower SAT scores on average.  Such a \emph{confounding} variable needs to be taken into account in what is called \emph{controlling} for a variable.
 
 For example, if we look at the relationship between expenditure per pupil and the percent of students taking the SAT we see a pattern, shown in Figure~\ref{fig:percent_taking}.  The more that is spent per pupil, the more students - both bad and good - take the SAT.  Thus, even if expenditure helps students, the fact that the percentage of students taking the exam increases creates the illusion of the opposite. The next section states how you can overcome this problem.
 
@@ -146,7 +146,9 @@ Have we controlled for all of the effects?  Perhaps not!  This is where the inge
 \caption{The posterior distributions for coefficients on the expenditure term, the percent taking term, and the intercept.}\label{fig:sat_multiple}
 \end{figure}
 
+\section{Polynomial Regression}
 
+A subset multiple regression is \emph{polynomial} regression, where the variable you are predicting depends on the (usually single) dependent variable with a larger exponent than linear, e.g. quadratic, cubic, etc...
 
 \section{Computer Examples}
 \begin{fullwidth}

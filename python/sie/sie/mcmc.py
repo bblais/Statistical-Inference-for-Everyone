@@ -178,6 +178,9 @@ def logjeffreyspdf(x):
         return -np.log(x)
     return -np.inf
 
+def logcauchypdf(x,x0,scale):
+    return -np.log(np.pi)-np.log(scale)-np.log(1 + ((x-x0)/scale)**2)
+
 def lognormalpdf(x,mn,sig):
     # 1/sqrt(2*pi*sigma^2)*exp(-x^2/2/sigma^2)
     try:
@@ -613,6 +616,20 @@ class Jeffries(object):
         
     def __call__(self,x):
         return logjeffreyspdf(x)
+
+class Cauchy(object):
+    def __init__(self,x0=0,scale=1):
+        self.x0=x0
+        self.scale=scale
+        self.default=x0
+        self.D=D.cauchy(loc=x0,scale=scale) 
+
+    def rand(self,*args):
+        return np.random.rand(*args)*2-1
+        
+    def __call__(self,x):
+        return logcauchypdf(x,self.x0,self.scale)
+
 
 class Beta(object):
     def __init__(self,h=100,N=100):
@@ -1078,12 +1095,16 @@ class MCMCModel_MultiLinear(MCMCModel_Meta):
         self.keys=[]
         self.params={}
         count=0
-        for paramname in ['beta_%d' % _ for _ in range(len(self.column_names))]:
+        for i,paramname in enumerate(
+                    ['beta_%d' % _ for _ in range(len(self.column_names))]):
+            col=self.column_names[i]
             if paramname in kwargs:
                 self.params[paramname]=kwargs[paramname]
+            elif col in kwargs:
+                self.params[paramname]=kwargs[col]
             else:
                 self.params[paramname]=Normal(0,10)
-            self.index[paramname]=count
+            self.index[paramname]=i
             self.keys.append(paramname)
             count+=1
         
@@ -1105,12 +1126,12 @@ class MCMCModel_MultiLinear(MCMCModel_Meta):
         return value
 
     def lnlike(self,theta):
-        params_dict={}
-        for i,key in enumerate(self.keys):
-            if key=='_sigma':
-                sigma=theta[i]
-            else:
-                params_dict[key]=theta[i]
+        # params_dict={}
+        # for i,key in enumerate(self.keys):
+        #     if key=='_sigma':
+        #         sigma=theta[i]
+        #     else:
+        #         params_dict[key]=theta[i]
                 
         y_fit=self.X*theta[:-1]
         
@@ -1137,3 +1158,26 @@ class MCMCModel_MultiLinear(MCMCModel_Meta):
         sdf=DataFrame(sdata,index=names,columns=['2.5%','median','97.5%'])
         display(sdf)
         
+
+    def predict(self,theta=None,**kwargs):
+        
+        if theta is None:
+            self.percentiles()
+            theta=self.median_values
+            
+        data=pandas.DataFrame(kwargs)
+        dmatrices=patsy.dmatrices(self.eqn, data)
+        
+        y=np.array(dmatrices[0])
+        X=np.array(dmatrices[1])
+
+        y_fit=X*theta[:-1]
+
+        return y_fit
+    
+    def plot_predictions(self,x,N=1000,color='k'):
+        samples=self.samples[-N:,:]
+
+        for theta in samples:
+            y_fit=self.X*theta[:-1]
+            py.plot(x,y_predict,color=color,alpha=0.02)
