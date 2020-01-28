@@ -181,6 +181,17 @@ def logjeffreyspdf(x):
 def logcauchypdf(x,x0,scale):
     return -np.log(np.pi)-np.log(scale)-np.log(1 + ((x-x0)/scale)**2)
 
+def loghalfnormalpdf(x,sig):
+    # x>0: 2/sqrt(2*pi*sigma^2)*exp(-x^2/2/sigma^2)
+    try:
+        N=len(x)
+    except TypeError:
+        N=1
+    if x<=0:
+        return -np.inf
+        
+    return np.log(2)-0.5*np.log(2*np.pi*sig**2)*N - np.sum(x**2/sig**2/2.0)
+
 def lognormalpdf(x,mn,sig):
     # 1/sqrt(2*pi*sigma^2)*exp(-x^2/2/sigma^2)
     try:
@@ -592,6 +603,16 @@ class Exponential(object):
     def __call__(self,x):
         return logexponpdf(x,self._lambda)
 
+class HalfNormal(object):
+    def __init__(self,sigma=1):
+        self.sigma=sigma
+        self.D=D.halfnorm(sigma)
+
+    def rand(self,*args):
+        return np.random.rand(*args)*2
+        
+    def __call__(self,x):
+        return loghalfnormalpdf(x,self.sigma)
 
 class Uniform(object):
     def __init__(self,min=0,max=1):
@@ -712,7 +733,7 @@ class MCMCModel_Meta(object):
 
             pos=np.zeros((self.nwalkers,ndim))
             for i,key in enumerate(self.keys):
-                pos[:,i]=self.params[key].rand(100)
+                pos[:,i]=self.params[key].rand(self.nwalkers)
 
             
             self.sampler = emcee.EnsembleSampler(self.nwalkers, ndim, 
