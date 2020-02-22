@@ -3,6 +3,7 @@ import pylab as py
 import numpy as np
 import emcee
 from scipy.stats import distributions as D
+from matplotlib import rcParams
 
 greek=['alpha','beta','gamma','delta','chi','tau','mu',
         'sigma','lambda','epsilon','zeta','xi','theta','rho','psi']
@@ -32,11 +33,14 @@ def histogram(y,bins=50,plot=True):
     return x,y
 
 
-def corner(samples,labels):
+def corner(samples,labels,figsize=None):
     N=len(labels)
     from matplotlib.colors import LogNorm
     
-    py.figure(figsize=(12,12))
+    if figsize is None:
+        figsize=rcParams['figure.figsize']
+        figsize[1]=figsize[0]  # make square
+    py.figure(figsize=figsize
     
     axes={}
     for i,l1 in enumerate(labels):
@@ -810,8 +814,12 @@ class MCMCModel_Meta(object):
         if not args:
             args=self.keys
         
+
+        figsize=rcParams['figure.figsize']
+        figsize[1]=5/8*figsize[0]*len(args)  # make square
+        figsize=kwargs.pop('figsize',figsize)
         
-        fig, axes = py.subplots(len(args), 1, sharex=True, figsize=(8, 5*len(args)))
+        fig, axes = py.subplots(len(args), 1, sharex=True, figsize=figsize)
         try:  # is it iterable?
             axes[0]
         except TypeError:
