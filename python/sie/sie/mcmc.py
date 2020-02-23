@@ -40,7 +40,7 @@ def corner(samples,labels,figsize=None):
     if figsize is None:
         figsize=rcParams['figure.figsize']
         figsize[1]=figsize[0]  # make square
-    py.figure(figsize=figsize
+    py.figure(figsize=figsize)
     
     axes={}
     for i,l1 in enumerate(labels):
@@ -589,8 +589,11 @@ class Normal(object):
         self.mean=mean
         self.std=std
         self.default=mean
-        self.D=D.norm(mean,std)
         
+    @property
+    def D(self):
+        return D.norm(self.mean,self.std)
+
     def rand(self,*args):
         return np.random.randn(*args)*self.std+self.mean
     
@@ -599,7 +602,10 @@ class Normal(object):
 class Exponential(object):
     def __init__(self,_lambda=1):
         self._lambda=_lambda
-        self.D=D.expon(_lambda)
+
+    @property
+    def D(self):
+        return D.expon(self._lambda)
 
     def rand(self,*args):
         return np.random.rand(*args)*2
@@ -610,7 +616,10 @@ class Exponential(object):
 class HalfNormal(object):
     def __init__(self,sigma=1):
         self.sigma=sigma
-        self.D=D.halfnorm(sigma)
+
+    @property
+    def D(self):
+        return D.halfnorm(self.sigma)
 
     def rand(self,*args):
         return np.random.rand(*args)*2
@@ -623,7 +632,10 @@ class Uniform(object):
         self.min=min
         self.max=max
         self.default=(min+max)/2.0
-        self.D=D.uniform(min,max-min)
+
+    @property
+    def D(self):
+        return D.uniform(self.min,self.max-self.min)
 
     def rand(self,*args):
         return np.random.rand(*args)*(self.max-self.min)+self.min
@@ -647,7 +659,10 @@ class Cauchy(object):
         self.x0=x0
         self.scale=scale
         self.default=x0
-        self.D=D.cauchy(loc=x0,scale=scale) 
+
+    @property
+    def D(self):
+        return D.cauchy(loc=self.x0,scale=self.scale) 
 
     def rand(self,*args):
         return np.random.rand(*args)*2-1
@@ -661,9 +676,13 @@ class Beta(object):
         self.h=h
         self.N=N
         self.default=float(h)/N
-        a=h+1
-        b=(N-h)+1
-        self.D=D.beta(a,b)
+
+    @property
+    def D(self):
+        a=self.h+1
+        b=(self.N-self.h)+1
+        return D.beta(a,b)
+
 
     def rand(self,*args):
         return np.random.rand(*args)
@@ -676,7 +695,10 @@ class Bernoulli(object):
         self.h=h
         self.N=N
         self.default=float(h)/N
-        self.D=D.bernoulli(self.default)
+
+    @property
+    def D(self):
+        return D.bernoulli(self.default)
 
     def rand(self,*args):
         return np.random.rand(*args)
@@ -809,7 +831,6 @@ class MCMCModel_Meta(object):
 
 
     def plot_chains(self,*args,**kwargs):
-        py.clf()
         
         if not args:
             args=self.keys
@@ -819,12 +840,12 @@ class MCMCModel_Meta(object):
         figsize[1]=5/8*figsize[0]*len(args)  # make square
         figsize=kwargs.pop('figsize',figsize)
         
+        print("figsize",figsize)
         fig, axes = py.subplots(len(args), 1, sharex=True, figsize=figsize)
         try:  # is it iterable?
             axes[0]
         except TypeError:
             axes=[axes]
-
 
 
         labels=[]

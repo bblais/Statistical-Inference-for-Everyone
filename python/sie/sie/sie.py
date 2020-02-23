@@ -12,7 +12,7 @@ import matplotlib as mpl
 mpl.rcParams['lines.linewidth'] = 3
 mpl.rcParams['figure.figsize'] = (12,8)
 mpl.rcParams['axes.grid']=True
-mpl.rcParams['figure.dpi']=300
+#mpl.rcParams['figure.dpi']=300
 
 size=20
 family='sans-serif'
