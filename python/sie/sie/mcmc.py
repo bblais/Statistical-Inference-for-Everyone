@@ -643,7 +643,7 @@ class Uniform(object):
     def __call__(self,x):
         return loguniformpdf(x,self.min,self.max)
 
-class Jeffries(object):
+class Jeffreys(object):
     def __init__(self):
         self.default=1.0
         self.D=None # improper
