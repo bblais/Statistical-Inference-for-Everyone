@@ -6,7 +6,7 @@ from numpy import *
 
 import numpy as np
 import IPython.display
-from Struct import Struct
+from .Struct import Struct
 
 import matplotlib as mpl
 mpl.rcParams['lines.linewidth'] = 3

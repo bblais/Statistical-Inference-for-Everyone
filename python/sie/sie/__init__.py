@@ -1,5 +1,5 @@
 from .sie import *
-from Struct import Struct
+from .Struct import Struct
 import sie
 import sie.mcmc as mcmc
 
@@ -9,4 +9,4 @@ import matplotlib.pyplot as plt
 path,junk=os.path.split(sie.__file__)
 plt.style.use(path+'/sie.mplstyle')
 
-__version__="0.0.7"
+__version__="0.0.8"
