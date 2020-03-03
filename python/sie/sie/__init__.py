@@ -1,4 +1,5 @@
 from .sie import *
+from Struct import Struct
 import sie
 import sie.mcmc as mcmc
 
