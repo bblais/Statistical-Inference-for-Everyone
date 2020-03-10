@@ -185,6 +185,17 @@ def logjeffreyspdf(x):
 def logcauchypdf(x,x0,scale):
     return -np.log(np.pi)-np.log(scale)-np.log(1 + ((x-x0)/scale)**2)
 
+def loghalfcauchypdf(x,x0,scale):
+    try:
+        N=len(x)
+    except TypeError:
+        N=1
+
+    if x<=0:
+        return -np.inf
+
+    return -np.log(np.pi)-np.log(scale)-np.log(1 + ((x-x0)/scale)**2)
+
 def loghalfnormalpdf(x,sig):
     # x>0: 2/sqrt(2*pi*sigma^2)*exp(-x^2/2/sigma^2)
     try:
@@ -208,7 +219,7 @@ def lognormalpdf(x,mn,sig):
 def logexponpdf2(x,scale):
     if x<=0:
         return -np.inf
-    return -np.log(scale)-x/scale
+    return np.log(scale)-x/scale
 
 class BESTModel_OneSample(object):
     
@@ -579,10 +590,31 @@ def logbetapdf(theta, h, N):
         return logfact(N+1)-logfact(h)-logfact(N-h)+np.log(theta)*h+np.log(1-theta)*(N-h)
 
 def logexponpdf(x,_lambda):
-    # p(x)=l exp(l x)
-    return _lambda*x + np.log(_lambda)
+    # p(x)=l exp(-l x)
+    if x<0.0:
+        return -np.inf
+
+    return -_lambda*x + np.log(_lambda)
 
 import scipy.optimize as op
+
+class StudentT(object):
+    def __init__(self,mean=0,std=1,dof=1):
+        self.mean=mean
+        self.std=std
+        self.dof=dof
+        self.default=mean
+        
+    @property
+    def D(self):
+        return D.t(self.dof,loc=self.mean,scale=self.std)
+
+    def rand(self,*args):
+        return np.random.randn(*args)*self.std+self.mean
+    
+    def __call__(self,x):
+        return logtpdf(x,self.dof,self.mean,self.std)
+
 
 class Normal(object):
     def __init__(self,mean=0,std=1):
@@ -599,6 +631,8 @@ class Normal(object):
     
     def __call__(self,x):
         return lognormalpdf(x,self.mean,self.std)
+
+
 class Exponential(object):
     def __init__(self,_lambda=1):
         self._lambda=_lambda
@@ -608,10 +642,27 @@ class Exponential(object):
         return D.expon(self._lambda)
 
     def rand(self,*args):
-        return np.random.rand(*args)*2
+        return np.random.rand(*args)*2+1
         
     def __call__(self,x):
         return logexponpdf(x,self._lambda)
+
+class HalfCauchy(object):
+    def __init__(self,x0=0,scale=1):
+        self.x0=x0
+        self.scale=scale
+        self.default=x0
+
+    @property
+    def D(self):
+        return D.halfcauchy(loc=self.x0,scale=self.scale) 
+
+    def rand(self,*args):
+        return np.random.rand(*args)*2
+        
+    def __call__(self,x):
+        return loghalfcauchypdf(x,self.x0,self.scale)
+
 
 class HalfNormal(object):
     def __init__(self,sigma=1):
