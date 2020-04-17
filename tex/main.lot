@@ -1,27 +1,27 @@
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces Rough guide for the conversion of qualitative labels to probability values. }}{51}{section.1.6}
+\contentsline {table}{\numberline {1.1}{\ignorespaces Rough guide for the conversion of qualitative labels to probability values. }}{51}{section.1.6}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Total Correct Guesses from Students ``Predicting'' the Results of 50 Coin Flips. Shown are the results of a first round and a second round of guessing.}}{86}{subsection*.38}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Performance in the Second Round of Students ``Predicting'' the Results of 50 Coin Flips. Shown are the results for those students who performed \emph {best} in the first round (left), and those that performed \emph {worst} in the first round (right). }}{86}{subsection*.38}
-\contentsline {table}{\numberline {3.3}{\ignorespaces 106 Male Student Heights (in cm) from a Survey.}}{88}{Item.55}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Total Correct Guesses from Students ``Predicting'' the Results of 50 Coin Flips. Shown are the results of a first round and a second round of guessing.}}{86}{subsection*.38}% 
+\contentsline {table}{\numberline {3.2}{\ignorespaces Performance in the Second Round of Students ``Predicting'' the Results of 50 Coin Flips. Shown are the results for those students who performed \emph {best} in the first round (left), and those that performed \emph {worst} in the first round (right). }}{86}{subsection*.38}% 
+\contentsline {table}{\numberline {3.3}{\ignorespaces 106 Male Student Heights (in cm) from a Survey.}}{88}{Item.55}% 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Drawing $m$ 9's in a row, from either a High Deck or Low Deck.}}{104}{Item.83}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Probabilities for flipping heads given a collection of bent coins}}{121}{section.6.1}
-\contentsline {table}{\numberline {6.2}{\ignorespaces Probability for different bent-coin models, given the data={9 tails, 3 heads}. The middle column is the non-normalized value from Bayes' Rule, needing to be divided by $K$ (the sum of the middle column) to get the final column which is the actual probability.}}{123}{Item.119}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Drawing $m$ 9's in a row, from either a High Deck or Low Deck.}}{104}{Item.83}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces Rough guide for the conversion of deviations away from zero and the qualitative labels for probability values for being a \emph {significant} deviation.}}{161}{subsection*.73}
+\contentsline {table}{\numberline {6.1}{\ignorespaces Probabilities for flipping heads given a collection of bent coins}}{121}{section.6.1}% 
+\contentsline {table}{\numberline {6.2}{\ignorespaces Probability for different bent-coin models, given the data={9 tails, 3 heads}. The middle column is the non-normalized value from Bayes' Rule, needing to be divided by $K$ (the sum of the middle column) to get the final column which is the actual probability.}}{123}{Item.119}% 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {9.1}{\ignorespaces Iris petal lengths, in centimeters, for Iris type \emph {Setosa}.}}{165}{myexample.9.1}
-\contentsline {table}{\numberline {9.2}{\ignorespaces Subset of iris petal lengths, in centimeters, for iris types\nobreakspace {}\emph {Virginica}, \emph {Setosa}, and \emph {Versicolor}.}}{166}{section.9.2}
-\contentsline {table}{\numberline {9.3}{\ignorespaces Production lines are produce a ball bearing with a diameter of approximately 1 micron. Ten ball bearings were randomly picked from the production line (i.e. the \emph {First line}) at one time, and then again for a different production line (i.e. the \emph {Second line}). Romano, A. (1977) \emph {Applied Statistics for Science and Industry}.}}{169}{myexample.9.4}
-\contentsline {table}{\numberline {9.4}{\ignorespaces Mass of Pennies from 1960 to 1974.}}{174}{section.9.4}
-\contentsline {table}{\numberline {9.5}{\ignorespaces Mass of Pennies from 1989 to 2003.}}{176}{myexample.9.13}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {10.1}{\ignorespaces Heights (in inches) and shoe sizes from a subset of McLaren (2012) data.}}{193}{section.10.1}
+\contentsline {table}{\numberline {8.1}{\ignorespaces Rough guide for the conversion of deviations away from zero and the qualitative labels for probability values for being a \emph {significant} deviation.}}{161}{subsection*.73}% 
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {9.1}{\ignorespaces Iris petal lengths, in centimeters, for Iris type \emph {Setosa}.}}{165}{myexample.9.1}% 
+\contentsline {table}{\numberline {9.2}{\ignorespaces Subset of iris petal lengths, in centimeters, for iris types\nobreakspace {}\emph {Virginica}, \emph {Setosa}, and \emph {Versicolor}.}}{166}{section.9.2}% 
+\contentsline {table}{\numberline {9.3}{\ignorespaces Production lines are produce a ball bearing with a diameter of approximately 1 micron. Ten ball bearings were randomly picked from the production line (i.e. the \emph {First line}) at one time, and then again for a different production line (i.e. the \emph {Second line}). Romano, A. (1977) \emph {Applied Statistics for Science and Industry}.}}{169}{myexample.9.4}% 
+\contentsline {table}{\numberline {9.4}{\ignorespaces Mass of Pennies from 1960 to 1974.}}{174}{section.9.4}% 
+\contentsline {table}{\numberline {9.5}{\ignorespaces Mass of Pennies from 1989 to 2003.}}{176}{myexample.9.13}% 
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {10.1}{\ignorespaces Heights (in inches) and shoe sizes from a subset of McLaren (2012) data.}}{193}{section.10.1}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

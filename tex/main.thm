@@ -1,77 +1,77 @@
-\contentsline {myexample}{{Example}{1.{1}}{What is the fraction of the first card as a jack given that we know that the first card is a face card?}}{41}{myexample.1.1}
-\contentsline {myexample}{{Example}{1.{2}}{What is the fraction of cards that are Jacks and a heart?}}{42}{myexample.1.2}
-\contentsline {myexample}{{Example}{1.{3}}{What is the probability of drawing two Kings in a row?}}{42}{myexample.1.3}
-\contentsline {myexample}{{Example}{1.{4}}{What is the probability of flipping two heads in a row?}}{43}{myexample.1.4}
-\contentsline {myexample}{{Example}{1.{5}}{Marginalization and Card Suit}}{46}{myexample.1.5}
-\contentsline {myexample}{{Example}{1.{6}}{What is the probability of drawing a jack, knowing that you've drawn a face card?}}{47}{myexample.1.6}
-\contentsline {myexample}{{Example}{2.{1}}{What is the probability of both having cancer and getting a positive test for it?}}{53}{myexample.2.1}
-\contentsline {myexample}{{Example}{2.{2}}{What is the probability of both not having cancer and getting a positive test for it?}}{54}{myexample.2.2}
-\contentsline {myexample}{{Example}{2.{3}}{What is the probability of having cancer \emph {given} a positive test for it?}}{54}{myexample.2.3}
-\contentsline {myexample}{{Example}{2.{4}}{ If the probability that it will rain next Saturday is 0.25 and the probability that it will rain next Sunday is 0.25, what is the probability that it will rain during the weekend? }}{55}{myexample.2.4}
-\contentsline {myexample}{{Example}{2.{5}}{ What is the probability of the {\em sum} of two dice getting a particular value, say, 7? }}{56}{myexample.2.5}
-\contentsline {myexample}{{Example}{2.{6}}{ What is the probability of rolling a sum {\em more than 7} with two dice? }}{57}{myexample.2.6}
-\contentsline {myexample}{{Example}{2.{7}}{ What is the probability of rolling various sums with two dice {\em each with 20 sides}? }}{57}{myexample.2.7}
-\contentsline {myexample}{{Example}{2.{8}}{ Let's imagine we have the case where two people meet on the street. What is the probability that they both have April 3 as their birthday? }}{58}{myexample.2.8}
-\contentsline {myexample}{{Example}{2.{9}}{ Two people meet on the street, and we ask what is the probability that they both have the same birthday? }}{58}{myexample.2.9}
-\contentsline {myexample}{{Example}{2.{10}}{ What is the probability that three random people have the same birthday? }}{59}{myexample.2.10}
-\contentsline {myexample}{{Example}{2.{11}}{What is the probability that {\em at least two} have the same birthday? }}{60}{myexample.2.11}
-\contentsline {myexample}{{Example}{2.{12}}{What is the probability that {\em at least two} have the same birthday? A clever shortcut.\label {ex:cleverbirthday}}}{61}{myexample.2.12}
-\contentsline {myexample}{{Example}{2.{13}}{ When you have a group of 30 people, like students in a classroom, and you ask what the probability of finding two in the room with the same birthday, would your intuition say it is greater or less than 50\%? }}{62}{myexample.2.13}
-\contentsline {myexample}{{Example}{2.{14}}{ Suppose you're on a game show, and you're given the choice of three doors: behind one door is a car; behind the others, goats. You pick a door, say No. 1 (but the door is not opened), and the host, who knows what's behind the doors, opens another door, say No. 3, which has a goat. He then says to you, "Do you want to change your choice to door No. 2?" Is it to your advantage or disadvantage to switch your choice, or does it matter whether you switch your choice or not? }}{64}{myexample.2.14}
-\contentsline {myexample}{{Example}{2.{15}}{ Imagine we have a game with two doors: Behind one door is a car; behind the other is a goat. You pick a door, say No. 1 (but the door is not opened), and the host, who knows what's behind the doors, says that there is a 90\% chance that the car is behind door No. 2. Is it to your advantage to switch your choice? }}{65}{myexample.2.15}
-\contentsline {myexample}{{Example}{2.{16}}{ The host, who knows what's behind the doors, points to a door, choosing the correct door 90\% of the time and the incorrect one 10\%. You pick a door, say No. 1, and the host points to door No. 2. Is it to your advantage to switch your choice? }}{65}{myexample.2.16}
-\contentsline {myexample}{{Example}{2.{17}}{ Suppose you're on a game show, and you're given the choice of three doors: Behind one door is a car; behind the others, goats. You pick a door, say No. 1 (but the door is not opened), and the host, who knows what's behind the doors, says that another door, say No. 3, has a 0\% chance of having a car, and that the remaining door (that you haven't chosen - i.e door No. 2) has a 66\% of having the car. He then says to you, "Do you want to pick door No. 2?" Is it to your advantage to switch your choice? }}{65}{myexample.2.17}
-\contentsline {myexample}{{Example}{2.{18}}{ Suppose you're on a game show, and you're given the choice of three doors: behind one door is a car; behind the others, goats. You pick a door, say No. 1 (but the door is not opened), and the host, who knows what's behind the doors, opens another door, say No. 3, which has a goat. He then says to you, "Do you want to change your choice to door No. 2?" Is it to your advantage or disadvantage to switch your choice, or does it matter whether you switch your choice or not?}}{66}{myexample.2.18}
-\contentsline {myexercise}{{Exercise}{2.{1}}{Birthdays}}{66}{myexercise.2.1}
-\contentsline {myexercise}{{Exercise}{2.{2}}{Monty Hall Again}}{66}{myexercise.2.2}
-\contentsline {myexercise}{{Exercise}{2.{3}}{9-sided Dice}}{66}{myexercise.2.3}
-\contentsline {myexercise}{{Exercise}{2.{4}}{Odd Dice}}{66}{myexercise.2.4}
-\contentsline {myexercise}{{Exercise}{2.{5}}{More than...}}{66}{myexercise.2.5}
-\contentsline {myexercise}{{Exercise}{2.{6}}{Cancer Questions}}{67}{myexercise.2.6}
-\contentsline {myexample}{{Example}{2.{19}}{Beard and Mustache - An Examination of Independence}}{70}{myexample.2.19}
-\contentsline {myexercise}{{Exercise}{2.{7}}{Simulation: 5 Heads}}{74}{myexercise.2.7}
-\contentsline {myexample}{{Example}{3.{1}}{ What is the probability of flipping three heads in a row, with a fair coin? }}{75}{myexample.3.1}
-\contentsline {myexample}{{Example}{3.{2}}{ What is the probability of flipping {\em thirty} heads in a row, with a fair coin? }}{76}{myexample.3.2}
-\contentsline {myexample}{{Example}{3.{3}}{ What is the probability of flipping two heads in three flips, with a fair coin? }}{76}{myexample.3.3}
-\contentsline {myexample}{{Example}{3.{4}}{ What is the probability of flipping ten heads in thirty flips, with a fair coin? }}{77}{myexample.3.4}
-\contentsline {myexample}{{Example}{3.{5}}{ How many ways can we rearrange the unique symbols A, B, C, and D? }}{78}{myexample.3.5}
-\contentsline {myexample}{{Example}{3.{6}}{ How many ways can we rearrange the symbols A, A, A, and D? }}{78}{myexample.3.6}
-\contentsline {myexample}{{Example}{3.{7}}{ How many ways are there of rearranging the symbols ``A A A D D''? }}{79}{myexample.3.7}
-\contentsline {myexample}{{Example}{3.{8}}{ What is the probability of flipping ten heads in thirty flips, with a fair coin? }}{80}{myexample.3.8}
-\contentsline {myexample}{{Example}{3.{9}}{What is the probability of getting 17 or more heads in 30 flips?}}{81}{myexample.3.9}
-\contentsline {myexample}{{Example}{4.{1}}{What is the probability of drawing a 9, given that we know that we're holding the High Deck? }}{97}{myexample.4.1}
-\contentsline {myexample}{{Example}{4.{2}}{What is the probability that you are holding one of either the High or the Low Deck having drawn five 9's in a row from that deck?}}{102}{myexample.4.2}
-\contentsline {myexample}{{Example}{4.{3}}{What is the probability that you are holding one of either the High or the Low Deck having drawn $m$ 9's in a row from that deck, where $m$ stands for a number ($m=1, 2, 3, \cdots $)?}}{103}{myexample.4.3}
-\contentsline {myexample}{{Example}{4.{4}}{What is the probability that you are holding one of either the High, Low, or Nines Deck having drawn $m$ 9's in a row from that deck?}}{104}{myexample.4.4}
-\contentsline {myexercise}{{Exercise}{4.{1}}{Drawing a 3}}{106}{myexercise.4.1}
-\contentsline {myexercise}{{Exercise}{4.{2}}{Nines and an Eight}}{106}{myexercise.4.2}
-\contentsline {myexercise}{{Exercise}{4.{3}}{Weird Coins}}{106}{myexercise.4.3}
-\contentsline {myexample}{{Example}{5.{1}}{Is it better to switch doors? - Monty Hall Problem revisited}}{117}{myexample.5.1}
-\contentsline {myexample}{{Example}{6.{1}}{What is the best estimate of the probability of a bent coin flipping heads, given the observation of 9 tails and 3 heads?}}{132}{myexample.6.1}
-\contentsline {myexercise}{{Exercise}{6.{1}}{More Coin Flipping}}{134}{myexercise.6.1}
-\contentsline {myexample}{{Example}{7.{1}}{Given a Normal distribution with a mean of $\mu =150$ and a $\sigma =20$, what is the most likely value?}}{143}{myexample.7.1}
-\contentsline {myexample}{{Example}{7.{2}}{Given a Normal distribution with a mean of $\mu =150$ and $\sigma =30$, what is the probability $P(x>170)$}}{143}{myexample.7.2}
-\contentsline {myexercise}{{Exercise}{7.{1}}{Normal Distribution - Probabilities}}{144}{myexercise.7.1}
-\contentsline {myexercise}{{Exercise}{7.{2}}{Normal Distribution - Likelihood}}{144}{myexercise.7.2}
-\contentsline {myexercise}{{Exercise}{7.{3}}{Normal Distribution - Likelihood Again}}{144}{myexercise.7.3}
-\contentsline {myexample}{{Example}{7.{3}}{We have two Normal distributions $P(x)={\rm Normal}(\mu =8,\sigma =2)$ and $P(y)={\rm Normal}(\mu =20,\sigma =7)$. What is the distribution for $z=y-x$? }}{145}{myexample.7.3}
-\contentsline {myexample}{{Example}{7.{4}}{Estimating the True Length of an Object}}{147}{myexample.7.4}
-\contentsline {myexample}{{Example}{7.{5}}{Estimating the True Length of an Object...Again\label {ex:length_tdist}}}{148}{myexample.7.5}
-\contentsline {myexample}{{Example}{7.{6}}{Estimating the True Length of an Object...Yet Again}}{153}{myexample.7.6}
-\contentsline {myexample}{{Example}{9.{1}}{Iris petal lengths - Best estimate}}{165}{myexample.9.1}
-\contentsline {myexample}{{Example}{9.{2}}{Iris petal lengths - A different species?}}{166}{myexample.9.2}
-\contentsline {myexample}{{Example}{9.{3}}{Iris petal lengths - Significantly different?}}{166}{myexample.9.3}
-\contentsline {myexample}{{Example}{9.{4}}{Ball Bearing Sizes}}{168}{myexample.9.4}
-\contentsline {myexample}{{Example}{9.{5}}{What is the best estimate (and uncertainty) for each of the two production lines of ball bearings?}}{169}{myexample.9.5}
-\contentsline {myexample}{{Example}{9.{6}}{Is it reasonable to believe that there is a difference in the size produced between the two lines?}}{170}{myexample.9.6}
-\contentsline {myexample}{{Example}{9.{7}}{The Sunrise Problem}}{170}{myexample.9.7}
-\contentsline {myexample}{{Example}{9.{8}}{Cancer Rates}}{171}{myexample.9.8}
-\contentsline {myexample}{{Example}{9.{9}}{Cancer Rates - Normal Approximation}}{171}{myexample.9.9}
-\contentsline {myexample}{{Example}{9.{10}}{Will it rain on the 4$^{\rm th}$ of July?}}{172}{myexample.9.10}
-\contentsline {myexample}{{Example}{9.{11}}{Hot Hand Reexamined\label {ex:hothand}}}{172}{myexample.9.11}
-\contentsline {myexample}{{Example}{9.{12}}{Mass of the Penny, Model 1 - One True Value}}{173}{myexample.9.12}
-\contentsline {myexample}{{Example}{9.{13}}{Mass of the Penny, Model 1 - One True Value with More Data}}{176}{myexample.9.13}
-\contentsline {myexample}{{Example}{9.{14}}{Mass of the Penny, Model 2 - Two True Values}}{179}{myexample.9.14}
-\contentsline {myexample}{{Example}{C.{1}}{ You call a plumber, and they say that they can come anytime in the next 4 hours. The probability of them arriving at any particular time can be represented with a uniform distribution. What is the probability that they arrive in the first 20 minutes of the second hour? \label {ex:plumber}}}{230}{myexample.C.1}
-\contentsline {myexample}{{Example}{D.{1}}{Usage of the Credible Interval Table for the Normal Distribution}}{235}{myexample.D.1}
-\contentsline {myexample}{{Example}{D.{2}}{Usage of the Credible Interval Table for the Student's $t$ Distribution}}{237}{myexample.D.2}
+\contentsline {myexample}{{Example}{1.{1}}{What is the fraction of the first card as a jack given that we know that the first card is a face card?}}{41}{myexample.1.1}% 
+\contentsline {myexample}{{Example}{1.{2}}{What is the fraction of cards that are Jacks and a heart?}}{42}{myexample.1.2}% 
+\contentsline {myexample}{{Example}{1.{3}}{What is the probability of drawing two Kings in a row?}}{42}{myexample.1.3}% 
+\contentsline {myexample}{{Example}{1.{4}}{What is the probability of flipping two heads in a row?}}{43}{myexample.1.4}% 
+\contentsline {myexample}{{Example}{1.{5}}{Marginalization and Card Suit}}{46}{myexample.1.5}% 
+\contentsline {myexample}{{Example}{1.{6}}{What is the probability of drawing a jack, knowing that you've drawn a face card?}}{47}{myexample.1.6}% 
+\contentsline {myexample}{{Example}{2.{1}}{What is the probability of both having cancer and getting a positive test for it?}}{53}{myexample.2.1}% 
+\contentsline {myexample}{{Example}{2.{2}}{What is the probability of both not having cancer and getting a positive test for it?}}{54}{myexample.2.2}% 
+\contentsline {myexample}{{Example}{2.{3}}{What is the probability of having cancer \emph {given} a positive test for it?}}{54}{myexample.2.3}% 
+\contentsline {myexample}{{Example}{2.{4}}{ If the probability that it will rain next Saturday is 0.25 and the probability that it will rain next Sunday is 0.25, what is the probability that it will rain during the weekend? }}{55}{myexample.2.4}% 
+\contentsline {myexample}{{Example}{2.{5}}{ What is the probability of the {\em sum} of two dice getting a particular value, say, 7? }}{56}{myexample.2.5}% 
+\contentsline {myexample}{{Example}{2.{6}}{ What is the probability of rolling a sum {\em more than 7} with two dice? }}{57}{myexample.2.6}% 
+\contentsline {myexample}{{Example}{2.{7}}{ What is the probability of rolling various sums with two dice {\em each with 20 sides}? }}{57}{myexample.2.7}% 
+\contentsline {myexample}{{Example}{2.{8}}{ Let's imagine we have the case where two people meet on the street. What is the probability that they both have April 3 as their birthday? }}{58}{myexample.2.8}% 
+\contentsline {myexample}{{Example}{2.{9}}{ Two people meet on the street, and we ask what is the probability that they both have the same birthday? }}{58}{myexample.2.9}% 
+\contentsline {myexample}{{Example}{2.{10}}{ What is the probability that three random people have the same birthday? }}{59}{myexample.2.10}% 
+\contentsline {myexample}{{Example}{2.{11}}{What is the probability that {\em at least two} have the same birthday? }}{60}{myexample.2.11}% 
+\contentsline {myexample}{{Example}{2.{12}}{What is the probability that {\em at least two} have the same birthday? A clever shortcut.\label {ex:cleverbirthday}}}{61}{myexample.2.12}% 
+\contentsline {myexample}{{Example}{2.{13}}{ When you have a group of 30 people, like students in a classroom, and you ask what the probability of finding two in the room with the same birthday, would your intuition say it is greater or less than 50\%? }}{62}{myexample.2.13}% 
+\contentsline {myexample}{{Example}{2.{14}}{ Suppose you're on a game show, and you're given the choice of three doors: behind one door is a car; behind the others, goats. You pick a door, say No. 1 (but the door is not opened), and the host, who knows what's behind the doors, opens another door, say No. 3, which has a goat. He then says to you, "Do you want to change your choice to door No. 2?" Is it to your advantage or disadvantage to switch your choice, or does it matter whether you switch your choice or not? }}{64}{myexample.2.14}% 
+\contentsline {myexample}{{Example}{2.{15}}{ Imagine we have a game with two doors: Behind one door is a car; behind the other is a goat. You pick a door, say No. 1 (but the door is not opened), and the host, who knows what's behind the doors, says that there is a 90\% chance that the car is behind door No. 2. Is it to your advantage to switch your choice? }}{65}{myexample.2.15}% 
+\contentsline {myexample}{{Example}{2.{16}}{ The host, who knows what's behind the doors, points to a door, choosing the correct door 90\% of the time and the incorrect one 10\%. You pick a door, say No. 1, and the host points to door No. 2. Is it to your advantage to switch your choice? }}{65}{myexample.2.16}% 
+\contentsline {myexample}{{Example}{2.{17}}{ Suppose you're on a game show, and you're given the choice of three doors: Behind one door is a car; behind the others, goats. You pick a door, say No. 1 (but the door is not opened), and the host, who knows what's behind the doors, says that another door, say No. 3, has a 0\% chance of having a car, and that the remaining door (that you haven't chosen - i.e door No. 2) has a 66\% of having the car. He then says to you, "Do you want to pick door No. 2?" Is it to your advantage to switch your choice? }}{65}{myexample.2.17}% 
+\contentsline {myexample}{{Example}{2.{18}}{ Suppose you're on a game show, and you're given the choice of three doors: behind one door is a car; behind the others, goats. You pick a door, say No. 1 (but the door is not opened), and the host, who knows what's behind the doors, opens another door, say No. 3, which has a goat. He then says to you, "Do you want to change your choice to door No. 2?" Is it to your advantage or disadvantage to switch your choice, or does it matter whether you switch your choice or not?}}{66}{myexample.2.18}% 
+\contentsline {myexercise}{{Exercise}{2.{1}}{Birthdays}}{66}{myexercise.2.1}% 
+\contentsline {myexercise}{{Exercise}{2.{2}}{Monty Hall Again}}{66}{myexercise.2.2}% 
+\contentsline {myexercise}{{Exercise}{2.{3}}{9-sided Dice}}{66}{myexercise.2.3}% 
+\contentsline {myexercise}{{Exercise}{2.{4}}{Odd Dice}}{66}{myexercise.2.4}% 
+\contentsline {myexercise}{{Exercise}{2.{5}}{More than...}}{66}{myexercise.2.5}% 
+\contentsline {myexercise}{{Exercise}{2.{6}}{Cancer Questions}}{67}{myexercise.2.6}% 
+\contentsline {myexample}{{Example}{2.{19}}{Beard and Mustache - An Examination of Independence}}{70}{myexample.2.19}% 
+\contentsline {myexercise}{{Exercise}{2.{7}}{Simulation: 5 Heads}}{74}{myexercise.2.7}% 
+\contentsline {myexample}{{Example}{3.{1}}{ What is the probability of flipping three heads in a row, with a fair coin? }}{75}{myexample.3.1}% 
+\contentsline {myexample}{{Example}{3.{2}}{ What is the probability of flipping {\em thirty} heads in a row, with a fair coin? }}{76}{myexample.3.2}% 
+\contentsline {myexample}{{Example}{3.{3}}{ What is the probability of flipping two heads in three flips, with a fair coin? }}{76}{myexample.3.3}% 
+\contentsline {myexample}{{Example}{3.{4}}{ What is the probability of flipping ten heads in thirty flips, with a fair coin? }}{77}{myexample.3.4}% 
+\contentsline {myexample}{{Example}{3.{5}}{ How many ways can we rearrange the unique symbols A, B, C, and D? }}{78}{myexample.3.5}% 
+\contentsline {myexample}{{Example}{3.{6}}{ How many ways can we rearrange the symbols A, A, A, and D? }}{78}{myexample.3.6}% 
+\contentsline {myexample}{{Example}{3.{7}}{ How many ways are there of rearranging the symbols ``A A A D D''? }}{79}{myexample.3.7}% 
+\contentsline {myexample}{{Example}{3.{8}}{ What is the probability of flipping ten heads in thirty flips, with a fair coin? }}{80}{myexample.3.8}% 
+\contentsline {myexample}{{Example}{3.{9}}{What is the probability of getting 17 or more heads in 30 flips?}}{81}{myexample.3.9}% 
+\contentsline {myexample}{{Example}{4.{1}}{What is the probability of drawing a 9, given that we know that we're holding the High Deck? }}{97}{myexample.4.1}% 
+\contentsline {myexample}{{Example}{4.{2}}{What is the probability that you are holding one of either the High or the Low Deck having drawn five 9's in a row from that deck?}}{102}{myexample.4.2}% 
+\contentsline {myexample}{{Example}{4.{3}}{What is the probability that you are holding one of either the High or the Low Deck having drawn $m$ 9's in a row from that deck, where $m$ stands for a number ($m=1, 2, 3, \cdots $)?}}{103}{myexample.4.3}% 
+\contentsline {myexample}{{Example}{4.{4}}{What is the probability that you are holding one of either the High, Low, or Nines Deck having drawn $m$ 9's in a row from that deck?}}{104}{myexample.4.4}% 
+\contentsline {myexercise}{{Exercise}{4.{1}}{Drawing a 3}}{106}{myexercise.4.1}% 
+\contentsline {myexercise}{{Exercise}{4.{2}}{Nines and an Eight}}{106}{myexercise.4.2}% 
+\contentsline {myexercise}{{Exercise}{4.{3}}{Weird Coins}}{106}{myexercise.4.3}% 
+\contentsline {myexample}{{Example}{5.{1}}{Is it better to switch doors? - Monty Hall Problem revisited}}{117}{myexample.5.1}% 
+\contentsline {myexample}{{Example}{6.{1}}{What is the best estimate of the probability of a bent coin flipping heads, given the observation of 9 tails and 3 heads?}}{132}{myexample.6.1}% 
+\contentsline {myexercise}{{Exercise}{6.{1}}{More Coin Flipping}}{134}{myexercise.6.1}% 
+\contentsline {myexample}{{Example}{7.{1}}{Given a Normal distribution with a mean of $\mu =150$ and a $\sigma =20$, what is the most likely value?}}{143}{myexample.7.1}% 
+\contentsline {myexample}{{Example}{7.{2}}{Given a Normal distribution with a mean of $\mu =150$ and $\sigma =30$, what is the probability $P(x>170)$}}{143}{myexample.7.2}% 
+\contentsline {myexercise}{{Exercise}{7.{1}}{Normal Distribution - Probabilities}}{144}{myexercise.7.1}% 
+\contentsline {myexercise}{{Exercise}{7.{2}}{Normal Distribution - Likelihood}}{144}{myexercise.7.2}% 
+\contentsline {myexercise}{{Exercise}{7.{3}}{Normal Distribution - Likelihood Again}}{144}{myexercise.7.3}% 
+\contentsline {myexample}{{Example}{7.{3}}{We have two Normal distributions $P(x)={\rm Normal}(\mu =8,\sigma =2)$ and $P(y)={\rm Normal}(\mu =20,\sigma =7)$. What is the distribution for $z=y-x$? }}{145}{myexample.7.3}% 
+\contentsline {myexample}{{Example}{7.{4}}{Estimating the True Length of an Object}}{147}{myexample.7.4}% 
+\contentsline {myexample}{{Example}{7.{5}}{Estimating the True Length of an Object...Again\label {ex:length_tdist}}}{148}{myexample.7.5}% 
+\contentsline {myexample}{{Example}{7.{6}}{Estimating the True Length of an Object...Yet Again}}{153}{myexample.7.6}% 
+\contentsline {myexample}{{Example}{9.{1}}{Iris petal lengths - Best estimate}}{165}{myexample.9.1}% 
+\contentsline {myexample}{{Example}{9.{2}}{Iris petal lengths - A different species?}}{166}{myexample.9.2}% 
+\contentsline {myexample}{{Example}{9.{3}}{Iris petal lengths - Significantly different?}}{166}{myexample.9.3}% 
+\contentsline {myexample}{{Example}{9.{4}}{Ball Bearing Sizes}}{168}{myexample.9.4}% 
+\contentsline {myexample}{{Example}{9.{5}}{What is the best estimate (and uncertainty) for each of the two production lines of ball bearings?}}{169}{myexample.9.5}% 
+\contentsline {myexample}{{Example}{9.{6}}{Is it reasonable to believe that there is a difference in the size produced between the two lines?}}{170}{myexample.9.6}% 
+\contentsline {myexample}{{Example}{9.{7}}{The Sunrise Problem}}{170}{myexample.9.7}% 
+\contentsline {myexample}{{Example}{9.{8}}{Cancer Rates}}{171}{myexample.9.8}% 
+\contentsline {myexample}{{Example}{9.{9}}{Cancer Rates - Normal Approximation}}{171}{myexample.9.9}% 
+\contentsline {myexample}{{Example}{9.{10}}{Will it rain on the 4$^{\rm th}$ of July?}}{172}{myexample.9.10}% 
+\contentsline {myexample}{{Example}{9.{11}}{Hot Hand Reexamined\label {ex:hothand}}}{172}{myexample.9.11}% 
+\contentsline {myexample}{{Example}{9.{12}}{Mass of the Penny, Model 1 - One True Value}}{173}{myexample.9.12}% 
+\contentsline {myexample}{{Example}{9.{13}}{Mass of the Penny, Model 1 - One True Value with More Data}}{176}{myexample.9.13}% 
+\contentsline {myexample}{{Example}{9.{14}}{Mass of the Penny, Model 2 - Two True Values}}{179}{myexample.9.14}% 
+\contentsline {myexample}{{Example}{C.{1}}{ You call a plumber, and they say that they can come anytime in the next 4 hours. The probability of them arriving at any particular time can be represented with a uniform distribution. What is the probability that they arrive in the first 20 minutes of the second hour? \label {ex:plumber}}}{230}{myexample.C.1}% 
+\contentsline {myexample}{{Example}{D.{1}}{Usage of the Credible Interval Table for the Normal Distribution}}{235}{myexample.D.1}% 
+\contentsline {myexample}{{Example}{D.{2}}{Usage of the Credible Interval Table for the Student's $t$ Distribution}}{237}{myexample.D.2}% 

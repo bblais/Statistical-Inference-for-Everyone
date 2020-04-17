@@ -4,7 +4,7 @@ import os
 with open('acknowledgements_list.txt') as fid:
     lines=fid.readlines()
 
-people=[x.split() for x in lines if x]
+people=[x.split() for x in lines if x.strip()]
 people=[ (x[1],x[0]) for x in people]
 people=sorted(people)
 

@@ -211,10 +211,11 @@ def lognormalpdf(x,mn,sig):
     # 1/sqrt(2*pi*sigma^2)*exp(-x^2/2/sigma^2)
     try:
         N=len(x)
+        return -0.5*np.log(2*np.pi*sig**2)*N - np.sum((x-mn)**2/sig**2/2.0)
     except TypeError:
         N=1
+        return -0.5*np.log(2*np.pi*sig**2)*N - (x-mn)**2/sig**2/2.0
         
-    return -0.5*np.log(2*np.pi*sig**2)*N - np.sum((x-mn)**2/sig**2/2.0)
 
 def logexponpdf2(x,scale):
     if x<=0:
@@ -564,6 +565,18 @@ def lognormalpdf(x,mn,sig):
         
     return -0.5*np.log(2*np.pi*sig**2)*N - np.sum((x-mn)**2/sig**2/2.0)
     
+def loglognormalpdf(x,mn,sig):
+    if x<=0.0:
+        return -np.inf
+
+    # 1/sqrt(2*pi*sigma^2)*exp(-x^2/2/sigma^2)
+    try:
+        N=len(x)
+    except TypeError:
+        N=1
+
+    return -0.5*np.log(2*np.pi*sig**2)*N -np.log(x) - np.sum((np.log(x)-mn)**2/sig**2/2.0)
+
 def logbernoullipdf(theta, h, N):
     if 0.0<=theta<=1.0:
         return lognchoosek(N,h)+np.log(theta)*h+np.log(1-theta)*(N-h)
@@ -631,6 +644,22 @@ class Normal(object):
     
     def __call__(self,x):
         return lognormalpdf(x,self.mean,self.std)
+
+class LogNormal(object):
+    def __init__(self,mean=0,std=1):
+        self.mean=mean
+        self.std=std
+        self.default=mean
+        
+    @property
+    def D(self):
+        return D.lognorm(self.mean,self.std)
+
+    def rand(self,*args):
+        return np.random.randn(*args)*self.std+self.mean
+    
+    def __call__(self,x):
+        return loglognormalpdf(x,self.mean,self.std)
 
 
 class Exponential(object):
