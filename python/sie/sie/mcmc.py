@@ -1069,6 +1069,7 @@ class MCMCModel_Meta(object):
         return x,y
         
     def percentiles(self,p=[16, 50, 84]):
+        self.median_values=np.percentile(self.samples,50,axis=0)
         result={}
         for i,key in enumerate(self.keys):
             result[key]=np.percentile(self.samples[:,i], p,axis=0)
@@ -1128,6 +1129,35 @@ class MCMCModel(MCMCModel_Meta):
             params_dict[key]=theta[i]
                 
         return self.lnlike_function(self.data,**params_dict)
+
+    @property
+    def BIC(self):
+
+        self.median_values=np.percentile(self.samples,50,axis=0)
+        theta=self.median_values
+
+
+        # calculate BIC
+        k=len(theta)
+
+        if isinstance(self.data,tuple):
+            N=len(self.data[0])
+        else:
+            N=len(self.data)
+
+        # lower BIC = good
+        
+        return k * np.log(N)-2.0*self.lnlike(theta)
+
+        # ΔBIC    Evidence against higher BIC
+        # 0 to 2  Not worth more than a bare mention
+        # 2 to 6  Positive
+        # 6 to 10 Strong
+        # >10 Very Strong
+
+
+
+
 
 class MCMCModel_Regression(MCMCModel_Meta):
     
